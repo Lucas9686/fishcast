@@ -6126,5 +6126,4575 @@
         "Unterspuelungen"
       ]
     }
+  },
+  {
+    "id": "bernsteinmakrele",
+    "name": "Bernsteinmakrele",
+    "nicknames": [
+      "Amberjack",
+      "Goldmakrele",
+      "Seriola"
+    ],
+    "scientificName": "Seriola dumerili",
+    "image": "images/fish/bernsteinmakrele.svg",
+    "imageCredit": "Generiert / Public Domain",
+    "family": "Carangidae (Stachelmakrelen)",
+    "description": "Die Bernsteinmakrele ist ein kraftvoller pelagischer Raubfisch der offenen Adria. Sie jagt in Schulen und ist bekannt fuer ihre explosiven Bisse und langen Fluechte. Einer der begehrtesten Sportfische des Mittelmeers.",
+    "size": {
+      "avgCm": 80,
+      "maxCm": 190,
+      "avgKg": 15,
+      "maxKg": 80
+    },
+    "habitat": "Offenes Meer, Felsriffe, Wracks in 20-200m Tiefe",
+    "waterTypes": [
+      "meer"
+    ],
+    "techniques": [
+      "Schleppfischen",
+      "Jigging",
+      "Popping",
+      "Live Bait"
+    ],
+    "baits": [
+      "Makrele",
+      "Tintenfisch",
+      "Popper",
+      "Metallblei"
+    ],
+    "tips": [
+      "Im Sommer um Wracks und Bojenketten - dort jagen Schulen von Bernsteinmakrelen.",
+      "Schweres Geraet verwenden - diese Fische koennen 30+ Minuten kaempfen.",
+      "Fruehe Morgenstunden oder spaeter Nachmittag bringen die besten Bisse.",
+      "Schnelle Koederfuehrung - Bernsteinmakrelen jagen aktiv schwimmende Beute."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 18,
+        "max": 28,
+        "ideal": 24
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 25
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 60
+      }
+    },
+    "season": {
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Sommer ist die Hauptsaison fuer Bernsteinmakrelen"
+    },
+    "closedSeason": null,
+    "difficulty": 4,
+    "catchAndRelease": false,
+    "minSize": "60 cm",
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 5,
+      "taste": "kraeftig",
+      "texture": "fest",
+      "preparation": [
+        "Sashimi",
+        "Grillen",
+        "Braten",
+        "Raeuchern"
+      ],
+      "notes": "Hervorragendes festes Fleisch, ideal fuer Sushi und Sashimi."
+    },
+    "habitatDetail": {
+      "depthRange": "20-200m",
+      "region": "Adria, Mittelmeer",
+      "structure": [
+        "Wracks",
+        "Riffe",
+        "Freiwasser",
+        "Bojenketten"
+      ]
+    }
+  },
+  {
+    "id": "schwertfisch",
+    "name": "Schwertfisch",
+    "nicknames": [
+      "Swordfish",
+      "Gladiator"
+    ],
+    "scientificName": "Xiphias gladius",
+    "image": "images/fish/schwertfisch.svg",
+    "imageCredit": "Generiert / Public Domain",
+    "family": "Xiphiidae (Schwertfische)",
+    "description": "Der Schwertfisch ist einer der groessten Raubfische der Adria mit seinem charakteristischen schwertfoermigen Schnabel. Er jagt nachts in oberflaechennahen Gewaessern und taucht tagsueber in grosse Tiefen ab. Ein legendaerer Kampffisch.",
+    "size": {
+      "avgCm": 200,
+      "maxCm": 450,
+      "avgKg": 90,
+      "maxKg": 650
+    },
+    "habitat": "Offenes Meer, pelagische Zone, 0-800m Tiefe",
+    "waterTypes": [
+      "meer"
+    ],
+    "techniques": [
+      "Nachtschleppfischen",
+      "Drifting",
+      "Live Bait"
+    ],
+    "baits": [
+      "Tintenfisch",
+      "Makrele",
+      "Bonito",
+      "Kunstkoeder"
+    ],
+    "tips": [
+      "Nachtangeln ist am effektivsten - Schwertfische steigen nachts zur Oberflaeche.",
+      "Tiefe von 50-150m mit Downriggern oder schweren Gewichten.",
+      "Neumond-Phasen bringen oft die besten Faenge.",
+      "Chemlight oder Leuchtkoerper an der Montage verbessern die Sichtbarkeit."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 15,
+        "max": 28,
+        "ideal": 22
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 15
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 40
+      }
+    },
+    "season": {
+      "bestMonths": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Hochsommer, besonders Juli und August"
+    },
+    "closedSeason": null,
+    "difficulty": 5,
+    "catchAndRelease": false,
+    "minSize": "120 cm",
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 5,
+      "taste": "medium",
+      "texture": "fest",
+      "preparation": [
+        "Grillen",
+        "Braten",
+        "Carpaccio",
+        "Raeuchern"
+      ],
+      "notes": "Erstklassiges festes Fleisch, sehr beliebt in der mediterranen Kueche."
+    },
+    "habitatDetail": {
+      "depthRange": "0-800m",
+      "region": "Adria, Mittelmeer, Atlantik",
+      "structure": [
+        "Freiwasser",
+        "Kontinentalschelf",
+        "Tiefseekanten"
+      ]
+    }
+  },
+  {
+    "id": "seeaal",
+    "name": "Seeaal",
+    "nicknames": [
+      "Conger",
+      "Meeraal"
+    ],
+    "scientificName": "Conger conger",
+    "image": "images/fish/seeaal.svg",
+    "imageCredit": "Generiert / Public Domain",
+    "family": "Congridae (Meeraale)",
+    "description": "Der Seeaal ist ein nachtaktiver Raubfisch der felsigen Kuesten. Er lebt in Spalten und Hoehlen und verlasst diese nur zur Nahrungssuche. Kann sehr gross werden und ist bekannt fuer seinen starken Biss.",
+    "size": {
+      "avgCm": 100,
+      "maxCm": 300,
+      "avgKg": 10,
+      "maxKg": 110
+    },
+    "habitat": "Felsige Kuesten, Wracks, Hafenmolen, 0-100m Tiefe",
+    "waterTypes": [
+      "meer",
+      "kueste"
+    ],
+    "techniques": [
+      "Grundangeln",
+      "Nachtangeln",
+      "Wracktauchen"
+    ],
+    "baits": [
+      "Tintenfisch",
+      "Sardine",
+      "Makrele",
+      "Krabbe"
+    ],
+    "tips": [
+      "Nachtangeln bringt die besten Resultate - Seeaale sind nachtaktiv.",
+      "Starkes Geraet verwenden - grosse Exemplare entwickeln enorme Kraft.",
+      "In der Naehe von Felsstrukturen und Wracks grundnah anbieten.",
+      "Vorsicht beim Landen - Seeaale koennen kraeftig beissen."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 12,
+        "max": 25,
+        "ideal": 18
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 20
+      },
+      "cloudCover": {
+        "min": 40,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "description": "Spaetfruehjahr bis Herbst, nachts"
+    },
+    "closedSeason": null,
+    "difficulty": 3,
+    "catchAndRelease": false,
+    "minSize": "60 cm",
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 3,
+      "taste": "medium",
+      "texture": "fest",
+      "preparation": [
+        "Grillen",
+        "Schmoren",
+        "Suppe"
+      ],
+      "notes": "Festes Fleisch, aehnlich Aal. Kleinere Exemplare schmackhafter."
+    },
+    "habitatDetail": {
+      "depthRange": "0-100m",
+      "region": "Adria, Mittelmeer, Atlantik",
+      "structure": [
+        "Felsen",
+        "Wracks",
+        "Hoehlen",
+        "Hafenmolen"
+      ]
+    }
+  },
+  {
+    "id": "barrakuda",
+    "name": "Barrakuda",
+    "nicknames": [
+      "Pfeilhecht",
+      "Sphyraena"
+    ],
+    "scientificName": "Sphyraena sphyraena",
+    "image": "images/fish/barrakuda.svg",
+    "imageCredit": "Generiert / Public Domain",
+    "family": "Sphyraenidae (Barrakudas)",
+    "description": "Der Barrakuda ist ein pfeilschneller Raubfisch mit torpedofoermigem Koerper und messerscharfen Zaehnen. Er jagt in kleinen Schulen oder als Einzelgaenger in Kuestengewaessern. Bekannt fuer blitzschnelle Attacken.",
+    "size": {
+      "avgCm": 60,
+      "maxCm": 165,
+      "avgKg": 3,
+      "maxKg": 12
+    },
+    "habitat": "Kuestennahe Gewaesser, Seegraswiesen, Riffe, 0-50m Tiefe",
+    "waterTypes": [
+      "meer",
+      "kueste"
+    ],
+    "techniques": [
+      "Spinnfischen",
+      "Schleppfischen",
+      "Popping"
+    ],
+    "baits": [
+      "Wobbler",
+      "Blinker",
+      "Gummifisch",
+      "Popper",
+      "Fischfetzen"
+    ],
+    "tips": [
+      "Schnelle, aggressive Koederfuehrung - Barrakudas reagieren auf Geschwindigkeit.",
+      "Stahlvorfach ist Pflicht - die Zaehne schneiden Fluorocarbon durch.",
+      "Fruehe Morgenstunden in flachen Buchten sind sehr produktiv.",
+      "Bei Sichtkontakt den Koeder direkt vor dem Fisch fuehren."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 16,
+        "max": 28,
+        "ideal": 22
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 25
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 70
+      }
+    },
+    "season": {
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Spaetfruehjahr bis Herbst"
+    },
+    "closedSeason": null,
+    "difficulty": 3,
+    "catchAndRelease": false,
+    "minSize": "40 cm",
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 3,
+      "taste": "medium",
+      "texture": "fest",
+      "preparation": [
+        "Grillen",
+        "Braten",
+        "Raeuchern"
+      ],
+      "notes": "Festes Fleisch, etwas trocken. In tropischen Gewaessern Ciguatera-Risiko."
+    },
+    "habitatDetail": {
+      "depthRange": "0-50m",
+      "region": "Adria, Mittelmeer",
+      "structure": [
+        "Seegras",
+        "Riffe",
+        "Freiwasser",
+        "Buchten"
+      ]
+    }
+  },
+  {
+    "id": "drachenkopf",
+    "name": "Grosser Drachenkopf",
+    "nicknames": [
+      "Skorpionfisch",
+      "Scorfano"
+    ],
+    "scientificName": "Scorpaena scrofa",
+    "image": "images/fish/drachenkopf.svg",
+    "imageCredit": "Generiert / Public Domain",
+    "family": "Scorpaenidae (Skorpionfische)",
+    "description": "Der Grosse Drachenkopf ist ein bodenbewohnender Raubfisch mit giftigen Rueckenstacheln und hervorragender Tarnung. Er lauert bewegungslos zwischen Felsen auf Beute. Eine Delikatesse der mediterranen Kueche.",
+    "size": {
+      "avgCm": 30,
+      "maxCm": 50,
+      "avgKg": 1,
+      "maxKg": 3
+    },
+    "habitat": "Felsiger Grund, Seegraswiesen, 20-200m Tiefe",
+    "waterTypes": [
+      "meer"
+    ],
+    "techniques": [
+      "Grundangeln",
+      "Vertikalangeln",
+      "Jigging"
+    ],
+    "baits": [
+      "Tintenfisch",
+      "Sardine",
+      "Garnele",
+      "Gummifisch"
+    ],
+    "tips": [
+      "Grundnah anbieten - Drachenkopf jagt vom Boden aus.",
+      "Vorsicht beim Landen - die Rueckenstacheln sind giftig!",
+      "Felsiger Grund mit Tang und Steinen ist ideal.",
+      "Langsame Koederfuehrung - Drachenkopf lauert und attackiert nicht aktiv."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 14,
+        "max": 24,
+        "ideal": 18
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 20
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 80
+      }
+    },
+    "season": {
+      "bestMonths": [
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "description": "Fruehjahr und Herbst"
+    },
+    "closedSeason": null,
+    "difficulty": 2,
+    "catchAndRelease": false,
+    "minSize": "20 cm",
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 5,
+      "taste": "mild",
+      "texture": "zart",
+      "preparation": [
+        "Suppe",
+        "Braten",
+        "Backen",
+        "Grillen"
+      ],
+      "notes": "Erstklassiges zartes Fleisch, ideal fuer Fischsuppe (Bouillabaisse)."
+    },
+    "habitatDetail": {
+      "depthRange": "20-200m",
+      "region": "Adria, Mittelmeer",
+      "structure": [
+        "Felsen",
+        "Tang",
+        "Seegras",
+        "Sandboden"
+      ]
+    }
+  },
+  {
+    "id": "lippfisch",
+    "name": "Meerjunker",
+    "nicknames": [
+      "Lippfisch",
+      "Labrus"
+    ],
+    "scientificName": "Labrus merula",
+    "image": "images/fish/lippfisch.svg",
+    "imageCredit": "Generiert / Public Domain",
+    "family": "Labridae (Lippfische)",
+    "description": "Der Meerjunker ist ein kleiner bunter Fisch der felsigen Kuesten. Er ernaehrt sich von Krebstieren und Weichtieren. Beliebter Fisch fuer leichtes Geraet und Kuestenangeln.",
+    "size": {
+      "avgCm": 20,
+      "maxCm": 40,
+      "avgKg": 0.3,
+      "maxKg": 1.5
+    },
+    "habitat": "Felsige Kuesten, Seegraswiesen, 5-50m Tiefe",
+    "waterTypes": [
+      "meer",
+      "kueste"
+    ],
+    "techniques": [
+      "Grundangeln",
+      "Paternostersystem"
+    ],
+    "baits": [
+      "Garnele",
+      "Muschelfleisch",
+      "Seeringelwurm",
+      "Krabbe"
+    ],
+    "tips": [
+      "Kleine Haken verwenden - Lippfische haben kleine Maeuler.",
+      "Felsige Bereiche mit Tang sind die besten Stellen.",
+      "Tagsueber aktiv, besonders bei ruhiger See.",
+      "Leichtes Geraet macht den Drill sportlich."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 14,
+        "max": 24,
+        "ideal": 19
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 15
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 70
+      }
+    },
+    "season": {
+      "bestMonths": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Fruehjahr bis Herbst"
+    },
+    "closedSeason": null,
+    "difficulty": 1,
+    "catchAndRelease": false,
+    "minSize": null,
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 2,
+      "taste": "mild",
+      "texture": "zart",
+      "preparation": [
+        "Braten",
+        "Frittieren"
+      ],
+      "notes": "Kleiner Fisch, wenig Fleisch aber schmackhaft."
+    },
+    "habitatDetail": {
+      "depthRange": "5-50m",
+      "region": "Adria, Mittelmeer",
+      "structure": [
+        "Felsen",
+        "Tang",
+        "Seegras"
+      ]
+    }
+  },
+  {
+    "id": "petermaennchen",
+    "name": "Petermaennchen",
+    "nicknames": [
+      "Stechfisch",
+      "Vipernfisch"
+    ],
+    "scientificName": "Trachinus draco",
+    "image": "images/fish/petermaennchen.svg",
+    "imageCredit": "Generiert / Public Domain",
+    "family": "Trachinidae (Petermaennchen)",
+    "description": "Das Petermaennchen ist ein kleiner bodenbewohnender Fisch mit giftigen Stacheln. Er vergrabt sich im Sand und nur die Augen schauen heraus. Sehr schmerzhafter Stich - Vorsicht beim Anfassen!",
+    "size": {
+      "avgCm": 15,
+      "maxCm": 40,
+      "avgKg": 0.2,
+      "maxKg": 0.8
+    },
+    "habitat": "Sandboeden, flache Kuesten, 1-30m Tiefe",
+    "waterTypes": [
+      "meer",
+      "kueste"
+    ],
+    "techniques": [
+      "Grundangeln",
+      "Brandungsangeln"
+    ],
+    "baits": [
+      "Seeringelwurm",
+      "Garnele",
+      "Fischfetzen"
+    ],
+    "tips": [
+      "VORSICHT: Giftige Stacheln! Mit Handschuhen oder Zange handhaben.",
+      "Sandboden in Kuestennaehe ist typischer Lebensraum.",
+      "Oft ungewollter Beifang beim Brandungsangeln.",
+      "Bei Stich sofort heisses Wasser anwenden - zersetzt das Gift."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 12,
+        "max": 24,
+        "ideal": 18
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 25
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Spaetfruehjahr bis Herbst"
+    },
+    "closedSeason": null,
+    "difficulty": 1,
+    "catchAndRelease": false,
+    "minSize": null,
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 3,
+      "taste": "mild",
+      "texture": "zart",
+      "preparation": [
+        "Suppe",
+        "Braten",
+        "Frittieren"
+      ],
+      "notes": "Schmackhaftes Fleisch, aber sehr vorsichtig filetieren wegen der Stacheln."
+    },
+    "habitatDetail": {
+      "depthRange": "1-30m",
+      "region": "Adria, Mittelmeer, Atlantik",
+      "structure": [
+        "Sandboden",
+        "Kuestenzone"
+      ]
+    }
+  },
+  {
+    "id": "meerbarbe-gestreift",
+    "name": "Gestreifte Meerbarbe",
+    "nicknames": [
+      "Rotbarbe",
+      "Mullus"
+    ],
+    "scientificName": "Mullus surmuletus",
+    "image": "images/fish/meerbarbe-gestreift.svg",
+    "imageCredit": "Generiert / Public Domain",
+    "family": "Mullidae (Meerbarben)",
+    "description": "Die Gestreifte Meerbarbe ist ein begehrter Speisefisch mit roetlicher Faerbung und charakteristischen Bartfaeden am Kinn. Sie gruendelt am Sandboden nach Nahrung. Eine Delikatesse der mediterranen Kueche.",
+    "size": {
+      "avgCm": 20,
+      "maxCm": 40,
+      "avgKg": 0.3,
+      "maxKg": 1
+    },
+    "habitat": "Sand- und Schlammboeden, 5-100m Tiefe",
+    "waterTypes": [
+      "meer"
+    ],
+    "techniques": [
+      "Grundangeln",
+      "Paternoster"
+    ],
+    "baits": [
+      "Seeringelwurm",
+      "Garnele",
+      "Muschelfleisch"
+    ],
+    "tips": [
+      "Kleine Haken und feines Geraet - Meerbarben haben zarte Maeuler.",
+      "Sandboden mit Seegras in der Naehe ist ideal.",
+      "Morgendaemmerung und Abenddaemmerung sind die besten Zeiten.",
+      "Grundnah anbieten - Meerbarben ernaehren sich vom Boden."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 14,
+        "max": 24,
+        "ideal": 19
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 20
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 70
+      }
+    },
+    "season": {
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Spaetfruehjahr bis Herbst"
+    },
+    "closedSeason": null,
+    "difficulty": 2,
+    "catchAndRelease": false,
+    "minSize": "15 cm",
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 5,
+      "taste": "mild",
+      "texture": "zart",
+      "preparation": [
+        "Grillen",
+        "Braten",
+        "Backen"
+      ],
+      "notes": "Sehr geschaetztes feines Fleisch, Delikatesse in Italien und Kroatien."
+    },
+    "habitatDetail": {
+      "depthRange": "5-100m",
+      "region": "Adria, Mittelmeer, Atlantik",
+      "structure": [
+        "Sandboden",
+        "Seegras",
+        "Schlammgrund"
+      ]
+    }
+  },
+  {
+    "id": "zackenbarsch-braun",
+    "name": "Brauner Zackenbarsch",
+    "nicknames": [
+      "Cernia",
+      "Grouper"
+    ],
+    "scientificName": "Epinephelus marginatus",
+    "image": "images/fish/zackenbarsch-braun.svg",
+    "imageCredit": "Generiert / Public Domain",
+    "family": "Serranidae (Saegeb arsche)",
+    "description": "Der Braune Zackenbarsch ist ein massiver Raubfisch der Felsriffe und ein Symbol des Mittelmeers. Er ist geschuetzt und selten geworden. Ein beeindruckender Fisch, der Respekt verdient.",
+    "size": {
+      "avgCm": 60,
+      "maxCm": 150,
+      "avgKg": 10,
+      "maxKg": 60
+    },
+    "habitat": "Felsriffe, Hoehlen, Wracks, 10-200m Tiefe",
+    "waterTypes": [
+      "meer"
+    ],
+    "techniques": [
+      "Grundangeln",
+      "Jigging"
+    ],
+    "baits": [
+      "Tintenfisch",
+      "Makrele",
+      "Sardine"
+    ],
+    "tips": [
+      "GESCHUETZT in vielen Gebieten - vor dem Angeln Vorschriften pruefen!",
+      "Schweres Geraet - Zackenbarsche ziehen sofort in Felsspalten.",
+      "Hoehlen und Ueberhange in 15-50m Tiefe sind typische Standorte.",
+      "Catch & Release empfohlen - Population stark gefaehrdet."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 14,
+        "max": 26,
+        "ideal": 20
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 15
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 60
+      }
+    },
+    "season": {
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Spaetfruehjahr bis Herbst"
+    },
+    "closedSeason": {
+      "period": "variabel",
+      "note": "In vielen Adriagebieten ganzjaehrig geschuetzt"
+    },
+    "difficulty": 5,
+    "catchAndRelease": true,
+    "minSize": "45 cm",
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 5,
+      "taste": "mild",
+      "texture": "fest",
+      "preparation": [
+        "Grillen",
+        "Schmoren",
+        "Suppe"
+      ],
+      "notes": "Erstklassiges festes Fleisch, aber Population gefaehrdet - Catch & Release!"
+    },
+    "habitatDetail": {
+      "depthRange": "10-200m",
+      "region": "Adria, Mittelmeer",
+      "structure": [
+        "Felsriffe",
+        "Hoehlen",
+        "Wracks",
+        "Ueberhange"
+      ]
+    }
+  },
+  {
+    "id": "seehecht",
+    "name": "Seehecht",
+    "nicknames": [
+      "Hake",
+      "Nasello"
+    ],
+    "scientificName": "Merluccius merluccius",
+    "image": "images/fish/seehecht.svg",
+    "imageCredit": "Generiert / Public Domain",
+    "family": "Merlucciidae (Seehechte)",
+    "description": "Der Seehecht ist ein wichtiger Speisefisch der tieferen Adria mit langgestrecktem Koerper. Er jagt nachts in mittleren Wasserschichten und zieht sich tagsueber in groessere Tiefen zurueck.",
+    "size": {
+      "avgCm": 40,
+      "maxCm": 140,
+      "avgKg": 2,
+      "maxKg": 15
+    },
+    "habitat": "Kontinentalschelf, 70-370m Tiefe",
+    "waterTypes": [
+      "meer"
+    ],
+    "techniques": [
+      "Vertikalangeln",
+      "Tiefseeschleppfischen",
+      "Jigging"
+    ],
+    "baits": [
+      "Tintenfisch",
+      "Sardine",
+      "Gummifisch",
+      "Metallblei"
+    ],
+    "tips": [
+      "Tiefwasserangeln erforderlich - Seehecht lebt unter 70m Tiefe.",
+      "Nachtangeln oft produktiver als tagsue ber.",
+      "Elektromotoren verwenden - Seehecht ist scheu gegenueber Laerm.",
+      "Sanft-schleifenden Grund abfischen - typischer Jagdbereich."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 10,
+        "max": 20,
+        "ideal": 15
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 20
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 80
+      }
+    },
+    "season": {
+      "bestMonths": [
+        4,
+        5,
+        9,
+        10,
+        11
+      ],
+      "description": "Fruehjahr und Herbst"
+    },
+    "closedSeason": null,
+    "difficulty": 3,
+    "catchAndRelease": false,
+    "minSize": "30 cm",
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 5,
+      "taste": "mild",
+      "texture": "zart",
+      "preparation": [
+        "Braten",
+        "Grillen",
+        "Backen",
+        "Daempfen"
+      ],
+      "notes": "Sehr geschaetztes zartes weisses Fleisch, wichtiger Wirtschaftsfisch."
+    },
+    "habitatDetail": {
+      "depthRange": "70-370m",
+      "region": "Adria, Mittelmeer, Atlantik",
+      "structure": [
+        "Kontinentalschelf",
+        "Sandboden",
+        "Schlammgrund"
+      ]
+    }
+  },
+  {
+    "id": "blaufisch",
+    "name": "Blaufisch",
+    "nicknames": [
+      "Bluefish",
+      "Pomatomus"
+    ],
+    "scientificName": "Pomatomus saltatrix",
+    "image": "images/fish/blaufisch.svg",
+    "imageCredit": "Generiert / Public Domain",
+    "family": "Pomatomidae (Blaufische)",
+    "description": "Der Blaufisch ist ein aggressiver Raeuber, der in grossen Schulen jagt und Futterfische an die Oberflaeche treibt. Bekannt fuer seine Bissigkeit und staerke. Ein spannender Zielfisch fuer Sportangler.",
+    "size": {
+      "avgCm": 50,
+      "maxCm": 130,
+      "avgKg": 3,
+      "maxKg": 14
+    },
+    "habitat": "Kuestengewaesser, pelagische Zone, 0-200m",
+    "waterTypes": [
+      "meer",
+      "kueste"
+    ],
+    "techniques": [
+      "Spinnfischen",
+      "Schleppfischen",
+      "Popping"
+    ],
+    "baits": [
+      "Wobbler",
+      "Popper",
+      "Pilker",
+      "Gummifisch",
+      "Makrele"
+    ],
+    "tips": [
+      "Wenn Voegel ueber dem Wasser kreisen - dort jagen Blaufisch-Schulen.",
+      "Stahlvorfach empfohlen - sehr scharfe Zaehne.",
+      "Schnelle Koederfuehrung - Blaufische reagieren auf Geschwindigkeit.",
+      "Vorsicht beim Landen - auch im Boot noch sehr bissig!"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 16,
+        "max": 26,
+        "ideal": 21
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 25
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 70
+      }
+    },
+    "season": {
+      "bestMonths": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Hochsommer"
+    },
+    "closedSeason": null,
+    "difficulty": 3,
+    "catchAndRelease": false,
+    "minSize": "30 cm",
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 4,
+      "taste": "kraeftig",
+      "texture": "fest",
+      "preparation": [
+        "Grillen",
+        "Braten",
+        "Raeuchern"
+      ],
+      "notes": "Dunkles festes Fleisch, kraeftiger Geschmack. Bald nach dem Fang ausnehmen."
+    },
+    "habitatDetail": {
+      "depthRange": "0-200m",
+      "region": "Adria, Mittelmeer, Atlantik",
+      "structure": [
+        "Freiwasser",
+        "Kuestenzone",
+        "Oberflaeche"
+      ]
+    }
+  },
+  {
+    "id": "nagelrochen",
+    "name": "Nagelrochen",
+    "nicknames": [
+      "Stachelrochen",
+      "Raja"
+    ],
+    "scientificName": "Raja clavata",
+    "image": "images/fish/nagelrochen.svg",
+    "imageCredit": "Generiert / Public Domain",
+    "family": "Rajidae (Echte Rochen)",
+    "description": "Der Nagelrochen ist ein bodenbewohnender Knorpelfisch mit charakteristischen Hautstacheln. Er jagt Krebstiere und Weichtiere am Meeresgrund. Interessanter Zielfisch fuer Grundangler.",
+    "size": {
+      "avgCm": 60,
+      "maxCm": 120,
+      "avgKg": 3,
+      "maxKg": 12
+    },
+    "habitat": "Sand- und Schlammboeden, 20-300m Tiefe",
+    "waterTypes": [
+      "meer"
+    ],
+    "techniques": [
+      "Grundangeln",
+      "Brandungsangeln"
+    ],
+    "baits": [
+      "Tintenfisch",
+      "Makrele",
+      "Sardine",
+      "Krabbe"
+    ],
+    "tips": [
+      "Grosse Haken verwenden - Rochen haben breite Maeuler.",
+      "Sandboden in 30-100m Tiefe ist typischer Lebensraum.",
+      "Vorsicht beim Landen - kleine Stacheln auf der Haut.",
+      "In vielen Gebieten geschuetzt oder Mindestmass - Regeln pruefen!"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 8,
+        "max": 20,
+        "ideal": 14
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 25
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "description": "Fruehjahr und Herbst"
+    },
+    "closedSeason": null,
+    "difficulty": 2,
+    "catchAndRelease": true,
+    "minSize": "50 cm",
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 3,
+      "taste": "mild",
+      "texture": "fest",
+      "preparation": [
+        "Braten",
+        "Grillen"
+      ],
+      "notes": "Feste Fluegel, aehnlich wie Hai. Population ruecklaeufig - Catch & Release empfohlen."
+    },
+    "habitatDetail": {
+      "depthRange": "20-300m",
+      "region": "Adria, Mittelmeer, Atlantik",
+      "structure": [
+        "Sandboden",
+        "Schlammgrund"
+      ]
+    }
+  },
+  {
+    "id": "glattbutt",
+    "name": "Glattbutt",
+    "nicknames": [
+      "Kleist",
+      "Scophthalmus"
+    ],
+    "scientificName": "Scophthalmus rhombus",
+    "image": "images/fish/glattbutt.svg",
+    "imageCredit": "Generiert / Public Domain",
+    "family": "Scophthalmidae (Steinbutte)",
+    "description": "Der Glattbutt ist ein Plattfisch der Sand- und Schlammboeden. Er liegt flach am Grund und lauert auf vorbeischwimmende Beute. Guter Speisefisch mit zartem Fleisch.",
+    "size": {
+      "avgCm": 30,
+      "maxCm": 60,
+      "avgKg": 1,
+      "maxKg": 5
+    },
+    "habitat": "Sand- und Schlammboeden, 10-70m Tiefe",
+    "waterTypes": [
+      "meer"
+    ],
+    "techniques": [
+      "Grundangeln",
+      "Plattfischangeln"
+    ],
+    "baits": [
+      "Seeringelwurm",
+      "Garnele",
+      "Fischfetzen",
+      "Muschelfleisch"
+    ],
+    "tips": [
+      "Kleine Haken mit langen Vorfaechern fuer Plattfische.",
+      "Sandboden mit gelegentlichen Seegrasflecken ist ideal.",
+      "Langsames Einholen mit Pausen - Glattbutt folgt oft dem Koeder.",
+      "Gezeitenwechsel sind oft die produktivsten Zeiten."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 8,
+        "max": 20,
+        "ideal": 14
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 25
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "description": "Fruehjahr und Herbst"
+    },
+    "closedSeason": null,
+    "difficulty": 2,
+    "catchAndRelease": false,
+    "minSize": "28 cm",
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 4,
+      "taste": "mild",
+      "texture": "zart",
+      "preparation": [
+        "Braten",
+        "Grillen",
+        "Backen"
+      ],
+      "notes": "Zartes weisses Fleisch, wenig Graeten. Aehnlich dem Steinbutt."
+    },
+    "habitatDetail": {
+      "depthRange": "10-70m",
+      "region": "Adria, Mittelmeer, Atlantik",
+      "structure": [
+        "Sandboden",
+        "Schlammgrund",
+        "Seegras"
+      ]
+    }
+  },
+  {
+    "id": "seebarbe",
+    "name": "Seebarbe",
+    "nicknames": [
+      "Mullus",
+      "Rotbarbe"
+    ],
+    "scientificName": "Mullus barbatus",
+    "image": "images/fish/seebarbe.svg",
+    "imageCredit": "Generiert / Public Domain",
+    "family": "Mullidae (Meerbarben)",
+    "description": "Die Seebarbe ist ein kleiner Grundfisch mit zwei Bartfaeden am Kinn. Sie gruendelt im Sand nach Wuermern und Krebstieren. Beliebter Speisefisch in der mediterranen Kueche.",
+    "size": {
+      "avgCm": 15,
+      "maxCm": 30,
+      "avgKg": 0.2,
+      "maxKg": 0.5
+    },
+    "habitat": "Sandboeden, 10-100m Tiefe",
+    "waterTypes": [
+      "meer"
+    ],
+    "techniques": [
+      "Grundangeln",
+      "Paternoster"
+    ],
+    "baits": [
+      "Seeringelwurm",
+      "Garnele",
+      "Muschelfleisch"
+    ],
+    "tips": [
+      "Kleine feine Haken - Seebarben haben zarte Maeuler.",
+      "Sandboden in 20-50m Tiefe ist optimal.",
+      "Morgenstunden oft am produktivsten.",
+      "Mehrere Haken am Paternoster erhoehen die Fangchancen."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 12,
+        "max": 24,
+        "ideal": 18
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 20
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 70
+      }
+    },
+    "season": {
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Spaetfruehjahr bis Herbst"
+    },
+    "closedSeason": null,
+    "difficulty": 1,
+    "catchAndRelease": false,
+    "minSize": "11 cm",
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 4,
+      "taste": "mild",
+      "texture": "zart",
+      "preparation": [
+        "Grillen",
+        "Braten",
+        "Frittieren"
+      ],
+      "notes": "Feines zartes Fleisch, sehr geschaetzt in Italien."
+    },
+    "habitatDetail": {
+      "depthRange": "10-100m",
+      "region": "Adria, Mittelmeer",
+      "structure": [
+        "Sandboden",
+        "Schlammgrund"
+      ]
+    }
+  },
+  {
+    "id": "streifenbrasse",
+    "name": "Streifenbrasse",
+    "nicknames": [
+      "Spondyliosoma",
+      "Cantaro"
+    ],
+    "scientificName": "Spondyliosoma cantharus",
+    "image": "images/fish/streifenbrasse.svg",
+    "imageCredit": "Generiert / Public Domain",
+    "family": "Sparidae (Meerbrassen)",
+    "description": "Die Streifenbrasse ist ein mittelgrosser Fisch mit charakteristischen Laengsstreifen. Sie lebt in Schwae rmen ueber felsigem Grund und ernaehrt sich von Wirbellosen. Sportlicher Zielfisch.",
+    "size": {
+      "avgCm": 25,
+      "maxCm": 60,
+      "avgKg": 0.5,
+      "maxKg": 2
+    },
+    "habitat": "Felsiger Grund, Seegraswiesen, 15-300m Tiefe",
+    "waterTypes": [
+      "meer"
+    ],
+    "techniques": [
+      "Grundangeln",
+      "Pilken",
+      "Paternoster"
+    ],
+    "baits": [
+      "Garnele",
+      "Tintenfisch",
+      "Seeringelwurm",
+      "Muschelfleisch"
+    ],
+    "tips": [
+      "Felsiger Grund mit Seegras ist der ideale Lebensraum.",
+      "Kleine Haken - Streifenbrassen sind vorsichtige Beisser.",
+      "In Schwaermen unterwegs - wo einer ist, sind mehr.",
+      "Daemmerung ist oft die beste Fangzeit."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 12,
+        "max": 22,
+        "ideal": 17
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 20
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 70
+      }
+    },
+    "season": {
+      "bestMonths": [
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "description": "Fruehjahr und Herbst"
+    },
+    "closedSeason": null,
+    "difficulty": 2,
+    "catchAndRelease": false,
+    "minSize": "23 cm",
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 4,
+      "taste": "mild",
+      "texture": "fest",
+      "preparation": [
+        "Grillen",
+        "Braten",
+        "Backen"
+      ],
+      "notes": "Festes weisses Fleisch, guter Geschmack."
+    },
+    "habitatDetail": {
+      "depthRange": "15-300m",
+      "region": "Adria, Mittelmeer, Atlantik",
+      "structure": [
+        "Felsen",
+        "Seegras",
+        "Riffe"
+      ]
+    }
+  },
+  {
+    "id": "goldmakrele",
+    "name": "Goldmakrele",
+    "nicknames": [
+      "Dorade",
+      "Mahi-Mahi",
+      "Dolphinfish"
+    ],
+    "scientificName": "Coryphaena hippurus",
+    "image": "images/fish/goldmakrele.svg",
+    "imageCredit": "Generiert / Public Domain",
+    "family": "Coryphaenidae (Goldmakrelen)",
+    "description": "Die Goldmakrele ist ein spektakulaer gefaerbter pelagischer Raubfisch mit hoher Stirn. Sie jagt unter Treibgut und schwimmenden Objekten. Einer der schnellsten und schoensten Fische des Mittelmeers.",
+    "size": {
+      "avgCm": 80,
+      "maxCm": 210,
+      "avgKg": 10,
+      "maxKg": 40
+    },
+    "habitat": "Offenes Meer, pelagische Zone, unter Treibgut",
+    "waterTypes": [
+      "meer"
+    ],
+    "techniques": [
+      "Schleppfischen",
+      "Spinnfischen",
+      "Popping"
+    ],
+    "baits": [
+      "Fliegende Fische",
+      "Tintenfisch",
+      "Wobbler",
+      "Popper"
+    ],
+    "tips": [
+      "Treibgut, Bojen und schwimmende Objekte absuchen - dort halten sich Goldmakrelen auf.",
+      "Schnelle Schleppgeschwindigkeit (5-8 Knoten) ist effektiv.",
+      "Bei Sichtkontakt aggressive Koederfuehrung.",
+      "Spektakulaere Spruenge - bereit sein fuer akrobatische Fluechte!"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 20,
+        "max": 30,
+        "ideal": 25
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 20
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 50
+      }
+    },
+    "season": {
+      "bestMonths": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Hochsommer"
+    },
+    "closedSeason": null,
+    "difficulty": 4,
+    "catchAndRelease": false,
+    "minSize": "40 cm",
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 5,
+      "taste": "mild",
+      "texture": "fest",
+      "preparation": [
+        "Grillen",
+        "Braten",
+        "Sashimi",
+        "Ceviche"
+      ],
+      "notes": "Erstklassiges festes weisses Fleisch, sehr vielseitig verwendbar."
+    },
+    "habitatDetail": {
+      "depthRange": "0-50m",
+      "region": "Adria, Mittelmeer, tropische Meere",
+      "structure": [
+        "Freiwasser",
+        "Treibgut",
+        "FADs"
+      ]
+    }
+  },
+  {
+    "id": "languste",
+    "name": "Languste",
+    "nicknames": [
+      "Spiny Lobster",
+      "Palinurus"
+    ],
+    "scientificName": "Palinurus elephas",
+    "image": "images/fish/languste.svg",
+    "imageCredit": "Generiert / Public Domain",
+    "family": "Palinuridae (Langusten)",
+    "description": "Die Languste ist ein geschaetzter Krebs der Felsriffe ohne Scheren aber mit langen Antennen. Sie lebt in Spalten und Hoehlen und ist nachtaktiv. Eine teure Delikatesse der mediterranen Kueche.",
+    "size": {
+      "avgCm": 30,
+      "maxCm": 60,
+      "avgKg": 1,
+      "maxKg": 8
+    },
+    "habitat": "Felsriffe, Hoehlen, 5-70m Tiefe",
+    "waterTypes": [
+      "meer"
+    ],
+    "techniques": [
+      "Tauchen",
+      "Reusen",
+      "Nachtangeln"
+    ],
+    "baits": [
+      "Fisch",
+      "Tintenfisch"
+    ],
+    "tips": [
+      "Nachtaktiv - Tauchen oder Reusen in der Nacht sind am effektivsten.",
+      "In vielen Gebieten streng geschuetzt - Vorschriften pruefen!",
+      "Mindestmasse beachten - meist 90-110mm Carapax-Laenge.",
+      "Felsige Bereiche mit vielen Hoehlen und Spalten absuchen."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 12,
+        "max": 26,
+        "ideal": 19
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 15
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Sommer"
+    },
+    "closedSeason": {
+      "period": "variabel",
+      "note": "Oft ganzjaehrig oder saisonal geschuetzt, Mindestmass beachten"
+    },
+    "difficulty": 4,
+    "catchAndRelease": false,
+    "minSize": "90-110 mm Carapax",
+    "category": "meeresfruechte",
+    "edibility": {
+      "rating": 5,
+      "taste": "mild",
+      "texture": "fest",
+      "preparation": [
+        "Kochen",
+        "Grillen",
+        "Suppe"
+      ],
+      "notes": "Delikates festes Fleisch, sehr teuer und begehrt."
+    },
+    "habitatDetail": {
+      "depthRange": "5-70m",
+      "region": "Adria, Mittelmeer, Atlantik",
+      "structure": [
+        "Felsriffe",
+        "Hoehlen",
+        "Spalten"
+      ]
+    }
+  },
+  {
+    "id": "kaisergranat",
+    "name": "Kaisergranat",
+    "nicknames": [
+      "Scampi",
+      "Langoustine",
+      "Norway Lobster"
+    ],
+    "scientificName": "Nephrops norvegicus",
+    "image": "images/fish/kaisergranat.svg",
+    "imageCredit": "Generiert / Public Domain",
+    "family": "Nephropidae (Hummerartige)",
+    "description": "Der Kaisergranat ist ein kleiner Hummer mit langen duennen Scheren. Er lebt in selbst gegrabenen Gaengen im Schlammgrund. Wichtiger Wirtschaftsfisch und Delikatesse.",
+    "size": {
+      "avgCm": 15,
+      "maxCm": 25,
+      "avgKg": 0.05,
+      "maxKg": 0.2
+    },
+    "habitat": "Schlammboeden mit Gaengen, 20-800m Tiefe",
+    "waterTypes": [
+      "meer"
+    ],
+    "techniques": [
+      "Schleppnetz",
+      "Reusen",
+      "Tauchfang"
+    ],
+    "baits": [
+      "Fisch",
+      "Tintenfisch"
+    ],
+    "tips": [
+      "Leben in Schlammboeden - kommerziell meist mit Grundschleppnetzen gefangen.",
+      "Freizeitfang nur mit Reusen oder beim Tauchen.",
+      "Daemmerung und Nacht - dann verlassen sie ihre Gaenge.",
+      "Vorsichtig behandeln - Scheren sind empfindlich."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 8,
+        "max": 18,
+        "ideal": 13
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 20
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Fruehjahr bis Herbst"
+    },
+    "closedSeason": null,
+    "difficulty": 3,
+    "catchAndRelease": false,
+    "minSize": "20 mm Carapax",
+    "category": "meeresfruechte",
+    "edibility": {
+      "rating": 5,
+      "taste": "mild",
+      "texture": "zart",
+      "preparation": [
+        "Kochen",
+        "Grillen",
+        "Pasta"
+      ],
+      "notes": "Sehr zartes suessliches Fleisch, als Scampi sehr beliebt."
+    },
+    "habitatDetail": {
+      "depthRange": "20-800m",
+      "region": "Adria, Mittelmeer, Atlantik",
+      "structure": [
+        "Schlammgrund",
+        "Gaenge"
+      ]
+    }
+  },
+  {
+    "id": "jakobsmuschel",
+    "name": "Jakobsmuschel",
+    "nicknames": [
+      "Pilgermuschel",
+      "Scallop"
+    ],
+    "scientificName": "Pecten jacobaeus",
+    "image": "images/fish/jakobsmuschel.svg",
+    "imageCredit": "Generiert / Public Domain",
+    "family": "Pectinidae (Kammmuscheln)",
+    "description": "Die Jakobsmuschel ist eine grosse Muschel mit gerippter Schale und ist Symbol des Jakobswegs. Sie lebt frei auf dem Meeresgrund und kann durch Oeffnen und Schliessen der Schale schwimmen. Hochgeschaetzte Delikatesse.",
+    "size": {
+      "avgCm": 10,
+      "maxCm": 15,
+      "avgKg": 0.1,
+      "maxKg": 0.3
+    },
+    "habitat": "Sand- und Kiesboeden, 5-200m Tiefe",
+    "waterTypes": [
+      "meer"
+    ],
+    "techniques": [
+      "Tauchen",
+      "Dredging"
+    ],
+    "baits": [],
+    "tips": [
+      "Meist beim Tauchen gesammelt - auf Sandboden in 10-50m Tiefe.",
+      "In vielen Gebieten geschuetzt oder mit Mindestmass - Regeln pruefen!",
+      "Lebend kuehl lagern und bald verarbeiten.",
+      "Nur den weissen Muskel und die orangefarbene Rogen werden gegessen."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 10,
+        "max": 24,
+        "ideal": 17
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 15
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "description": "Herbst bis Fruehjahr"
+    },
+    "closedSeason": {
+      "period": "variabel",
+      "note": "Oft im Sommer geschuetzt, Mindestmass meist 10cm"
+    },
+    "difficulty": 2,
+    "catchAndRelease": false,
+    "minSize": "10 cm",
+    "category": "meeresfruechte",
+    "edibility": {
+      "rating": 5,
+      "taste": "mild",
+      "texture": "zart",
+      "preparation": [
+        "Braten",
+        "Grillen",
+        "Gratinieren",
+        "Roh"
+      ],
+      "notes": "Delikater suesslicher Muskel, Haute Cuisine."
+    },
+    "habitatDetail": {
+      "depthRange": "5-200m",
+      "region": "Adria, Mittelmeer, Atlantik",
+      "structure": [
+        "Sandboden",
+        "Kies"
+      ]
+    }
+  },
+  {
+    "id": "miesmuschel",
+    "name": "Miesmuschel",
+    "nicknames": [
+      "Blaumuschel",
+      "Mytilus"
+    ],
+    "scientificName": "Mytilus galloprovincialis",
+    "image": "images/fish/miesmuschel.svg",
+    "imageCredit": "Generiert / Public Domain",
+    "family": "Mytilidae (Miesmuscheln)",
+    "description": "Die Miesmuschel ist eine weit verbreitete essbare Muschel, die in dichten Kolonien an Felsen und Hafenmauern haeftet. Sie filtert Plankton aus dem Wasser. Beliebter Speisefisch.",
+    "size": {
+      "avgCm": 6,
+      "maxCm": 12,
+      "avgKg": 0.02,
+      "maxKg": 0.08
+    },
+    "habitat": "Felsen, Hafenmauern, Gezeitenzone bis 10m Tiefe",
+    "waterTypes": [
+      "meer",
+      "kueste"
+    ],
+    "techniques": [
+      "Sammeln",
+      "Kultivierung"
+    ],
+    "baits": [],
+    "tips": [
+      "An Felsen und Pfaehlen in der Gezeitenzone sammeln.",
+      "Nur bei kuehleren Wassertemperaturen sammeln (R-Monate: Sept-April).",
+      "Nur aus sauberen Gewaessern - Miesmuscheln filtern Schadstoffe.",
+      "Geschlossene Muscheln sind lebendig - offene wegwerfen."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 5,
+        "max": 20,
+        "ideal": 12
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 30
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2,
+        3,
+        4
+      ],
+      "description": "R-Monate (kuehlere Monate)"
+    },
+    "closedSeason": {
+      "period": "Mai-August",
+      "note": "Warme Monate meiden wegen Algenbluete"
+    },
+    "difficulty": 1,
+    "catchAndRelease": false,
+    "minSize": "4 cm",
+    "category": "meeresfruechte",
+    "edibility": {
+      "rating": 4,
+      "taste": "mild",
+      "texture": "zart",
+      "preparation": [
+        "Kochen",
+        "Daempfen",
+        "Suppe"
+      ],
+      "notes": "Schmackhaft, aber Herkunft wichtig wegen Filterung von Schadstoffen."
+    },
+    "habitatDetail": {
+      "depthRange": "0-10m",
+      "region": "Adria, Mittelmeer, Atlantik",
+      "structure": [
+        "Felsen",
+        "Pfaehle",
+        "Hafenmauern"
+      ]
+    }
+  },
+  {
+    "id": "venusmuschel",
+    "name": "Venusmuschel",
+    "nicknames": [
+      "Warzenmuschel",
+      "Vongola"
+    ],
+    "scientificName": "Venus verrucosa",
+    "image": "images/fish/venusmuschel.svg",
+    "imageCredit": "Generiert / Public Domain",
+    "family": "Veneridae (Venusmuscheln)",
+    "description": "Die Venusmuschel ist eine robuste Muschel mit konzentrisch gerillter Schale. Sie grabt sich im Sand ein und filtert Plankton. Wichtige Muschel der italienischen Kueche.",
+    "size": {
+      "avgCm": 5,
+      "maxCm": 8,
+      "avgKg": 0.02,
+      "maxKg": 0.05
+    },
+    "habitat": "Sandboeden, Gezeitenzone bis 100m Tiefe",
+    "waterTypes": [
+      "meer"
+    ],
+    "techniques": [
+      "Graben",
+      "Harken",
+      "Tauchen"
+    ],
+    "baits": [],
+    "tips": [
+      "Im Sand vergraben - mit Harke oder Haenden im flachen Wasser suchen.",
+      "Sandboeden in 0.5-3m Tiefe sind ideal.",
+      "Mindestmass beachten - meist 2.5-3cm.",
+      "Lebend in Salzwasser reinigen lassen (Sand ausspucken)."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 8,
+        "max": 24,
+        "ideal": 16
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 20
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "description": "Fruehjahr bis Herbst"
+    },
+    "closedSeason": null,
+    "difficulty": 1,
+    "catchAndRelease": false,
+    "minSize": "2.5 cm",
+    "category": "meeresfruechte",
+    "edibility": {
+      "rating": 4,
+      "taste": "mild",
+      "texture": "fest",
+      "preparation": [
+        "Kochen",
+        "Pasta",
+        "Suppe"
+      ],
+      "notes": "Schmackhaftes festes Fleisch, Vongole-Klassiker."
+    },
+    "habitatDetail": {
+      "depthRange": "0-100m",
+      "region": "Adria, Mittelmeer, Atlantik",
+      "structure": [
+        "Sandboden"
+      ]
+    }
+  },
+  {
+    "id": "hummer",
+    "name": "Europaeischer Hummer",
+    "nicknames": [
+      "Lobster",
+      "Homarus"
+    ],
+    "scientificName": "Homarus gammarus",
+    "image": "images/fish/hummer.svg",
+    "imageCredit": "Generiert / Public Domain",
+    "family": "Nephropidae (Hummerartige)",
+    "description": "Der Europaeische Hummer ist ein grosser Krebs mit maech tigen Scheren. Er lebt in Felsspalten und ist nachtaktiv. Einer der wertvollsten Meeresfruechte Europas.",
+    "size": {
+      "avgCm": 40,
+      "maxCm": 60,
+      "avgKg": 1,
+      "maxKg": 6
+    },
+    "habitat": "Felsriffe, Hoehlen, 0-150m Tiefe",
+    "waterTypes": [
+      "meer"
+    ],
+    "techniques": [
+      "Reusen",
+      "Tauchen",
+      "Nachtfang"
+    ],
+    "baits": [
+      "Fisch",
+      "Tintenfisch",
+      "Makrele"
+    ],
+    "tips": [
+      "Nachtaktiv - Reusen nachts oder frueh morgens kontrollieren.",
+      "In vielen Gebieten streng geschuetzt - Vorschriften pruefen!",
+      "Mindestmasse beachten - meist 87mm Carapax-Laenge.",
+      "Felsige Kuesten mit vielen Spalten und Hoehlen."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 10,
+        "max": 22,
+        "ideal": 16
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 15
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Spaetfruehjahr bis Herbst"
+    },
+    "closedSeason": {
+      "period": "variabel",
+      "note": "Oft im Winter/Fruehjahr geschuetzt, Mindestmass beachten"
+    },
+    "difficulty": 4,
+    "catchAndRelease": false,
+    "minSize": "87 mm Carapax",
+    "category": "meeresfruechte",
+    "edibility": {
+      "rating": 5,
+      "taste": "mild",
+      "texture": "fest",
+      "preparation": [
+        "Kochen",
+        "Grillen",
+        "Daempfen"
+      ],
+      "notes": "Erstklassiges festes Fleisch, sehr teuer und begehrt."
+    },
+    "habitatDetail": {
+      "depthRange": "0-150m",
+      "region": "Adria, Mittelmeer, Atlantik",
+      "structure": [
+        "Felsriffe",
+        "Hoehlen",
+        "Spalten"
+      ]
+    }
+  },
+  {
+    "id": "taschenkrabbe",
+    "name": "Taschenkrabbe",
+    "nicknames": [
+      "Cancer",
+      "Edible Crab"
+    ],
+    "scientificName": "Cancer pagurus",
+    "image": "images/fish/taschenkrabbe.svg",
+    "imageCredit": "Generiert / Public Domain",
+    "family": "Cancridae (Taschenkrebse)",
+    "description": "Die Taschenkrabbe ist eine grosse robuste Krabbe mit ovaler Schale und starken Scheren. Sie lebt auf Sand- und Felsgrund. Wichtiger Wirtschaftskrebs mit schmackhaftem Fleisch.",
+    "size": {
+      "avgCm": 15,
+      "maxCm": 30,
+      "avgKg": 0.5,
+      "maxKg": 3
+    },
+    "habitat": "Fels- und Sandboeden, 0-100m Tiefe",
+    "waterTypes": [
+      "meer"
+    ],
+    "techniques": [
+      "Reusen",
+      "Tauchen",
+      "Krabbenfang"
+    ],
+    "baits": [
+      "Fisch",
+      "Tintenfisch"
+    ],
+    "tips": [
+      "Reusen mit Fischkoepfen oder alten Fischen bek oedern.",
+      "Felsige Bereiche mit Sandboden in der Naehe.",
+      "Gezeitenwechsel sind gute Zeiten zum Kontrollieren der Reusen.",
+      "Mindestmass meist 13-15cm Panzerbreite beachten."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 8,
+        "max": 20,
+        "ideal": 14
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 20
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "description": "Spaetfruehjahr bis Herbst"
+    },
+    "closedSeason": null,
+    "difficulty": 2,
+    "catchAndRelease": false,
+    "minSize": "13-15 cm Panzerbreite",
+    "category": "meeresfruechte",
+    "edibility": {
+      "rating": 5,
+      "taste": "mild",
+      "texture": "fest",
+      "preparation": [
+        "Kochen",
+        "Daempfen"
+      ],
+      "notes": "Hervorragendes Fleisch in Scheren und Koerper, sehr beliebt."
+    },
+    "habitatDetail": {
+      "depthRange": "0-100m",
+      "region": "Adria, Mittelmeer, Atlantik",
+      "structure": [
+        "Felsen",
+        "Sandboden",
+        "Riffe"
+      ]
+    }
+  },
+  {
+    "id": "herzmuschel",
+    "name": "Herzmuschel",
+    "nicknames": [
+      "Cockle",
+      "Cerastoderma"
+    ],
+    "scientificName": "Cerastoderma edule",
+    "image": "images/fish/herzmuschel.svg",
+    "imageCredit": "Generiert / Public Domain",
+    "family": "Cardiidae (Herzmuscheln)",
+    "description": "Die Herzmuschel ist eine kleine rundliche Muschel mit gerippter Schale. Sie lebt eingegraben im Sand der Gezeitenzone. Beliebte essbare Muschel.",
+    "size": {
+      "avgCm": 3,
+      "maxCm": 6,
+      "avgKg": 0.01,
+      "maxKg": 0.03
+    },
+    "habitat": "Sandboeden, Wattenmeer, Gezeitenzone",
+    "waterTypes": [
+      "meer",
+      "kueste"
+    ],
+    "techniques": [
+      "Graben",
+      "Harken"
+    ],
+    "baits": [],
+    "tips": [
+      "Im feuchten Sand der Gezeitenzone graben.",
+      "Mit Harke oder Haenden im flachen Wasser suchen.",
+      "Mindestmass meist 2-2.5cm beachten.",
+      "In Salzwasser reinigen lassen vor dem Kochen."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 5,
+        "max": 22,
+        "ideal": 14
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 25
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2,
+        3,
+        4
+      ],
+      "description": "R-Monate"
+    },
+    "closedSeason": {
+      "period": "Mai-August",
+      "note": "Warme Monate meiden"
+    },
+    "difficulty": 1,
+    "catchAndRelease": false,
+    "minSize": "2 cm",
+    "category": "meeresfruechte",
+    "edibility": {
+      "rating": 3,
+      "taste": "mild",
+      "texture": "zart",
+      "preparation": [
+        "Kochen",
+        "Daempfen"
+      ],
+      "notes": "Schmackhaft, aber klein. In groesseren Mengen sammeln."
+    },
+    "habitatDetail": {
+      "depthRange": "0-5m",
+      "region": "Adria, Mittelmeer, Atlantik, Nordsee",
+      "structure": [
+        "Sandboden",
+        "Watt",
+        "Gezeitenzone"
+      ]
+    }
+  },
+  {
+    "id": "meerspinne",
+    "name": "Meerspinne",
+    "nicknames": [
+      "Spinnenkrabbe",
+      "Spider Crab"
+    ],
+    "scientificName": "Maja squinado",
+    "image": "images/fish/meerspinne.svg",
+    "imageCredit": "Generiert / Public Domain",
+    "family": "Majidae (Spinnenkrabben)",
+    "description": "Die Meerspinne ist eine grosse Krabbe mit langem stacheligen Panzer und langen duennen Beinen. Sie tarnt sich mit Algen und Schwaemmen. Delikatesse der mediterranen Kueche.",
+    "size": {
+      "avgCm": 18,
+      "maxCm": 25,
+      "avgKg": 0.8,
+      "maxKg": 4
+    },
+    "habitat": "Felsiger Grund, Seegraswiesen, 5-100m Tiefe",
+    "waterTypes": [
+      "meer"
+    ],
+    "techniques": [
+      "Reusen",
+      "Tauchen"
+    ],
+    "baits": [
+      "Fisch",
+      "Tintenfisch"
+    ],
+    "tips": [
+      "Felsige Bereiche mit Algen und Seegras.",
+      "Im Fruehjahr wandern sie in flacheres Wasser zur Fortpflanzung.",
+      "Vorsicht beim Handhaben - stacheliger Panzer.",
+      "In vielen Gebieten Mindestmass 12cm Panzerlaenge."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 10,
+        "max": 24,
+        "ideal": 17
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 20
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "description": "Fruehjahr (Fortpflanzungszeit)"
+    },
+    "closedSeason": null,
+    "difficulty": 2,
+    "catchAndRelease": false,
+    "minSize": "12 cm Panzerlaenge",
+    "category": "meeresfruechte",
+    "edibility": {
+      "rating": 4,
+      "taste": "mild",
+      "texture": "zart",
+      "preparation": [
+        "Kochen",
+        "Suppe"
+      ],
+      "notes": "Zartes suessliches Fleisch, besonders im Fruehjahr beliebt."
+    },
+    "habitatDetail": {
+      "depthRange": "5-100m",
+      "region": "Adria, Mittelmeer, Atlantik",
+      "structure": [
+        "Felsen",
+        "Seegras",
+        "Algen"
+      ]
+    }
+  },
+  {
+    "id": "schwimmkrabbe-blau",
+    "name": "Blaue Schwimmkrabbe",
+    "nicknames": [
+      "Blue Crab",
+      "Portunus"
+    ],
+    "scientificName": "Portunus pelagicus",
+    "image": "images/fish/schwimmkrabbe-blau.svg",
+    "imageCredit": "Generiert / Public Domain",
+    "family": "Portunidae (Schwimmkrabben)",
+    "description": "Die Blaue Schwimmkrabbe ist eine mittelgrosse Krabbe mit abgeflachten hinteren Beinen zum Schwimmen. Sie ist agil und schnell. Beliebter Speisekrebs in Asien und zunehmend im Mittelmeer.",
+    "size": {
+      "avgCm": 12,
+      "maxCm": 20,
+      "avgKg": 0.3,
+      "maxKg": 1
+    },
+    "habitat": "Sandboeden, Seegraswiesen, 0-50m Tiefe",
+    "waterTypes": [
+      "meer",
+      "kueste"
+    ],
+    "techniques": [
+      "Reusen",
+      "Keschern",
+      "Tauchen"
+    ],
+    "baits": [
+      "Fisch",
+      "Tintenfisch"
+    ],
+    "tips": [
+      "Nachtaktiv - am besten nachts oder in der Daemmerung.",
+      "Sandboden mit Seegras ist idealer Lebensraum.",
+      "Schnell und agil - Kescher bereithalten.",
+      "In einigen Gebieten invasiv (aus dem Roten Meer)."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 15,
+        "max": 28,
+        "ideal": 22
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 20
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "description": "Spaetfruehjahr bis Herbst"
+    },
+    "closedSeason": null,
+    "difficulty": 2,
+    "catchAndRelease": false,
+    "minSize": "10 cm Panzerbreite",
+    "category": "meeresfruechte",
+    "edibility": {
+      "rating": 4,
+      "taste": "mild",
+      "texture": "fest",
+      "preparation": [
+        "Kochen",
+        "Daempfen",
+        "Chili-Krabbe"
+      ],
+      "notes": "Schmackhaftes Fleisch, besonders beliebt in asiatischer Kueche."
+    },
+    "habitatDetail": {
+      "depthRange": "0-50m",
+      "region": "Mittelmeer (invasiv), Indo-Pazifik",
+      "structure": [
+        "Sandboden",
+        "Seegras",
+        "Lagunen"
+      ]
+    }
+  },
+  {
+    "id": "quappe",
+    "name": "Quappe",
+    "nicknames": [
+      "Rutte",
+      "Aalraupe",
+      "Truesche"
+    ],
+    "scientificName": "Lota lota",
+    "image": "images/fish/quappe.svg",
+    "imageCredit": "Generiert / Public Domain",
+    "family": "Lotidae (Quappen)",
+    "description": "Die Quappe ist der einzige Suesswasser-Dorschfisch Europas. Sie ist nachtaktiv und liebt kaltes Wasser. Im Winter laicht sie sogar unter dem Eis. Ein unterschaetzter Speisefisch.",
+    "size": {
+      "avgCm": 40,
+      "maxCm": 100,
+      "avgKg": 1,
+      "maxKg": 8
+    },
+    "habitat": "Kalte Fluesse und Seen mit steinigem Grund, 2-50m Tiefe",
+    "waterTypes": [
+      "fluss",
+      "see"
+    ],
+    "techniques": [
+      "Grundangeln",
+      "Nachtangeln",
+      "Winterangeln"
+    ],
+    "baits": [
+      "Koederfisch",
+      "Wurm",
+      "Fischfetzen"
+    ],
+    "tips": [
+      "Nachtangeln im Winter ist am erfolgreichsten - Quappen sind dann am aktivsten.",
+      "Kalte Gewaesser bevorzugen - Quappen moegen niedrige Temperaturen.",
+      "Steiniger Grund in tieferen Bereichen ist ideal.",
+      "Geduldig sein - Bisse sind oft zoegerlich und vorsichtig."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 0,
+        "max": 15,
+        "ideal": 8
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 25
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "description": "Winter ist Hauptsaison"
+    },
+    "closedSeason": {
+      "period": "variabel",
+      "note": "Oft im Januar/Februar waehrend der Laichzeit geschuetzt"
+    },
+    "difficulty": 3,
+    "catchAndRelease": false,
+    "minSize": "30 cm",
+    "category": "raubfisch",
+    "edibility": {
+      "rating": 4,
+      "taste": "mild",
+      "texture": "fest",
+      "preparation": [
+        "Braten",
+        "Frittieren",
+        "Suppe"
+      ],
+      "notes": "Festes weisses Fleisch aehnlich Dorsch. Leber ist Delikatesse."
+    },
+    "habitatDetail": {
+      "depthRange": "2-50m",
+      "region": "Mittel- und Nordeuropa",
+      "structure": [
+        "Steingrund",
+        "Tiefenbereiche",
+        "kalte Seen"
+      ]
+    }
+  },
+  {
+    "id": "moderlieschen",
+    "name": "Moderlieschen",
+    "nicknames": [
+      "Zwerglaube",
+      "Sonnenfischchen"
+    ],
+    "scientificName": "Leucaspius delineatus",
+    "image": "images/fish/moderlieschen.svg",
+    "imageCredit": "Generiert / Public Domain",
+    "family": "Leuciscidae (Weissfische)",
+    "description": "Das Moderlieschen ist ein winziger silbriger Fisch, der in Schwaermen in pflanzenreichen Kleingewaessern lebt. Es ist sehr anpassungsfaehig und kann auch in sauerstoffarmen Teichen ueberleben.",
+    "size": {
+      "avgCm": 6,
+      "maxCm": 12,
+      "avgKg": 0.01,
+      "maxKg": 0.03
+    },
+    "habitat": "Pflanzenreiche Teiche, Altwasser, Tuempel",
+    "waterTypes": [
+      "teich",
+      "fluss"
+    ],
+    "techniques": [
+      "Stippen",
+      "Feederangeln"
+    ],
+    "baits": [
+      "Kleine Maden",
+      "Pinkies",
+      "Teig"
+    ],
+    "tips": [
+      "Sehr kleine Haken (Groesse 20-24) verwenden.",
+      "Oberflaeche nnah bis mittleres Wasser befischen.",
+      "In Schwaermen unterwegs - wo einer ist, sind viele.",
+      "Idealer Fisch fuer Kinder und Einsteigerangeln."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 5,
+        "max": 28,
+        "ideal": 18
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 20
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Spaetfruehjahr bis Herbst"
+    },
+    "closedSeason": null,
+    "difficulty": 1,
+    "catchAndRelease": true,
+    "minSize": null,
+    "category": "friedfisch",
+    "edibility": {
+      "rating": 1,
+      "taste": "mild",
+      "texture": "zart",
+      "preparation": [
+        "Frittieren"
+      ],
+      "notes": "Zu klein zum Essen, meist Catch & Release."
+    },
+    "habitatDetail": {
+      "depthRange": "0-3m",
+      "region": "Mitteleuropa",
+      "structure": [
+        "Pflanzen",
+        "Altwasser",
+        "Stillgewaesser"
+      ]
+    }
+  },
+  {
+    "id": "schneider",
+    "name": "Schneider",
+    "nicknames": [
+      "Alet",
+      "Alandblecke"
+    ],
+    "scientificName": "Alburnoides bipunctatus",
+    "image": "images/fish/schneider.svg",
+    "imageCredit": "Generiert / Public Domain",
+    "family": "Leuciscidae (Weissfische)",
+    "description": "Der Schneider ist ein kleiner stroemungsliebender Fisch mit zwei dunklen Flecken hinter den Kiemen. Er lebt in Schwaermen in klaren schnell fliessenden Fluessen. Aehnelt der Ukelei, bevorzugt aber staerkere Stroemung.",
+    "size": {
+      "avgCm": 10,
+      "maxCm": 15,
+      "avgKg": 0.02,
+      "maxKg": 0.05
+    },
+    "habitat": "Klare Fluesse mit Stroemung, kiesiger Grund",
+    "waterTypes": [
+      "fluss",
+      "bach"
+    ],
+    "techniques": [
+      "Stippen",
+      "Fliegenfischen"
+    ],
+    "baits": [
+      "Maden",
+      "Fliegen",
+      "Pinkies"
+    ],
+    "tips": [
+      "Stroemende Bereiche mit kiesigem Grund befischen.",
+      "Kleine Haken und feines Geraet.",
+      "Im Mittelwasser bis oberflaechennah anbieten.",
+      "Saubere, sauerstoffreiche Gewaesser bevorzugt."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 8,
+        "max": 24,
+        "ideal": 16
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 20
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Spaetfruehjahr bis Herbst"
+    },
+    "closedSeason": null,
+    "difficulty": 1,
+    "catchAndRelease": true,
+    "minSize": null,
+    "category": "friedfisch",
+    "edibility": {
+      "rating": 1,
+      "taste": "mild",
+      "texture": "zart",
+      "preparation": [
+        "Frittieren"
+      ],
+      "notes": "Zu klein zum Essen, meist Catch & Release."
+    },
+    "habitatDetail": {
+      "depthRange": "0.5-3m",
+      "region": "Mittel- und Suedosteuropa",
+      "structure": [
+        "Stroemung",
+        "Kies",
+        "klares Wasser"
+      ]
+    }
+  },
+  {
+    "id": "schlammpeitzger",
+    "name": "Schlammpeitzger",
+    "nicknames": [
+      "Wetterfisch",
+      "Peitzker"
+    ],
+    "scientificName": "Misgurnus fossilis",
+    "image": "images/fish/schlammpeitzger.svg",
+    "imageCredit": "Generiert / Public Domain",
+    "family": "Cobitidae (Schmerlen)",
+    "description": "Der Schlammpeitzger ist ein langgestreckter Grundfisch mit 10 Bartfaeden. Er kann Darmatmung betreiben und ueberlebt in sauerstoffarmen Gewaessern. Bei Luftdruckwechsel wird er aktiv (daher 'Wetterfisch'). Stark gefaehrdet!",
+    "size": {
+      "avgCm": 20,
+      "maxCm": 30,
+      "avgKg": 0.1,
+      "maxKg": 0.2
+    },
+    "habitat": "Schlammige Altwaesser, Teiche, Graeben",
+    "waterTypes": [
+      "teich",
+      "fluss"
+    ],
+    "techniques": [
+      "Grundangeln"
+    ],
+    "baits": [
+      "Wurm",
+      "Made"
+    ],
+    "tips": [
+      "GESCHUETZT in den meisten Gebieten - nur Catch & Release!",
+      "Schlammiger Grund mit Pflanzenbewuchs.",
+      "Bei Luftdruckabfall besonders aktiv.",
+      "Nachtaktiv - am besten in der Daemmerung."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 8,
+        "max": 26,
+        "ideal": 18
+      },
+      "pressure": {
+        "trend": "fallend"
+      },
+      "wind": {
+        "max": 20
+      },
+      "cloudCover": {
+        "min": 40,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "description": "Spaetfruehjahr bis Sommer"
+    },
+    "closedSeason": {
+      "period": "variabel",
+      "note": "Oft ganzjaehrig geschuetzt wegen Gefaehrdung"
+    },
+    "difficulty": 3,
+    "catchAndRelease": true,
+    "minSize": null,
+    "category": "friedfisch",
+    "edibility": {
+      "rating": 2,
+      "taste": "mild",
+      "texture": "zart",
+      "preparation": [
+        "Braten"
+      ],
+      "notes": "Essbar aber geschuetzt - nur Catch & Release!"
+    },
+    "habitatDetail": {
+      "depthRange": "0-2m",
+      "region": "Mittel- und Osteuropa",
+      "structure": [
+        "Schlamm",
+        "Pflanzen",
+        "Altwaesser"
+      ]
+    }
+  },
+  {
+    "id": "steinbeisser",
+    "name": "Steinbeisser",
+    "nicknames": [
+      "Dorngrundel",
+      "Cobitis"
+    ],
+    "scientificName": "Cobitis taenia",
+    "image": "images/fish/steinbeisser.svg",
+    "imageCredit": "Generiert / Public Domain",
+    "family": "Cobitidae (Schmerlen)",
+    "description": "Der Steinbeisser ist eine kleine schlanke Schmerle mit Fleckenmuster. Er lebt am Grund und vergrabt sich bei Gefahr im Sand. Ein Indikator fuer saubere Gewaesser. Geschuetzt!",
+    "size": {
+      "avgCm": 8,
+      "maxCm": 13,
+      "avgKg": 0.01,
+      "maxKg": 0.02
+    },
+    "habitat": "Klare Fluesse und Baeche mit Sandgrund",
+    "waterTypes": [
+      "fluss",
+      "bach"
+    ],
+    "techniques": [
+      "Grundangeln"
+    ],
+    "baits": [
+      "Kleine Wuermer",
+      "Maden"
+    ],
+    "tips": [
+      "GESCHUETZT - nur Catch & Release!",
+      "Sandiger Grund in klaren Gewaessern.",
+      "Indikator fuer gute Wasserqualitaet.",
+      "Sehr selten - bei Fang sofort zuruecksetzen."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 8,
+        "max": 22,
+        "ideal": 16
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 15
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "description": "Spaetfruehjahr bis Sommer"
+    },
+    "closedSeason": {
+      "period": "ganzjaehrig",
+      "note": "Ganzjaehrig geschuetzt in den meisten Gebieten"
+    },
+    "difficulty": 2,
+    "catchAndRelease": true,
+    "minSize": null,
+    "category": "friedfisch",
+    "edibility": {
+      "rating": 1,
+      "taste": "mild",
+      "texture": "zart",
+      "preparation": [],
+      "notes": "Geschuetzt - nicht entnehmen!"
+    },
+    "habitatDetail": {
+      "depthRange": "0-3m",
+      "region": "Mitteleuropa",
+      "structure": [
+        "Sandgrund",
+        "klares Wasser",
+        "Stroemung"
+      ]
+    }
+  },
+  {
+    "id": "bitterling",
+    "name": "Bitterling",
+    "nicknames": [
+      "Rhodeus",
+      "Schneiderkarpfen"
+    ],
+    "scientificName": "Rhodeus amarus",
+    "image": "images/fish/bitterling.svg",
+    "imageCredit": "Generiert / Public Domain",
+    "family": "Acheilognathidae (Bitterlinge)",
+    "description": "Der Bitterling ist ein winziger bunter Fisch mit einzigartiger Fortpflanzungsbiologie - die Weibchen legen Eier in Muscheln ab. Maennchen zeigen zur Laichzeit prachtvolle Farben. Geschuetzt!",
+    "size": {
+      "avgCm": 5,
+      "maxCm": 9,
+      "avgKg": 0.01,
+      "maxKg": 0.02
+    },
+    "habitat": "Pflanzenreiche Stillgewaesser mit Grossmuscheln",
+    "waterTypes": [
+      "teich",
+      "see",
+      "fluss"
+    ],
+    "techniques": [
+      "Stippen"
+    ],
+    "baits": [
+      "Pinkies",
+      "Kleine Maden"
+    ],
+    "tips": [
+      "GESCHUETZT - nur Catch & Release!",
+      "Braucht Grossmuscheln zur Fortpflanzung - Indikator fuer intaktes Oekosystem.",
+      "Sehr kleine Haken verwenden.",
+      "Maennchen im Fruehling mit bunten Farben."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 8,
+        "max": 24,
+        "ideal": 18
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 20
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "description": "Fruehjahr bis Sommer"
+    },
+    "closedSeason": {
+      "period": "variabel",
+      "note": "In vielen Gebieten geschuetzt"
+    },
+    "difficulty": 1,
+    "catchAndRelease": true,
+    "minSize": null,
+    "category": "friedfisch",
+    "edibility": {
+      "rating": 1,
+      "taste": "bitter",
+      "texture": "zart",
+      "preparation": [],
+      "notes": "Geschuetzt und zu klein - nicht entnehmen!"
+    },
+    "habitatDetail": {
+      "depthRange": "0.5-3m",
+      "region": "Mitteleuropa",
+      "structure": [
+        "Pflanzen",
+        "Muscheln",
+        "Stillwasser"
+      ]
+    }
+  },
+  {
+    "id": "frauennerfling",
+    "name": "Frauennerfling",
+    "nicknames": [
+      "Virgo",
+      "Schwallnerfling"
+    ],
+    "scientificName": "Rutilus virgo",
+    "image": "images/fish/frauennerfling.svg",
+    "imageCredit": "Generiert / Public Domain",
+    "family": "Leuciscidae (Weissfische)",
+    "description": "Der Frauennerfling ist ein seltener Fisch der Donau und ihrer Zufluesse. Er bevorzugt schnell fliessende Abschnitte mit kiesigem Grund. Stark gefaehrdet und geschuetzt!",
+    "size": {
+      "avgCm": 20,
+      "maxCm": 35,
+      "avgKg": 0.2,
+      "maxKg": 0.6
+    },
+    "habitat": "Schnell fliessende Fluesse, Kiesgrund",
+    "waterTypes": [
+      "fluss"
+    ],
+    "techniques": [
+      "Grundangeln",
+      "Feederangeln"
+    ],
+    "baits": [
+      "Maden",
+      "Wurm",
+      "Mais"
+    ],
+    "tips": [
+      "GESCHUETZT - nur Catch & Release!",
+      "Donau-Einzugsgebiet, sehr selten.",
+      "Stroemende Bereiche mit Kiesgrund.",
+      "Bei Fang Behoerden informieren - wichtige Sichtung!"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 10,
+        "max": 24,
+        "ideal": 18
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 20
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "description": "Spaetfruehjahr bis Sommer"
+    },
+    "closedSeason": {
+      "period": "ganzjaehrig",
+      "note": "Ganzjaehrig geschuetzt"
+    },
+    "difficulty": 4,
+    "catchAndRelease": true,
+    "minSize": null,
+    "category": "friedfisch",
+    "edibility": {
+      "rating": 2,
+      "taste": "mild",
+      "texture": "fest",
+      "preparation": [],
+      "notes": "Geschuetzt - nicht entnehmen!"
+    },
+    "habitatDetail": {
+      "depthRange": "1-5m",
+      "region": "Donau-Einzugsgebiet",
+      "structure": [
+        "Stroemung",
+        "Kies",
+        "Hauptstrom"
+      ]
+    }
+  },
+  {
+    "id": "mairenke",
+    "name": "Mairenke",
+    "nicknames": [
+      "Maifisch",
+      "Schneidermaul"
+    ],
+    "scientificName": "Alburnus mento",
+    "image": "images/fish/mairenke.svg",
+    "imageCredit": "Generiert / Public Domain",
+    "family": "Leuciscidae (Weissfische)",
+    "description": "Die Mairenke ist ein silbriger Schwarmfisch der oberen Wasserschichten in grossen Fluessen. Sie aehnelt der Ukelei, ist aber groesser. In vielen Gebieten selten geworden.",
+    "size": {
+      "avgCm": 15,
+      "maxCm": 25,
+      "avgKg": 0.05,
+      "maxKg": 0.15
+    },
+    "habitat": "Grosse Fluesse, Freiwasserbereiche",
+    "waterTypes": [
+      "fluss"
+    ],
+    "techniques": [
+      "Stippen",
+      "Fliegenfischen",
+      "Spinnfischen"
+    ],
+    "baits": [
+      "Maden",
+      "Fliegen",
+      "Kleine Spinner"
+    ],
+    "tips": [
+      "Oberflaeche nbereiche in grossen Fluessen befischen.",
+      "In Schwaermen unterwegs - besonders im Mai.",
+      "Kleine Spinner oder Fliegen funktionieren gut.",
+      "Aehnelt Ukelei - auf Groesse und Laichzeit achten."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 10,
+        "max": 24,
+        "ideal": 18
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 20
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 80
+      }
+    },
+    "season": {
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "description": "Mai bis Sommer (daher der Name)"
+    },
+    "closedSeason": null,
+    "difficulty": 2,
+    "catchAndRelease": true,
+    "minSize": null,
+    "category": "friedfisch",
+    "edibility": {
+      "rating": 2,
+      "taste": "mild",
+      "texture": "zart",
+      "preparation": [
+        "Frittieren",
+        "Raeuchern"
+      ],
+      "notes": "Essbar aber klein und graetig, meist Catch & Release."
+    },
+    "habitatDetail": {
+      "depthRange": "0-3m",
+      "region": "Mitteleuropa (Donau, grosse Fluesse)",
+      "structure": [
+        "Freiwasser",
+        "Oberflaeche",
+        "Hauptstrom"
+      ]
+    }
+  },
+  {
+    "id": "perlfisch",
+    "name": "Perlfisch",
+    "nicknames": [
+      "Frauenfisch",
+      "Rutilus frisii"
+    ],
+    "scientificName": "Rutilus frisii",
+    "image": "images/fish/perlfisch.svg",
+    "imageCredit": "Generiert / Public Domain",
+    "family": "Leuciscidae (Weissfische)",
+    "description": "Der Perlfisch ist ein grosser seltener Weissfisch der Donau und Nebenfleusse. Er wandert zum Laichen flussaufwaerts. Stark gefaehrdet und streng geschuetzt!",
+    "size": {
+      "avgCm": 35,
+      "maxCm": 50,
+      "avgKg": 0.8,
+      "maxKg": 2
+    },
+    "habitat": "Grosse Fluesse, tiefe Bereiche mit Stroemung",
+    "waterTypes": [
+      "fluss"
+    ],
+    "techniques": [
+      "Grundangeln",
+      "Feederangeln"
+    ],
+    "baits": [
+      "Wurm",
+      "Mais",
+      "Boilies"
+    ],
+    "tips": [
+      "STRENG GESCHUETZT - nur Catch & Release!",
+      "Sehr selten - Donau-Einzugsgebiet.",
+      "Tiefe Bereiche mit maessiger Stroemung.",
+      "Bei Fang unbedingt dokumentieren und Behoerden informieren!"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 10,
+        "max": 24,
+        "ideal": 18
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 20
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "description": "Spaetfruehjahr bis Sommer"
+    },
+    "closedSeason": {
+      "period": "ganzjaehrig",
+      "note": "Ganzjaehrig streng geschuetzt"
+    },
+    "difficulty": 5,
+    "catchAndRelease": true,
+    "minSize": null,
+    "category": "friedfisch",
+    "edibility": {
+      "rating": 3,
+      "taste": "mild",
+      "texture": "fest",
+      "preparation": [],
+      "notes": "Geschuetzt - nicht entnehmen!"
+    },
+    "habitatDetail": {
+      "depthRange": "2-10m",
+      "region": "Donau-Einzugsgebiet",
+      "structure": [
+        "Tiefenbereiche",
+        "Stroemung",
+        "Hauptstrom"
+      ]
+    }
+  },
+  {
+    "id": "ziege",
+    "name": "Ziege",
+    "nicknames": [
+      "Sichling",
+      "Sabrefish"
+    ],
+    "scientificName": "Pelecus cultratus",
+    "image": "images/fish/ziege.svg",
+    "imageCredit": "Generiert / Public Domain",
+    "family": "Leuciscidae (Weissfische)",
+    "description": "Die Ziege ist ein hochrueckiger silbriger Fisch mit saebelfoermigem Koerper. Sie lebt in grossen Fluessen und Stauseen. Ein interessanter und kaempferischer Fisch. In Mitteleuropa selten.",
+    "size": {
+      "avgCm": 30,
+      "maxCm": 60,
+      "avgKg": 0.4,
+      "maxKg": 1.5
+    },
+    "habitat": "Grosse Fluesse, Stauseen, Freiwasserbereiche",
+    "waterTypes": [
+      "fluss",
+      "see"
+    ],
+    "techniques": [
+      "Spinnfischen",
+      "Fliegenfischen",
+      "Posenfischen"
+    ],
+    "baits": [
+      "Kleine Spinner",
+      "Fliegen",
+      "Made n",
+      "Brot"
+    ],
+    "tips": [
+      "Oberflaeche und oberes Mittelwasser befischen.",
+      "Jaegt oft in Schwaermen an der Oberflaeche.",
+      "Kleine Spinner oder Fliegen sind effektiv.",
+      "Daemmerung ist oft die beste Zeit."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 12,
+        "max": 26,
+        "ideal": 20
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 20
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 70
+      }
+    },
+    "season": {
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Spaetfruehjahr bis Herbst"
+    },
+    "closedSeason": null,
+    "difficulty": 3,
+    "catchAndRelease": false,
+    "minSize": "25 cm",
+    "category": "friedfisch",
+    "edibility": {
+      "rating": 3,
+      "taste": "mild",
+      "texture": "fest",
+      "preparation": [
+        "Braten",
+        "Raeuchern",
+        "Grillen"
+      ],
+      "notes": "Festes Fleisch, viele Graeten. Geraeu chert am besten."
+    },
+    "habitatDetail": {
+      "depthRange": "0-5m",
+      "region": "Osteuropa, vereinzelt Donau",
+      "structure": [
+        "Freiwasser",
+        "Oberflaeche",
+        "Stauseen"
+      ]
+    }
+  },
+  {
+    "id": "ringelbrasse",
+    "name": "Ringelbrasse",
+    "nicknames": [
+      "Sparus annularis",
+      "Diplodus annularis"
+    ],
+    "scientificName": "Diplodus annularis",
+    "image": "images/fish/ringelbrasse.svg",
+    "imageCredit": "Generiert / Public Domain",
+    "family": "Sparidae (Meerbrassen)",
+    "description": "Die Ringelbrasse ist eine kleine Brasse mit einem charakteristischen dunklen Ring vor dem Schwanz. Sie lebt in Schwaermen ueber felsigem und sandigem Grund. Beliebter Speisefisch an der Adria.",
+    "size": {
+      "avgCm": 15,
+      "maxCm": 24,
+      "avgKg": 0.15,
+      "maxKg": 0.4
+    },
+    "habitat": "Felsiger und sandiger Grund, Seegraswiesen, 0-90m Tiefe",
+    "waterTypes": [
+      "meer",
+      "kueste"
+    ],
+    "techniques": [
+      "Grundangeln",
+      "Paternoster",
+      "Posenfischen"
+    ],
+    "baits": [
+      "Garnele",
+      "Seeringelwurm",
+      "Muschelfleisch",
+      "Brot"
+    ],
+    "tips": [
+      "Kleine Haken - Ringelbrassen haben kleine Maeuler.",
+      "In Schwaermen unterwegs - wo eine ist, sind mehr.",
+      "Mischgrund aus Fels und Sand ist ideal.",
+      "Oft nahe am Ufer in flachem Wasser."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 14,
+        "max": 26,
+        "ideal": 20
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 20
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 70
+      }
+    },
+    "season": {
+      "bestMonths": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Fruehjahr bis Herbst"
+    },
+    "closedSeason": null,
+    "difficulty": 1,
+    "catchAndRelease": false,
+    "minSize": "12 cm",
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 4,
+      "taste": "mild",
+      "texture": "fest",
+      "preparation": [
+        "Grillen",
+        "Braten",
+        "Frittieren"
+      ],
+      "notes": "Schmackhaftes festes Fleisch, trotz kleiner Groesse."
+    },
+    "habitatDetail": {
+      "depthRange": "0-90m",
+      "region": "Adria, Mittelmeer",
+      "structure": [
+        "Felsen",
+        "Sand",
+        "Seegras"
+      ]
+    }
+  },
+  {
+    "id": "brandbrasse",
+    "name": "Brandbrasse",
+    "nicknames": [
+      "Oblada",
+      "Saddled Bream"
+    ],
+    "scientificName": "Oblada melanura",
+    "image": "images/fish/brandbrasse.svg",
+    "imageCredit": "Generiert / Public Domain",
+    "family": "Sparidae (Meerbrassen)",
+    "description": "Die Brandbrasse ist ein silbriger Schwarmfisch mit schwarzem Fleck am Schwanzstiel. Sie jagt in grossen Gruppen im Freiwasser und ueber Felsen. Sehr aktiver und kaempferischer Fisch.",
+    "size": {
+      "avgCm": 20,
+      "maxCm": 30,
+      "avgKg": 0.2,
+      "maxKg": 0.6
+    },
+    "habitat": "Felsige Kuesten, Freiwasserbereiche, 5-30m Tiefe",
+    "waterTypes": [
+      "meer",
+      "kueste"
+    ],
+    "techniques": [
+      "Posenfischen",
+      "Pilken",
+      "Spinnfischen"
+    ],
+    "baits": [
+      "Garnele",
+      "Fischfetzen",
+      "Brot",
+      "Kunstkoeder"
+    ],
+    "tips": [
+      "In grossen Schwaermen - sehr aktiv und konkurenzstark.",
+      "Schnelle Koederfuehrung oft effektiv.",
+      "Im Freiwasser und ueber Felsen.",
+      "Gute Einstiegsfischart - beisst bereitwillig."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 14,
+        "max": 26,
+        "ideal": 20
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 25
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 80
+      }
+    },
+    "season": {
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Spaetfruehjahr bis Herbst"
+    },
+    "closedSeason": null,
+    "difficulty": 1,
+    "catchAndRelease": false,
+    "minSize": "15 cm",
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 3,
+      "taste": "medium",
+      "texture": "fest",
+      "preparation": [
+        "Grillen",
+        "Braten",
+        "Suppe"
+      ],
+      "notes": "Festes Fleisch, etwas graetig aber schmackhaft."
+    },
+    "habitatDetail": {
+      "depthRange": "5-30m",
+      "region": "Adria, Mittelmeer",
+      "structure": [
+        "Felsen",
+        "Freiwasser",
+        "Kueste"
+      ]
+    }
+  },
+  {
+    "id": "gabelmakrele",
+    "name": "Gabelmakrele",
+    "nicknames": [
+      "Bastardmakrele",
+      "Scad",
+      "Horse Mackerel"
+    ],
+    "scientificName": "Trachurus trachurus",
+    "image": "images/fish/gabelmakrele.svg",
+    "imageCredit": "Generiert / Public Domain",
+    "family": "Carangidae (Stachelmakrelen)",
+    "description": "Die Gabelmakrele ist ein pelagischer Schwarmfisch mit charakteristischen Knochenschildern entlang der Seitenlinie. Sie jagt Plankton und kleine Fische. Wichtiger Wirtschaftsfisch und Koederfisch.",
+    "size": {
+      "avgCm": 25,
+      "maxCm": 50,
+      "avgKg": 0.3,
+      "maxKg": 1.5
+    },
+    "habitat": "Offenes Meer, kuestennahe Gewaesser, 0-500m Tiefe",
+    "waterTypes": [
+      "meer",
+      "kueste"
+    ],
+    "techniques": [
+      "Spinnfischen",
+      "Paternoster",
+      "Sabiki-Rigs"
+    ],
+    "baits": [
+      "Kleine Spinner",
+      "Federn",
+      "Fischfetzen"
+    ],
+    "tips": [
+      "In grossen Schwaermen - Sabiki-Rigs mit mehreren Haken effektiv.",
+      "Guter Koederfisch fuer Thunfisch und andere grosse Raeuber.",
+      "Oberflaechennah bis Mittelwasser.",
+      "Besonders aktiv bei Daemmerung."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 10,
+        "max": 24,
+        "ideal": 17
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 25
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 80
+      }
+    },
+    "season": {
+      "bestMonths": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "description": "Fruehjahr bis Herbst"
+    },
+    "closedSeason": null,
+    "difficulty": 1,
+    "catchAndRelease": false,
+    "minSize": "15 cm",
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 3,
+      "taste": "kraeftig",
+      "texture": "fest",
+      "preparation": [
+        "Grillen",
+        "Braten",
+        "Marinieren"
+      ],
+      "notes": "Kraeftiger Geschmack, gut mariniert oder gebraten."
+    },
+    "habitatDetail": {
+      "depthRange": "0-500m",
+      "region": "Adria, Mittelmeer, Atlantik",
+      "structure": [
+        "Freiwasser",
+        "pelagisch"
+      ]
+    }
+  },
+  {
+    "id": "saegebarsch",
+    "name": "Saegebarsch",
+    "nicknames": [
+      "Comber",
+      "Serranus cabrilla"
+    ],
+    "scientificName": "Serranus cabrilla",
+    "image": "images/fish/saegebarsch.svg",
+    "imageCredit": "Generiert / Public Domain",
+    "family": "Serranidae (Saegebarsche)",
+    "description": "Der Saegebarsch ist ein kleiner bunter Raubfisch der Felsriffe. Er ist ein Zwitter und kann sein Geschlecht wechseln. Tagaktiver Jaeger von Krebstieren und kleinen Fischen.",
+    "size": {
+      "avgCm": 18,
+      "maxCm": 40,
+      "avgKg": 0.2,
+      "maxKg": 0.8
+    },
+    "habitat": "Felsriffe, Seegraswiesen, 2-200m Tiefe",
+    "waterTypes": [
+      "meer"
+    ],
+    "techniques": [
+      "Grundangeln",
+      "Jigging",
+      "Paternoster"
+    ],
+    "baits": [
+      "Garnele",
+      "Tintenfisch",
+      "Fischfetzen",
+      "Gummifisch"
+    ],
+    "tips": [
+      "Felsiger Grund mit vielen Verstecken.",
+      "Tagaktiv - bessere Fangchancen bei Sonnenlicht.",
+      "Kleine Haken und Koeder verwenden.",
+      "Vorsichtig - haben kleine scharfe Stacheln."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 14,
+        "max": 24,
+        "ideal": 19
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 20
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 70
+      }
+    },
+    "season": {
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Spaetfruehjahr bis Herbst"
+    },
+    "closedSeason": null,
+    "difficulty": 2,
+    "catchAndRelease": false,
+    "minSize": "15 cm",
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 3,
+      "taste": "mild",
+      "texture": "fest",
+      "preparation": [
+        "Braten",
+        "Grillen",
+        "Suppe"
+      ],
+      "notes": "Schmackhaftes Fleisch, aber klein."
+    },
+    "habitatDetail": {
+      "depthRange": "2-200m",
+      "region": "Adria, Mittelmeer, Atlantik",
+      "structure": [
+        "Felsriffe",
+        "Seegras",
+        "Hoehlen"
+      ]
+    }
+  },
+  {
+    "id": "schriftbarsch",
+    "name": "Schriftbarsch",
+    "nicknames": [
+      "Painted Comber",
+      "Serranus scriba"
+    ],
+    "scientificName": "Serranus scriba",
+    "image": "images/fish/schriftbarsch.svg",
+    "imageCredit": "Generiert / Public Domain",
+    "family": "Serranidae (Saegebarsche)",
+    "description": "Der Schriftbarsch hat ein charakteristisches Muster aus blauen Linien, die an arabische Schrift erinnern. Er ist ein kleiner Raubfisch der Felsriffe. Sehr farbenfroh und interessant.",
+    "size": {
+      "avgCm": 15,
+      "maxCm": 36,
+      "avgKg": 0.15,
+      "maxKg": 0.6
+    },
+    "habitat": "Felsriffe, Seegraswiesen, 1-150m Tiefe",
+    "waterTypes": [
+      "meer",
+      "kueste"
+    ],
+    "techniques": [
+      "Grundangeln",
+      "Paternoster"
+    ],
+    "baits": [
+      "Garnele",
+      "Fischfetzen",
+      "Tintenfisch"
+    ],
+    "tips": [
+      "Felsige Bereiche in 5-30m Tiefe.",
+      "Tagaktiv - besonders aktiv am Vormittag.",
+      "Kleine Haken verwenden.",
+      "Schoen gefaerbter Fisch - gutes Fotomotiv."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 14,
+        "max": 26,
+        "ideal": 20
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 20
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 70
+      }
+    },
+    "season": {
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Spaetfruehjahr bis Herbst"
+    },
+    "closedSeason": null,
+    "difficulty": 2,
+    "catchAndRelease": false,
+    "minSize": "12 cm",
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 3,
+      "taste": "mild",
+      "texture": "fest",
+      "preparation": [
+        "Braten",
+        "Frittieren",
+        "Grillen"
+      ],
+      "notes": "Gutes Fleisch, aber klein."
+    },
+    "habitatDetail": {
+      "depthRange": "1-150m",
+      "region": "Adria, Mittelmeer",
+      "structure": [
+        "Felsriffe",
+        "Seegras"
+      ]
+    }
+  },
+  {
+    "id": "marmorbrasse",
+    "name": "Marmorbrasse",
+    "nicknames": [
+      "Marmor-Geissbrasse",
+      "Lithognathus"
+    ],
+    "scientificName": "Lithognathus mormyrus",
+    "image": "images/fish/marmorbrasse.svg",
+    "imageCredit": "Generiert / Public Domain",
+    "family": "Sparidae (Meerbrassen)",
+    "description": "Die Marmorbrasse hat charakteristische dunkle Querstreifen auf silbrigem Grund. Sie gruendelt im Sand nach Wuermern und Krebstieren. Beliebter Speisefisch mit delikatem Fleisch.",
+    "size": {
+      "avgCm": 25,
+      "maxCm": 55,
+      "avgKg": 0.5,
+      "maxKg": 2
+    },
+    "habitat": "Sandboeden, Seegraswiesen, 0-150m Tiefe",
+    "waterTypes": [
+      "meer",
+      "kueste"
+    ],
+    "techniques": [
+      "Grundangeln",
+      "Brandungsangeln"
+    ],
+    "baits": [
+      "Seeringelwurm",
+      "Garnele",
+      "Muschelfleisch",
+      "Krabbe"
+    ],
+    "tips": [
+      "Sandboden in Kuestennaehe, besonders bei Seegraswiesen.",
+      "Grundnah anbieten - gruendelt aktiv.",
+      "Fruehe Morgenstunden oft am produktivsten.",
+      "Vorsichtiger Beisser - feines Geschirr verwenden."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 12,
+        "max": 26,
+        "ideal": 19
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 20
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 70
+      }
+    },
+    "season": {
+      "bestMonths": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "description": "Fruehjahr bis Herbst"
+    },
+    "closedSeason": null,
+    "difficulty": 2,
+    "catchAndRelease": false,
+    "minSize": "20 cm",
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 5,
+      "taste": "mild",
+      "texture": "zart",
+      "preparation": [
+        "Grillen",
+        "Braten",
+        "Backen",
+        "Daempfen"
+      ],
+      "notes": "Hervorragendes zartes weisses Fleisch, sehr geschaetzt."
+    },
+    "habitatDetail": {
+      "depthRange": "0-150m",
+      "region": "Adria, Mittelmeer, Atlantik",
+      "structure": [
+        "Sandboden",
+        "Seegras"
+      ]
+    }
+  },
+  {
+    "id": "rotdrachenkopf",
+    "name": "Roter Drachenkopf",
+    "nicknames": [
+      "Scorpaena notata",
+      "Small Red Scorpionfish"
+    ],
+    "scientificName": "Scorpaena notata",
+    "image": "images/fish/rotdrachenkopf.svg",
+    "imageCredit": "Generiert / Public Domain",
+    "family": "Scorpaenidae (Skorpionfische)",
+    "description": "Der Rote Drachenkopf ist ein kleinerer Verwandter des Grossen Drachenkopfs mit roetlicher Faerbung. Er lauert am Grund zwischen Felsen. Giftige Stacheln - Vorsicht beim Handhaben!",
+    "size": {
+      "avgCm": 15,
+      "maxCm": 24,
+      "avgKg": 0.1,
+      "maxKg": 0.3
+    },
+    "habitat": "Felsiger Grund, Seegraswiesen, 5-90m Tiefe",
+    "waterTypes": [
+      "meer"
+    ],
+    "techniques": [
+      "Grundangeln",
+      "Jigging"
+    ],
+    "baits": [
+      "Garnele",
+      "Tintenfisch",
+      "Fischfetzen"
+    ],
+    "tips": [
+      "VORSICHT: Giftige Stacheln!",
+      "Felsiger Grund mit Verstecken.",
+      "Grundnah und langsam anbieten.",
+      "Mit Handschuhen oder Zange landen."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 12,
+        "max": 24,
+        "ideal": 18
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 20
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 80
+      }
+    },
+    "season": {
+      "bestMonths": [
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "description": "Fruehjahr und Herbst"
+    },
+    "closedSeason": null,
+    "difficulty": 2,
+    "catchAndRelease": false,
+    "minSize": null,
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 4,
+      "taste": "mild",
+      "texture": "zart",
+      "preparation": [
+        "Suppe",
+        "Braten"
+      ],
+      "notes": "Sehr schmackhaftes Fleisch, ideal fuer Fischsuppe."
+    },
+    "habitatDetail": {
+      "depthRange": "5-90m",
+      "region": "Adria, Mittelmeer",
+      "structure": [
+        "Felsen",
+        "Seegras",
+        "versteckte Bereiche"
+      ]
+    }
+  },
+  {
+    "id": "bernsteinmakrele-gross",
+    "name": "Grosse Bernsteinmakrele",
+    "nicknames": [
+      "Leerfish",
+      "Garrick"
+    ],
+    "scientificName": "Lichia amia",
+    "image": "images/fish/bernsteinmakrele-gross.svg",
+    "imageCredit": "Generiert / Public Domain",
+    "family": "Carangidae (Stachelmakrelen)",
+    "description": "Die Grosse Bernsteinmakrele ist ein kraftvoller pelagischer Raeuber mit silbrigem Koerper. Sie jagt in kleinen Gruppen in Kuestennaehe. Ausgezeichneter Kampffisch.",
+    "size": {
+      "avgCm": 80,
+      "maxCm": 200,
+      "avgKg": 12,
+      "maxKg": 55
+    },
+    "habitat": "Kuestengewaesser, Freiwasser, 0-150m Tiefe",
+    "waterTypes": [
+      "meer",
+      "kueste"
+    ],
+    "techniques": [
+      "Spinnfischen",
+      "Schleppfischen",
+      "Popping",
+      "Jigging"
+    ],
+    "baits": [
+      "Wobbler",
+      "Popper",
+      "Gummifisch",
+      "Lebendkoeder"
+    ],
+    "tips": [
+      "Kuestennahe Bereiche mit Strudelbildung und Stroemung.",
+      "Fruehe Morgenstunden besonders produktiv.",
+      "Schweres Geraet - sehr kraftvolle Fluechte.",
+      "In der Naehe von Fischschwaermen aktiv."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 16,
+        "max": 28,
+        "ideal": 22
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 25
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 60
+      }
+    },
+    "season": {
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Spaetfruehjahr bis Herbst"
+    },
+    "closedSeason": null,
+    "difficulty": 4,
+    "catchAndRelease": false,
+    "minSize": "60 cm",
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 4,
+      "taste": "medium",
+      "texture": "fest",
+      "preparation": [
+        "Grillen",
+        "Braten",
+        "Raeuchern"
+      ],
+      "notes": "Festes schmackhaftes Fleisch."
+    },
+    "habitatDetail": {
+      "depthRange": "0-150m",
+      "region": "Adria, Mittelmeer, Atlantik",
+      "structure": [
+        "Kuestenzone",
+        "Freiwasser",
+        "Stroemung"
+      ]
+    }
+  },
+  {
+    "id": "schermesserfisch",
+    "name": "Schermesserfisch",
+    "nicknames": [
+      "Razor Wrasse",
+      "Xyrichtys"
+    ],
+    "scientificName": "Xyrichtys novacula",
+    "image": "images/fish/schermesserfisch.svg",
+    "imageCredit": "Generiert / Public Domain",
+    "family": "Labridae (Lippfische)",
+    "description": "Der Schermesserfisch hat einen seitlich stark abgeflachten Koerper und vergrabt sich bei Gefahr im Sand. Er jagt kleine Wirbellose. Ungewoehnlicher und interessanter Fisch.",
+    "size": {
+      "avgCm": 15,
+      "maxCm": 30,
+      "avgKg": 0.1,
+      "maxKg": 0.3
+    },
+    "habitat": "Sandboeden, 2-100m Tiefe",
+    "waterTypes": [
+      "meer"
+    ],
+    "techniques": [
+      "Grundangeln"
+    ],
+    "baits": [
+      "Garnele",
+      "Wurm",
+      "Fischfetzen"
+    ],
+    "tips": [
+      "Sandboden in 10-50m Tiefe.",
+      "Vergrabt sich schnell - zue gig landen.",
+      "Tagaktiv.",
+      "Ungewoehnlicher Fang - interessantes Exemplar."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 14,
+        "max": 26,
+        "ideal": 20
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 20
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 80
+      }
+    },
+    "season": {
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Spaetfruehjahr bis Herbst"
+    },
+    "closedSeason": null,
+    "difficulty": 2,
+    "catchAndRelease": false,
+    "minSize": null,
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 2,
+      "taste": "mild",
+      "texture": "zart",
+      "preparation": [
+        "Braten",
+        "Frittieren"
+      ],
+      "notes": "Essbar aber klein, wenig Fleisch."
+    },
+    "habitatDetail": {
+      "depthRange": "2-100m",
+      "region": "Adria, Mittelmeer, Atlantik",
+      "structure": [
+        "Sandboden"
+      ]
+    }
+  },
+  {
+    "id": "spicara",
+    "name": "Spicara",
+    "nicknames": [
+      "Picarel",
+      "Blotched Picarel"
+    ],
+    "scientificName": "Spicara smaris",
+    "image": "images/fish/spicara.svg",
+    "imageCredit": "Generiert / Public Domain",
+    "family": "Centracanthidae (Stachelbrassen)",
+    "description": "Die Spicara ist ein kleiner silbriger Schwarmfisch mit dunklem Schulterfleck. Sie lebt ueber Sand- und Felsgrund. Haeufiger Fisch der Adria, oft als Beifang.",
+    "size": {
+      "avgCm": 12,
+      "maxCm": 20,
+      "avgKg": 0.05,
+      "maxKg": 0.15
+    },
+    "habitat": "Sand- und Felsgrund, Seegraswiesen, 5-130m Tiefe",
+    "waterTypes": [
+      "meer"
+    ],
+    "techniques": [
+      "Paternoster",
+      "Grundangeln"
+    ],
+    "baits": [
+      "Garnele",
+      "Seeringelwurm",
+      "Fischfetzen"
+    ],
+    "tips": [
+      "In grossen Schwaermen - mehrere Haken am Paternoster.",
+      "Kleiner Fisch, aber schmackhaft.",
+      "Oft als Beifang beim Grundangeln.",
+      "Guter Koederfisch fuer groessere Raeuber."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 12,
+        "max": 26,
+        "ideal": 19
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 25
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 80
+      }
+    },
+    "season": {
+      "bestMonths": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "description": "Fruehjahr bis Herbst"
+    },
+    "closedSeason": null,
+    "difficulty": 1,
+    "catchAndRelease": false,
+    "minSize": null,
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 3,
+      "taste": "mild",
+      "texture": "zart",
+      "preparation": [
+        "Frittieren",
+        "Grillen",
+        "Suppe"
+      ],
+      "notes": "Klein aber schmackhaft, besonders frittiert."
+    },
+    "habitatDetail": {
+      "depthRange": "5-130m",
+      "region": "Adria, Mittelmeer",
+      "structure": [
+        "Sandboden",
+        "Felsen",
+        "Seegras"
+      ]
+    }
+  },
+  {
+    "id": "meeraal-schwarz",
+    "name": "Schwarzer Meeraal",
+    "nicknames": [
+      "Blackfish",
+      "Centrolophus"
+    ],
+    "scientificName": "Centrolophus niger",
+    "image": "images/fish/meeraal-schwarz.svg",
+    "imageCredit": "Generiert / Public Domain",
+    "family": "Centrolophidae (Medusenfische)",
+    "description": "Der Schwarze Meeraal ist ein mittelgrosser pelagischer Fisch mit dunkler Faerbung. Jungfische leben unter Quallen, Erwachsene in tieferen Gewaessern. Selten gefangen aber schmackhaft.",
+    "size": {
+      "avgCm": 60,
+      "maxCm": 150,
+      "avgKg": 4,
+      "maxKg": 30
+    },
+    "habitat": "Offenes Meer, pelagische Zone, 40-1000m Tiefe",
+    "waterTypes": [
+      "meer"
+    ],
+    "techniques": [
+      "Vertikalangeln",
+      "Tiefseeschleppfischen"
+    ],
+    "baits": [
+      "Tintenfisch",
+      "Makrele",
+      "Gummifisch"
+    ],
+    "tips": [
+      "Lebt in tieferen Gewaessern - Tiefseeangelei erforderlich.",
+      "Selten gefangen - interessanter Zielfisch.",
+      "Jungfische oft unter Quallen.",
+      "Erwachsene Tiere in 100-400m Tiefe."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 10,
+        "max": 22,
+        "ideal": 16
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 20
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 80
+      }
+    },
+    "season": {
+      "bestMonths": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Sommer"
+    },
+    "closedSeason": null,
+    "difficulty": 4,
+    "catchAndRelease": false,
+    "minSize": "40 cm",
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 4,
+      "taste": "mild",
+      "texture": "fest",
+      "preparation": [
+        "Grillen",
+        "Braten",
+        "Schmoren"
+      ],
+      "notes": "Schmackhaftes festes Fleisch, wenig bekannt aber gut."
+    },
+    "habitatDetail": {
+      "depthRange": "40-1000m",
+      "region": "Adria, Mittelmeer, Atlantik",
+      "structure": [
+        "Freiwasser",
+        "Tiefseebereiche"
+      ]
+    }
+  },
+  {
+    "id": "geissbrasse",
+    "name": "Geissbrasse",
+    "nicknames": [
+      "White Seabream",
+      "Sargo"
+    ],
+    "scientificName": "Diplodus sargus",
+    "image": "images/fish/geissbrasse.svg",
+    "imageCredit": "Generiert / Public Domain",
+    "family": "Sparidae (Meerbrassen)",
+    "description": "Die Geissbrasse ist eine robuste Brasse mit vertikalen dunklen Streifen und einem schwarzen Fleck am Schwanzstiel. Sie ernaehrt sich von hartschaligen Wirbellosen. Beliebter Angelfisch der Felsriffe.",
+    "size": {
+      "avgCm": 25,
+      "maxCm": 45,
+      "avgKg": 0.6,
+      "maxKg": 2
+    },
+    "habitat": "Felsriffe, Hafenmolen, 0-50m Tiefe",
+    "waterTypes": [
+      "meer",
+      "kueste"
+    ],
+    "techniques": [
+      "Grundangeln",
+      "Posenfischen",
+      "Brandungsangeln"
+    ],
+    "baits": [
+      "Garnele",
+      "Krabbe",
+      "Seeigel",
+      "Muschelfleisch",
+      "Napfschnecken"
+    ],
+    "tips": [
+      "Felsige Bereiche und Hafenmolen.",
+      "Sehr kraftvoller Biss - starke Rute verwenden.",
+      "Napfschnecken sind Top-Koeder.",
+      "Vorsichtige Beisser - Geduld ist gefragt."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 12,
+        "max": 26,
+        "ideal": 19
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 25
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 70
+      }
+    },
+    "season": {
+      "bestMonths": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "description": "Fruehjahr bis Herbst"
+    },
+    "closedSeason": null,
+    "difficulty": 3,
+    "catchAndRelease": false,
+    "minSize": "23 cm",
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 5,
+      "taste": "mild",
+      "texture": "fest",
+      "preparation": [
+        "Grillen",
+        "Braten",
+        "Backen"
+      ],
+      "notes": "Erstklassiges festes Fleisch, sehr geschaetzt."
+    },
+    "habitatDetail": {
+      "depthRange": "0-50m",
+      "region": "Adria, Mittelmeer, Atlantik",
+      "structure": [
+        "Felsriffe",
+        "Hafenmolen",
+        "Kuestenzone"
+      ]
+    }
+  },
+  {
+    "id": "meerbarbe-rot",
+    "name": "Rote Meerbarbe",
+    "nicknames": [
+      "Rotbarbe",
+      "Pagellus"
+    ],
+    "scientificName": "Pagellus erythrinus",
+    "image": "images/fish/meerbarbe-rot.svg",
+    "imageCredit": "Generiert / Public Domain",
+    "family": "Sparidae (Meerbrassen)",
+    "description": "Die Rote Meerbarbe ist eigentlich eine Brasse mit roetlicher Faerbung, nicht zu verwechseln mit echten Meerbarben. Sie lebt ueber Sand- und Felsgrund. Guter Speisefisch.",
+    "size": {
+      "avgCm": 25,
+      "maxCm": 60,
+      "avgKg": 0.5,
+      "maxKg": 3
+    },
+    "habitat": "Sand- und Felsgrund, 20-300m Tiefe",
+    "waterTypes": [
+      "meer"
+    ],
+    "techniques": [
+      "Grundangeln",
+      "Vertikalangeln"
+    ],
+    "baits": [
+      "Garnele",
+      "Tintenfisch",
+      "Fischfetzen",
+      "Seeringelwurm"
+    ],
+    "tips": [
+      "Tiefere Bereiche 50-150m sind oft am produktivsten.",
+      "Sand-Fels-Mischgrund bevorzugt.",
+      "Tagsueber aktiv.",
+      "Guter Kampffisch fuer mittleres Geraet."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 10,
+        "max": 24,
+        "ideal": 17
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 25
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 80
+      }
+    },
+    "season": {
+      "bestMonths": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "description": "Fruehjahr bis Herbst"
+    },
+    "closedSeason": null,
+    "difficulty": 2,
+    "catchAndRelease": false,
+    "minSize": "22 cm",
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 4,
+      "taste": "mild",
+      "texture": "fest",
+      "preparation": [
+        "Grillen",
+        "Braten",
+        "Backen"
+      ],
+      "notes": "Schmackhaftes festes Fleisch."
+    },
+    "habitatDetail": {
+      "depthRange": "20-300m",
+      "region": "Adria, Mittelmeer, Atlantik",
+      "structure": [
+        "Sandboden",
+        "Felsen",
+        "Mischgrund"
+      ]
+    }
+  },
+  {
+    "id": "wrackbarsch",
+    "name": "Wrackbarsch",
+    "nicknames": [
+      "Schwarzbarsch",
+      "Stone Bass"
+    ],
+    "scientificName": "Polyprion americanus",
+    "image": "images/fish/wrackbarsch.svg",
+    "imageCredit": "Generiert / Public Domain",
+    "family": "Polyprionidae (Wrackbarsche)",
+    "description": "Der Wrackbarsch ist ein massiver Raubfisch der Wracks und Tiefseefelsen. Er kann sehr gross und alt werden. Seltener aber begehrter Fang fuer Tiefseeangler. Kraftvoller Kaempfer.",
+    "size": {
+      "avgCm": 80,
+      "maxCm": 200,
+      "avgKg": 20,
+      "maxKg": 100
+    },
+    "habitat": "Wracks, Tiefseefelsen, Hoehlen, 40-600m Tiefe",
+    "waterTypes": [
+      "meer"
+    ],
+    "techniques": [
+      "Vertikalangeln",
+      "Tiefseeschleppfischen",
+      "Jigging"
+    ],
+    "baits": [
+      "Tintenfisch",
+      "Makrele",
+      "Grosse Gummifische",
+      "Pilker"
+    ],
+    "tips": [
+      "Wracks in 60-200m Tiefe sind Top-Spots.",
+      "Sehr schweres Geraet erforderlich - entwickeln enorme Kraft.",
+      "Langsame Koederfuehrung am Grund.",
+      "Grosses Mundwerk - grosse Haken verwenden."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 10,
+        "max": 22,
+        "ideal": 16
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 15
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 70
+      }
+    },
+    "season": {
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Spaetfruehjahr bis Herbst"
+    },
+    "closedSeason": null,
+    "difficulty": 5,
+    "catchAndRelease": false,
+    "minSize": "45 cm",
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 4,
+      "taste": "mild",
+      "texture": "fest",
+      "preparation": [
+        "Grillen",
+        "Braten",
+        "Schmoren"
+      ],
+      "notes": "Festes schmackhaftes Fleisch, grosse Exemplare koennen zaeh sein."
+    },
+    "habitatDetail": {
+      "depthRange": "40-600m",
+      "region": "Adria, Mittelmeer, Atlantik",
+      "structure": [
+        "Wracks",
+        "Tiefseefelsen",
+        "Hoehlen"
+      ]
+    }
   }
 ]
