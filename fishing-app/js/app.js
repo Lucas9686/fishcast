@@ -739,7 +739,7 @@
             var breakdown = dayCatch.breakdown || {};
 
             // Calculate best fishing time for this day
-            var bestTime = calculateBestFishingTime(daySolunar, day.sunrise, day.sunset, dayTides);
+            var bestTime = calculateBestFishingTime(daySolunar, day.sunrise, day.sunset, dayTides && dayTides.tides ? dayTides.tides : null);
 
             // Build solunar periods HTML
             var solunarHtml = '';
@@ -893,14 +893,14 @@
                                 '<div class="daily-accordion__group-grid">' +
                                     '<div class="daily-accordion__data-item">' +
                                         '<span class="daily-accordion__data-label">Wellenhoehe</span>' +
-                                        '<span class="daily-accordion__data-value">' + _esc(dayMarineData.waveHeight.toFixed(1)) + ' m</span>' +
+                                        '<span class="daily-accordion__data-value">' + (dayMarineData.waveHeightMax != null ? _esc(dayMarineData.waveHeightMax.toFixed(1)) + ' m' : '--') + '</span>' +
                                     '</div>' +
-                                    '<div class="daily-accordion__data-item">' +
+                                    (dayMarineData.wavePeriodAvg != null ? '<div class="daily-accordion__data-item">' +
                                         '<span class="daily-accordion__data-label">Wellenperiode</span>' +
-                                        '<span class="daily-accordion__data-value">' + _esc(dayMarineData.wavePeriod.toFixed(0)) + ' s</span>' +
-                                    '</div>' +
+                                        '<span class="daily-accordion__data-value">' + _esc(dayMarineData.wavePeriodAvg.toFixed(0)) + ' s</span>' +
+                                    '</div>' : '') +
                                 '</div>' +
-                                (dayTides && dayTides.length > 0 ? '<canvas class="daily-accordion__tidal-chart" id="tidal-chart-day-' + i + '" width="300" height="80"></canvas>' : '') +
+                                (dayTides && dayTides.tides && dayTides.tides.length > 0 ? '<canvas class="daily-accordion__tidal-chart" id="tidal-chart-day-' + i + '" width="300" height="80"></canvas>' : '') +
                             '</div>'
                         : '') +
                         // GROUP 5: Fangprognose
@@ -909,7 +909,7 @@
                             '<div class="daily-accordion__score-header">' +
                                 '<span class="daily-accordion__catch-badge-large" style="background:' + dayCatch.color + '">' + dayCatch.overall + '%</span>' +
                                 '<div class="daily-accordion__best-time">' +
-                                    '<strong>Beste Zeit:</strong> ' + _esc(bestTime) +
+                                    '<strong>Beste Zeit:</strong> ' + (bestTime ? _esc(bestTime.start) + ' - ' + _esc(bestTime.end) : '--') +
                                 '</div>' +
                             '</div>' +
                             '<div class="daily-accordion__solunar-periods">' + solunarHtml + '</div>' +
@@ -936,19 +936,18 @@
                     if (firstExpand) {
                         firstExpand = false;
                         // Draw pressure sparkline for today (day 0)
-                        if (i === 0 && currentWeather.hourly) {
+                        if (i === 0 && currentWeather.pressureHistory) {
                             var sparklineCanvas = item.querySelector('#sparkline-day-' + i);
                             if (sparklineCanvas && typeof drawPressureSparkline === 'function') {
-                                var pressureData = currentWeather.hourly.map(function(h) { return h.pressure; });
                                 var nowIndex = findNowIndex(currentWeather.hourly);
-                                drawPressureSparkline(sparklineCanvas, pressureData, nowIndex);
+                                drawPressureSparkline(sparklineCanvas, currentWeather.pressureHistory, nowIndex);
                             }
                         }
                         // Draw tidal chart if coastal
-                        if (dayTides && dayTides.length > 0) {
+                        if (dayTides && dayTides.tides && dayTides.tides.length > 0) {
                             var tidalCanvas = item.querySelector('#tidal-chart-day-' + i);
                             if (tidalCanvas && typeof drawTidalTimeline === 'function') {
-                                drawTidalTimeline(tidalCanvas, dayTides, 0, 24);
+                                drawTidalTimeline(tidalCanvas, dayTides.tides, 0, 24);
                             }
                         }
                     }
@@ -960,21 +959,20 @@
 
         // Draw charts for initially expanded day (today)
         var todayItem = container.querySelector('.daily-accordion__item.is-expanded');
-        if (todayItem && currentWeather.hourly) {
+        if (todayItem && currentWeather.pressureHistory) {
             var sparklineCanvas = todayItem.querySelector('#sparkline-day-0');
             if (sparklineCanvas && typeof drawPressureSparkline === 'function') {
-                var pressureData = currentWeather.hourly.map(function(h) { return h.pressure; });
                 var nowIndex = findNowIndex(currentWeather.hourly);
-                drawPressureSparkline(sparklineCanvas, pressureData, nowIndex);
+                drawPressureSparkline(sparklineCanvas, currentWeather.pressureHistory, nowIndex);
             }
         }
         // Draw tidal chart for today if coastal
         if (currentMarineData && currentMarineData.isCoastal && currentMarineData.tides && currentMarineData.tides[0]) {
             var todayTides = currentMarineData.tides[0];
-            if (todayTides && todayTides.length > 0 && todayItem) {
+            if (todayTides && todayTides.tides && todayTides.tides.length > 0 && todayItem) {
                 var tidalCanvas = todayItem.querySelector('#tidal-chart-day-0');
                 if (tidalCanvas && typeof drawTidalTimeline === 'function') {
-                    drawTidalTimeline(tidalCanvas, todayTides, 0, 24);
+                    drawTidalTimeline(tidalCanvas, todayTides.tides, 0, 24);
                 }
             }
         }
