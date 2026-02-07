@@ -31,10 +31,13 @@ Decimal phases appear between their surrounding integers in numeric order.
   3. User sees marine data (wave height, conditions) for coastal locations
   4. User sees barometric pressure as 48-hour trend graph showing rising/falling/stable patterns
   5. User sees fishing score (0-100) with rating for each day
-**Plans**: TBD
+**Plans**: 4 plans
 
 Plans:
-- [ ] 01-01: TBD during planning
+- [ ] 01-01-PLAN.md -- API + data layer: weather params, Marine API, scoring, moon rise/set
+- [ ] 01-02-PLAN.md -- Canvas charts: 48h pressure sparkline + tidal timeline
+- [ ] 01-03-PLAN.md -- UI restructure: accordion thematic groups, wiring data + charts
+- [ ] 01-04-PLAN.md -- Integration: service worker update, testing, visual verification
 
 ### Phase 2: Dark Marine Theme
 **Goal**: App has professional dark marine appearance optimized for mobile use with smooth animations
@@ -114,11 +117,11 @@ Plans:
 ## Progress
 
 **Execution Order:**
-Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6
+Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Weather Enhancement | 0/TBD | Not started | - |
+| 1. Weather Enhancement | 0/4 | Planned | - |
 | 2. Dark Marine Theme | 0/TBD | Not started | - |
 | 3. Fish Catalog Expansion | 0/TBD | Not started | - |
 | 4. Filter & Search System | 0/TBD | Not started | - |
