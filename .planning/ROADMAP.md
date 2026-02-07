@@ -48,10 +48,11 @@ Plans:
   2. User toggles weather days and sees smooth accordion animations (expand/collapse)
   3. User switches between light/dark/auto theme modes without seeing color flicker
   4. User navigates on mobile and all touch targets are appropriately sized and responsive
-**Plans**: TBD
+**Plans**: 2 plans
 
 Plans:
-- [ ] 02-01: TBD during planning
+- [ ] 02-01-PLAN.md -- CSS marine retheme, theme system, wave/glow/animations, anti-flicker, HTML toggle button
+- [ ] 02-02-PLAN.md -- ThemeToggle JS, card fade-in observer, tab pulse trigger, service worker bump
 
 ### Phase 3: Fish Catalog Expansion
 **Goal**: Users can explore 200+ fish species with comprehensive fishing information including bait, methods, habitat, and preparation details
@@ -122,7 +123,7 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Weather Enhancement | 4/4 | Complete | 2026-02-07 |
-| 2. Dark Marine Theme | 0/TBD | Not started | - |
+| 2. Dark Marine Theme | 0/2 | Not started | - |
 | 3. Fish Catalog Expansion | 0/TBD | Not started | - |
 | 4. Filter & Search System | 0/TBD | Not started | - |
 | 5. Navigation & Favorites | 0/TBD | Not started | - |
