@@ -93,13 +93,50 @@
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| — | — | — |
+| WETTER-01 | Phase 1 | Pending |
+| WETTER-02 | Phase 1 | Pending |
+| WETTER-03 | Phase 1 | Pending |
+| WETTER-04 | Phase 1 | Pending |
+| WETTER-05 | Phase 1 | Pending |
+| WETTER-06 | Phase 1 | Pending |
+| WETTER-07 | Phase 1 | Pending |
+| WETTER-08 | Phase 1 | Pending |
+| WETTER-09 | Phase 1 | Pending |
+| WETTER-10 | Phase 1 | Pending |
+| WETTER-11 | Phase 1 | Pending |
+| WETTER-12 | Phase 1 | Pending |
+| WETTER-13 | Phase 1 | Pending |
+| UI-02 | Phase 2 | Pending |
+| UI-03 | Phase 2 | Pending |
+| UI-04 | Phase 2 | Pending |
+| FISCH-01 | Phase 3 | Pending |
+| FISCH-02 | Phase 3 | Pending |
+| FISCH-03 | Phase 3 | Pending |
+| FISCH-04 | Phase 3 | Pending |
+| FISCH-05 | Phase 3 | Pending |
+| FISCH-06 | Phase 3 | Pending |
+| FISCH-07 | Phase 3 | Pending |
+| FISCH-08 | Phase 3 | Pending |
+| FILTER-01 | Phase 4 | Pending |
+| FILTER-02 | Phase 4 | Pending |
+| FILTER-03 | Phase 4 | Pending |
+| FILTER-04 | Phase 4 | Pending |
+| FILTER-05 | Phase 4 | Pending |
+| FILTER-06 | Phase 4 | Pending |
+| FAV-01 | Phase 5 | Pending |
+| FAV-02 | Phase 5 | Pending |
+| FAV-03 | Phase 5 | Pending |
+| UI-01 | Phase 5 | Pending |
+| PWA-01 | Phase 6 | Pending |
+| PWA-02 | Phase 6 | Pending |
+| PWA-03 | Phase 6 | Pending |
+| PWA-04 | Phase 6 | Pending |
 
 **Coverage:**
-- v1 requirements: 30 total
-- Mapped to phases: 0
-- Unmapped: 30 ⚠️
+- v1 requirements: 38 total
+- Mapped to phases: 38
+- Unmapped: 0
 
 ---
 *Requirements defined: 2026-02-07*
-*Last updated: 2026-02-07 after initial definition*
+*Last updated: 2026-02-07 after roadmap creation*
