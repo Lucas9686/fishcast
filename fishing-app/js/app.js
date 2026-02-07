@@ -26,6 +26,136 @@
     const $ = (id) => document.getElementById(id);
 
     // ============================================================
+    // Theme Toggle
+    // ============================================================
+    var THEME_MODES = ['dark', 'light', 'auto'];
+    var THEME_ICONS = { dark: '\u{1F319}', light: '\u{2600}\uFE0F', auto: '\u{1F504}' };
+    var THEME_LABELS = { dark: 'Dunkel', light: 'Hell', auto: 'Auto' };
+    var THEME_STORAGE_KEY = 'theme';
+
+    /**
+     * ThemeToggle - Manages dark/light/auto theme cycling
+     * Reads/writes localStorage, sets data-theme attribute on <html>,
+     * updates meta theme-color, listens for system preference changes.
+     */
+    function ThemeToggle() {
+        this.button = $('btn-theme-toggle');
+        if (!this.button) return;
+
+        this.currentTheme = this._getStored() || 'auto';
+        this._applyTheme(this.currentTheme);
+        this._updateIcon();
+        this._bindEvents();
+    }
+
+    ThemeToggle.prototype._getStored = function() {
+        try {
+            return localStorage.getItem(THEME_STORAGE_KEY);
+        } catch (e) {
+            return null;
+        }
+    };
+
+    ThemeToggle.prototype._save = function(theme) {
+        try {
+            localStorage.setItem(THEME_STORAGE_KEY, theme);
+        } catch (e) {
+            console.warn('Theme-Einstellung konnte nicht gespeichert werden');
+        }
+    };
+
+    ThemeToggle.prototype._applyTheme = function(theme) {
+        var resolvedTheme;
+        if (theme === 'auto') {
+            resolvedTheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        } else {
+            resolvedTheme = theme;
+        }
+        document.documentElement.setAttribute('data-theme', resolvedTheme);
+
+        // Update meta theme-color for mobile browser chrome
+        var metaTheme = document.querySelector('meta[name="theme-color"]');
+        if (metaTheme) {
+            metaTheme.setAttribute('content', resolvedTheme === 'dark' ? '#0d1b2a' : '#00bcd4');
+        }
+    };
+
+    ThemeToggle.prototype._updateIcon = function() {
+        this.button.textContent = THEME_ICONS[this.currentTheme];
+        this.button.setAttribute('aria-label', 'Theme: ' + THEME_LABELS[this.currentTheme]);
+        this.button.setAttribute('title', 'Theme: ' + THEME_LABELS[this.currentTheme]);
+    };
+
+    ThemeToggle.prototype.toggle = function() {
+        // Add transition class for smooth color fade
+        document.documentElement.classList.add('theme-transition');
+
+        var currentIndex = THEME_MODES.indexOf(this.currentTheme);
+        var nextIndex = (currentIndex + 1) % THEME_MODES.length;
+        this.currentTheme = THEME_MODES[nextIndex];
+
+        this._save(this.currentTheme);
+        this._applyTheme(this.currentTheme);
+        this._updateIcon();
+
+        // Remove transition class after fade completes (300ms)
+        var self = this;
+        setTimeout(function() {
+            document.documentElement.classList.remove('theme-transition');
+        }, 350);
+    };
+
+    ThemeToggle.prototype._bindEvents = function() {
+        var self = this;
+
+        // Click to cycle through themes
+        this.button.addEventListener('click', function() {
+            self.toggle();
+        });
+
+        // Listen for system preference changes (applies when in auto mode)
+        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function() {
+            if (self.currentTheme === 'auto') {
+                self._applyTheme('auto');
+            }
+        });
+    };
+
+    // ============================================================
+    // Card Fade-In on Scroll
+    // ============================================================
+    /**
+     * setupCardFadeIn - Uses Intersection Observer to animate cards
+     * entering the viewport. Cards start hidden and fade in once.
+     * Disabled when user prefers reduced motion.
+     */
+    function setupCardFadeIn() {
+        // Skip if user prefers reduced motion
+        if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+            return;
+        }
+
+        var observer = new IntersectionObserver(function(entries) {
+            entries.forEach(function(entry) {
+                if (entry.isIntersecting) {
+                    entry.target.classList.remove('fade-in-hidden');
+                    entry.target.classList.add('fade-in-visible');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        });
+
+        // Observe all cards currently in the DOM
+        document.querySelectorAll('.card').forEach(function(card) {
+            card.classList.add('fade-in-hidden');
+            observer.observe(card);
+        });
+    }
+
+    // ============================================================
     // Initialization
     // ============================================================
     document.addEventListener('DOMContentLoaded', async function () {
@@ -59,6 +189,9 @@
         // Setup tab navigation
         setupTabs();
 
+        // Setup theme toggle
+        new ThemeToggle();
+
         // Setup location search
         setupLocationSearch();
 
@@ -73,6 +206,9 @@
 
         // Render favorites section
         renderFavoritesSection();
+
+        // Setup card fade-in animation
+        setupCardFadeIn();
 
         // Load saved location or use default
         try {
@@ -139,6 +275,15 @@
 
                 var targetId = tab.getAttribute('aria-controls');
                 switchTab(tab.id, targetId);
+
+                // Tab pulse micro-interaction
+                if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                    tab.classList.add('tab-pulse');
+                    tab.addEventListener('animationend', function removePulse() {
+                        tab.classList.remove('tab-pulse');
+                        tab.removeEventListener('animationend', removePulse);
+                    });
+                }
             });
         });
     }
