@@ -12,7 +12,7 @@ See: .planning/PROJECT.md (updated 2026-02-07)
 Phase: 1 of 6 (Weather Enhancement)
 Plan: 1 of 4 complete
 Status: In progress
-Last activity: 2026-02-07 — Completed 01-02-PLAN.md (Canvas visualizations)
+Last activity: 2026-02-07 — Completed 01-01-PLAN.md (Data layer enhancements)
 
 Progress: [█░░░░░░░░░] 25% (Phase 1: 1/4 plans complete)
 
@@ -20,17 +20,17 @@ Progress: [█░░░░░░░░░] 25% (Phase 1: 1/4 plans complete)
 
 **Velocity:**
 - Total plans completed: 1
-- Average duration: 2min
-- Total execution time: 0.03 hours
+- Average duration: 5min
+- Total execution time: 0.08 hours
 
 **By Phase:**
 
 | Phase | Plans | Total | Avg/Plan |
 |-------|-------|-------|----------|
-| 01-weather-enhancement | 1/4 | 2min | 2min |
+| 01-weather-enhancement | 1/4 | 5min | 5min |
 
 **Recent Trend:**
-- Last 5 plans: 01-02 (2min)
+- Last 5 plans: 01-01 (5min)
 - Trend: Just started
 
 *Updated after each plan completion*
@@ -48,11 +48,12 @@ Recent decisions affecting current work:
 - Bottom Tab Bar — Standard Mobile-Navigation, schneller Wechsel zwischen Seiten (Pending)
 - Open-Meteo beibehalten (vorbehaltlich Recherche) — Kostenlos, kein API-Key, gute Marine-Daten, bereits integriert (Pending)
 
-**From 01-02 (Canvas Visualizations):**
-- Pure Canvas 2D API instead of charting library — Zero dependencies, maintains codebase philosophy (Active)
-- Color-coded pressure zones (green=falling/good) — Immediate visual fishing favorability indicator (Active)
-- Cosine interpolation for tidal curve — Natural S-curve matches tidal physics (Active)
-- High-DPI rendering via devicePixelRatio — Crisp mobile visuals (Active)
+**From 01-01 (Data Layer Enhancements):**
+- Dynamic weight system for fishing scores — 7 factors inland, 9 coastal, both sum to 100% (Active)
+- Marine API coastal detection via probe — fetchMarineData returns {isCoastal: false} gracefully for inland (Active)
+- Tide extraction via peak detection — Marine API doesn't provide direct tide predictions, use wave_height maxima/minima (Active)
+- Backward compatibility maintained — Old CATCH_WEIGHTS still works, new system detected via typeof check (Active)
+- past_days: 1 for pressure history — Single API call returns 48h pressure data for sparkline graph (Active)
 
 ### Pending Todos
 
@@ -65,5 +66,5 @@ None yet.
 ## Session Continuity
 
 Last session: 2026-02-07 (plan execution)
-Stopped at: Completed 01-02-PLAN.md (Canvas visualizations: sparkline.js + tidal-chart.js)
+Stopped at: Completed 01-01-PLAN.md (Data layer: Marine API, enhanced scoring, moon rise/set, tide extraction)
 Resume file: None
