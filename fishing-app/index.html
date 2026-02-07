@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <meta name="theme-color" content="#1a5e2a">
+    <meta name="theme-color" content="#0d1b2a">
     <meta name="description" content="Petri Heil - Angel-Wetter &amp; Fangprognose App">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -19,6 +19,20 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
           integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
           crossorigin="">
+
+    <!-- Theme: anti-flicker (must run before CSS) -->
+    <script>
+      (function() {
+        var stored = localStorage.getItem('theme');
+        var theme = stored || 'auto';
+        if (theme === 'auto') {
+          var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          document.documentElement.setAttribute('data-theme', prefersDark ? 'dark' : 'light');
+        } else {
+          document.documentElement.setAttribute('data-theme', theme);
+        }
+      })();
+    </script>
 
     <!-- App CSS -->
     <link rel="stylesheet" href="css/style.css">
@@ -56,6 +70,9 @@
                         <line x1="8" y1="2" x2="8" y2="18" stroke="currentColor" stroke-width="2"/>
                         <line x1="16" y1="6" x2="16" y2="22" stroke="currentColor" stroke-width="2"/>
                     </svg>
+                </button>
+                <button id="btn-theme-toggle" class="btn-icon btn-theme-toggle" aria-label="Theme wechseln" title="Theme wechseln">
+                    🔄
                 </button>
             </div>
             <div id="current-location" class="location-bar__current">Standort wird geladen...</div>
