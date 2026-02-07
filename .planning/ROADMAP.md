@@ -67,8 +67,8 @@ Plans:
 **Plans**: 5 plans
 
 Plans:
-- [ ] 03-01-PLAN.md -- Schema extension + UI: edibility/habitat rendering in fish-ui.js, CSS styles
-- [ ] 03-02-PLAN.md -- Data batch 1: retrofit edibility on 62 existing + add ~50 new species
+- [x] 03-01-PLAN.md -- Schema extension + UI: edibility/habitat rendering in fish-ui.js, CSS styles
+- [x] 03-02-PLAN.md -- Data batch 1: retrofit edibility on 62 existing + add ~50 new species (112 total)
 - [ ] 03-03-PLAN.md -- Data batch 2: add ~50 more species (Adriatic + freshwater)
 - [ ] 03-04-PLAN.md -- Data batch 3: add ~40+ species to reach 200+ total
 - [ ] 03-05-PLAN.md -- Integration: lazy loading, service worker bump, visual verification
