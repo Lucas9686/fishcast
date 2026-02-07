@@ -9,29 +9,30 @@ See: .planning/PROJECT.md (updated 2026-02-07)
 
 ## Current Position
 
-Phase: 1 of 6 (Weather Enhancement) — COMPLETE
-Plan: All 4 plans executed and verified
-Status: Phase 1 verified and complete. Ready for Phase 2.
-Last activity: 2026-02-07 — Phase 1 verified (9/9 must-haves passed), ROADMAP/STATE/REQUIREMENTS updated
+Phase: 2 of 6 (Dark Marine Theme) — IN PROGRESS
+Plan: 1 of 3 complete (CSS marine retheme)
+Status: Plan 02-01 complete. Ready for Plan 02-02 (Theme Toggle JS).
+Last activity: 2026-02-07 — Completed 02-01-PLAN.md (CSS marine retheme and data-theme system)
 
-Progress: [██░░░░░░░░] 17% (Phase 1 of 6 complete)
+Progress: [██░░░░░░░░] 20% (Phase 1 complete + Plan 02-01 complete)
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 4
-- Average duration: 4.5min
-- Total execution time: 0.32 hours
+- Total plans completed: 5
+- Average duration: 4.6min
+- Total execution time: 0.40 hours
 
 **By Phase:**
 
 | Phase | Plans | Total | Avg/Plan |
 |-------|-------|-------|----------|
 | 01-weather-enhancement | 4/4 | 19min | 4.8min |
+| 02-dark-marine-theme | 1/3 | 4.5min | 4.5min |
 
 **Recent Trend:**
-- Last 5 plans: 01-01 (5min), 01-02 (4min), 01-03 (4min), 01-04 (6min)
-- Trend: Consistent velocity, slight increase for integration tasks
+- Last 5 plans: 01-02 (4min), 01-03 (4min), 01-04 (6min), 02-01 (4.5min)
+- Trend: Consistent velocity around 4-5min for standard tasks
 
 *Updated after each plan completion*
 
@@ -67,6 +68,14 @@ Recent decisions affecting current work:
 - Marine API offline support — Marine API responses cached via service worker for offline coastal detection (Active)
 - Data structure validation pattern — Always use pressureHistory for sparkline, tides[i].tides for tidal chart (Active)
 
+**From 02-01 (CSS Marine Retheme):**
+- Dark as default theme — Dark marine (#0d1b2a) in :root, light mode via [data-theme="light"] (Active)
+- [data-theme] over media queries — User-controlled theme via localStorage instead of OS preference (Active)
+- Inline anti-flicker script — Synchronous script before CSS prevents FOUC on theme load (Active)
+- Turquoise glow effects — Card borders use rgba(0, 188, 212, 0.15) for marine aesthetic (Active)
+- Accordion speed 0.25s — Reduced from 0.35s for snappier interaction (Active)
+- Wave animation 20s duration — Slow background drift for marine ambiance without distraction (Active)
+
 ### Pending Todos
 
 None yet.
@@ -77,9 +86,9 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-02-07 (phase execution + verification)
-Stopped at: Phase 1 fully complete and verified. All 13 WETTER requirements satisfied.
+Last session: 2026-02-07 (plan execution)
+Stopped at: Completed 02-01-PLAN.md (CSS marine retheme and data-theme system)
 Resume file: None
 
-**Phase 1 Status:** VERIFIED COMPLETE — 9/9 must-haves passed, 13/13 WETTER requirements done
-**Next Steps:** Phase 2 (Dark Marine Theme) — /gsd:discuss-phase 2
+**Phase 2 Status:** IN PROGRESS — Plan 02-01 complete (1/3 plans)
+**Next Steps:** Execute Plan 02-02 (Theme Toggle JS) — /gsd:execute-phase 2
