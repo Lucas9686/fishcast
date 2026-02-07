@@ -5,40 +5,46 @@
 
 /* --- Custom Properties --- */
 :root {
-    /* Primary: forest/nature greens */
-    --color-primary: #1a5e2a;
-    --color-primary-light: #2d8a42;
-    --color-primary-dark: #0f3d1a;
-    --color-primary-surface: #e8f5e9;
+    /* Marine palette */
+    --color-primary: #00bcd4;
+    --color-primary-light: #26c6da;
+    --color-primary-dark: #0097a7;
+    --color-primary-surface: #1b263b;
 
-    /* Accent: warm gold/amber */
+    /* Accent: warm gold/amber (preserved from original) */
     --color-accent: #d4910a;
     --color-accent-light: #f5c842;
 
-    /* Backgrounds */
-    --color-bg: #f0f4f0;
-    --color-bg-card: #ffffff;
-    --color-bg-overlay: rgba(0, 0, 0, 0.45);
+    /* Backgrounds (dark marine default) */
+    --color-bg: #0d1b2a;
+    --color-bg-card: #1b263b;
+    --color-bg-elevated: #243447;
+    --color-bg-overlay: rgba(0, 0, 0, 0.6);
 
     /* Text (high contrast for outdoor reading) */
-    --color-text: #1a1a1a;
-    --color-text-secondary: #4a4a4a;
-    --color-text-muted: #757575;
+    --color-text: #e0e0e0;
+    --color-text-secondary: #a0b0c0;
+    --color-text-muted: #808fa0;
     --color-text-inverse: #ffffff;
 
     /* Borders & Shadows */
-    --color-border: #d0d8d0;
-    --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.12);
-    --shadow-md: 0 2px 8px rgba(0, 0, 0, 0.15);
-    --shadow-lg: 0 4px 16px rgba(0, 0, 0, 0.18);
+    --color-border: rgba(0, 188, 212, 0.15);
+    --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.3);
+    --shadow-md: 0 2px 8px rgba(0, 0, 0, 0.4);
+    --shadow-lg: 0 4px 16px rgba(0, 0, 0, 0.5);
 
-    /* Catch ratings */
+    /* Glow effects */
+    --glow-turquoise: rgba(0, 188, 212, 0.15);
+    --glow-turquoise-strong: rgba(0, 188, 212, 0.25);
+    --shadow-glow: 0 4px 16px var(--glow-turquoise);
+
+    /* Catch ratings (unchanged) */
     --color-excellent: #22c55e;
     --color-good: #3b82f6;
     --color-moderate: #f59e0b;
     --color-poor: #ef4444;
 
-    /* Layout */
+    /* Layout (unchanged) */
     --top-bar-height: 96px;
     --tab-bar-height: 60px;
     --radius: 12px;
@@ -49,6 +55,41 @@
     /* Safe area for notched phones */
     --safe-top: env(safe-area-inset-top, 0px);
     --safe-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+/* --- Marine Light Theme --- */
+[data-theme="light"] {
+    --color-primary: #00bcd4;
+    --color-primary-light: #26c6da;
+    --color-primary-dark: #0097a7;
+    --color-primary-surface: #e0f7fa;
+
+    --color-bg: #f0f4f8;
+    --color-bg-card: #ffffff;
+    --color-bg-elevated: #e8eef4;
+    --color-bg-overlay: rgba(0, 0, 0, 0.45);
+
+    --color-text: #1a1a1a;
+    --color-text-secondary: #4a4a4a;
+    --color-text-muted: #757575;
+    --color-text-inverse: #ffffff;
+
+    --color-border: #c0d0e0;
+    --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.08);
+    --shadow-md: 0 2px 8px rgba(0, 0, 0, 0.12);
+    --shadow-lg: 0 4px 16px rgba(0, 0, 0, 0.15);
+
+    --glow-turquoise: rgba(0, 188, 212, 0.08);
+    --glow-turquoise-strong: rgba(0, 188, 212, 0.15);
+    --shadow-glow: 0 4px 16px var(--glow-turquoise);
+}
+
+/* --- Theme Transition --- */
+html.theme-transition,
+html.theme-transition *,
+html.theme-transition *::before,
+html.theme-transition *::after {
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease !important;
 }
 
 /* --- Reset & Base --- */
@@ -271,6 +312,28 @@ a {
     transform: scale(0.96);
 }
 
+/* --- Theme Toggle --- */
+.btn-theme-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: var(--touch-min);
+    height: var(--touch-min);
+    border-radius: var(--radius-sm);
+    font-size: 1.3rem;
+    line-height: 1;
+    transition: background 0.2s, transform 0.1s;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.btn-theme-toggle:hover {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.btn-theme-toggle:active {
+    transform: scale(0.9);
+}
+
 /* --- Map Container --- */
 .map-container {
     position: relative;
@@ -315,16 +378,17 @@ a {
 .card {
     background: var(--color-bg-card);
     border-radius: var(--radius);
-    box-shadow: var(--shadow-sm);
+    box-shadow: var(--shadow-sm), 0 0 0 1px var(--glow-turquoise), var(--shadow-glow);
     margin-bottom: 12px;
     overflow: hidden;
     border-left: 3px solid var(--color-primary-light);
-    transition: box-shadow 0.2s, transform 0.2s;
+    transition: box-shadow 0.3s ease, transform 0.2s ease, border-color 0.3s ease;
 }
 
 .card:hover {
-    box-shadow: var(--shadow-md);
-    transform: translateY(-1px);
+    box-shadow: var(--shadow-md), 0 0 0 1px rgba(0, 188, 212, 0.2), 0 8px 24px var(--glow-turquoise-strong);
+    transform: translateY(-2px);
+    border-color: var(--color-primary);
 }
 
 .card__header {
@@ -343,6 +407,18 @@ a {
 .card__meta {
     font-size: 0.75rem;
     color: var(--color-text-muted);
+}
+
+/* --- Card Fade-In on Scroll --- */
+.card.fade-in-hidden {
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+.card.fade-in-visible {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 0.4s ease, transform 0.4s ease;
 }
 
 /* --- Weather Current --- */
@@ -540,6 +616,12 @@ a {
 }
 
 .solunar-period-badge--minor {
+    background: #3b2e1c;
+    color: #fbbf24;
+    border: 1px solid #92400e;
+}
+
+[data-theme="light"] .solunar-period-badge--minor {
     background: #fff8e1;
     color: #b8860b;
     border: 1px solid #f5c842;
@@ -745,7 +827,8 @@ a {
 }
 
 .daily-accordion__summary:hover {
-    background: var(--color-primary-surface);
+    background: var(--color-bg-elevated);
+    box-shadow: inset 0 0 0 1px var(--glow-turquoise);
 }
 
 .daily-accordion__summary:focus-visible {
@@ -809,7 +892,7 @@ a {
     height: 20px;
     flex-shrink: 0;
     position: relative;
-    transition: transform 0.3s ease;
+    transition: transform 0.25s ease;
 }
 
 .daily-accordion__chevron::before {
@@ -822,7 +905,7 @@ a {
     border-right: 2px solid var(--color-text-muted);
     border-bottom: 2px solid var(--color-text-muted);
     transform: translate(-50%, -65%) rotate(45deg);
-    transition: transform 0.3s ease;
+    transition: transform 0.25s ease;
 }
 
 .daily-accordion__item.is-expanded .daily-accordion__chevron {
@@ -833,7 +916,7 @@ a {
 .daily-accordion__detail {
     display: grid;
     grid-template-rows: 0fr;
-    transition: grid-template-rows 0.35s ease;
+    transition: grid-template-rows 0.25s ease;
 }
 
 .daily-accordion__item.is-expanded .daily-accordion__detail {
@@ -915,6 +998,11 @@ a {
     font-size: 0.85rem;
     color: var(--color-text-secondary);
     line-height: 1.4;
+}
+
+[data-theme="light"] .daily-accordion__recommendation {
+    background: var(--color-primary-surface);
+    color: var(--color-text-secondary);
 }
 
 .daily-accordion__rec-icon::before {
@@ -1209,6 +1297,15 @@ a {
     transition: transform 0.3s ease;
 }
 
+.fish-card__image img {
+    border-radius: var(--radius-sm);
+    border: 1px solid rgba(0, 188, 212, 0.15);
+}
+
+[data-theme="light"] .fish-card__image img {
+    border: none;
+}
+
 .fish-card:hover .fish-card__image {
     transform: scale(1.05);
 }
@@ -1236,29 +1333,56 @@ a {
     letter-spacing: 0.5px;
 }
 
+/* Category badges - dark mode defaults */
 .fish-card__category--raubfisch {
-    background: #fee2e2;
-    color: #b91c1c;
+    background: #3b1c1c;
+    color: #f87171;
 }
 
 .fish-card__category--friedfisch {
-    background: #e0f2fe;
-    color: #0369a1;
+    background: #1c2e3b;
+    color: #60a5fa;
 }
 
 .fish-card__category--salmonide {
-    background: #fef3c7;
-    color: #92400e;
+    background: #3b2e1c;
+    color: #fbbf24;
 }
 
 .fish-card__category--salzwasser {
-    background: #e0f7fa;
-    color: #00695c;
+    background: #1c2e2e;
+    color: #4dd0e1;
 }
 
 .fish-card__category--meeresfruechte {
-    background: #f3e5f5;
-    color: #7b1fa2;
+    background: #2e1c2e;
+    color: #ce93d8;
+}
+
+/* Light mode overrides */
+[data-theme="light"] .fish-card__category--raubfisch {
+    background: #fee2e2;
+    color: #dc2626;
+}
+
+[data-theme="light"] .fish-card__category--friedfisch {
+    background: #dbeafe;
+    color: #2563eb;
+}
+
+[data-theme="light"] .fish-card__category--salmonide {
+    background: #fef3c7;
+    color: #d97706;
+}
+
+[data-theme="light"] .fish-card__category--salzwasser {
+    background: #cffafe;
+    color: #0891b2;
+}
+
+[data-theme="light"] .fish-card__category--meeresfruechte {
+    background: #f3e8ff;
+    color: #9333ea;
 }
 
 /* Fish Detail */
@@ -1416,6 +1540,11 @@ a {
 }
 
 .fish-badge--bait {
+    background: #3b2e1c;
+    color: #fbbf24;
+}
+
+[data-theme="light"] .fish-badge--bait {
     background: #fef3c7;
     color: #92400e;
 }
@@ -1494,9 +1623,14 @@ a {
 .fish-detail__closed-season {
     margin-top: 8px;
     padding: 10px;
-    background: #fee2e2;
+    background: #3b1c1c;
     border-radius: var(--radius-sm);
     font-size: 0.82rem;
+    color: #f87171;
+}
+
+[data-theme="light"] .fish-detail__closed-season {
+    background: #fee2e2;
     color: #b91c1c;
 }
 
@@ -1624,11 +1758,28 @@ a {
     letter-spacing: 0.5px;
 }
 
+/* --- Tab Pulse Micro-Interaction --- */
+@keyframes tab-pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(0, 188, 212, 0.4);
+    }
+    50% {
+        box-shadow: 0 0 0 8px rgba(0, 188, 212, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(0, 188, 212, 0);
+    }
+}
+
+.tab-bar__tab.tab-pulse {
+    animation: tab-pulse 0.4s ease-out;
+}
+
 /* --- Skeleton Loading --- */
 .skeleton-text {
     position: relative;
     color: transparent !important;
-    background: linear-gradient(90deg, #e0e0e0 25%, #f0f0f0 50%, #e0e0e0 75%);
+    background: linear-gradient(90deg, var(--color-bg-elevated) 25%, var(--color-bg-card) 50%, var(--color-bg-elevated) 75%);
     background-size: 200% 100%;
     animation: shimmer 1.5s infinite;
     border-radius: 4px;
@@ -1636,7 +1787,7 @@ a {
 
 .skeleton-card {
     height: 72px;
-    background: linear-gradient(90deg, #e0e0e0 25%, #f0f0f0 50%, #e0e0e0 75%);
+    background: linear-gradient(90deg, var(--color-bg-elevated) 25%, var(--color-bg-card) 50%, var(--color-bg-elevated) 75%);
     background-size: 200% 100%;
     animation: shimmer 1.5s infinite;
     border-radius: var(--radius-sm);
@@ -1860,6 +2011,7 @@ body.weather-loading .card--weather::before {
     font-size: 1.1rem;
     font-weight: 700;
     letter-spacing: 0.5px;
+    color: var(--color-primary);
 }
 
 /* ============================================================
@@ -1988,6 +2140,55 @@ body.weather-loading .card--weather::before {
     .section { display: block !important; }
 }
 
+/* --- Wave Background Animation --- */
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: -50%;
+    width: 200%;
+    height: 100%;
+    z-index: -1;
+    background: linear-gradient(
+        135deg,
+        transparent 0%,
+        var(--glow-turquoise) 25%,
+        transparent 50%,
+        rgba(0, 188, 212, 0.05) 75%,
+        transparent 100%
+    );
+    animation: wave-drift 20s ease-in-out infinite;
+    will-change: transform;
+    pointer-events: none;
+}
+
+@keyframes wave-drift {
+    0%, 100% {
+        transform: translateX(0) translateY(0) rotate(0deg);
+    }
+    25% {
+        transform: translateX(-10%) translateY(1%) rotate(0.5deg);
+    }
+    50% {
+        transform: translateX(-20%) translateY(2%) rotate(0deg);
+    }
+    75% {
+        transform: translateX(-10%) translateY(1%) rotate(-0.5deg);
+    }
+}
+
+/* Subtle wave in light mode */
+[data-theme="light"] body::before {
+    background: linear-gradient(
+        135deg,
+        transparent 0%,
+        rgba(0, 188, 212, 0.04) 25%,
+        transparent 50%,
+        rgba(0, 188, 212, 0.03) 75%,
+        transparent 100%
+    );
+}
+
 /* ============================================================
    Reduced Motion
    ============================================================ */
@@ -2002,42 +2203,26 @@ body.weather-loading .card--weather::before {
         opacity: 1;
         transform: none;
     }
+    /* Disable wave background animation */
+    body::before {
+        animation: none;
+        opacity: 0.5;
+    }
+    /* Disable card hover lift */
+    .card:hover {
+        transform: none;
+    }
+    /* Disable tab pulse */
+    .tab-bar__tab.tab-pulse {
+        animation: none;
+    }
+    /* Disable card fade-in animation */
+    .card.fade-in-hidden {
+        opacity: 1;
+        transform: none;
+    }
+    .card.fade-in-visible {
+        transition: none;
+    }
 }
 
-/* ============================================================
-   Dark Mode
-   ============================================================ */
-@media (prefers-color-scheme: dark) {
-    :root {
-        --color-primary: #2d8a42;
-        --color-primary-light: #3da854;
-        --color-primary-dark: #1a5e2a;
-        --color-primary-surface: #1a2e1d;
-        --color-accent: #f5c842;
-        --color-accent-light: #ffd966;
-        --color-bg: #121212;
-        --color-bg-card: #1e1e1e;
-        --color-bg-overlay: rgba(0, 0, 0, 0.7);
-        --color-text: #e0e0e0;
-        --color-text-secondary: #b0b0b0;
-        --color-text-muted: #808080;
-        --color-text-inverse: #ffffff;
-        --color-border: #333333;
-        --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.3);
-        --shadow-md: 0 2px 8px rgba(0, 0, 0, 0.4);
-        --shadow-lg: 0 4px 16px rgba(0, 0, 0, 0.5);
-    }
-    /* Dark mode specific overrides */
-    .card { border: 1px solid rgba(255,255,255,0.06); }
-    .fish-card__category--raubfisch { background: #3b1c1c; color: #f87171; }
-    .fish-card__category--friedfisch { background: #1c2e3b; color: #60a5fa; }
-    .fish-card__category--salmonide { background: #3b2e1c; color: #fbbf24; }
-    .fish-card__category--salzwasser { background: #1c2e2e; color: #4dd0e1; }
-    .fish-card__category--meeresfruechte { background: #2e1c2e; color: #ce93d8; }
-    .solunar-period-badge--minor { background: #3b2e1c; color: #fbbf24; border-color: #92400e; }
-    .fish-detail__closed-season { background: #3b1c1c; color: #f87171; }
-    .fish-badge--bait { background: #3b2e1c; color: #fbbf24; }
-    .skeleton-text { background: linear-gradient(90deg, #2a2a2a 25%, #333 50%, #2a2a2a 75%); }
-    .skeleton-card { background: linear-gradient(90deg, #2a2a2a 25%, #333 50%, #2a2a2a 75%); }
-    .daily-accordion__recommendation { background: #1a2e1d; color: #b0b0b0; }
-}
