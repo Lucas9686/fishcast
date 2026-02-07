@@ -1,0 +1,2043 @@
+/* ============================================================
+   PETRI HEIL - Angel-Wetter & Fangprognose
+   Mobile-First Responsive CSS
+   ============================================================ */
+
+/* --- Custom Properties --- */
+:root {
+    /* Primary: forest/nature greens */
+    --color-primary: #1a5e2a;
+    --color-primary-light: #2d8a42;
+    --color-primary-dark: #0f3d1a;
+    --color-primary-surface: #e8f5e9;
+
+    /* Accent: warm gold/amber */
+    --color-accent: #d4910a;
+    --color-accent-light: #f5c842;
+
+    /* Backgrounds */
+    --color-bg: #f0f4f0;
+    --color-bg-card: #ffffff;
+    --color-bg-overlay: rgba(0, 0, 0, 0.45);
+
+    /* Text (high contrast for outdoor reading) */
+    --color-text: #1a1a1a;
+    --color-text-secondary: #4a4a4a;
+    --color-text-muted: #757575;
+    --color-text-inverse: #ffffff;
+
+    /* Borders & Shadows */
+    --color-border: #d0d8d0;
+    --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.12);
+    --shadow-md: 0 2px 8px rgba(0, 0, 0, 0.15);
+    --shadow-lg: 0 4px 16px rgba(0, 0, 0, 0.18);
+
+    /* Catch ratings */
+    --color-excellent: #22c55e;
+    --color-good: #3b82f6;
+    --color-moderate: #f59e0b;
+    --color-poor: #ef4444;
+
+    /* Layout */
+    --top-bar-height: 96px;
+    --tab-bar-height: 60px;
+    --radius: 12px;
+    --radius-sm: 8px;
+    --touch-min: 44px;
+    --content-padding: 12px;
+
+    /* Safe area for notched phones */
+    --safe-top: env(safe-area-inset-top, 0px);
+    --safe-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+/* --- Reset & Base --- */
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    background: var(--color-bg);
+    color: var(--color-text);
+    line-height: 1.5;
+    min-height: 100dvh;
+    padding-top: var(--top-bar-height);
+    padding-bottom: var(--tab-bar-height);
+    overflow-x: hidden;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+button {
+    font: inherit;
+    cursor: pointer;
+    border: none;
+    background: none;
+    color: inherit;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+}
+
+input {
+    font: inherit;
+    border: none;
+    outline: none;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    color: var(--color-primary);
+    text-decoration: none;
+    -webkit-touch-callout: none;
+}
+
+/* --- Top Bar --- */
+.top-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    background: var(--color-primary);
+    color: var(--color-text-inverse);
+    padding-top: var(--safe-top);
+    box-shadow: var(--shadow-md);
+}
+
+.top-bar__inner {
+    padding: 8px var(--content-padding) 6px;
+}
+
+.location-bar {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.location-bar__search {
+    flex: 1;
+    position: relative;
+}
+
+.location-bar__input {
+    width: 100%;
+    height: var(--touch-min);
+    padding: 0 12px 0 36px;
+    border-radius: var(--radius-sm);
+    background: rgba(255, 255, 255, 0.15);
+    color: var(--color-text-inverse);
+    font-size: 0.95rem;
+    transition: background 0.2s, border-color 0.2s, box-shadow 0.2s;
+    border: 2px solid transparent;
+}
+
+.location-bar__input::placeholder {
+    color: rgba(255, 255, 255, 0.65);
+}
+
+.location-bar__input:focus {
+    background: rgba(255, 255, 255, 0.25);
+    border-color: rgba(255, 255, 255, 0.4);
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1);
+}
+
+.location-bar__search .icon--search {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    opacity: 0.7;
+}
+
+.location-bar__results {
+    position: absolute;
+    top: calc(100% + 4px);
+    left: 0;
+    right: 0;
+    background: var(--color-bg-card);
+    color: var(--color-text);
+    border-radius: var(--radius-sm);
+    box-shadow: var(--shadow-lg);
+    max-height: 280px;
+    overflow-y: auto;
+    z-index: 200;
+}
+
+.location-bar__results li {
+    padding: 12px 14px;
+    min-height: var(--touch-min);
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border-bottom: 1px solid var(--color-border);
+    font-size: 0.9rem;
+}
+
+.location-bar__results li:last-child {
+    border-bottom: none;
+}
+
+.location-bar__results li:hover,
+.location-bar__results li:focus {
+    background: var(--color-primary-surface);
+}
+
+.location-bar__current {
+    font-size: 0.8rem;
+    opacity: 0.85;
+    padding-top: 2px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.btn-icon {
+    width: var(--touch-min);
+    height: var(--touch-min);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--radius-sm);
+    flex-shrink: 0;
+    transition: background 0.2s;
+}
+
+.btn-icon:hover,
+.btn-icon:focus-visible {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.btn-icon:active {
+    background: rgba(255, 255, 255, 0.25);
+}
+
+.btn-icon .icon {
+    color: var(--color-text-inverse);
+}
+
+.btn-icon.active {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* GPS loading spinner */
+.btn-icon.loading .icon--gps {
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+/* GPS Pulse Animation */
+.btn-icon.loading {
+    position: relative;
+}
+
+.btn-icon.loading::after {
+    content: '';
+    position: absolute;
+    inset: 4px;
+    border-radius: var(--radius-sm);
+    border: 2px solid rgba(255,255,255,0.4);
+    animation: gps-pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes gps-pulse {
+    0%, 100% { opacity: 0.4; transform: scale(1); }
+    50% { opacity: 0; transform: scale(1.15); }
+}
+
+/* Button Press Feedback */
+.btn-icon:active,
+.fish-category-btn:active,
+.location-bar__results li:active {
+    transform: scale(0.96);
+}
+
+/* --- Map Container --- */
+.map-container {
+    position: relative;
+    overflow: hidden;
+    transition: height 0.3s ease;
+}
+
+.map-container[hidden] {
+    display: none;
+}
+
+.map-container__map {
+    width: 100%;
+    height: 250px;
+}
+
+/* --- Main Content --- */
+.main-content {
+    padding: var(--content-padding);
+    padding-bottom: 8px;
+    overscroll-behavior-y: contain;
+}
+
+/* --- Sections --- */
+.section {
+    display: none;
+    opacity: 0;
+    transform: translateY(8px);
+}
+
+.section.active {
+    display: block;
+    animation: sectionIn 0.3s ease forwards;
+}
+
+@keyframes sectionIn {
+    from { opacity: 0; transform: translateY(8px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* --- Cards --- */
+.card {
+    background: var(--color-bg-card);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-sm);
+    margin-bottom: 12px;
+    overflow: hidden;
+    border-left: 3px solid var(--color-primary-light);
+    transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.card:hover {
+    box-shadow: var(--shadow-md);
+    transform: translateY(-1px);
+}
+
+.card__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 18px 10px;
+}
+
+.card__header h2 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--color-text);
+}
+
+.card__meta {
+    font-size: 0.75rem;
+    color: var(--color-text-muted);
+}
+
+/* --- Weather Current --- */
+.weather-current {
+    padding: 0 16px 16px;
+}
+
+.weather-current__main {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 14px;
+}
+
+.weather-current__icon {
+    font-size: 2.5rem;
+    line-height: 1;
+}
+
+.weather-current__temp {
+    font-size: 2.2rem;
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+
+.weather-current__desc {
+    font-size: 0.95rem;
+    color: var(--color-text-secondary);
+}
+
+.weather-current__details {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+}
+
+.weather-detail {
+    text-align: center;
+    padding: 8px 4px;
+    background: var(--color-bg);
+    border-radius: var(--radius-sm);
+}
+
+.weather-detail__label {
+    display: block;
+    font-size: 0.7rem;
+    color: var(--color-text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 2px;
+}
+
+.weather-detail__value {
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+/* --- Astro Grid (Sun & Moon) --- */
+.astro-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+    padding: 0 16px 16px;
+}
+
+.astro-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 8px;
+    background: var(--color-bg);
+    border-radius: var(--radius-sm);
+    text-align: center;
+}
+
+.astro-item__icon {
+    font-size: 1.5rem;
+    margin-bottom: 4px;
+}
+
+.astro-item__label {
+    font-size: 0.7rem;
+    color: var(--color-text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.astro-item__value {
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-top: 2px;
+}
+
+/* --- Catch Gauge (circular) --- */
+.catch-summary {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 12px 16px 16px;
+}
+
+.catch-gauge {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    flex-shrink: 0;
+}
+
+.catch-gauge__svg {
+    width: 100%;
+    height: 100%;
+    transform: rotate(-90deg);
+}
+
+.catch-gauge__bg {
+    fill: none;
+    stroke: var(--color-border);
+    stroke-width: 8;
+}
+
+.catch-gauge__fill {
+    fill: none;
+    stroke: var(--color-good);
+    stroke-width: 8;
+    stroke-linecap: round;
+    stroke-dasharray: 326.73;
+    stroke-dashoffset: 326.73;
+    transition: stroke-dashoffset 1s ease, stroke 0.5s ease;
+    filter: drop-shadow(0 0 4px currentColor);
+}
+
+.catch-gauge__text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.catch-gauge__percent {
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 1.1;
+    transition: color 0.5s ease;
+}
+
+.catch-gauge__label {
+    display: block;
+    font-size: 0.7rem;
+    color: var(--color-text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.catch-summary__details {
+    flex: 1;
+    min-width: 0;
+}
+
+.catch-tip {
+    font-size: 0.9rem;
+    color: var(--color-text-secondary);
+    margin-bottom: 10px;
+    line-height: 1.4;
+}
+
+.solunar-info__label {
+    font-size: 0.75rem;
+    color: var(--color-text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.solunar-periods {
+    margin-top: 4px;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.solunar-period-badge {
+    display: inline-block;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-size: 0.78rem;
+    font-weight: 600;
+    margin: 2px 4px 2px 0;
+}
+
+.solunar-period-badge--major {
+    background: var(--color-primary-surface);
+    color: var(--color-primary);
+    border: 1px solid var(--color-primary-light);
+}
+
+.solunar-period-badge--minor {
+    background: #fff8e1;
+    color: #b8860b;
+    border: 1px solid #f5c842;
+}
+
+/* --- Hourly Slider --- */
+.hourly-slider {
+    display: flex;
+    gap: 8px;
+    overflow-x: auto;
+    padding: 0 16px 16px;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    position: relative;
+}
+
+.card--hourly { position: relative; }
+
+.card--hourly::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 40px;
+    background: linear-gradient(to right, transparent, var(--color-bg-card));
+    pointer-events: none;
+    z-index: 1;
+    border-radius: 0 var(--radius) var(--radius) 0;
+    opacity: 1;
+    transition: opacity 0.3s;
+}
+
+.card--hourly.scrolled-end::after {
+    opacity: 0;
+}
+
+.hourly-slider::-webkit-scrollbar {
+    display: none;
+}
+
+.hourly-item {
+    flex-shrink: 0;
+    width: 72px;
+    text-align: center;
+    padding: 10px 6px;
+    background: var(--color-bg);
+    border-radius: var(--radius-sm);
+    scroll-snap-align: start;
+}
+
+.hourly-item__time {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--color-text-secondary);
+}
+
+.hourly-item__icon {
+    font-size: 1.4rem;
+    margin: 4px 0;
+    display: block;
+}
+
+.hourly-item__temp {
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.hourly-item__wind {
+    font-size: 0.65rem;
+    color: var(--color-text-muted);
+    margin-top: 2px;
+}
+
+.hourly-item__precip {
+    font-size: 0.65rem;
+    color: var(--color-good);
+    margin-top: 1px;
+}
+
+.hourly-item.is-now {
+    background: var(--color-primary-surface);
+    border: 2px solid var(--color-primary-light);
+    font-weight: 700;
+}
+
+/* Hourly item stagger animation */
+.hourly-item--hidden {
+    opacity: 0;
+    transform: translateY(6px);
+}
+
+.hourly-item--visible {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+/* --- Daily Forecast --- */
+.daily-forecast {
+    padding: 0 16px 8px;
+}
+
+.daily-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 4px;
+    border-bottom: 1px solid var(--color-border);
+    transition: background 0.2s;
+    border-radius: var(--radius-sm);
+    margin: 0 -4px;
+}
+
+.daily-item:hover {
+    background: var(--color-primary-surface);
+}
+
+.daily-item:last-child {
+    border-bottom: none;
+}
+
+.daily-item__day {
+    width: 55px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    flex-shrink: 0;
+}
+
+.daily-item__icon {
+    font-size: 1.3rem;
+    width: 32px;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+.daily-item__temps {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.9rem;
+}
+
+.daily-item__temp-max {
+    font-weight: 700;
+}
+
+.daily-item__temp-min {
+    color: var(--color-text-muted);
+}
+
+.daily-item__precip {
+    font-size: 0.75rem;
+    color: var(--color-good);
+    width: 45px;
+    text-align: right;
+    flex-shrink: 0;
+}
+
+.daily-item__catch {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.72rem;
+    font-weight: 700;
+    color: #fff;
+    flex-shrink: 0;
+}
+
+/* --- Daily Accordion --- */
+.daily-accordion {
+    padding: 0 16px 8px;
+}
+
+.daily-accordion__item {
+    border-bottom: 1px solid var(--color-border);
+}
+
+.daily-accordion__item:last-child {
+    border-bottom: none;
+}
+
+.daily-accordion__summary {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    padding: 12px 4px;
+    background: none;
+    border: none;
+    font: inherit;
+    color: inherit;
+    cursor: pointer;
+    border-radius: var(--radius-sm);
+    min-height: var(--touch-min);
+    transition: background 0.2s;
+    text-align: left;
+}
+
+.daily-accordion__summary:hover {
+    background: var(--color-primary-surface);
+}
+
+.daily-accordion__summary:focus-visible {
+    outline: 2px solid var(--color-primary-light);
+    outline-offset: -2px;
+}
+
+.daily-accordion__day {
+    width: 55px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    flex-shrink: 0;
+}
+
+.daily-accordion__icon {
+    font-size: 1.3rem;
+    width: 32px;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+.daily-accordion__temps {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.9rem;
+}
+
+.daily-accordion__temp-max {
+    font-weight: 700;
+}
+
+.daily-accordion__temp-min {
+    color: var(--color-text-muted);
+}
+
+.daily-accordion__precip {
+    font-size: 0.75rem;
+    color: var(--color-good);
+    width: 45px;
+    text-align: right;
+    flex-shrink: 0;
+}
+
+.daily-accordion__catch-badge {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.72rem;
+    font-weight: 700;
+    color: #fff;
+    flex-shrink: 0;
+}
+
+.daily-accordion__chevron {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+.daily-accordion__chevron::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 8px;
+    height: 8px;
+    border-right: 2px solid var(--color-text-muted);
+    border-bottom: 2px solid var(--color-text-muted);
+    transform: translate(-50%, -65%) rotate(45deg);
+    transition: transform 0.3s ease;
+}
+
+.daily-accordion__item.is-expanded .daily-accordion__chevron {
+    transform: rotate(180deg);
+}
+
+/* Detail panel - expand/collapse via grid rows */
+.daily-accordion__detail {
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows 0.35s ease;
+}
+
+.daily-accordion__item.is-expanded .daily-accordion__detail {
+    grid-template-rows: 1fr;
+}
+
+.daily-accordion__detail-inner {
+    overflow: hidden;
+    padding: 0 4px;
+}
+
+.daily-accordion__item.is-expanded .daily-accordion__detail-inner {
+    padding: 0 4px 16px;
+}
+
+.daily-accordion__section {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 6px 0;
+    border-bottom: 1px solid var(--color-border);
+    gap: 12px;
+}
+
+.daily-accordion__section:last-child {
+    border-bottom: none;
+}
+
+.daily-accordion__section-label {
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: var(--color-text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    flex-shrink: 0;
+}
+
+.daily-accordion__section-value {
+    font-size: 0.88rem;
+    color: var(--color-text);
+    text-align: right;
+}
+
+.daily-accordion__breakdown {
+    padding: 8px 0;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.daily-accordion__breakdown .daily-accordion__section-label {
+    margin-bottom: 8px;
+}
+
+.daily-accordion__breakdown .catch-factor {
+    margin-bottom: 6px;
+}
+
+.daily-accordion__breakdown .catch-factor:last-child {
+    margin-bottom: 0;
+}
+
+.daily-accordion__solunar-periods {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    justify-content: flex-end;
+}
+
+.daily-accordion__no-data {
+    font-size: 0.82rem;
+    color: var(--color-text-muted);
+    font-style: italic;
+}
+
+.daily-accordion__recommendation {
+    margin-top: 10px;
+    padding: 10px 12px;
+    background: var(--color-primary-surface);
+    border-radius: var(--radius-sm);
+    font-size: 0.85rem;
+    color: var(--color-text-secondary);
+    line-height: 1.4;
+}
+
+.daily-accordion__rec-icon::before {
+    content: '\1F3A3';
+}
+
+/* Enhanced collapsed summary: wind speed and pressure trend */
+.daily-accordion__wind {
+    font-size: 0.7rem;
+    color: var(--color-text-muted);
+    width: 48px;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+.daily-accordion__pressure-trend {
+    font-size: 1rem;
+    width: 24px;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+/* Thematic Groups */
+.daily-accordion__group {
+    margin-bottom: 16px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.daily-accordion__group:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+.daily-accordion__group-title {
+    font-size: 0.82rem;
+    font-weight: 700;
+    color: var(--color-primary);
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    margin-bottom: 10px;
+}
+
+.daily-accordion__group-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+}
+
+.daily-accordion__data-item {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.daily-accordion__data-label {
+    font-size: 0.7rem;
+    color: var(--color-text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+}
+
+.daily-accordion__data-value {
+    font-size: 0.88rem;
+    color: var(--color-text);
+    font-weight: 600;
+}
+
+/* Luftdruck group with sparkline */
+.daily-accordion__pressure-info {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 8px;
+}
+
+.daily-accordion__pressure-info .daily-accordion__data-item {
+    flex: 1;
+}
+
+.daily-accordion__sparkline {
+    display: block;
+    width: 100%;
+    height: 60px;
+    margin-top: 8px;
+}
+
+/* Marine group */
+.daily-accordion__group--marine {
+    background: rgba(0, 105, 92, 0.05);
+    padding: 10px;
+    border-radius: var(--radius-sm);
+}
+
+.daily-accordion__tidal-chart {
+    display: block;
+    width: 100%;
+    height: 80px;
+    margin-top: 8px;
+}
+
+/* Fangprognose group */
+.daily-accordion__group--catch {
+    background: var(--color-primary-surface);
+    padding: 10px;
+    border-radius: var(--radius-sm);
+}
+
+.daily-accordion__score-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 10px;
+}
+
+.daily-accordion__catch-badge-large {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #fff;
+    flex-shrink: 0;
+}
+
+.daily-accordion__best-time {
+    flex: 1;
+    font-size: 0.85rem;
+    color: var(--color-text-secondary);
+    line-height: 1.4;
+}
+
+.daily-accordion__best-time strong {
+    color: var(--color-text);
+}
+
+/* Reduced motion: instant expand/collapse */
+@media (prefers-reduced-motion: reduce) {
+    .daily-accordion__detail {
+        transition: none;
+    }
+    .daily-accordion__chevron,
+    .daily-accordion__chevron::before {
+        transition: none;
+    }
+}
+
+/* --- Catch Breakdown Bars --- */
+.catch-breakdown {
+    padding: 8px 16px 16px;
+}
+
+.catch-factor {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.catch-factor:last-child {
+    margin-bottom: 0;
+}
+
+.catch-factor__label {
+    width: 80px;
+    font-size: 0.8rem;
+    color: var(--color-text-secondary);
+    flex-shrink: 0;
+}
+
+.catch-factor__bar {
+    flex: 1;
+    height: 10px;
+    background: var(--color-bg);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.catch-factor__fill {
+    height: 100%;
+    border-radius: 5px;
+    background: linear-gradient(90deg, var(--color-primary-light), var(--color-primary));
+    transition: width 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.catch-factor__val {
+    width: 36px;
+    text-align: right;
+    font-size: 0.8rem;
+    font-weight: 600;
+    flex-shrink: 0;
+}
+
+/* --- Fish Section --- */
+.fish-search-container {
+    margin-bottom: 12px;
+}
+
+.fish-search-bar {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+
+.fish-search-bar__input {
+    flex: 1;
+    height: var(--touch-min);
+    padding: 0 14px;
+    border-radius: var(--radius-sm);
+    background: var(--color-bg-card);
+    border: 1px solid var(--color-border);
+    font-size: 0.95rem;
+    color: var(--color-text);
+    box-shadow: var(--shadow-sm);
+}
+
+.fish-search-bar__input:focus {
+    border-color: var(--color-primary-light);
+    box-shadow: 0 0 0 2px rgba(45, 138, 66, 0.2);
+}
+
+.fish-category-filters {
+    display: flex;
+    gap: 6px;
+    overflow-x: auto;
+    padding-bottom: 4px;
+    scrollbar-width: none;
+}
+
+.fish-category-filters::-webkit-scrollbar {
+    display: none;
+}
+
+.fish-category-btn {
+    height: 36px;
+    padding: 0 14px;
+    border-radius: 18px;
+    font-size: 0.82rem;
+    font-weight: 600;
+    white-space: nowrap;
+    background: var(--color-bg-card);
+    border: 1px solid var(--color-border);
+    color: var(--color-text-secondary);
+    transition: all 0.2s;
+    flex-shrink: 0;
+}
+
+.fish-category-btn.active {
+    background: var(--color-primary);
+    color: var(--color-text-inverse);
+    border-color: var(--color-primary);
+}
+
+.fish-category-btn:hover:not(.active) {
+    border-color: var(--color-primary-light);
+    color: var(--color-primary);
+}
+
+/* Fish Grid */
+.fish-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.fish-card {
+    background: var(--color-bg-card);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-sm);
+    overflow: hidden;
+    cursor: pointer;
+    transition: box-shadow 0.2s, transform 0.15s;
+    position: relative;
+}
+
+.fish-card:hover {
+    box-shadow: var(--shadow-md);
+    transform: translateY(-1px);
+}
+
+.fish-card:active {
+    transform: scale(0.98);
+}
+
+.fish-card__image {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    background: var(--color-bg);
+    transition: transform 0.3s ease;
+}
+
+.fish-card:hover .fish-card__image {
+    transform: scale(1.05);
+}
+
+.fish-card__body {
+    padding: 8px 10px 10px;
+    position: relative;
+    z-index: 1;
+}
+
+.fish-card__name {
+    font-size: 0.85rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 4px;
+}
+
+.fish-card__category {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 10px;
+    font-size: 0.68rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.fish-card__category--raubfisch {
+    background: #fee2e2;
+    color: #b91c1c;
+}
+
+.fish-card__category--friedfisch {
+    background: #e0f2fe;
+    color: #0369a1;
+}
+
+.fish-card__category--salmonide {
+    background: #fef3c7;
+    color: #92400e;
+}
+
+.fish-card__category--salzwasser {
+    background: #e0f7fa;
+    color: #00695c;
+}
+
+.fish-card__category--meeresfruechte {
+    background: #f3e5f5;
+    color: #7b1fa2;
+}
+
+/* Fish Detail */
+.fish-detail-container[hidden] {
+    display: none;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(12px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.fish-detail-container:not([hidden]) {
+    animation: fadeIn 0.3s ease forwards;
+}
+
+.fish-detail {
+    background: var(--color-bg-card);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-sm);
+    overflow: hidden;
+}
+
+.fish-detail__header {
+    position: relative;
+}
+
+.fish-detail__image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    background: var(--color-bg);
+}
+
+.fish-detail__back {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: var(--color-bg-overlay);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.fish-detail__fav {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: var(--color-bg-overlay);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    transition: color 0.2s;
+}
+
+.fish-detail__fav.is-favorite {
+    color: var(--color-poor);
+}
+
+.fish-detail__body {
+    padding: 16px;
+}
+
+.fish-detail__title {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 2px;
+}
+
+.fish-detail__scientific {
+    font-size: 0.82rem;
+    color: var(--color-text-muted);
+    font-style: italic;
+    margin-bottom: 4px;
+}
+
+.fish-detail__nicknames {
+    font-size: 0.78rem;
+    color: var(--color-text-secondary);
+    margin-bottom: 10px;
+    padding: 6px 10px;
+    background: var(--color-bg);
+    border-radius: var(--radius-sm);
+    line-height: 1.5;
+}
+
+.fish-detail__desc {
+    font-size: 0.9rem;
+    color: var(--color-text-secondary);
+    line-height: 1.5;
+    margin-bottom: 14px;
+}
+
+.fish-detail__stats {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+    margin-bottom: 14px;
+}
+
+.fish-stat {
+    padding: 8px 10px;
+    background: var(--color-bg);
+    border-radius: var(--radius-sm);
+}
+
+.fish-stat__label {
+    font-size: 0.7rem;
+    color: var(--color-text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.fish-stat__value {
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.fish-detail__section-title {
+    font-size: 0.85rem;
+    font-weight: 700;
+    margin-bottom: 6px;
+    margin-top: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--color-primary);
+}
+
+.fish-detail__badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 10px;
+}
+
+.fish-badge {
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 0.78rem;
+    font-weight: 600;
+    background: var(--color-primary-surface);
+    color: var(--color-primary);
+}
+
+.fish-badge--bait {
+    background: #fef3c7;
+    color: #92400e;
+}
+
+.fish-detail__tips {
+    padding: 0;
+}
+
+.fish-detail__tips li {
+    position: relative;
+    padding: 6px 0 6px 18px;
+    font-size: 0.85rem;
+    color: var(--color-text-secondary);
+    line-height: 1.4;
+}
+
+.fish-detail__tips li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 12px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--color-primary-light);
+}
+
+/* Catch gauge in fish detail */
+.fish-detail__catch {
+    margin-top: 16px;
+    padding: 14px;
+    background: var(--color-bg);
+    border-radius: var(--radius-sm);
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.fish-detail__catch .catch-gauge {
+    width: 80px;
+    height: 80px;
+}
+
+.fish-detail__catch .catch-gauge__percent {
+    font-size: 1.1rem;
+}
+
+.fish-detail__catch .catch-gauge__label {
+    font-size: 0.6rem;
+}
+
+.fish-detail__catch-info {
+    flex: 1;
+}
+
+.fish-detail__catch-title {
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-bottom: 2px;
+}
+
+.fish-detail__catch-text {
+    font-size: 0.8rem;
+    color: var(--color-text-secondary);
+}
+
+/* Season & Closed Season */
+.fish-detail__season {
+    margin-top: 10px;
+    padding: 10px;
+    background: var(--color-primary-surface);
+    border-radius: var(--radius-sm);
+    font-size: 0.82rem;
+}
+
+.fish-detail__closed-season {
+    margin-top: 8px;
+    padding: 10px;
+    background: #fee2e2;
+    border-radius: var(--radius-sm);
+    font-size: 0.82rem;
+    color: #b91c1c;
+}
+
+/* Difficulty stars */
+.fish-difficulty {
+    display: inline-flex;
+    gap: 2px;
+}
+
+.fish-difficulty__star {
+    color: var(--color-accent);
+    font-size: 0.85rem;
+}
+
+.fish-difficulty__star--empty {
+    opacity: 0.3;
+}
+
+/* --- Favorites Section --- */
+.empty-state {
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 32px 16px;
+    color: var(--color-text-muted);
+    font-size: 0.9rem;
+}
+
+.location-history {
+    padding: 0 16px 8px;
+}
+
+.location-history li {
+    padding: 12px 0;
+    border-bottom: 1px solid var(--color-border);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.location-history li:last-child {
+    border-bottom: none;
+}
+
+.location-history__icon {
+    color: var(--color-text-muted);
+    font-size: 1.1rem;
+    flex-shrink: 0;
+}
+
+.location-history li:hover {
+    color: var(--color-primary);
+}
+
+/* --- Bottom Tab Bar --- */
+.tab-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    display: flex;
+    background: var(--color-bg-card);
+    border-top: 1px solid var(--color-border);
+    box-shadow: 0 -1px 6px rgba(0, 0, 0, 0.08);
+    padding-bottom: var(--safe-bottom);
+}
+
+.tab-bar__tab {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: var(--tab-bar-height);
+    gap: 3px;
+    color: var(--color-text-muted);
+    transition: color 0.2s, transform 0.1s;
+    padding: 6px 4px;
+    position: relative;
+}
+
+.tab-bar__tab:active {
+    transform: scale(0.95);
+}
+
+.tab-bar__tab .tab-bar__icon {
+    transition: transform 0.2s ease;
+}
+
+.tab-bar__tab.active .tab-bar__icon {
+    transform: scale(1.12);
+    transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.tab-bar__tab.active {
+    color: var(--color-primary);
+}
+
+.tab-bar__tab.active::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 25%;
+    right: 25%;
+    height: 3px;
+    background: var(--color-primary);
+    border-radius: 0 0 2px 2px;
+}
+
+.tab-bar__tab:hover:not(.active) {
+    color: var(--color-text-secondary);
+}
+
+.tab-bar__icon {
+    width: 24px;
+    height: 24px;
+}
+
+.tab-bar__label {
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* --- Skeleton Loading --- */
+.skeleton-text {
+    position: relative;
+    color: transparent !important;
+    background: linear-gradient(90deg, #e0e0e0 25%, #f0f0f0 50%, #e0e0e0 75%);
+    background-size: 200% 100%;
+    animation: shimmer 1.5s infinite;
+    border-radius: 4px;
+}
+
+.skeleton-card {
+    height: 72px;
+    background: linear-gradient(90deg, #e0e0e0 25%, #f0f0f0 50%, #e0e0e0 75%);
+    background-size: 200% 100%;
+    animation: shimmer 1.5s infinite;
+    border-radius: var(--radius-sm);
+    flex-shrink: 0;
+}
+
+.skeleton-card--fish {
+    height: 160px;
+}
+
+.skeleton-card--daily {
+    height: 52px;
+    margin-bottom: 4px;
+}
+
+@keyframes shimmer {
+    0% { background-position: 200% 0; }
+    100% { background-position: -200% 0; }
+}
+
+/* Remove skeleton when content loaded */
+.loaded .skeleton-text {
+    color: inherit !important;
+    background: none;
+    animation: none;
+}
+
+/* --- Utility --- */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+/* --- Rating Color Classes --- */
+.rating-excellent { color: var(--color-excellent); }
+.rating-good { color: var(--color-good); }
+.rating-moderate { color: var(--color-moderate); }
+.rating-poor { color: var(--color-poor); }
+
+/* --- Offline Banner --- */
+.offline-banner {
+    position: fixed;
+    top: var(--top-bar-height);
+    left: 0;
+    right: 0;
+    background: #f59e0b;
+    color: #1a1a1a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 8px 16px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    z-index: 99;
+}
+
+.offline-banner[hidden] {
+    display: none;
+}
+
+.offline-banner__dismiss {
+    background: none;
+    border: none;
+    color: inherit;
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding: 4px 8px;
+    opacity: 0.7;
+    transition: opacity 0.2s;
+}
+
+.offline-banner__dismiss:hover {
+    opacity: 1;
+}
+
+/* --- Loading Feedback --- */
+.location-bar__current.loading {
+    opacity: 0.5;
+    animation: loadingPulse 1.2s ease-in-out infinite;
+}
+
+@keyframes loadingPulse {
+    0%, 100% { opacity: 0.5; }
+    50% { opacity: 0.85; }
+}
+
+/* --- Skip Link (Accessibility) --- */
+.skip-link {
+    position: absolute;
+    top: -100px;
+    left: 0;
+    background: var(--color-primary);
+    color: var(--color-text-inverse);
+    padding: 12px 20px;
+    z-index: 1000;
+    font-size: 0.9rem;
+    font-weight: 600;
+    border-radius: 0 0 var(--radius-sm) 0;
+    transition: top 0.2s;
+}
+
+.skip-link:focus {
+    top: 0;
+}
+
+/* --- Catch Legend (Fish Detail) --- */
+.catch-legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+    padding: 8px 14px;
+    background: var(--color-bg);
+    border-radius: var(--radius-sm);
+    font-size: 0.75rem;
+    color: var(--color-text-secondary);
+}
+
+.catch-legend__item {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.catch-legend__dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+/* --- Loading Bar --- */
+.loading-bar {
+    position: fixed;
+    top: var(--top-bar-height);
+    left: 0;
+    right: 0;
+    height: 3px;
+    z-index: 101;
+    overflow: hidden;
+}
+
+.loading-bar[hidden] { display: none; }
+
+.loading-bar__progress {
+    height: 100%;
+    background: var(--color-accent);
+    border-radius: 0 2px 2px 0;
+    animation: loadingSlide 1.8s ease-in-out infinite;
+}
+
+@keyframes loadingSlide {
+    0% { width: 0; margin-left: 0; }
+    50% { width: 60%; margin-left: 20%; }
+    100% { width: 0; margin-left: 100%; }
+}
+
+/* --- Back to Top Button --- */
+.btn-back-to-top {
+    position: fixed;
+    bottom: calc(var(--tab-bar-height) + var(--safe-bottom) + 12px);
+    right: 12px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: var(--color-primary);
+    color: var(--color-text-inverse);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: var(--shadow-md);
+    z-index: 90;
+    transition: opacity 0.3s, transform 0.3s;
+    opacity: 0;
+    transform: translateY(10px);
+    pointer-events: none;
+}
+
+.btn-back-to-top.visible {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+}
+
+.btn-back-to-top:active {
+    transform: scale(0.92);
+}
+
+.btn-back-to-top[hidden] { display: none; }
+
+/* --- Weather Loading State --- */
+.card--weather { position: relative; overflow: hidden; }
+
+body.weather-loading .card--weather::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, var(--color-accent), transparent);
+    animation: weatherLoad 1.5s ease-in-out infinite;
+}
+
+@keyframes weatherLoad {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(100%); }
+}
+
+/* --- App Brand in Top Bar (desktop) --- */
+.top-bar__brand {
+    display: none;
+    font-size: 1.1rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+/* ============================================================
+   Responsive Breakpoints
+   ============================================================ */
+
+/* Very small phones (< 360px) */
+@media (max-width: 359px) {
+    :root {
+        --top-bar-height: 80px;
+        --content-padding: 8px;
+    }
+    .tab-bar__label { font-size: 0.6rem; }
+    .weather-current__temp { font-size: 1.8rem; }
+    .catch-gauge { width: 90px; height: 90px; }
+}
+
+/* Small phones (360px+) - base styles above handle this */
+
+/* Tablets (768px+) */
+@media (min-width: 768px) {
+    :root {
+        --content-padding: 20px;
+        --top-bar-height: 80px;
+    }
+
+    .top-bar__brand {
+        display: block;
+        margin-bottom: 2px;
+    }
+
+    .main-content {
+        max-width: 720px;
+        margin: 0 auto;
+    }
+
+    .weather-current__details {
+        grid-template-columns: repeat(6, 1fr);
+    }
+
+    .astro-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .fish-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .fish-card__image {
+        height: 130px;
+    }
+
+    .fish-detail__image {
+        height: 280px;
+    }
+
+    .fish-detail__stats {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .map-container__map {
+        height: 350px;
+    }
+}
+
+/* Desktop (1024px+) */
+@media (min-width: 1024px) {
+    :root {
+        --content-padding: 24px;
+    }
+
+    .main-content {
+        max-width: 960px;
+    }
+
+    .fish-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .fish-card__image {
+        height: 150px;
+    }
+
+    .tab-bar {
+        top: 0;
+        bottom: auto;
+        left: 0;
+        right: auto;
+        width: 80px;
+        flex-direction: column;
+        border-top: none;
+        border-right: 1px solid var(--color-border);
+        box-shadow: 1px 0 6px rgba(0, 0, 0, 0.08);
+        padding-bottom: 0;
+        padding-top: var(--safe-top);
+    }
+
+    .tab-bar__tab {
+        min-height: 70px;
+    }
+
+    .tab-bar__tab.active::before {
+        top: 25%;
+        bottom: 25%;
+        left: 0;
+        right: auto;
+        width: 3px;
+        height: auto;
+        border-radius: 0 2px 2px 0;
+    }
+
+    body {
+        padding-bottom: 0;
+        padding-left: 80px;
+    }
+
+    .top-bar {
+        left: 80px;
+    }
+}
+
+/* Print */
+@media print {
+    .tab-bar, .top-bar, .map-container { display: none; }
+    body { padding: 0; }
+    .section { display: block !important; }
+}
+
+/* ============================================================
+   Reduced Motion
+   ============================================================ */
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+    .section.active {
+        animation: none;
+        opacity: 1;
+        transform: none;
+    }
+}
+
+/* ============================================================
+   Dark Mode
+   ============================================================ */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --color-primary: #2d8a42;
+        --color-primary-light: #3da854;
+        --color-primary-dark: #1a5e2a;
+        --color-primary-surface: #1a2e1d;
+        --color-accent: #f5c842;
+        --color-accent-light: #ffd966;
+        --color-bg: #121212;
+        --color-bg-card: #1e1e1e;
+        --color-bg-overlay: rgba(0, 0, 0, 0.7);
+        --color-text: #e0e0e0;
+        --color-text-secondary: #b0b0b0;
+        --color-text-muted: #808080;
+        --color-text-inverse: #ffffff;
+        --color-border: #333333;
+        --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.3);
+        --shadow-md: 0 2px 8px rgba(0, 0, 0, 0.4);
+        --shadow-lg: 0 4px 16px rgba(0, 0, 0, 0.5);
+    }
+    /* Dark mode specific overrides */
+    .card { border: 1px solid rgba(255,255,255,0.06); }
+    .fish-card__category--raubfisch { background: #3b1c1c; color: #f87171; }
+    .fish-card__category--friedfisch { background: #1c2e3b; color: #60a5fa; }
+    .fish-card__category--salmonide { background: #3b2e1c; color: #fbbf24; }
+    .fish-card__category--salzwasser { background: #1c2e2e; color: #4dd0e1; }
+    .fish-card__category--meeresfruechte { background: #2e1c2e; color: #ce93d8; }
+    .solunar-period-badge--minor { background: #3b2e1c; color: #fbbf24; border-color: #92400e; }
+    .fish-detail__closed-season { background: #3b1c1c; color: #f87171; }
+    .fish-badge--bait { background: #3b2e1c; color: #fbbf24; }
+    .skeleton-text { background: linear-gradient(90deg, #2a2a2a 25%, #333 50%, #2a2a2a 75%); }
+    .skeleton-card { background: linear-gradient(90deg, #2a2a2a 25%, #333 50%, #2a2a2a 75%); }
+    .daily-accordion__recommendation { background: #1a2e1d; color: #b0b0b0; }
+}

@@ -678,7 +678,7 @@
     }
 
     // ============================================================
-    // Daily Forecast (7-Tage) - Accordion
+    // Daily Forecast (7-Tage) - Accordion with Thematic Groups
     // ============================================================
     function renderDailyForecast() {
         if (!currentWeather || !currentWeather.daily) return;
@@ -689,6 +689,19 @@
         container.innerHTML = '';
         container.className = 'daily-accordion';
 
+        // Factor labels for dynamic breakdown rendering
+        var factorLabels = {
+            moonPhase: 'Mond',
+            solunar: 'Solunar',
+            pressure: 'Druck',
+            timeOfDay: 'Tageszeit',
+            cloudCover: 'Wolken',
+            uvIndex: 'UV-Index',
+            visibility: 'Sicht',
+            tides: 'Gezeiten',
+            waveHeight: 'Wellen'
+        };
+
         currentWeather.daily.forEach(function (day, i) {
             var wc = weatherCodeToText(day.weatherCode);
 
@@ -697,7 +710,20 @@
             var dayMoon = getMoonData(dayDate);
             var daySolunar = getSolunarPeriods(dayDate, currentLocation.lat, currentLocation.lon);
 
-            // Approximate weather for the day
+            // Get moon rise/set for this day
+            var moonRiseSet = getMoonRiseSet(dayDate, currentLocation.lat, currentLocation.lon);
+
+            // Extract day-specific marine data
+            var dayMarineData = null;
+            var dayTides = null;
+            if (currentMarineData && currentMarineData.isCoastal && currentMarineData.dailySummary && currentMarineData.dailySummary[i]) {
+                dayMarineData = currentMarineData.dailySummary[i];
+            }
+            if (currentMarineData && currentMarineData.tides && currentMarineData.tides[i]) {
+                dayTides = currentMarineData.tides[i];
+            }
+
+            // Approximate weather for the day (for catch calculation)
             var dayWeather = {
                 temperature: (day.tempMax + day.tempMin) / 2,
                 pressureTrend: currentWeather.pressureTrend,
@@ -709,11 +735,11 @@
                 weatherCode: day.weatherCode
             };
 
-            var dayCatch = calculateCatchProbability(dayWeather, dayMoon, daySolunar);
+            var dayCatch = calculateCatchProbability(dayWeather, dayMoon, daySolunar, null, dayMarineData ? { isCoastal: true, daily: [dayMarineData] } : { isCoastal: false });
             var breakdown = dayCatch.breakdown || {};
 
-            // Build recommendation text
-            var recommendation = getDayRecommendation(dayCatch.overall);
+            // Calculate best fishing time for this day
+            var bestTime = calculateBestFishingTime(daySolunar, day.sunrise, day.sunset, dayTides);
 
             // Build solunar periods HTML
             var solunarHtml = '';
@@ -727,9 +753,25 @@
                 solunarHtml = '<span class="daily-accordion__no-data">Keine Daten</span>';
             }
 
-            // Build wind info
+            // Build wind info with gusts
             var windSpeed = day.windSpeedMax ? formatWindSpeed(day.windSpeedMax * 0.6) : '--';
+            var windGusts = day.windGustsMax ? formatWindSpeed(day.windGustsMax) : null;
             var windDir = day.windDirection != null ? formatWindDirection(day.windDirection) : '';
+
+            // Get pressure trend arrow for collapsed view
+            var pressureTrend = pressureTrendText(currentWeather.pressureTrend);
+
+            // UV Index
+            var uvIndex = day.uvIndexMax != null ? Math.round(day.uvIndexMax) : '--';
+
+            // Visibility (from hourly data for this day if available)
+            var visibility = '--';
+            if (currentWeather.hourly && currentWeather.hourly[i * 24]) {
+                var dayHourly = currentWeather.hourly[i * 24];
+                if (dayHourly.visibility != null) {
+                    visibility = (dayHourly.visibility / 1000).toFixed(1) + ' km';
+                }
+            }
 
             // Precipitation details
             var precipAmount = day.precipitationSum > 0 ? formatPrecipitation(day.precipitationSum) : '0 mm';
@@ -739,8 +781,16 @@
             item.className = 'daily-accordion__item';
             if (i === 0) item.classList.add('is-expanded');
 
+            // Build factor bars dynamically from breakdown keys
+            var factorBarsHtml = '';
+            for (var key in breakdown) {
+                if (breakdown.hasOwnProperty(key) && factorLabels[key]) {
+                    factorBarsHtml += buildFactorBar(factorLabels[key], breakdown[key]);
+                }
+            }
+
             item.innerHTML =
-                // Summary row
+                // Summary row (collapsed view)
                 '<button class="daily-accordion__summary" aria-expanded="' + (i === 0 ? 'true' : 'false') + '">' +
                     '<span class="daily-accordion__day">' + (i === 0 ? 'Heute' : _esc(formatShortDate(day.date))) + '</span>' +
                     '<span class="daily-accordion__icon">' + wc.icon + '</span>' +
@@ -749,58 +799,130 @@
                         '<span class="daily-accordion__temp-min">' + _esc(formatTemperature(day.tempMin)) + '</span>' +
                     '</div>' +
                     '<span class="daily-accordion__precip">' + (day.precipitationSum > 0 ? _esc(formatPrecipitation(day.precipitationSum)) : '') + '</span>' +
+                    '<span class="daily-accordion__wind">' + _esc(windSpeed) + '</span>' +
+                    '<span class="daily-accordion__pressure-trend">' + pressureTrend.icon + '</span>' +
                     '<span class="daily-accordion__catch-badge" style="background:' + dayCatch.color + '">' + dayCatch.overall + '%</span>' +
                     '<span class="daily-accordion__chevron" aria-hidden="true"></span>' +
                 '</button>' +
-                // Detail panel
+                // Detail panel with thematic groups
                 '<div class="daily-accordion__detail">' +
                     '<div class="daily-accordion__detail-inner">' +
-                        // Weather description
-                        '<div class="daily-accordion__section">' +
-                            '<div class="daily-accordion__section-label">Wetter</div>' +
-                            '<div class="daily-accordion__section-value">' + _esc(wc.text) + '</div>' +
-                        '</div>' +
-                        // Wind
-                        '<div class="daily-accordion__section">' +
-                            '<div class="daily-accordion__section-label">Wind</div>' +
-                            '<div class="daily-accordion__section-value">' + _esc(windSpeed) + (windDir ? ' ' + _esc(windDir) : '') + '</div>' +
-                        '</div>' +
-                        // Precipitation
-                        '<div class="daily-accordion__section">' +
-                            '<div class="daily-accordion__section-label">Niederschlag</div>' +
-                            '<div class="daily-accordion__section-value">' + _esc(precipAmount) + ' &middot; ' + _esc(precipProb) + ' Wahrsch.</div>' +
-                        '</div>' +
-                        // Catch breakdown bars
-                        '<div class="daily-accordion__breakdown">' +
-                            '<div class="daily-accordion__section-label">Fangfaktoren</div>' +
-                            buildFactorBar('Mond', breakdown.moonPhase) +
-                            buildFactorBar('Solunar', breakdown.solunar) +
-                            buildFactorBar('Druck', breakdown.pressure) +
-                            buildFactorBar('Tageszeit', breakdown.timeOfDay) +
-                            buildFactorBar('Wolken', breakdown.cloudCover) +
-                        '</div>' +
-                        // Solunar periods
-                        '<div class="daily-accordion__section">' +
-                            '<div class="daily-accordion__section-label">Solunar-Perioden</div>' +
-                            '<div class="daily-accordion__solunar-periods">' + solunarHtml + '</div>' +
-                        '</div>' +
-                        // Moon
-                        '<div class="daily-accordion__section">' +
-                            '<div class="daily-accordion__section-label">Mond</div>' +
-                            '<div class="daily-accordion__section-value">' +
-                                _esc(dayMoon.emoji) + ' ' + _esc(dayMoon.name) + ' &middot; ' + _esc(formatPercent(dayMoon.illumination)) + ' Beleuchtung' +
+                        // GROUP 1: Wind & Wetter
+                        '<div class="daily-accordion__group">' +
+                            '<h4 class="daily-accordion__group-title">Wind & Wetter</h4>' +
+                            '<div class="daily-accordion__group-grid">' +
+                                '<div class="daily-accordion__data-item">' +
+                                    '<span class="daily-accordion__data-label">Bedingungen</span>' +
+                                    '<span class="daily-accordion__data-value">' + _esc(wc.text) + '</span>' +
+                                '</div>' +
+                                '<div class="daily-accordion__data-item">' +
+                                    '<span class="daily-accordion__data-label">Wind</span>' +
+                                    '<span class="daily-accordion__data-value">' + _esc(windSpeed) + (windDir ? ' ' + _esc(windDir) : '') + '</span>' +
+                                '</div>' +
+                                (windGusts ? '<div class="daily-accordion__data-item">' +
+                                    '<span class="daily-accordion__data-label">Boeen</span>' +
+                                    '<span class="daily-accordion__data-value">' + _esc(windGusts) + '</span>' +
+                                '</div>' : '') +
+                                '<div class="daily-accordion__data-item">' +
+                                    '<span class="daily-accordion__data-label">Temperatur</span>' +
+                                    '<span class="daily-accordion__data-value">' + _esc(formatTemperature(day.tempMax)) + ' / ' + _esc(formatTemperature(day.tempMin)) + '</span>' +
+                                '</div>' +
+                                '<div class="daily-accordion__data-item">' +
+                                    '<span class="daily-accordion__data-label">Niederschlag</span>' +
+                                    '<span class="daily-accordion__data-value">' + _esc(precipAmount) + ' (' + _esc(precipProb) + ')</span>' +
+                                '</div>' +
+                                '<div class="daily-accordion__data-item">' +
+                                    '<span class="daily-accordion__data-label">UV-Index</span>' +
+                                    '<span class="daily-accordion__data-value">' + _esc(uvIndex) + '</span>' +
+                                '</div>' +
+                                '<div class="daily-accordion__data-item">' +
+                                    '<span class="daily-accordion__data-label">Sicht</span>' +
+                                    '<span class="daily-accordion__data-value">' + _esc(visibility) + '</span>' +
+                                '</div>' +
                             '</div>' +
                         '</div>' +
-                        // Recommendation
-                        '<div class="daily-accordion__recommendation">' +
-                            '<span class="daily-accordion__rec-icon" aria-hidden="true"></span> ' +
-                            _esc(recommendation) +
+                        // GROUP 2: Luftdruck
+                        '<div class="daily-accordion__group">' +
+                            '<h4 class="daily-accordion__group-title">Luftdruck</h4>' +
+                            '<div class="daily-accordion__pressure-info">' +
+                                '<div class="daily-accordion__data-item">' +
+                                    '<span class="daily-accordion__data-label">Druck</span>' +
+                                    '<span class="daily-accordion__data-value">' + formatPressure(currentWeather.pressure) + '</span>' +
+                                '</div>' +
+                                '<div class="daily-accordion__data-item">' +
+                                    '<span class="daily-accordion__data-label">Trend</span>' +
+                                    '<span class="daily-accordion__data-value">' + pressureTrend.icon + ' ' + _esc(pressureTrend.text) + '</span>' +
+                                '</div>' +
+                            '</div>' +
+                            (i === 0 && currentWeather.hourly ? '<canvas class="daily-accordion__sparkline" id="sparkline-day-' + i + '" width="300" height="60"></canvas>' : '') +
+                        '</div>' +
+                        // GROUP 3: Sonne & Mond
+                        '<div class="daily-accordion__group">' +
+                            '<h4 class="daily-accordion__group-title">Sonne & Mond</h4>' +
+                            '<div class="daily-accordion__group-grid">' +
+                                '<div class="daily-accordion__data-item">' +
+                                    '<span class="daily-accordion__data-label">Aufgang</span>' +
+                                    '<span class="daily-accordion__data-value">🌅 ' + formatTime(day.sunrise) + '</span>' +
+                                '</div>' +
+                                '<div class="daily-accordion__data-item">' +
+                                    '<span class="daily-accordion__data-label">Untergang</span>' +
+                                    '<span class="daily-accordion__data-value">🌇 ' + formatTime(day.sunset) + '</span>' +
+                                '</div>' +
+                                '<div class="daily-accordion__data-item">' +
+                                    '<span class="daily-accordion__data-label">Mondphase</span>' +
+                                    '<span class="daily-accordion__data-value">' + _esc(dayMoon.emoji) + ' ' + _esc(dayMoon.name) + '</span>' +
+                                '</div>' +
+                                '<div class="daily-accordion__data-item">' +
+                                    '<span class="daily-accordion__data-label">Beleuchtung</span>' +
+                                    '<span class="daily-accordion__data-value">' + _esc(formatPercent(dayMoon.illumination)) + '</span>' +
+                                '</div>' +
+                                (moonRiseSet.moonrise ? '<div class="daily-accordion__data-item">' +
+                                    '<span class="daily-accordion__data-label">Mond ↑</span>' +
+                                    '<span class="daily-accordion__data-value">' + _esc(moonRiseSet.moonrise) + '</span>' +
+                                '</div>' : '') +
+                                (moonRiseSet.moonset ? '<div class="daily-accordion__data-item">' +
+                                    '<span class="daily-accordion__data-label">Mond ↓</span>' +
+                                    '<span class="daily-accordion__data-value">' + _esc(moonRiseSet.moonset) + '</span>' +
+                                '</div>' : '') +
+                            '</div>' +
+                        '</div>' +
+                        // GROUP 4: Marine & Gezeiten (only if coastal)
+                        (dayMarineData ?
+                            '<div class="daily-accordion__group daily-accordion__group--marine">' +
+                                '<h4 class="daily-accordion__group-title">Marine & Gezeiten</h4>' +
+                                '<div class="daily-accordion__group-grid">' +
+                                    '<div class="daily-accordion__data-item">' +
+                                        '<span class="daily-accordion__data-label">Wellenhoehe</span>' +
+                                        '<span class="daily-accordion__data-value">' + _esc(dayMarineData.waveHeight.toFixed(1)) + ' m</span>' +
+                                    '</div>' +
+                                    '<div class="daily-accordion__data-item">' +
+                                        '<span class="daily-accordion__data-label">Wellenperiode</span>' +
+                                        '<span class="daily-accordion__data-value">' + _esc(dayMarineData.wavePeriod.toFixed(0)) + ' s</span>' +
+                                    '</div>' +
+                                '</div>' +
+                                (dayTides && dayTides.length > 0 ? '<canvas class="daily-accordion__tidal-chart" id="tidal-chart-day-' + i + '" width="300" height="80"></canvas>' : '') +
+                            '</div>'
+                        : '') +
+                        // GROUP 5: Fangprognose
+                        '<div class="daily-accordion__group daily-accordion__group--catch">' +
+                            '<h4 class="daily-accordion__group-title">Fangprognose</h4>' +
+                            '<div class="daily-accordion__score-header">' +
+                                '<span class="daily-accordion__catch-badge-large" style="background:' + dayCatch.color + '">' + dayCatch.overall + '%</span>' +
+                                '<div class="daily-accordion__best-time">' +
+                                    '<strong>Beste Zeit:</strong> ' + _esc(bestTime) +
+                                '</div>' +
+                            '</div>' +
+                            '<div class="daily-accordion__solunar-periods">' + solunarHtml + '</div>' +
+                            '<div class="daily-accordion__breakdown">' +
+                                factorBarsHtml +
+                            '</div>' +
                         '</div>' +
                     '</div>' +
                 '</div>';
 
             // Toggle handler
             var summaryBtn = item.querySelector('.daily-accordion__summary');
+            var firstExpand = true;
             summaryBtn.addEventListener('click', function () {
                 var expanded = item.classList.contains('is-expanded');
                 if (expanded) {
@@ -809,11 +931,64 @@
                 } else {
                     item.classList.add('is-expanded');
                     summaryBtn.setAttribute('aria-expanded', 'true');
+
+                    // Draw charts on first expand
+                    if (firstExpand) {
+                        firstExpand = false;
+                        // Draw pressure sparkline for today (day 0)
+                        if (i === 0 && currentWeather.hourly) {
+                            var sparklineCanvas = item.querySelector('#sparkline-day-' + i);
+                            if (sparklineCanvas && typeof drawPressureSparkline === 'function') {
+                                var pressureData = currentWeather.hourly.map(function(h) { return h.pressure; });
+                                var nowIndex = findNowIndex(currentWeather.hourly);
+                                drawPressureSparkline(sparklineCanvas, pressureData, nowIndex);
+                            }
+                        }
+                        // Draw tidal chart if coastal
+                        if (dayTides && dayTides.length > 0) {
+                            var tidalCanvas = item.querySelector('#tidal-chart-day-' + i);
+                            if (tidalCanvas && typeof drawTidalTimeline === 'function') {
+                                drawTidalTimeline(tidalCanvas, dayTides, 0, 24);
+                            }
+                        }
+                    }
                 }
             });
 
             container.appendChild(item);
         });
+
+        // Draw charts for initially expanded day (today)
+        var todayItem = container.querySelector('.daily-accordion__item.is-expanded');
+        if (todayItem && currentWeather.hourly) {
+            var sparklineCanvas = todayItem.querySelector('#sparkline-day-0');
+            if (sparklineCanvas && typeof drawPressureSparkline === 'function') {
+                var pressureData = currentWeather.hourly.map(function(h) { return h.pressure; });
+                var nowIndex = findNowIndex(currentWeather.hourly);
+                drawPressureSparkline(sparklineCanvas, pressureData, nowIndex);
+            }
+        }
+        // Draw tidal chart for today if coastal
+        if (currentMarineData && currentMarineData.isCoastal && currentMarineData.tides && currentMarineData.tides[0]) {
+            var todayTides = currentMarineData.tides[0];
+            if (todayTides && todayTides.length > 0 && todayItem) {
+                var tidalCanvas = todayItem.querySelector('#tidal-chart-day-0');
+                if (tidalCanvas && typeof drawTidalTimeline === 'function') {
+                    drawTidalTimeline(tidalCanvas, todayTides, 0, 24);
+                }
+            }
+        }
+    }
+
+    // Helper: Find the current hour index in hourly data
+    function findNowIndex(hourlyData) {
+        if (!hourlyData || hourlyData.length === 0) return 0;
+        var now = new Date();
+        for (var i = 0; i < hourlyData.length; i++) {
+            var hourTime = new Date(hourlyData[i].time);
+            if (hourTime >= now) return i;
+        }
+        return 0;
     }
 
     function buildFactorBar(label, value) {
@@ -825,12 +1000,6 @@
         '</div>';
     }
 
-    function getDayRecommendation(overall) {
-        if (overall >= 75) return 'Hervorragender Tag zum Angeln! Nutze die Solunar-Hauptzeiten.';
-        if (overall >= 55) return 'Gute Bedingungen. Fruehe Morgen- und Abendstunden bevorzugen.';
-        if (overall >= 35) return 'Maessige Chancen. Konzentriere dich auf die Solunar-Perioden.';
-        return 'Schwierige Bedingungen. Geduld und die richtige Koederwahl sind entscheidend.';
-    }
 
     // ============================================================
     // Catch Breakdown (Vorhersage-Tab)
