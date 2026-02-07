@@ -7,19 +7,19 @@
 
 ### Wetter (WETTER)
 
-- [ ] **WETTER-01**: Nutzer sieht 7-Tage-Wettervorhersage als Accordion (heute aufgeklappt, restliche 6 Tage eingeklappt)
-- [ ] **WETTER-02**: Pro Tag werden Luftdruck (aktuell + Trend steigend/fallend/stabil) angezeigt
-- [ ] **WETTER-03**: Pro Tag werden Wind-Daten angezeigt (Geschwindigkeit, Richtung, Böen)
-- [ ] **WETTER-04**: Pro Tag werden Solunar-Zeiten angezeigt (2 Major, 2 Minor Fressperioden)
-- [ ] **WETTER-05**: Pro Tag werden Temperatur (Luft) und Niederschlag angezeigt
-- [ ] **WETTER-06**: Pro Tag werden Mondphase und Mondauf-/untergang angezeigt
-- [ ] **WETTER-07**: Pro Tag werden UV-Index und Sichtweite angezeigt
-- [ ] **WETTER-08**: Pro Tag werden Wellenhöhe und Marine-Daten angezeigt (für Küstenstandorte)
-- [ ] **WETTER-09**: Pro Tag werden Sonnenauf- und -untergangszeiten angezeigt
-- [ ] **WETTER-10**: Pro Tag wird Gezeiteninformation angezeigt (Hoch-/Niedrigwasser für Küstenstandorte)
-- [ ] **WETTER-11**: Pro Tag wird ein berechneter Fang-Score (0-100) mit Bewertung angezeigt
-- [ ] **WETTER-12**: Luftdruck-Trend wird als 48h-Verlaufsgraph visualisiert
-- [ ] **WETTER-13**: Wetter-API liefert genaue, angel-relevante Daten (Open-Meteo Marine + Standard)
+- [x] **WETTER-01**: Nutzer sieht 7-Tage-Wettervorhersage als Accordion (heute aufgeklappt, restliche 6 Tage eingeklappt)
+- [x] **WETTER-02**: Pro Tag werden Luftdruck (aktuell + Trend steigend/fallend/stabil) angezeigt
+- [x] **WETTER-03**: Pro Tag werden Wind-Daten angezeigt (Geschwindigkeit, Richtung, Böen)
+- [x] **WETTER-04**: Pro Tag werden Solunar-Zeiten angezeigt (2 Major, 2 Minor Fressperioden)
+- [x] **WETTER-05**: Pro Tag werden Temperatur (Luft) und Niederschlag angezeigt
+- [x] **WETTER-06**: Pro Tag werden Mondphase und Mondauf-/untergang angezeigt
+- [x] **WETTER-07**: Pro Tag werden UV-Index und Sichtweite angezeigt
+- [x] **WETTER-08**: Pro Tag werden Wellenhöhe und Marine-Daten angezeigt (für Küstenstandorte)
+- [x] **WETTER-09**: Pro Tag werden Sonnenauf- und -untergangszeiten angezeigt
+- [x] **WETTER-10**: Pro Tag wird Gezeiteninformation angezeigt (Hoch-/Niedrigwasser für Küstenstandorte)
+- [x] **WETTER-11**: Pro Tag wird ein berechneter Fang-Score (0-100) mit Bewertung angezeigt
+- [x] **WETTER-12**: Luftdruck-Trend wird als 48h-Verlaufsgraph visualisiert
+- [x] **WETTER-13**: Wetter-API liefert genaue, angel-relevante Daten (Open-Meteo Marine + Standard)
 
 ### Fischkatalog (FISCH)
 
@@ -93,19 +93,19 @@
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| WETTER-01 | Phase 1 | Pending |
-| WETTER-02 | Phase 1 | Pending |
-| WETTER-03 | Phase 1 | Pending |
-| WETTER-04 | Phase 1 | Pending |
-| WETTER-05 | Phase 1 | Pending |
-| WETTER-06 | Phase 1 | Pending |
-| WETTER-07 | Phase 1 | Pending |
-| WETTER-08 | Phase 1 | Pending |
-| WETTER-09 | Phase 1 | Pending |
-| WETTER-10 | Phase 1 | Pending |
-| WETTER-11 | Phase 1 | Pending |
-| WETTER-12 | Phase 1 | Pending |
-| WETTER-13 | Phase 1 | Pending |
+| WETTER-01 | Phase 1 | Complete |
+| WETTER-02 | Phase 1 | Complete |
+| WETTER-03 | Phase 1 | Complete |
+| WETTER-04 | Phase 1 | Complete |
+| WETTER-05 | Phase 1 | Complete |
+| WETTER-06 | Phase 1 | Complete |
+| WETTER-07 | Phase 1 | Complete |
+| WETTER-08 | Phase 1 | Complete |
+| WETTER-09 | Phase 1 | Complete |
+| WETTER-10 | Phase 1 | Complete |
+| WETTER-11 | Phase 1 | Complete |
+| WETTER-12 | Phase 1 | Complete |
+| WETTER-13 | Phase 1 | Complete |
 | UI-02 | Phase 2 | Pending |
 | UI-03 | Phase 2 | Pending |
 | UI-04 | Phase 2 | Pending |
@@ -139,4 +139,4 @@
 
 ---
 *Requirements defined: 2026-02-07*
-*Last updated: 2026-02-07 after roadmap creation*
+*Last updated: 2026-02-07 after Phase 1 completion*

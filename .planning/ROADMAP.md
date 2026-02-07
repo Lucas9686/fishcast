@@ -12,7 +12,7 @@ This roadmap transforms an existing fishing weather PWA into a comprehensive ang
 
 Decimal phases appear between their surrounding integers in numeric order.
 
-- [ ] **Phase 1: Weather Enhancement** - Comprehensive 7-day fishing weather with accordion UI
+- [x] **Phase 1: Weather Enhancement** - Comprehensive 7-day fishing weather with accordion UI
 - [ ] **Phase 2: Dark Marine Theme** - Professional dark theme with mobile-optimized UI
 - [ ] **Phase 3: Fish Catalog Expansion** - 200+ species with detailed fishing information
 - [ ] **Phase 4: Filter & Search System** - Multi-dimensional fish filtering and search
@@ -34,10 +34,10 @@ Decimal phases appear between their surrounding integers in numeric order.
 **Plans**: 4 plans
 
 Plans:
-- [ ] 01-01-PLAN.md -- API + data layer: weather params, Marine API, scoring, moon rise/set
-- [ ] 01-02-PLAN.md -- Canvas charts: 48h pressure sparkline + tidal timeline
-- [ ] 01-03-PLAN.md -- UI restructure: accordion thematic groups, wiring data + charts
-- [ ] 01-04-PLAN.md -- Integration: service worker update, testing, visual verification
+- [x] 01-01-PLAN.md -- API + data layer: weather params, Marine API, scoring, moon rise/set
+- [x] 01-02-PLAN.md -- Canvas charts: 48h pressure sparkline + tidal timeline
+- [x] 01-03-PLAN.md -- UI restructure: accordion thematic groups, wiring data + charts
+- [x] 01-04-PLAN.md -- Integration: service worker update, testing, visual verification
 
 ### Phase 2: Dark Marine Theme
 **Goal**: App has professional dark marine appearance optimized for mobile use with smooth animations
@@ -121,7 +121,7 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Weather Enhancement | 0/4 | Planned | - |
+| 1. Weather Enhancement | 4/4 | Complete | 2026-02-07 |
 | 2. Dark Marine Theme | 0/TBD | Not started | - |
 | 3. Fish Catalog Expansion | 0/TBD | Not started | - |
 | 4. Filter & Search System | 0/TBD | Not started | - |
