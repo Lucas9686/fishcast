@@ -64,10 +64,14 @@ Plans:
   3. User sees habitat information (depth range, water type, region, structure preferences)
   4. User sees edibility rating, taste description, and preparation tips for each fish
   5. Fish catalog works completely offline with all data embedded in the app
-**Plans**: TBD
+**Plans**: 5 plans
 
 Plans:
-- [ ] 03-01: TBD during planning
+- [ ] 03-01-PLAN.md -- Schema extension + UI: edibility/habitat rendering in fish-ui.js, CSS styles
+- [ ] 03-02-PLAN.md -- Data batch 1: retrofit edibility on 62 existing + add ~50 new species
+- [ ] 03-03-PLAN.md -- Data batch 2: add ~50 more species (Adriatic + freshwater)
+- [ ] 03-04-PLAN.md -- Data batch 3: add ~40+ species to reach 200+ total
+- [ ] 03-05-PLAN.md -- Integration: lazy loading, service worker bump, visual verification
 
 ### Phase 4: Filter & Search System
 **Goal**: Users can quickly find relevant fish species through flexible filtering and text search
@@ -124,7 +128,7 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6
 |-------|----------------|--------|-----------|
 | 1. Weather Enhancement | 4/4 | Complete | 2026-02-07 |
 | 2. Dark Marine Theme | 2/2 | Complete | 2026-02-07 |
-| 3. Fish Catalog Expansion | 0/TBD | Not started | - |
+| 3. Fish Catalog Expansion | 0/5 | Not started | - |
 | 4. Filter & Search System | 0/TBD | Not started | - |
 | 5. Navigation & Favorites | 0/TBD | Not started | - |
 | 6. Offline Enhancement | 0/TBD | Not started | - |
