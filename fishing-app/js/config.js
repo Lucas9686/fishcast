@@ -348,6 +348,16 @@ const CATCH_RATINGS = [
  * @property {boolean} catchAndRelease - Empfehlung fuer Catch & Release
  * @property {string} minSize - Mindestmass z.B. "50 cm" oder "kein"
  * @property {string} category - "raubfisch", "friedfisch", "salmonide"
+ * @property {Object} [edibility] - Kulinarische Informationen
+ * @property {number} edibility.rating - Essbarkeits-Rating 1-5 (1=nicht essbar, 5=ausgezeichnet)
+ * @property {string} edibility.taste - Geschmacksprofil ("mild", "medium", "kraeftig", "stark")
+ * @property {string} edibility.texture - Textur ("zart", "fest", "mager", "fett")
+ * @property {Array<string>} edibility.preparation - Zubereitungsmethoden
+ * @property {string} edibility.notes - Besondere kulinarische Hinweise
+ * @property {Object} [habitatDetail] - Strukturierte Lebensraum-Daten (optional for backward compat)
+ * @property {string} habitatDetail.depthRange - Tiefenbereich z.B. "0-10m"
+ * @property {string} habitatDetail.region - Region z.B. "Adria", "Mitteleuropa"
+ * @property {Array<string>} habitatDetail.structure - Strukturpraeferenzen z.B. ["Felsgrund", "Seegras"]
  */
 
 // ============================================================
