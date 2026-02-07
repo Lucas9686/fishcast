@@ -15010,5 +15010,3429 @@
         "Pflanzen"
       ]
     }
+  },
+  {
+    "id": "marmorierte-forelle",
+    "name": "Marmorierte Forelle",
+    "nicknames": [
+      "Marmorforelle"
+    ],
+    "scientificName": "Salmo marmoratus",
+    "image": "images/fish/marmorierte-forelle.svg",
+    "imageCredit": "Generiert",
+    "family": "Salmonidae",
+    "description": "Die Marmorierte Forelle ist eine seltene endemische Forellenart aus den Alpenflüssen Sloweniens und Norditaliens. Sie hat ein charakteristisches marmoriertes Muster auf dem Körper. Streng geschützt und nur mit catch-and-release zu befischen.",
+    "size": {
+      "avgCm": 35,
+      "maxCm": 50,
+      "avgKg": 0.8,
+      "maxKg": 2
+    },
+    "habitat": "Kalte, sauerstoffreiche Gebirgsflüsse und Bäche der Alpen",
+    "waterTypes": [
+      "fluss",
+      "bach"
+    ],
+    "techniques": [
+      "Fliegenfischen",
+      "Spinnfischen"
+    ],
+    "baits": [
+      "Trockenfliege",
+      "Nymphe",
+      "Spinner"
+    ],
+    "tips": [
+      "Streng geschützt",
+      "Nur catch-and-release",
+      "Frühe Morgenstunden"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 5,
+        "max": 18,
+        "ideal": 12
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 15
+      },
+      "cloudCover": {
+        "min": 20,
+        "max": 80
+      }
+    },
+    "season": {
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Frühling bis Herbst in klaren Gebirgsflüssen"
+    },
+    "closedSeason": "Ganzjährig geschützt in vielen Regionen",
+    "difficulty": 5,
+    "catchAndRelease": true,
+    "minSize": "30 cm",
+    "category": "salmonide",
+    "edibility": {
+      "rating": 5,
+      "taste": "mild",
+      "texture": "zart",
+      "preparation": [
+        "Nicht entnehmen"
+      ],
+      "notes": "Streng geschützte Art - nur catch-and-release erlaubt"
+    },
+    "habitatDetail": {
+      "depthRange": "0.5-3m",
+      "region": "Slowenien, Norditalien",
+      "structure": [
+        "Stroemung",
+        "Kiesbett",
+        "Unterstände"
+      ]
+    }
+  },
+  {
+    "id": "atlantischer-lachs",
+    "name": "Atlantischer Lachs",
+    "nicknames": [
+      "Atlantik-Lachs",
+      "Salm"
+    ],
+    "scientificName": "Salmo salar",
+    "image": "images/fish/atlantischer-lachs.svg",
+    "imageCredit": "Generiert",
+    "family": "Salmonidae",
+    "description": "Der Atlantische Lachs ist ein anadromer Wanderfisch, der zum Laichen aus dem Meer in Flüsse aufsteigt. Er ist bekannt für seine beeindruckenden Wanderungen und Sprünge über Hindernisse. In vielen europäischen Flüssen durch Besatzprogramme wieder etabliert.",
+    "size": {
+      "avgCm": 70,
+      "maxCm": 150,
+      "avgKg": 5,
+      "maxKg": 30
+    },
+    "habitat": "Atlantik und europäische Flüsse zum Laichen",
+    "waterTypes": [
+      "fluss",
+      "meer"
+    ],
+    "techniques": [
+      "Fliegenfischen",
+      "Spinnfischen"
+    ],
+    "baits": [
+      "Lachs-Fliege",
+      "Wobbler",
+      "Blinker"
+    ],
+    "tips": [
+      "Aufstiegszeiten beachten",
+      "Schonzeiten streng einhalten",
+      "Starkes Gerät nötig"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 8,
+        "max": 18,
+        "ideal": 12
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 25
+      },
+      "cloudCover": {
+        "min": 30,
+        "max": 90
+      }
+    },
+    "season": {
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Während der Laichwanderung im Sommer"
+    },
+    "closedSeason": "Oktober bis April in den meisten Regionen",
+    "difficulty": 5,
+    "catchAndRelease": false,
+    "minSize": "60 cm",
+    "category": "salmonide",
+    "edibility": {
+      "rating": 5,
+      "taste": "kraeftig",
+      "texture": "fest",
+      "preparation": [
+        "Räuchern",
+        "Braten",
+        "Grillen",
+        "Gravlax"
+      ],
+      "notes": "Hervorragender Speisefisch mit hohem Omega-3-Gehalt"
+    },
+    "habitatDetail": {
+      "depthRange": "1-10m",
+      "region": "Atlantik, Nordeuropa",
+      "structure": [
+        "Stroemung",
+        "Pools",
+        "Schnellen"
+      ]
+    }
+  },
+  {
+    "id": "rotlachs",
+    "name": "Rotlachs",
+    "nicknames": [
+      "Sockeye",
+      "Blaurückenlachs"
+    ],
+    "scientificName": "Oncorhynchus nerka",
+    "image": "images/fish/rotlachs.svg",
+    "imageCredit": "Generiert",
+    "family": "Salmonidae",
+    "description": "Der Rotlachs ist ein pazifischer Lachsart, die in Europa gelegentlich in Aquakultur gehalten wird. Zur Laichzeit färbt sich der Körper leuchtend rot mit grünem Kopf. Das Fleisch hat eine intensive rote Farbe.",
+    "size": {
+      "avgCm": 55,
+      "maxCm": 84,
+      "avgKg": 2.5,
+      "maxKg": 7
+    },
+    "habitat": "Pazifischer Ozean, in Europa nur in Aquakultur",
+    "waterTypes": [
+      "see"
+    ],
+    "techniques": [
+      "Spinnfischen",
+      "Schleppfischen"
+    ],
+    "baits": [
+      "Wobbler",
+      "Spinner",
+      "Teig"
+    ],
+    "tips": [
+      "In Europa selten",
+      "Hauptsächlich Aquakultur",
+      "Rotes Fleisch sehr geschätzt"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 8,
+        "max": 16,
+        "ideal": 12
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 20
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 70
+      }
+    },
+    "season": {
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Sommermonate in Seen"
+    },
+    "closedSeason": null,
+    "difficulty": 3,
+    "catchAndRelease": false,
+    "minSize": "40 cm",
+    "category": "salmonide",
+    "edibility": {
+      "rating": 5,
+      "taste": "kraeftig",
+      "texture": "fest",
+      "preparation": [
+        "Räuchern",
+        "Grillen",
+        "Sushi"
+      ],
+      "notes": "Intensiv rotes Fleisch, sehr hochwertig"
+    },
+    "habitatDetail": {
+      "depthRange": "3-15m",
+      "region": "Pazifik (in Europa Aquakultur)",
+      "structure": [
+        "Freiwasser",
+        "Seegrund"
+      ]
+    }
+  },
+  {
+    "id": "bachsaibling-amerikanisch",
+    "name": "Amerikanischer Bachsaibling",
+    "nicknames": [
+      "Brook Trout",
+      "Brooky"
+    ],
+    "scientificName": "Salvelinus fontinalis",
+    "image": "images/fish/bachsaibling-amerikanisch.svg",
+    "imageCredit": "Generiert",
+    "family": "Salmonidae",
+    "description": "Der Amerikanische Bachsaibling wurde in Europa eingeführt und hat sich in einigen Regionen etabliert. Er ist kleiner als der europäische Bachsaibling und bevorzugt noch kältere Gewässer. Charakteristisch sind die wurmförmigen Zeichnungen auf dem Rücken.",
+    "size": {
+      "avgCm": 20,
+      "maxCm": 40,
+      "avgKg": 0.3,
+      "maxKg": 1.5
+    },
+    "habitat": "Sehr kalte, sauerstoffreiche Bergbäche",
+    "waterTypes": [
+      "bach"
+    ],
+    "techniques": [
+      "Fliegenfischen",
+      "Spinnfischen"
+    ],
+    "baits": [
+      "Trockenfliege",
+      "Nymphe",
+      "Spinner"
+    ],
+    "tips": [
+      "Bevorzugt sehr kaltes Wasser",
+      "Vorsichtige Annäherung",
+      "Frühe Morgenstunden"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 2,
+        "max": 14,
+        "ideal": 8
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 15
+      },
+      "cloudCover": {
+        "min": 20,
+        "max": 90
+      }
+    },
+    "season": {
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Frühjahr bis Herbst"
+    },
+    "closedSeason": "Oktober bis Februar",
+    "difficulty": 4,
+    "catchAndRelease": false,
+    "minSize": "18 cm",
+    "category": "salmonide",
+    "edibility": {
+      "rating": 4,
+      "taste": "mild",
+      "texture": "zart",
+      "preparation": [
+        "Braten",
+        "Räuchern",
+        "Blau"
+      ],
+      "notes": "Feines, helles Fleisch"
+    },
+    "habitatDetail": {
+      "depthRange": "0.3-2m",
+      "region": "Europa (eingeführt)",
+      "structure": [
+        "Stroemung",
+        "Unterstände",
+        "Pools"
+      ]
+    }
+  },
+  {
+    "id": "tiger-forelle",
+    "name": "Tigerforelle",
+    "nicknames": [
+      "Tiger Trout"
+    ],
+    "scientificName": "Salmo trutta × Salvelinus fontinalis",
+    "image": "images/fish/tiger-forelle.svg",
+    "imageCredit": "Generiert",
+    "family": "Salmonidae",
+    "description": "Die Tigerforelle ist eine sterile Kreuzung aus Bachforelle und Bachsaibling. Sie hat ein auffälliges tigerähnliches Streifenmuster. Wird gezielt besetzt, da sie nicht reproduzieren kann und aggressiv auf Köder reagiert.",
+    "size": {
+      "avgCm": 30,
+      "maxCm": 50,
+      "avgKg": 0.6,
+      "maxKg": 2
+    },
+    "habitat": "Kalte Bäche und Seen mit Besatz",
+    "waterTypes": [
+      "bach",
+      "see"
+    ],
+    "techniques": [
+      "Spinnfischen",
+      "Fliegenfischen"
+    ],
+    "baits": [
+      "Spinner",
+      "Wobbler",
+      "Streamer"
+    ],
+    "tips": [
+      "Sehr aggressiv",
+      "Gezielter Besatzfisch",
+      "Kann nicht reproduzieren"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 5,
+        "max": 16,
+        "ideal": 10
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 20
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 80
+      }
+    },
+    "season": {
+      "bestMonths": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "description": "Frühjahr bis Herbst"
+    },
+    "closedSeason": null,
+    "difficulty": 3,
+    "catchAndRelease": false,
+    "minSize": "25 cm",
+    "category": "salmonide",
+    "edibility": {
+      "rating": 4,
+      "taste": "mild",
+      "texture": "fest",
+      "preparation": [
+        "Braten",
+        "Grillen",
+        "Räuchern"
+      ],
+      "notes": "Schmackhaftes Fleisch, ähnlich wie Forelle"
+    },
+    "habitatDetail": {
+      "depthRange": "0.5-5m",
+      "region": "Europa (Besatzfisch)",
+      "structure": [
+        "Stroemung",
+        "Pools",
+        "Unterstände"
+      ]
+    }
+  },
+  {
+    "id": "flussbarbe-raubform",
+    "name": "Barbus",
+    "nicknames": [
+      "Flussbarbe"
+    ],
+    "scientificName": "Barbus barbus",
+    "image": "images/fish/flussbarbe-raubform.svg",
+    "imageCredit": "Generiert",
+    "family": "Cyprinidae",
+    "description": "Die Flussbarbe ist eigentlich ein Friedfisch, aber große Exemplare jagen auch kleine Fische. Sie hat vier Barteln am Maul und bevorzugt schnell fließende Flussabschnitte mit steinigem Grund. Achtung: Die Eier sind giftig.",
+    "size": {
+      "avgCm": 40,
+      "maxCm": 90,
+      "avgKg": 2,
+      "maxKg": 8
+    },
+    "habitat": "Schnell fließende Flüsse mit Kiesgrund",
+    "waterTypes": [
+      "fluss"
+    ],
+    "techniques": [
+      "Grundangeln",
+      "Feederangeln"
+    ],
+    "baits": [
+      "Wurm",
+      "Made",
+      "Pellets",
+      "Boilies"
+    ],
+    "tips": [
+      "Eier sind giftig",
+      "Starke Kämpfer",
+      "Nachtaktiv"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 12,
+        "max": 25,
+        "ideal": 18
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 25
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 80
+      }
+    },
+    "season": {
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Sommerhalbjahr"
+    },
+    "closedSeason": "März bis Mai (Laichzeit)",
+    "difficulty": 3,
+    "catchAndRelease": false,
+    "minSize": "35 cm",
+    "category": "raubfisch",
+    "edibility": {
+      "rating": 2,
+      "taste": "medium",
+      "texture": "fest",
+      "preparation": [
+        "Braten"
+      ],
+      "notes": "Eier und Rogen sind giftig - nicht verzehren! Fleisch essbar aber viele Gräten"
+    },
+    "habitatDetail": {
+      "depthRange": "1-5m",
+      "region": "Mitteleuropa",
+      "structure": [
+        "Stroemung",
+        "Kiesgrund",
+        "Rinnen"
+      ]
+    }
+  },
+  {
+    "id": "quappe-raubform",
+    "name": "Rutte",
+    "nicknames": [
+      "Aalquappe",
+      "Aalraupe"
+    ],
+    "scientificName": "Lota lota",
+    "image": "images/fish/quappe-raubform.svg",
+    "imageCredit": "Generiert",
+    "family": "Lotidae",
+    "description": "Die Quappe ist der einzige Süßwasserdorsch und ein nachtaktiver Raubfisch. Sie bevorzugt kalte, klare Gewässer und laicht im Winter unter dem Eis. Ihr schlangenähnlicher Körper hat eine charakteristische Bartel am Kinn.",
+    "size": {
+      "avgCm": 40,
+      "maxCm": 80,
+      "avgKg": 1,
+      "maxKg": 5
+    },
+    "habitat": "Kalte, tiefe Seen und große Flüsse",
+    "waterTypes": [
+      "see",
+      "fluss"
+    ],
+    "techniques": [
+      "Grundangeln",
+      "Ansitzangeln"
+    ],
+    "baits": [
+      "Köderfisch",
+      "Wurm",
+      "Fischfetzen"
+    ],
+    "tips": [
+      "Nachtaktiv",
+      "Winter ist beste Zeit",
+      "Laicht unter dem Eis"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 2,
+        "max": 15,
+        "ideal": 8
+      },
+      "pressure": {
+        "trend": "egal"
+      },
+      "wind": {
+        "max": 30
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        11,
+        12,
+        1,
+        2
+      ],
+      "description": "Wintermonate - laicht im Dezember/Januar"
+    },
+    "closedSeason": null,
+    "difficulty": 3,
+    "catchAndRelease": false,
+    "minSize": "30 cm",
+    "category": "raubfisch",
+    "edibility": {
+      "rating": 4,
+      "taste": "mild",
+      "texture": "fest",
+      "preparation": [
+        "Braten",
+        "Suppe"
+      ],
+      "notes": "Sehr festes, weißes Fleisch, ähnlich wie Dorsch"
+    },
+    "habitatDetail": {
+      "depthRange": "5-30m",
+      "region": "Mitteleuropa",
+      "structure": [
+        "Grund",
+        "Tiefen",
+        "Steinfelder"
+      ]
+    }
+  },
+  {
+    "id": "huchen-raubform",
+    "name": "Donaulachs",
+    "nicknames": [
+      "Huchen",
+      "Rotfisch"
+    ],
+    "scientificName": "Hucho hucho",
+    "image": "images/fish/huchen-raubform.svg",
+    "imageCredit": "Generiert",
+    "family": "Salmonidae",
+    "description": "Der Huchen ist der größte lachsartige Raubfisch Europas und endemisch im Donausystem. Er ist ein aggressiver Jäger, der auch große Beute verschlingt. Streng geschützt und in vielen Gewässern nur mit catch-and-release zu befischen.",
+    "size": {
+      "avgCm": 80,
+      "maxCm": 150,
+      "avgKg": 8,
+      "maxKg": 30
+    },
+    "habitat": "Große, schnell fließende Flüsse des Donausystems",
+    "waterTypes": [
+      "fluss"
+    ],
+    "techniques": [
+      "Spinnfischen",
+      "Schleppfischen"
+    ],
+    "baits": [
+      "Große Wobbler",
+      "Gummifisch",
+      "Köderfisch"
+    ],
+    "tips": [
+      "Streng geschützt",
+      "Sehr schwer zu fangen",
+      "Nur große Köder verwenden"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 8,
+        "max": 18,
+        "ideal": 12
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 20
+      },
+      "cloudCover": {
+        "min": 30,
+        "max": 90
+      }
+    },
+    "season": {
+      "bestMonths": [
+        3,
+        4,
+        5,
+        9,
+        10,
+        11
+      ],
+      "description": "Frühjahr und Herbst"
+    },
+    "closedSeason": "Dezember bis Februar",
+    "difficulty": 5,
+    "catchAndRelease": true,
+    "minSize": "70 cm",
+    "category": "raubfisch",
+    "edibility": {
+      "rating": 4,
+      "taste": "mild",
+      "texture": "fest",
+      "preparation": [
+        "Nicht entnehmen"
+      ],
+      "notes": "Streng geschützt - nur catch-and-release"
+    },
+    "habitatDetail": {
+      "depthRange": "2-8m",
+      "region": "Donausystem",
+      "structure": [
+        "Stroemung",
+        "Pools",
+        "Tiefe Rinnen"
+      ]
+    }
+  },
+  {
+    "id": "streifenbarsch",
+    "name": "Gestreifter Bass",
+    "nicknames": [
+      "Striped Bass",
+      "Striper"
+    ],
+    "scientificName": "Morone saxatilis",
+    "image": "images/fish/streifenbarsch.svg",
+    "imageCredit": "Generiert",
+    "family": "Moronidae",
+    "description": "Der Gestreifte Bass ist ein anadromer nordamerikanischer Raubfisch, der vereinzelt in Europa eingeführt wurde. Er hat charakteristische dunkle Längsstreifen auf silbernem Grund und ist ein ausgezeichneter Kämpfer.",
+    "size": {
+      "avgCm": 60,
+      "maxCm": 120,
+      "avgKg": 4,
+      "maxKg": 25
+    },
+    "habitat": "Küstengewässer und große Flüsse",
+    "waterTypes": [
+      "meer",
+      "kueste",
+      "brackwasser",
+      "fluss"
+    ],
+    "techniques": [
+      "Spinnfischen",
+      "Schleppfischen"
+    ],
+    "baits": [
+      "Wobbler",
+      "Gummifisch",
+      "Köderfisch"
+    ],
+    "tips": [
+      "In Europa selten",
+      "Starker Kämpfer",
+      "Schulbildend"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 12,
+        "max": 25,
+        "ideal": 18
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 30
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 80
+      }
+    },
+    "season": {
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "description": "Frühjahr bis Herbst"
+    },
+    "closedSeason": null,
+    "difficulty": 4,
+    "catchAndRelease": false,
+    "minSize": "50 cm",
+    "category": "raubfisch",
+    "edibility": {
+      "rating": 4,
+      "taste": "mild",
+      "texture": "fest",
+      "preparation": [
+        "Grillen",
+        "Braten",
+        "Räuchern"
+      ],
+      "notes": "Festes, weißes Fleisch, sehr schmackhaft"
+    },
+    "habitatDetail": {
+      "depthRange": "2-20m",
+      "region": "Nordamerika (in Europa selten)",
+      "structure": [
+        "Stroemung",
+        "Felsen",
+        "Sandbänke"
+      ]
+    }
+  },
+  {
+    "id": "wels-albino",
+    "name": "Albino-Wels",
+    "nicknames": [
+      "Goldwels",
+      "Weißer Waller"
+    ],
+    "scientificName": "Silurus glanis (Albino)",
+    "image": "images/fish/wels-albino.svg",
+    "imageCredit": "Generiert",
+    "family": "Siluridae",
+    "description": "Der Albino-Wels ist eine seltene Farbvariante des Europäischen Welses. Er hat eine helle, gelblich-weiße Färbung und rote Augen. Albinos sind in der Natur extrem selten, da sie auffälliger für Fressfeinde sind.",
+    "size": {
+      "avgCm": 120,
+      "maxCm": 250,
+      "avgKg": 20,
+      "maxKg": 100
+    },
+    "habitat": "Große, tiefe Flüsse und Seen",
+    "waterTypes": [
+      "fluss",
+      "see"
+    ],
+    "techniques": [
+      "Ansitzangeln",
+      "Vertikalangeln"
+    ],
+    "baits": [
+      "Köderfisch",
+      "Tauwurmbündel",
+      "Kalmar"
+    ],
+    "tips": [
+      "Extrem selten",
+      "Nachtaktiv",
+      "Sehr starkes Gerät nötig"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 15,
+        "max": 28,
+        "ideal": 22
+      },
+      "pressure": {
+        "trend": "fallend"
+      },
+      "wind": {
+        "max": 20
+      },
+      "cloudCover": {
+        "min": 50,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Warme Monate"
+    },
+    "closedSeason": null,
+    "difficulty": 5,
+    "catchAndRelease": true,
+    "minSize": "80 cm",
+    "category": "raubfisch",
+    "edibility": {
+      "rating": 3,
+      "taste": "mild",
+      "texture": "fest",
+      "preparation": [
+        "Braten",
+        "Räuchern"
+      ],
+      "notes": "Seltene Variante - besser zurücksetzen"
+    },
+    "habitatDetail": {
+      "depthRange": "5-30m",
+      "region": "Europa (sehr selten)",
+      "structure": [
+        "Tiefe Löcher",
+        "Unterstände",
+        "Fahrrinnen"
+      ]
+    }
+  },
+  {
+    "id": "muskellunge",
+    "name": "Muskellunge",
+    "nicknames": [
+      "Musky",
+      "Tiger Musky"
+    ],
+    "scientificName": "Esox masquinongy",
+    "image": "images/fish/muskellunge.svg",
+    "imageCredit": "Generiert",
+    "family": "Esocidae",
+    "description": "Der Muskellunge ist der größte Hecht Nordamerikas und wurde vereinzelt in Europa eingeführt. Er ist seltener und schwieriger zu fangen als der Europäische Hecht. Bekannt als 'Fisch der 10.000 Würfe'.",
+    "size": {
+      "avgCm": 90,
+      "maxCm": 150,
+      "avgKg": 10,
+      "maxKg": 30
+    },
+    "habitat": "Große, klare Seen mit Pflanzenbewuchs",
+    "waterTypes": [
+      "see"
+    ],
+    "techniques": [
+      "Spinnfischen",
+      "Schleppfischen"
+    ],
+    "baits": [
+      "Große Wobbler",
+      "Jerkbaits",
+      "Spinnerbaits"
+    ],
+    "tips": [
+      "Sehr schwer zu fangen",
+      "Nur große Köder",
+      "In Europa extrem selten"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 12,
+        "max": 22,
+        "ideal": 16
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 25
+      },
+      "cloudCover": {
+        "min": 30,
+        "max": 90
+      }
+    },
+    "season": {
+      "bestMonths": [
+        5,
+        6,
+        9,
+        10
+      ],
+      "description": "Frühjahr und Herbst"
+    },
+    "closedSeason": "März bis Mai",
+    "difficulty": 5,
+    "catchAndRelease": true,
+    "minSize": "100 cm",
+    "category": "raubfisch",
+    "edibility": {
+      "rating": 3,
+      "taste": "mild",
+      "texture": "fest",
+      "preparation": [
+        "Nicht entnehmen"
+      ],
+      "notes": "Extrem seltener Fisch - immer zurücksetzen"
+    },
+    "habitatDetail": {
+      "depthRange": "2-15m",
+      "region": "Nordamerika (in Europa nicht etabliert)",
+      "structure": [
+        "Krautbetten",
+        "Unterstände",
+        "Strukturen"
+      ]
+    }
+  },
+  {
+    "id": "rotzahn-schleimfisch",
+    "name": "Doktorfisch",
+    "nicknames": [
+      "Schleimfisch"
+    ],
+    "scientificName": "Blennius ocellaris",
+    "image": "images/fish/rotzahn-schleimfisch.svg",
+    "imageCredit": "Generiert",
+    "family": "Blenniidae",
+    "description": "Der Schleimfisch ist ein kleiner, aggressiver Bodenfisch der Mittelmeerküste. Er verteidigt sein Revier vehement und beißt alles an, was in seine Nähe kommt. Lebt in Felsspalten und Muschelschalen.",
+    "size": {
+      "avgCm": 8,
+      "maxCm": 12,
+      "avgKg": 0.02,
+      "maxKg": 0.05
+    },
+    "habitat": "Felsige Küsten des Mittelmeers",
+    "waterTypes": [
+      "kueste",
+      "meer"
+    ],
+    "techniques": [
+      "Grundangeln"
+    ],
+    "baits": [
+      "Wurm",
+      "kleine Garnele"
+    ],
+    "tips": [
+      "Sehr klein",
+      "Aggressiv",
+      "Felsiges Gelände"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 15,
+        "max": 26,
+        "ideal": 20
+      },
+      "pressure": {
+        "trend": "egal"
+      },
+      "wind": {
+        "max": 20
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "description": "Warme Monate"
+    },
+    "closedSeason": null,
+    "difficulty": 1,
+    "catchAndRelease": true,
+    "minSize": null,
+    "category": "raubfisch",
+    "edibility": {
+      "rating": 1,
+      "taste": "mild",
+      "texture": "weich",
+      "preparation": [
+        "Nicht geeignet"
+      ],
+      "notes": "Zu klein zum Verzehr - immer zurücksetzen"
+    },
+    "habitatDetail": {
+      "depthRange": "0-10m",
+      "region": "Mittelmeer",
+      "structure": [
+        "Felsen",
+        "Spalten",
+        "Muscheln"
+      ]
+    }
+  },
+  {
+    "id": "dreistachliger-stichling",
+    "name": "Dreistachliger Stichling",
+    "nicknames": [
+      "Stichling"
+    ],
+    "scientificName": "Gasterosteus aculeatus",
+    "image": "images/fish/dreistachliger-stichling.svg",
+    "imageCredit": "Generiert",
+    "family": "Gasterosteidae",
+    "description": "Der Dreistachlige Stichling ist ein winziger Fisch mit drei markanten Rückenstacheln. Männchen färben sich zur Laichzeit leuchtend rot und bauen kunstvolle Nester. Extrem anpassungsfähig an verschiedene Salzgehalte.",
+    "size": {
+      "avgCm": 5,
+      "maxCm": 8,
+      "avgKg": 0.005,
+      "maxKg": 0.01
+    },
+    "habitat": "Bäche, Teiche, Küstengewässer",
+    "waterTypes": [
+      "bach",
+      "teich",
+      "kueste",
+      "brackwasser"
+    ],
+    "techniques": [
+      "Stippen"
+    ],
+    "baits": [
+      "Winzige Made",
+      "Brotflocke"
+    ],
+    "tips": [
+      "Sehr klein",
+      "Interessantes Brutverhalten",
+      "Nicht für Speisezwecke"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 5,
+        "max": 22,
+        "ideal": 15
+      },
+      "pressure": {
+        "trend": "egal"
+      },
+      "wind": {
+        "max": 20
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Frühjahr bis Herbst"
+    },
+    "closedSeason": null,
+    "difficulty": 1,
+    "catchAndRelease": true,
+    "minSize": null,
+    "category": "friedfisch",
+    "edibility": {
+      "rating": 0,
+      "taste": "mild",
+      "texture": "weich",
+      "preparation": [
+        "Nicht geeignet"
+      ],
+      "notes": "Zu klein zum Verzehr - rein ökologische Bedeutung"
+    },
+    "habitatDetail": {
+      "depthRange": "0-2m",
+      "region": "Europa, Nordamerika",
+      "structure": [
+        "Pflanzen",
+        "flache Ufer"
+      ]
+    }
+  },
+  {
+    "id": "neunstachliger-stichling",
+    "name": "Neunstachliger Stichling",
+    "nicknames": [
+      "Kleiner Stichling"
+    ],
+    "scientificName": "Pungitius pungitius",
+    "image": "images/fish/neunstachliger-stichling.svg",
+    "imageCredit": "Generiert",
+    "family": "Gasterosteidae",
+    "description": "Der Neunstachlige Stichling ist noch kleiner als sein dreistachliger Verwandter. Er hat 8-11 kurze Rückenstacheln und lebt bevorzugt in pflanzenreichen, stehenden Gewässern. Auch er zeigt kunstvolles Brutpflegeverhalten.",
+    "size": {
+      "avgCm": 4,
+      "maxCm": 7,
+      "avgKg": 0.003,
+      "maxKg": 0.008
+    },
+    "habitat": "Pflanzenreiche Teiche und langsam fließende Bäche",
+    "waterTypes": [
+      "teich",
+      "bach"
+    ],
+    "techniques": [
+      "Stippen"
+    ],
+    "baits": [
+      "Winzige Made"
+    ],
+    "tips": [
+      "Winzig klein",
+      "Pflanzenreiche Gewässer",
+      "Ökologischer Indikator"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 5,
+        "max": 20,
+        "ideal": 14
+      },
+      "pressure": {
+        "trend": "egal"
+      },
+      "wind": {
+        "max": 15
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Frühjahr bis Herbst"
+    },
+    "closedSeason": null,
+    "difficulty": 1,
+    "catchAndRelease": true,
+    "minSize": null,
+    "category": "friedfisch",
+    "edibility": {
+      "rating": 0,
+      "taste": "mild",
+      "texture": "weich",
+      "preparation": [
+        "Nicht geeignet"
+      ],
+      "notes": "Zu klein zum Verzehr"
+    },
+    "habitatDetail": {
+      "depthRange": "0-1.5m",
+      "region": "Europa",
+      "structure": [
+        "Dichte Pflanzen",
+        "Ufernähe"
+      ]
+    }
+  },
+  {
+    "id": "laube",
+    "name": "Laube",
+    "nicknames": [
+      "Ukelei"
+    ],
+    "scientificName": "Alburnus alburnus",
+    "image": "images/fish/laube.svg",
+    "imageCredit": "Generiert",
+    "family": "Cyprinidae",
+    "description": "Die Laube ist ein kleiner, silbrig glänzender Schwarmfisch der Oberflächenzone. Sie war früher wichtig für die Perlmuttherstellung. Heute geschätzt als Köderfisch und von Sportanglern wegen ihrer schnellen Bisse.",
+    "size": {
+      "avgCm": 12,
+      "maxCm": 20,
+      "avgKg": 0.03,
+      "maxKg": 0.08
+    },
+    "habitat": "Flüsse, Seen, Kanäle - oberflächennah",
+    "waterTypes": [
+      "fluss",
+      "see",
+      "teich"
+    ],
+    "techniques": [
+      "Stippen",
+      "Matchrute"
+    ],
+    "baits": [
+      "Made",
+      "Brotflocke",
+      "Teig"
+    ],
+    "tips": [
+      "Schnelle Bisse",
+      "Schwarmfisch",
+      "Guter Köderfisch"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 10,
+        "max": 25,
+        "ideal": 18
+      },
+      "pressure": {
+        "trend": "egal"
+      },
+      "wind": {
+        "max": 20
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 80
+      }
+    },
+    "season": {
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Warme Monate"
+    },
+    "closedSeason": null,
+    "difficulty": 1,
+    "catchAndRelease": false,
+    "minSize": null,
+    "category": "friedfisch",
+    "edibility": {
+      "rating": 2,
+      "taste": "mild",
+      "texture": "weich",
+      "preparation": [
+        "Braten",
+        "als Köderfisch"
+      ],
+      "notes": "Viele Gräten, hauptsächlich als Köderfisch verwendet"
+    },
+    "habitatDetail": {
+      "depthRange": "0-2m",
+      "region": "Europa",
+      "structure": [
+        "Oberfläche",
+        "freies Wasser"
+      ]
+    }
+  },
+  {
+    "id": "weisskarpfen",
+    "name": "Weißer Amur",
+    "nicknames": [
+      "Graskarpfen"
+    ],
+    "scientificName": "Ctenopharyngodon idella",
+    "image": "images/fish/weisskarpfen.svg",
+    "imageCredit": "Generiert",
+    "family": "Cyprinidae",
+    "description": "Der Weiße Amur ist ein ostasiatischer Pflanzenfresser, der in Europa zur Gewässerpflege eingesetzt wird. Er frisst täglich bis zur Hälfte seines Körpergewichts an Wasserpflanzen. Schwer zu fangen, da er selten Köder annimmt.",
+    "size": {
+      "avgCm": 70,
+      "maxCm": 120,
+      "avgKg": 15,
+      "maxKg": 40
+    },
+    "habitat": "Langsam fließende Flüsse und Seen mit Pflanzenbewuchs",
+    "waterTypes": [
+      "fluss",
+      "see",
+      "teich"
+    ],
+    "techniques": [
+      "Grundangeln",
+      "Schwimmerangeln"
+    ],
+    "baits": [
+      "Mais",
+      "Gurke",
+      "Wasserpflanzen",
+      "Brot"
+    ],
+    "tips": [
+      "Sehr vorsichtig",
+      "Pflanzenfresser",
+      "Warme Tage bevorzugt"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 18,
+        "max": 30,
+        "ideal": 24
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 15
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 60
+      }
+    },
+    "season": {
+      "bestMonths": [
+        6,
+        7,
+        8
+      ],
+      "description": "Hochsommer"
+    },
+    "closedSeason": null,
+    "difficulty": 4,
+    "catchAndRelease": false,
+    "minSize": "50 cm",
+    "category": "friedfisch",
+    "edibility": {
+      "rating": 3,
+      "taste": "mild",
+      "texture": "fest",
+      "preparation": [
+        "Braten",
+        "Grillen",
+        "Räuchern"
+      ],
+      "notes": "Festes Fleisch, kann aber nach Schlamm schmecken"
+    },
+    "habitatDetail": {
+      "depthRange": "1-5m",
+      "region": "Ostasien (in Europa eingeführt)",
+      "structure": [
+        "Pflanzenfelder",
+        "Mittelwasser"
+      ]
+    }
+  },
+  {
+    "id": "zobel",
+    "name": "Zobel",
+    "nicknames": [
+      "Sichling",
+      "Ziege"
+    ],
+    "scientificName": "Ballerus sapa",
+    "image": "images/fish/zobel.svg",
+    "imageCredit": "Generiert",
+    "family": "Cyprinidae",
+    "description": "Der Zobel ist ein seltener, hochrückiger Schwarmfisch großer Flüsse. Er ähnelt der Zope, hat aber ein oberständiges Maul. In vielen Regionen gefährdet durch Gewässerverschmutzung und Flussverbauung.",
+    "size": {
+      "avgCm": 20,
+      "maxCm": 35,
+      "avgKg": 0.2,
+      "maxKg": 0.6
+    },
+    "habitat": "Große Flüsse mit Strömung",
+    "waterTypes": [
+      "fluss"
+    ],
+    "techniques": [
+      "Stippen",
+      "Feederangeln"
+    ],
+    "baits": [
+      "Made",
+      "Wurm",
+      "Brot"
+    ],
+    "tips": [
+      "Selten geworden",
+      "Schwarmfisch",
+      "Strömungsliebend"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 12,
+        "max": 24,
+        "ideal": 18
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 20
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 80
+      }
+    },
+    "season": {
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Warme Monate"
+    },
+    "closedSeason": "März bis April",
+    "difficulty": 3,
+    "catchAndRelease": true,
+    "minSize": "20 cm",
+    "category": "friedfisch",
+    "edibility": {
+      "rating": 2,
+      "taste": "mild",
+      "texture": "weich",
+      "preparation": [
+        "Braten"
+      ],
+      "notes": "Viele Gräten, seltene Art - besser zurücksetzen"
+    },
+    "habitatDetail": {
+      "depthRange": "2-8m",
+      "region": "Osteuropa, Donau",
+      "structure": [
+        "Strömung",
+        "Rinnen"
+      ]
+    }
+  },
+  {
+    "id": "ploetze",
+    "name": "Plötze",
+    "nicknames": [
+      "Rotauge"
+    ],
+    "scientificName": "Rutilus rutilus",
+    "image": "images/fish/ploetze.svg",
+    "imageCredit": "Generiert",
+    "family": "Cyprinidae",
+    "description": "Die Plötze ist einer der häufigsten Fische Europas. Sie hat rote Augen und rötliche Flossen. Ein klassischer Anfängerfisch, der in fast jedem Gewässer vorkommt und bereitwillig beißt.",
+    "size": {
+      "avgCm": 15,
+      "maxCm": 35,
+      "avgKg": 0.2,
+      "maxKg": 1
+    },
+    "habitat": "Alle Süßgewässer außer sehr kalte Bergbäche",
+    "waterTypes": [
+      "fluss",
+      "see",
+      "teich",
+      "bach"
+    ],
+    "techniques": [
+      "Stippen",
+      "Matchrute",
+      "Feederangeln"
+    ],
+    "baits": [
+      "Made",
+      "Wurm",
+      "Brot",
+      "Mais"
+    ],
+    "tips": [
+      "Sehr häufig",
+      "Guter Anfängerfisch",
+      "Schwarmbildend"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 8,
+        "max": 26,
+        "ideal": 16
+      },
+      "pressure": {
+        "trend": "egal"
+      },
+      "wind": {
+        "max": 25
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "description": "Frühjahr bis Herbst"
+    },
+    "closedSeason": null,
+    "difficulty": 1,
+    "catchAndRelease": false,
+    "minSize": null,
+    "category": "friedfisch",
+    "edibility": {
+      "rating": 2,
+      "taste": "mild",
+      "texture": "weich",
+      "preparation": [
+        "Braten",
+        "Räuchern"
+      ],
+      "notes": "Viele kleine Gräten, als Köderfisch beliebt"
+    },
+    "habitatDetail": {
+      "depthRange": "0.5-5m",
+      "region": "Europa",
+      "structure": [
+        "Ufer",
+        "Mittelwasser",
+        "Pflanzen"
+      ]
+    }
+  },
+  {
+    "id": "marmorierte-barbe",
+    "name": "Semling",
+    "nicknames": [
+      "Marmorierte Barbe"
+    ],
+    "scientificName": "Barbus meridionalis",
+    "image": "images/fish/marmorierte-barbe.svg",
+    "imageCredit": "Generiert",
+    "family": "Cyprinidae",
+    "description": "Der Semling ist eine kleinere Barbenart mit charakteristischer marmorierter Zeichnung. Er bevorzugt kleinere Fließgewässer als die große Flussbarbe und ist in Süddeutschland heimisch. In vielen Regionen gefährdet.",
+    "size": {
+      "avgCm": 15,
+      "maxCm": 25,
+      "avgKg": 0.1,
+      "maxKg": 0.3
+    },
+    "habitat": "Kleine bis mittlere Fließgewässer mit Strömung",
+    "waterTypes": [
+      "bach",
+      "fluss"
+    ],
+    "techniques": [
+      "Stippen",
+      "Fliegenfischen"
+    ],
+    "baits": [
+      "Made",
+      "kleine Würmer",
+      "Nymphe"
+    ],
+    "tips": [
+      "Geschützte Art",
+      "Bevorzugt Strömung",
+      "Kleingewässer"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 10,
+        "max": 22,
+        "ideal": 16
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 15
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 80
+      }
+    },
+    "season": {
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Warme Monate"
+    },
+    "closedSeason": "März bis Mai",
+    "difficulty": 3,
+    "catchAndRelease": true,
+    "minSize": null,
+    "category": "friedfisch",
+    "edibility": {
+      "rating": 1,
+      "taste": "mild",
+      "texture": "fest",
+      "preparation": [
+        "Nicht entnehmen"
+      ],
+      "notes": "Geschützte Art - immer zurücksetzen"
+    },
+    "habitatDetail": {
+      "depthRange": "0.3-2m",
+      "region": "Süddeutschland, Alpenvorland",
+      "structure": [
+        "Strömung",
+        "Kies",
+        "Steine"
+      ]
+    }
+  },
+  {
+    "id": "russische-barbe",
+    "name": "Russische Barbe",
+    "nicknames": [
+      "Kaspische Barbe"
+    ],
+    "scientificName": "Luciobarbus caspius",
+    "image": "images/fish/russische-barbe.svg",
+    "imageCredit": "Generiert",
+    "family": "Cyprinidae",
+    "description": "Die Russische Barbe ist eine große, kräftige Barbenart aus dem Schwarzmeer- und Kaspischen-Gebiet. Sie kann deutlich größer werden als die einheimische Flussbarbe. Vereinzelt in der Donau vorkommend.",
+    "size": {
+      "avgCm": 60,
+      "maxCm": 120,
+      "avgKg": 5,
+      "maxKg": 25
+    },
+    "habitat": "Große Flüsse und Flussmündungen",
+    "waterTypes": [
+      "fluss",
+      "brackwasser"
+    ],
+    "techniques": [
+      "Grundangeln",
+      "Feederangeln"
+    ],
+    "baits": [
+      "Wurmbündel",
+      "Pellets",
+      "Boilies"
+    ],
+    "tips": [
+      "Sehr selten in Mitteleuropa",
+      "Starker Kämpfer",
+      "Große Exemplare möglich"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 12,
+        "max": 26,
+        "ideal": 20
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 25
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 80
+      }
+    },
+    "season": {
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Warme Monate"
+    },
+    "closedSeason": "März bis Mai",
+    "difficulty": 4,
+    "catchAndRelease": true,
+    "minSize": "50 cm",
+    "category": "friedfisch",
+    "edibility": {
+      "rating": 2,
+      "taste": "mild",
+      "texture": "fest",
+      "preparation": [
+        "Nicht entnehmen"
+      ],
+      "notes": "Seltene Art in Mitteleuropa - zurücksetzen. Rogen giftig!"
+    },
+    "habitatDetail": {
+      "depthRange": "2-10m",
+      "region": "Schwarzes Meer, Kaspisches Meer, selten Donau",
+      "structure": [
+        "Strömung",
+        "Tiefe Rinnen"
+      ]
+    }
+  },
+  {
+    "id": "blauflossen-thunfisch",
+    "name": "Blauflossen-Thunfisch",
+    "nicknames": [
+      "Roter Thun",
+      "Nordatlantischer Thun"
+    ],
+    "scientificName": "Thunnus thynnus",
+    "image": "images/fish/blauflossen-thunfisch.svg",
+    "imageCredit": "Generiert",
+    "family": "Scombridae",
+    "description": "Der Blauflossen-Thunfisch ist der größte und wertvollste Thunfisch der Welt. Er kann über 600 kg schwer werden und ist ein extrem starker Kämpfer. Durch Überfischung stark gefährdet, streng reglementiert.",
+    "size": {
+      "avgCm": 200,
+      "maxCm": 300,
+      "avgKg": 150,
+      "maxKg": 600
+    },
+    "habitat": "Offener Atlantik und Mittelmeer",
+    "waterTypes": [
+      "meer"
+    ],
+    "techniques": [
+      "Schleppfischen",
+      "Big Game"
+    ],
+    "baits": [
+      "Köderfisch",
+      "Kunstköder",
+      "Oktopus"
+    ],
+    "tips": [
+      "Streng reglementiert",
+      "Extrem starker Kämpfer",
+      "Sehr wertvoll"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 15,
+        "max": 28,
+        "ideal": 22
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 30
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 60
+      }
+    },
+    "season": {
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "description": "Frühjahr bis Herbst"
+    },
+    "closedSeason": "Regional unterschiedlich - streng reglementiert",
+    "difficulty": 5,
+    "catchAndRelease": true,
+    "minSize": "115 cm (EU)",
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 5,
+      "taste": "kraeftig",
+      "texture": "fest",
+      "preparation": [
+        "Sushi",
+        "Sashimi",
+        "Grillen"
+      ],
+      "notes": "Weltweit höchstgeschätzt für Sushi - aber streng geschützt"
+    },
+    "habitatDetail": {
+      "depthRange": "0-1000m",
+      "region": "Atlantik, Mittelmeer",
+      "structure": [
+        "Freiwasser",
+        "Wanderfisch"
+      ]
+    }
+  },
+  {
+    "id": "seewolf",
+    "name": "Seewolf",
+    "nicknames": [
+      "Steinbeißer",
+      "Katfisch"
+    ],
+    "scientificName": "Anarhichas lupus",
+    "image": "images/fish/seewolf.svg",
+    "imageCredit": "Generiert",
+    "family": "Anarhichadidae",
+    "description": "Der Seewolf ist ein bodenlebender Raubfisch mit kräftigen Kiefern und hundeartigen Zähnen. Er ernährt sich von hartschaligen Beutetieren wie Muscheln und Krebsen. Trotz furchteinflößendem Aussehen ist das Fleisch sehr geschätzt.",
+    "size": {
+      "avgCm": 80,
+      "maxCm": 150,
+      "avgKg": 10,
+      "maxKg": 30
+    },
+    "habitat": "Felsige Meeresböden der Nordsee und des Nordatlantiks",
+    "waterTypes": [
+      "meer"
+    ],
+    "techniques": [
+      "Grundangeln",
+      "Pilken"
+    ],
+    "baits": [
+      "Fischfetzen",
+      "Krebse",
+      "Muschelfleisch"
+    ],
+    "tips": [
+      "Vorsicht beim Anfassen - beißt kräftig",
+      "Bodennähe",
+      "Kalte Gewässer"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 2,
+        "max": 14,
+        "ideal": 8
+      },
+      "pressure": {
+        "trend": "egal"
+      },
+      "wind": {
+        "max": 35
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "description": "Herbst bis Frühjahr"
+    },
+    "closedSeason": null,
+    "difficulty": 3,
+    "catchAndRelease": false,
+    "minSize": "50 cm",
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 4,
+      "taste": "mild",
+      "texture": "fest",
+      "preparation": [
+        "Braten",
+        "Grillen",
+        "Räuchern"
+      ],
+      "notes": "Festes, weißes Fleisch ohne Gräten - sehr geschätzt"
+    },
+    "habitatDetail": {
+      "depthRange": "20-500m",
+      "region": "Nordatlantik, Nordsee",
+      "structure": [
+        "Felsgrund",
+        "Spalten",
+        "Wracks"
+      ]
+    }
+  },
+  {
+    "id": "kliesche",
+    "name": "Kliesche",
+    "nicknames": [
+      "Scharbe"
+    ],
+    "scientificName": "Limanda limanda",
+    "image": "images/fish/kliesche.svg",
+    "imageCredit": "Generiert",
+    "family": "Pleuronectidae",
+    "description": "Die Kliesche ist ein kleinerer Plattfisch der Nordsee mit rauer Haut. Sie hat eine charakteristische Krümmung über der Brustflosse. Häufig beim Brandungsangeln gefangen, guter Speisefisch.",
+    "size": {
+      "avgCm": 25,
+      "maxCm": 40,
+      "avgKg": 0.3,
+      "maxKg": 1
+    },
+    "habitat": "Sandige und schlickige Böden der Nordsee",
+    "waterTypes": [
+      "meer",
+      "kueste"
+    ],
+    "techniques": [
+      "Brandungsangeln",
+      "Grundangeln"
+    ],
+    "baits": [
+      "Wattwurm",
+      "Seeringelwurm",
+      "Krebsfleisch"
+    ],
+    "tips": [
+      "Häufig in der Nordsee",
+      "Brandungsangeln",
+      "Schwärme möglich"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 4,
+        "max": 18,
+        "ideal": 12
+      },
+      "pressure": {
+        "trend": "egal"
+      },
+      "wind": {
+        "max": 40
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "description": "Frühjahr bis Herbst"
+    },
+    "closedSeason": null,
+    "difficulty": 2,
+    "catchAndRelease": false,
+    "minSize": "23 cm",
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 3,
+      "taste": "mild",
+      "texture": "zart",
+      "preparation": [
+        "Braten",
+        "Panieren"
+      ],
+      "notes": "Zartes, weißes Fleisch - paniert hervorragend"
+    },
+    "habitatDetail": {
+      "depthRange": "5-100m",
+      "region": "Nordsee, Ostsee",
+      "structure": [
+        "Sand",
+        "Schlick"
+      ]
+    }
+  },
+  {
+    "id": "rotzunge",
+    "name": "Rotzunge",
+    "nicknames": [
+      "Aalbutt"
+    ],
+    "scientificName": "Microstomus kitt",
+    "image": "images/fish/rotzunge.svg",
+    "imageCredit": "Generiert",
+    "family": "Pleuronectidae",
+    "description": "Die Rotzunge ist ein kleinerer Plattfisch mit sehr kleinem Maul und schleimiger Haut. Sie lebt auf Sand- und Schlickböden und ist ein ausgezeichneter Speisefisch, auch wenn sie nicht so bekannt ist wie andere Plattfische.",
+    "size": {
+      "avgCm": 30,
+      "maxCm": 50,
+      "avgKg": 0.5,
+      "maxKg": 2
+    },
+    "habitat": "Sand- und Schlickböden der Nordsee",
+    "waterTypes": [
+      "meer"
+    ],
+    "techniques": [
+      "Grundangeln",
+      "Schleppangeln"
+    ],
+    "baits": [
+      "Wattwurm",
+      "Seeringelwurm",
+      "Muschelfleisch"
+    ],
+    "tips": [
+      "Kleines Maul - kleine Haken",
+      "Tiefere Gewässer",
+      "Schleimige Haut"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 5,
+        "max": 16,
+        "ideal": 10
+      },
+      "pressure": {
+        "trend": "egal"
+      },
+      "wind": {
+        "max": 35
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "description": "Herbst und Winter"
+    },
+    "closedSeason": null,
+    "difficulty": 3,
+    "catchAndRelease": false,
+    "minSize": "28 cm",
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 4,
+      "taste": "mild",
+      "texture": "zart",
+      "preparation": [
+        "Braten",
+        "Dämpfen"
+      ],
+      "notes": "Sehr zartes, feines Fleisch - unterschätzt"
+    },
+    "habitatDetail": {
+      "depthRange": "20-200m",
+      "region": "Nordatlantik, Nordsee",
+      "structure": [
+        "Sand",
+        "Schlick",
+        "Tiefere Gewässer"
+      ]
+    }
+  },
+  {
+    "id": "kabeljau",
+    "name": "Kabeljau",
+    "nicknames": [
+      "Dorsch (jüngere Exemplare)"
+    ],
+    "scientificName": "Gadus morhua",
+    "image": "images/fish/kabeljau.svg",
+    "imageCredit": "Generiert",
+    "family": "Gadidae",
+    "description": "Der Kabeljau ist einer der wichtigsten Speisefische des Nordatlantiks. Jüngere Exemplare werden als Dorsch bezeichnet. Er lebt in kühleren Gewässern und ernährt sich von Fischen und Krebstieren. Durch Überfischung in vielen Gebieten gefährdet.",
+    "size": {
+      "avgCm": 60,
+      "maxCm": 150,
+      "avgKg": 5,
+      "maxKg": 50
+    },
+    "habitat": "Nordatlantik, Nordsee, Ostsee",
+    "waterTypes": [
+      "meer"
+    ],
+    "techniques": [
+      "Pilken",
+      "Naturköderangeln",
+      "Dorschangeln"
+    ],
+    "baits": [
+      "Pilker",
+      "Gummifisch",
+      "Heringsfetzen"
+    ],
+    "tips": [
+      "Schwarmfisch",
+      "Strukturen bevorzugt",
+      "Frühmorgendlich aktiv"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 2,
+        "max": 15,
+        "ideal": 8
+      },
+      "pressure": {
+        "trend": "egal"
+      },
+      "wind": {
+        "max": 40
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3,
+        4
+      ],
+      "description": "Herbst bis Frühjahr"
+    },
+    "closedSeason": "Regional unterschiedlich",
+    "difficulty": 2,
+    "catchAndRelease": false,
+    "minSize": "38 cm (regional unterschiedlich)",
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 5,
+      "taste": "mild",
+      "texture": "fest",
+      "preparation": [
+        "Braten",
+        "Backen",
+        "Dünsten",
+        "Stockfisch"
+      ],
+      "notes": "Klassischer Speisefisch - festes weißes Fleisch, sehr vielseitig"
+    },
+    "habitatDetail": {
+      "depthRange": "10-600m",
+      "region": "Nordatlantik, Nord- und Ostsee",
+      "structure": [
+        "Wracks",
+        "Riffe",
+        "Sand"
+      ]
+    }
+  },
+  {
+    "id": "schellfisch",
+    "name": "Schellfisch",
+    "nicknames": [
+      "Kolja"
+    ],
+    "scientificName": "Melanogrammus aeglefinus",
+    "image": "images/fish/schellfisch.svg",
+    "imageCredit": "Generiert",
+    "family": "Gadidae",
+    "description": "Der Schellfisch ist ein naher Verwandter des Kabeljaus mit einem charakteristischen schwarzen Fleck über der Brustflosse. Er gilt als besonders wohlschmeckend und ist ein wichtiger Speisefisch. Bevorzugt strukturreiche Böden.",
+    "size": {
+      "avgCm": 50,
+      "maxCm": 110,
+      "avgKg": 2,
+      "maxKg": 15
+    },
+    "habitat": "Nordatlantik über Sand- und Schotterböden",
+    "waterTypes": [
+      "meer"
+    ],
+    "techniques": [
+      "Pilken",
+      "Naturköderangeln"
+    ],
+    "baits": [
+      "Pilker",
+      "Gummifisch",
+      "Heringsfetzen",
+      "Muschelfleisch"
+    ],
+    "tips": [
+      "Schwarzer Fleck charakteristisch",
+      "Schwarmfisch",
+      "Strukturliebend"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 3,
+        "max": 12,
+        "ideal": 7
+      },
+      "pressure": {
+        "trend": "egal"
+      },
+      "wind": {
+        "max": 40
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "description": "Herbst bis Frühjahr"
+    },
+    "closedSeason": null,
+    "difficulty": 2,
+    "catchAndRelease": false,
+    "minSize": "30 cm",
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 5,
+      "taste": "mild",
+      "texture": "fest",
+      "preparation": [
+        "Räuchern",
+        "Braten",
+        "Backen"
+      ],
+      "notes": "Gilt als wohlschmeckender als Kabeljau - exzellenter Räucherfisch"
+    },
+    "habitatDetail": {
+      "depthRange": "40-300m",
+      "region": "Nordatlantik, Nordsee",
+      "structure": [
+        "Sand",
+        "Schotter",
+        "Muschelbänke"
+      ]
+    }
+  },
+  {
+    "id": "pollack",
+    "name": "Pollack",
+    "nicknames": [
+      "Steinköhler"
+    ],
+    "scientificName": "Pollachius pollachius",
+    "image": "images/fish/pollack.svg",
+    "imageCredit": "Generiert",
+    "family": "Gadidae",
+    "description": "Der Pollack ist ein schlanker, schneller Dorschartiger mit grünlichem Rücken. Er jagt aktiv in mittleren Wasserschichten und ist ein ausgezeichneter Kämpfer. Bevorzugt strukturreiche Gewässer und Wracks.",
+    "size": {
+      "avgCm": 60,
+      "maxCm": 130,
+      "avgKg": 4,
+      "maxKg": 20
+    },
+    "habitat": "Felsige Küsten und Wracks des Nordatlantiks",
+    "waterTypes": [
+      "meer",
+      "kueste"
+    ],
+    "techniques": [
+      "Spinnfischen",
+      "Pilken"
+    ],
+    "baits": [
+      "Gummifisch",
+      "Wobbler",
+      "Pilker"
+    ],
+    "tips": [
+      "Aktiver Jäger",
+      "Wracks und Strukturen",
+      "Starker Kämpfer"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 8,
+        "max": 18,
+        "ideal": 13
+      },
+      "pressure": {
+        "trend": "egal"
+      },
+      "wind": {
+        "max": 35
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "description": "Sommer bis Herbst"
+    },
+    "closedSeason": null,
+    "difficulty": 3,
+    "catchAndRelease": false,
+    "minSize": "35 cm",
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 4,
+      "taste": "mild",
+      "texture": "fest",
+      "preparation": [
+        "Braten",
+        "Grillen",
+        "Räuchern"
+      ],
+      "notes": "Festes, weißes Fleisch - gut für Fischstäbchen"
+    },
+    "habitatDetail": {
+      "depthRange": "10-200m",
+      "region": "Nordatlantik, Nordsee",
+      "structure": [
+        "Felsen",
+        "Wracks",
+        "Riffe"
+      ]
+    }
+  },
+  {
+    "id": "koehler",
+    "name": "Köhler",
+    "nicknames": [
+      "Seelachs",
+      "Kohlfisch"
+    ],
+    "scientificName": "Pollachius virens",
+    "image": "images/fish/koehler.svg",
+    "imageCredit": "Generiert",
+    "family": "Gadidae",
+    "description": "Der Köhler ist ein großer, dunkler Dorschartiger, der oft als 'Seelachs' vermarktet wird (obwohl er kein Lachs ist). Er bildet große Schwärme und ist ein wichtiger Speisefisch. Jagt aktiv im Freiwasser.",
+    "size": {
+      "avgCm": 70,
+      "maxCm": 130,
+      "avgKg": 6,
+      "maxKg": 25
+    },
+    "habitat": "Freiwasser des Nordatlantiks",
+    "waterTypes": [
+      "meer"
+    ],
+    "techniques": [
+      "Pilken",
+      "Spinnfischen"
+    ],
+    "baits": [
+      "Pilker",
+      "Gummifisch",
+      "Heringsfetzen"
+    ],
+    "tips": [
+      "Große Schwärme",
+      "Freiwasserjäger",
+      "Starker Kämpfer"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 5,
+        "max": 16,
+        "ideal": 10
+      },
+      "pressure": {
+        "trend": "egal"
+      },
+      "wind": {
+        "max": 40
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "description": "Herbst bis Winter"
+    },
+    "closedSeason": null,
+    "difficulty": 2,
+    "catchAndRelease": false,
+    "minSize": "35 cm",
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 4,
+      "taste": "mild",
+      "texture": "fest",
+      "preparation": [
+        "Räuchern",
+        "Braten",
+        "Panieren"
+      ],
+      "notes": "Als 'Seelachs' bekannt - festes, dunkles Fleisch"
+    },
+    "habitatDetail": {
+      "depthRange": "30-300m",
+      "region": "Nordatlantik, Nordsee",
+      "structure": [
+        "Freiwasser",
+        "Schwärme"
+      ]
+    }
+  },
+  {
+    "id": "heilbutt",
+    "name": "Heilbutt",
+    "nicknames": [
+      "Weißer Heilbutt"
+    ],
+    "scientificName": "Hippoglossus hippoglossus",
+    "image": "images/fish/heilbutt.svg",
+    "imageCredit": "Generiert",
+    "family": "Pleuronectidae",
+    "description": "Der Heilbutt ist der größte Plattfisch der Welt und kann über 300 kg schwer werden. Er ist ein begehrter Speise- und Sportfisch. Durch Überfischung stark zurückgegangen, heute streng reglementiert.",
+    "size": {
+      "avgCm": 150,
+      "maxCm": 300,
+      "avgKg": 50,
+      "maxKg": 350
+    },
+    "habitat": "Tiefe Gewässer des Nordatlantiks",
+    "waterTypes": [
+      "meer"
+    ],
+    "techniques": [
+      "Grundangeln",
+      "Big Game"
+    ],
+    "baits": [
+      "Große Köderfische",
+      "Tintenfisch"
+    ],
+    "tips": [
+      "Sehr groß und stark",
+      "Tiefes Wasser",
+      "Streng reglementiert"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 3,
+        "max": 12,
+        "ideal": 7
+      },
+      "pressure": {
+        "trend": "egal"
+      },
+      "wind": {
+        "max": 40
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Frühjahr bis Herbst"
+    },
+    "closedSeason": "Regional unterschiedlich - streng reglementiert",
+    "difficulty": 5,
+    "catchAndRelease": false,
+    "minSize": "60 cm (regional unterschiedlich)",
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 5,
+      "taste": "mild",
+      "texture": "fest",
+      "preparation": [
+        "Grillen",
+        "Braten",
+        "Räuchern",
+        "Sashimi"
+      ],
+      "notes": "Exzellenter Speisefisch - festes, weißes Fleisch"
+    },
+    "habitatDetail": {
+      "depthRange": "50-2000m",
+      "region": "Nordatlantik",
+      "structure": [
+        "Tiefe Gründe",
+        "Sand",
+        "Felsen"
+      ]
+    }
+  },
+  {
+    "id": "mittelmeer-stechrochen",
+    "name": "Stechrochen",
+    "nicknames": [
+      "Gemeiner Stechrochen"
+    ],
+    "scientificName": "Dasyatis pastinaca",
+    "image": "images/fish/mittelmeer-stechrochen.svg",
+    "imageCredit": "Generiert",
+    "family": "Dasyatidae",
+    "description": "Der Stechrochen ist ein Bodenbewohner mit giftigem Stachel am Schwanz. Er vergräbt sich im Sand und wird manchmal versehentlich getreten. Beim Angeln Vorsicht beim Landen - der Stachel kann schmerzhafte Wunden verursachen.",
+    "size": {
+      "avgCm": 60,
+      "maxCm": 140,
+      "avgKg": 8,
+      "maxKg": 30
+    },
+    "habitat": "Sandige und schlickige Meeresböden",
+    "waterTypes": [
+      "meer",
+      "kueste"
+    ],
+    "techniques": [
+      "Grundangeln"
+    ],
+    "baits": [
+      "Fischfetzen",
+      "Tintenfisch",
+      "Krebse"
+    ],
+    "tips": [
+      "Giftiger Stachel - Vorsicht!",
+      "Vergräbt sich im Sand",
+      "Nachtaktiv"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 12,
+        "max": 26,
+        "ideal": 20
+      },
+      "pressure": {
+        "trend": "egal"
+      },
+      "wind": {
+        "max": 25
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "description": "Warme Monate"
+    },
+    "closedSeason": null,
+    "difficulty": 3,
+    "catchAndRelease": true,
+    "minSize": null,
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 3,
+      "taste": "mild",
+      "texture": "fest",
+      "preparation": [
+        "Zurücksetzen empfohlen"
+      ],
+      "notes": "Essbar, aber gefährlicher Stachel - besser zurücksetzen"
+    },
+    "habitatDetail": {
+      "depthRange": "1-60m",
+      "region": "Mittelmeer, Atlantik",
+      "structure": [
+        "Sand",
+        "Schlick"
+      ]
+    }
+  },
+  {
+    "id": "rotbarsch-nordatlantik",
+    "name": "Rotbarsch",
+    "nicknames": [
+      "Goldbarsch"
+    ],
+    "scientificName": "Sebastes marinus",
+    "image": "images/fish/rotbarsch-nordatlantik.svg",
+    "imageCredit": "Generiert",
+    "family": "Sebastidae",
+    "description": "Der Rotbarsch ist ein tieflebender Fisch des Nordatlantiks mit leuchtend roter Färbung. Er wird sehr alt (über 50 Jahre) und wächst langsam. Ein wichtiger Speisefisch, aber durch Überfischung gefährdet.",
+    "size": {
+      "avgCm": 35,
+      "maxCm": 100,
+      "avgKg": 1,
+      "maxKg": 15
+    },
+    "habitat": "Tiefe Gewässer des Nordatlantiks",
+    "waterTypes": [
+      "meer"
+    ],
+    "techniques": [
+      "Grundangeln",
+      "Pilken"
+    ],
+    "baits": [
+      "Pilker",
+      "Naturköder",
+      "Fischfetzen"
+    ],
+    "tips": [
+      "Tiefes Wasser",
+      "Langsam wachsend",
+      "Druckausgleich beachten"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 2,
+        "max": 10,
+        "ideal": 6
+      },
+      "pressure": {
+        "trend": "egal"
+      },
+      "wind": {
+        "max": 40
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "description": "Herbst bis Frühjahr"
+    },
+    "closedSeason": "Teilweise reglementiert",
+    "difficulty": 3,
+    "catchAndRelease": false,
+    "minSize": "32 cm",
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 4,
+      "taste": "mild",
+      "texture": "fest",
+      "preparation": [
+        "Braten",
+        "Backen",
+        "Panieren"
+      ],
+      "notes": "Festes, weißes Fleisch - klassischer Fischfilet"
+    },
+    "habitatDetail": {
+      "depthRange": "100-1000m",
+      "region": "Nordatlantik",
+      "structure": [
+        "Felsgrund",
+        "Tiefe Gründe"
+      ]
+    }
+  },
+  {
+    "id": "lumb",
+    "name": "Lumb",
+    "nicknames": [
+      "Brosme"
+    ],
+    "scientificName": "Brosme brosme",
+    "image": "images/fish/lumb.svg",
+    "imageCredit": "Generiert",
+    "family": "Lotidae",
+    "description": "Der Lumb ist ein einzelgängerischer Tiefseefisch des Nordatlantiks. Er hat einen langgestreckten Körper und eine durchgehende Rückenflosse. Lebt auf felsigem Grund und ernährt sich von Krebstieren und Fischen.",
+    "size": {
+      "avgCm": 60,
+      "maxCm": 120,
+      "avgKg": 5,
+      "maxKg": 20
+    },
+    "habitat": "Felsige Tiefseegründe des Nordatlantiks",
+    "waterTypes": [
+      "meer"
+    ],
+    "techniques": [
+      "Grundangeln",
+      "Pilken"
+    ],
+    "baits": [
+      "Pilker",
+      "Naturköder",
+      "Fischfetzen"
+    ],
+    "tips": [
+      "Tiefes Wasser",
+      "Felsiger Grund",
+      "Einzelgänger"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 2,
+        "max": 12,
+        "ideal": 7
+      },
+      "pressure": {
+        "trend": "egal"
+      },
+      "wind": {
+        "max": 40
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "description": "Herbst bis Winter"
+    },
+    "closedSeason": null,
+    "difficulty": 4,
+    "catchAndRelease": false,
+    "minSize": "40 cm",
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 4,
+      "taste": "mild",
+      "texture": "fest",
+      "preparation": [
+        "Braten",
+        "Backen",
+        "Räuchern"
+      ],
+      "notes": "Festes, weißes Fleisch - unterschätzter Speisefisch"
+    },
+    "habitatDetail": {
+      "depthRange": "150-1000m",
+      "region": "Nordatlantik, Norwegen",
+      "structure": [
+        "Felsgrund",
+        "Spalten"
+      ]
+    }
+  },
+  {
+    "id": "glatthai",
+    "name": "Glatthai",
+    "nicknames": [
+      "Hundshai"
+    ],
+    "scientificName": "Mustelus mustelus",
+    "image": "images/fish/glatthai.svg",
+    "imageCredit": "Generiert",
+    "family": "Triakidae",
+    "description": "Der Glatthai ist ein kleinerer, harmloser Hai des Mittelmeers und Atlantiks. Er ernährt sich hauptsächlich von Krebstieren und hat flache, mahlzahnartige Zähne. Häufiger Beifang beim Grundangeln.",
+    "size": {
+      "avgCm": 80,
+      "maxCm": 150,
+      "avgKg": 5,
+      "maxKg": 15
+    },
+    "habitat": "Küstennahe Gewässer über Sand- und Schlickböden",
+    "waterTypes": [
+      "meer",
+      "kueste"
+    ],
+    "techniques": [
+      "Grundangeln"
+    ],
+    "baits": [
+      "Fischfetzen",
+      "Tintenfisch",
+      "Krebse"
+    ],
+    "tips": [
+      "Harmloser Hai",
+      "Nachtaktiv",
+      "Häufiger Beifang"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 12,
+        "max": 24,
+        "ideal": 18
+      },
+      "pressure": {
+        "trend": "egal"
+      },
+      "wind": {
+        "max": 30
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "description": "Warme Monate"
+    },
+    "closedSeason": null,
+    "difficulty": 3,
+    "catchAndRelease": true,
+    "minSize": null,
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 3,
+      "taste": "mild",
+      "texture": "fest",
+      "preparation": [
+        "Zurücksetzen empfohlen"
+      ],
+      "notes": "Hai - besser zurücksetzen, regional geschützt"
+    },
+    "habitatDetail": {
+      "depthRange": "5-350m",
+      "region": "Mittelmeer, Atlantik",
+      "structure": [
+        "Sand",
+        "Schlick",
+        "Küste"
+      ]
+    }
+  },
+  {
+    "id": "fuchshai",
+    "name": "Fuchshai",
+    "nicknames": [
+      "Drescherhai"
+    ],
+    "scientificName": "Alopias vulpinus",
+    "image": "images/fish/fuchshai.svg",
+    "imageCredit": "Generiert",
+    "family": "Alopiidae",
+    "description": "Der Fuchshai hat eine extrem verlängerte obere Schwanzflosse, die fast so lang ist wie der restliche Körper. Er nutzt seinen Schwanz wie eine Peitsche, um Fischschwärme zu betäuben. Seltener Fang, beeindruckender Kämpfer.",
+    "size": {
+      "avgCm": 300,
+      "maxCm": 600,
+      "avgKg": 100,
+      "maxKg": 500
+    },
+    "habitat": "Offenes Meer, pelagische Zone",
+    "waterTypes": [
+      "meer"
+    ],
+    "techniques": [
+      "Big Game",
+      "Schleppfischen"
+    ],
+    "baits": [
+      "Große Köderfische",
+      "Kunstköder"
+    ],
+    "tips": [
+      "Sehr selten",
+      "Langer Schwanz charakteristisch",
+      "Starker Kämpfer"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 12,
+        "max": 24,
+        "ideal": 18
+      },
+      "pressure": {
+        "trend": "egal"
+      },
+      "wind": {
+        "max": 35
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Sommermonate"
+    },
+    "closedSeason": "Regional geschützt",
+    "difficulty": 5,
+    "catchAndRelease": true,
+    "minSize": null,
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 2,
+      "taste": "medium",
+      "texture": "fest",
+      "preparation": [
+        "Nicht entnehmen"
+      ],
+      "notes": "Hai - zurücksetzen, teilweise geschützt"
+    },
+    "habitatDetail": {
+      "depthRange": "0-500m",
+      "region": "Weltweit, selten Mittelmeer",
+      "structure": [
+        "Freiwasser",
+        "pelagisch"
+      ]
+    }
+  },
+  {
+    "id": "teppichmuschel",
+    "name": "Teppichmuschel",
+    "nicknames": [
+      "Deckelmuschel"
+    ],
+    "scientificName": "Ruditapes decussatus",
+    "image": "images/fish/teppichmuschel.svg",
+    "imageCredit": "Generiert",
+    "family": "Veneridae",
+    "description": "Die Teppichmuschel ist eine hochgeschätzte Speisemuschel des Mittelmeers mit dicken, gerippten Schalen. Sie lebt eingegraben im Sand und wird kommerziell gezüchtet. In Spanien als 'Almeja fina' bekannt und sehr wertvoll.",
+    "size": {
+      "avgCm": 5,
+      "maxCm": 8,
+      "avgKg": 0.05,
+      "maxKg": 0.1
+    },
+    "habitat": "Sandige Böden in Küstennähe",
+    "waterTypes": [
+      "meer",
+      "kueste"
+    ],
+    "techniques": [
+      "Sammeln"
+    ],
+    "baits": [
+      "Nicht angelbar - gesammelt"
+    ],
+    "tips": [
+      "Gezüchtet in Aquakultur",
+      "Eingegraben im Sand",
+      "Sehr wertvoll"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 14,
+        "max": 26,
+        "ideal": 20
+      },
+      "pressure": {
+        "trend": "egal"
+      },
+      "wind": {
+        "max": 20
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2,
+        3,
+        4
+      ],
+      "description": "Herbst bis Frühjahr (außerhalb Laichzeit)"
+    },
+    "closedSeason": "Mai bis August (Laichzeit)",
+    "difficulty": 2,
+    "catchAndRelease": false,
+    "minSize": "4 cm",
+    "category": "meeresfruechte",
+    "edibility": {
+      "rating": 5,
+      "taste": "mild",
+      "texture": "zart",
+      "preparation": [
+        "Kochen",
+        "Dampfgaren",
+        "Pasta"
+      ],
+      "notes": "Delikatesse - süßlich, zartes Fleisch"
+    },
+    "habitatDetail": {
+      "depthRange": "0-10m",
+      "region": "Mittelmeer, Atlantik",
+      "structure": [
+        "Sand",
+        "Schlick"
+      ]
+    }
+  },
+  {
+    "id": "strandkrabbe",
+    "name": "Strandkrabbe",
+    "nicknames": [
+      "Gemeine Strandkrabbe"
+    ],
+    "scientificName": "Carcinus maenas",
+    "image": "images/fish/strandkrabbe.svg",
+    "imageCredit": "Generiert",
+    "family": "Portunidae",
+    "description": "Die Strandkrabbe ist eine der häufigsten Krabben der europäischen Küsten. Sie ist sehr anpassungsfähig und kann sowohl im Meer als auch im Brackwasser leben. Wird als Köder verwendet und ist in einigen Regionen auch als Speise geschätzt.",
+    "size": {
+      "avgCm": 5,
+      "maxCm": 9,
+      "avgKg": 0.05,
+      "maxKg": 0.15
+    },
+    "habitat": "Felsküsten, Strände, Häfen - überall im Uferbereich",
+    "waterTypes": [
+      "kueste",
+      "meer",
+      "brackwasser"
+    ],
+    "techniques": [
+      "Sammeln",
+      "Keschern"
+    ],
+    "baits": [
+      "Nicht angelbar - gesammelt"
+    ],
+    "tips": [
+      "Sehr häufig",
+      "Guter Köder",
+      "Bei Ebbe sammeln"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 0,
+        "max": 30,
+        "ideal": 15
+      },
+      "pressure": {
+        "trend": "egal"
+      },
+      "wind": {
+        "max": 40
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "description": "Ganzjährig"
+    },
+    "closedSeason": null,
+    "difficulty": 1,
+    "catchAndRelease": false,
+    "minSize": null,
+    "category": "meeresfruechte",
+    "edibility": {
+      "rating": 2,
+      "taste": "mild",
+      "texture": "fest",
+      "preparation": [
+        "Kochen",
+        "Suppe",
+        "als Köder"
+      ],
+      "notes": "Klein aber schmackhaft - meist als Köder verwendet"
+    },
+    "habitatDetail": {
+      "depthRange": "0-6m",
+      "region": "Atlantik, Nord- und Ostsee, Mittelmeer",
+      "structure": [
+        "Felsen",
+        "Sand",
+        "Häfen",
+        "Algen"
+      ]
+    }
+  },
+  {
+    "id": "sternhausen",
+    "name": "Sternhausen",
+    "nicknames": [
+      "Sterlet"
+    ],
+    "scientificName": "Acipenser stellatus",
+    "image": "images/fish/sternhausen.svg",
+    "imageCredit": "Generiert",
+    "family": "Acipenseridae",
+    "description": "Der Sternhausen ist eine große Störart aus dem Schwarzen Meer und Kaspischen Meer. Er kann über 2 Meter lang werden und ist für seinen hochwertigen Kaviar bekannt. In Europa streng geschützt und vom Aussterben bedroht.",
+    "size": {
+      "avgCm": 120,
+      "maxCm": 220,
+      "avgKg": 15,
+      "maxKg": 80
+    },
+    "habitat": "Große Flüsse und Küstengewässer des Schwarzen und Kaspischen Meeres",
+    "waterTypes": [
+      "fluss",
+      "meer",
+      "brackwasser"
+    ],
+    "techniques": [
+      "Grundangeln"
+    ],
+    "baits": [
+      "Wurmbündel",
+      "Fischfetzen"
+    ],
+    "tips": [
+      "Streng geschützt",
+      "Vom Aussterben bedroht",
+      "Nur catch-and-release"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 8,
+        "max": 24,
+        "ideal": 16
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 25
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 80
+      }
+    },
+    "season": {
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Warme Monate"
+    },
+    "closedSeason": "Ganzjährig geschützt",
+    "difficulty": 5,
+    "catchAndRelease": true,
+    "minSize": null,
+    "category": "friedfisch",
+    "edibility": {
+      "rating": 5,
+      "taste": "mild",
+      "texture": "fest",
+      "preparation": [
+        "Nicht entnehmen"
+      ],
+      "notes": "Streng geschützt - niemals entnehmen! Historisch für Kaviar geschätzt"
+    },
+    "habitatDetail": {
+      "depthRange": "5-50m",
+      "region": "Schwarzes Meer, Kaspisches Meer, Donau",
+      "structure": [
+        "Flussgrund",
+        "Flussmündungen"
+      ]
+    }
+  },
+  {
+    "id": "bach-neunauge",
+    "name": "Bachneunauge",
+    "nicknames": [
+      "Bach-Pricke"
+    ],
+    "scientificName": "Lampetra planeri",
+    "image": "images/fish/bach-neunauge.svg",
+    "imageCredit": "Generiert",
+    "family": "Petromyzontidae",
+    "description": "Das Bachneunauge ist ein urtümlicher, aalähnlicher Rundmaulfisch ohne Kiefer. Es hat eine Saugscheibe mit Hornzähnen. Die Larven leben jahrelang im Schlamm, die erwachsenen Tiere fressen nicht mehr. Gilt als Bioindikator für saubere Bäche.",
+    "size": {
+      "avgCm": 12,
+      "maxCm": 20,
+      "avgKg": 0.02,
+      "maxKg": 0.05
+    },
+    "habitat": "Saubere, sauerstoffreiche Bäche mit sandigem Grund",
+    "waterTypes": [
+      "bach"
+    ],
+    "techniques": [
+      "Nicht angelbar"
+    ],
+    "baits": [
+      "Nicht angelbar"
+    ],
+    "tips": [
+      "Geschützte Art",
+      "Bioindikator",
+      "Nicht befischen"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 5,
+        "max": 18,
+        "ideal": 12
+      },
+      "pressure": {
+        "trend": "egal"
+      },
+      "wind": {
+        "max": 15
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [],
+      "description": "Ganzjährig geschützt"
+    },
+    "closedSeason": "Ganzjährig geschützt",
+    "difficulty": 5,
+    "catchAndRelease": true,
+    "minSize": null,
+    "category": "friedfisch",
+    "edibility": {
+      "rating": 0,
+      "taste": "mild",
+      "texture": "weich",
+      "preparation": [
+        "Nicht entnehmen"
+      ],
+      "notes": "Streng geschützte Art - niemals befischen"
+    },
+    "habitatDetail": {
+      "depthRange": "0.2-1m",
+      "region": "Europa",
+      "structure": [
+        "Sandbänke",
+        "Schlammgrund"
+      ]
+    }
+  },
+  {
+    "id": "russischer-stoer",
+    "name": "Russischer Stör",
+    "nicknames": [
+      "Ossietra-Stör"
+    ],
+    "scientificName": "Acipenser gueldenstaedtii",
+    "image": "images/fish/russischer-stoer.svg",
+    "imageCredit": "Generiert",
+    "family": "Acipenseridae",
+    "description": "Der Russische Stör ist eine große Störart aus dem Schwarzen Meer, Kaspischen Meer und Asowschen Meer. Er ist bekannt für den wertvollen Ossietra-Kaviar. Durch Überfischung stark gefährdet, heute nur noch in Aquakultur.",
+    "size": {
+      "avgCm": 150,
+      "maxCm": 235,
+      "avgKg": 30,
+      "maxKg": 115
+    },
+    "habitat": "Große Flüsse und Meeresbuchten (historisch)",
+    "waterTypes": [
+      "fluss",
+      "meer",
+      "brackwasser"
+    ],
+    "techniques": [
+      "Nicht befischbar"
+    ],
+    "baits": [
+      "Nicht befischbar"
+    ],
+    "tips": [
+      "Vom Aussterben bedroht",
+      "Nur Aquakultur",
+      "Streng geschützt"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 8,
+        "max": 26,
+        "ideal": 18
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 25
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 80
+      }
+    },
+    "season": {
+      "bestMonths": [],
+      "description": "Ganzjährig geschützt"
+    },
+    "closedSeason": "Ganzjährig geschützt - keine Wildentnahme",
+    "difficulty": 5,
+    "catchAndRelease": true,
+    "minSize": null,
+    "category": "friedfisch",
+    "edibility": {
+      "rating": 5,
+      "taste": "mild",
+      "texture": "fest",
+      "preparation": [
+        "Nur Aquakultur"
+      ],
+      "notes": "Wildentnahme verboten - nur Aquakultur-Exemplare. Historisch für Ossietra-Kaviar geschätzt"
+    },
+    "habitatDetail": {
+      "depthRange": "5-100m",
+      "region": "Schwarzes Meer, Kaspisches Meer (historisch)",
+      "structure": [
+        "Flussgrund",
+        "Meeresgrund"
+      ]
+    }
   }
 ]
