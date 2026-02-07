@@ -13,7 +13,7 @@ This roadmap transforms an existing fishing weather PWA into a comprehensive ang
 Decimal phases appear between their surrounding integers in numeric order.
 
 - [x] **Phase 1: Weather Enhancement** - Comprehensive 7-day fishing weather with accordion UI
-- [ ] **Phase 2: Dark Marine Theme** - Professional dark theme with mobile-optimized UI
+- [x] **Phase 2: Dark Marine Theme** - Professional dark theme with mobile-optimized UI
 - [ ] **Phase 3: Fish Catalog Expansion** - 200+ species with detailed fishing information
 - [ ] **Phase 4: Filter & Search System** - Multi-dimensional fish filtering and search
 - [ ] **Phase 5: Navigation & Favorites** - Bottom tab navigation and favorites management
@@ -51,8 +51,8 @@ Plans:
 **Plans**: 2 plans
 
 Plans:
-- [ ] 02-01-PLAN.md -- CSS marine retheme, theme system, wave/glow/animations, anti-flicker, HTML toggle button
-- [ ] 02-02-PLAN.md -- ThemeToggle JS, card fade-in observer, tab pulse trigger, service worker bump
+- [x] 02-01-PLAN.md -- CSS marine retheme, theme system, wave/glow/animations, anti-flicker, HTML toggle button
+- [x] 02-02-PLAN.md -- ThemeToggle JS, card fade-in observer, tab pulse trigger, service worker bump
 
 ### Phase 3: Fish Catalog Expansion
 **Goal**: Users can explore 200+ fish species with comprehensive fishing information including bait, methods, habitat, and preparation details
@@ -123,7 +123,7 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Weather Enhancement | 4/4 | Complete | 2026-02-07 |
-| 2. Dark Marine Theme | 0/2 | Not started | - |
+| 2. Dark Marine Theme | 2/2 | Complete | 2026-02-07 |
 | 3. Fish Catalog Expansion | 0/TBD | Not started | - |
 | 4. Filter & Search System | 0/TBD | Not started | - |
 | 5. Navigation & Favorites | 0/TBD | Not started | - |

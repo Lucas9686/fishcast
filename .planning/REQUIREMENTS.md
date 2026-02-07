@@ -50,9 +50,9 @@
 ### Navigation & UI (UI)
 
 - [ ] **UI-01**: Bottom Tab Bar mit 3 Tabs: Wetter | Fische | Favoriten
-- [ ] **UI-02**: Dunkles Marine-Design (Dark Theme mit Blau/Türkis-Akzenten)
-- [ ] **UI-03**: App ist Mobile-First optimiert (Touch-friendly, responsive)
-- [ ] **UI-04**: Accordion-Animation für Wetter-Tage (smooth open/close)
+- [x] **UI-02**: Dunkles Marine-Design (Dark Theme mit Blau/Türkis-Akzenten)
+- [x] **UI-03**: App ist Mobile-First optimiert (Touch-friendly, responsive)
+- [x] **UI-04**: Accordion-Animation für Wetter-Tage (smooth open/close)
 
 ### Offline & PWA (PWA)
 
@@ -106,9 +106,9 @@
 | WETTER-11 | Phase 1 | Complete |
 | WETTER-12 | Phase 1 | Complete |
 | WETTER-13 | Phase 1 | Complete |
-| UI-02 | Phase 2 | Pending |
-| UI-03 | Phase 2 | Pending |
-| UI-04 | Phase 2 | Pending |
+| UI-02 | Phase 2 | Complete |
+| UI-03 | Phase 2 | Complete |
+| UI-04 | Phase 2 | Complete |
 | FISCH-01 | Phase 3 | Pending |
 | FISCH-02 | Phase 3 | Pending |
 | FISCH-03 | Phase 3 | Pending |
@@ -139,4 +139,4 @@
 
 ---
 *Requirements defined: 2026-02-07*
-*Last updated: 2026-02-07 after Phase 1 completion*
+*Last updated: 2026-02-07 after Phase 2 completion*
