@@ -1649,6 +1649,73 @@ a {
     opacity: 0.3;
 }
 
+/* --- Edibility Section --- */
+.fish-detail__edibility {
+    padding: 10px 0;
+}
+
+.edibility-rating {
+    display: inline-flex;
+    gap: 2px;
+    margin-bottom: 8px;
+}
+
+.edibility-star {
+    color: #f59e0b;
+    font-size: 0.95rem;
+}
+
+.edibility-star--empty {
+    color: rgba(255, 255, 255, 0.2);
+}
+
+[data-theme="light"] .edibility-star--empty {
+    color: rgba(0, 0, 0, 0.15);
+}
+
+.edibility-info {
+    font-size: 0.85rem;
+    color: var(--color-text-secondary);
+    margin-bottom: 8px;
+}
+
+.edibility-notes {
+    font-size: 0.82rem;
+    color: var(--color-text-secondary);
+    font-style: italic;
+    margin-top: 8px;
+    line-height: 1.4;
+}
+
+.fish-badge--prep {
+    background: rgba(0, 188, 212, 0.15);
+    color: var(--color-primary-light);
+    border: 1px solid rgba(0, 188, 212, 0.3);
+}
+
+[data-theme="light"] .fish-badge--prep {
+    background: rgba(0, 188, 212, 0.1);
+    color: var(--color-primary-dark);
+    border: 1px solid rgba(0, 188, 212, 0.4);
+}
+
+/* --- Habitat Detail Section --- */
+.fish-detail__habitat-detail {
+    padding: 10px 0;
+}
+
+.habitat-info {
+    font-size: 0.85rem;
+    color: var(--color-text-secondary);
+    margin-bottom: 6px;
+    line-height: 1.4;
+}
+
+.habitat-info strong {
+    font-weight: 600;
+    color: var(--color-text);
+}
+
 /* --- Favorites Section --- */
 .empty-state {
     grid-column: 1 / -1;
