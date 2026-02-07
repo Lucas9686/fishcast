@@ -1,0 +1,6130 @@
+[
+  {
+    "id": "hecht",
+    "name": "Hecht",
+    "nicknames": [
+      "Wasserwolf",
+      "Esox",
+      "Schnook",
+      "Pike",
+      "Grashecht",
+      "Hechtfisch"
+    ],
+    "scientificName": "Esox lucius",
+    "image": "images/fish/hecht.svg",
+    "imageCredit": "Quelle: Wikimedia Commons, CC BY-SA 3.0",
+    "family": "Esocidae (Hechte)",
+    "description": "Der Hecht ist der bekannteste Raubfisch in heimischen Gewaessern. Er lauert bevorzugt in Krautfeldern und an Schilfkanten auf Beute und kann blitzschnell zustossen. Durch seinen langgestreckten Koerper und das entenschnabelartige Maul ist er unverwechselbar.",
+    "size": {
+      "avgCm": 60,
+      "maxCm": 130,
+      "avgKg": 3,
+      "maxKg": 25
+    },
+    "habitat": "Stehende und langsam fliessende Gewaesser mit Unterwasserpflanzen, Schilfguerteln und Totholz als Deckung. Bevorzugt klare Gewaesser mit guter Sicht.",
+    "waterTypes": [
+      "fluss",
+      "see",
+      "teich"
+    ],
+    "techniques": [
+      "Spinnfischen",
+      "Schleppfischen",
+      "Ansitzangeln mit Koederfisch",
+      "Fliegenfischen mit Streamern"
+    ],
+    "baits": [
+      "Gummifisch",
+      "Wobbler",
+      "Spinner",
+      "Blinker",
+      "Koederfisch",
+      "Streamer"
+    ],
+    "tips": [
+      "Im Fruehjahr nach der Schonzeit flache, sonnenbeschienene Buchten befischen - Hechte stehen dort zur Nahrungsaufnahme.",
+      "Bei bedecktem Himmel und leichtem Wind sind die Fangchancen deutlich besser als bei strahlendem Sonnenschein.",
+      "Stahlvorfach ist Pflicht - Hechte durchbeissen Fluorocarbon muehelos mit ihren scharfen Zaehnen.",
+      "Im Herbst groessere Koeder (15-25 cm) verwenden, da Hechte vor dem Winter Fettreserven anlegen.",
+      "Krautfelder und versunkene Baeume systematisch abfischen - Hechte sind standorttreue Lauerjager."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 4,
+        "max": 25,
+        "ideal": 15
+      },
+      "pressure": {
+        "trend": "fallend"
+      },
+      "wind": {
+        "max": 30
+      },
+      "cloudCover": {
+        "min": 40,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        4,
+        5,
+        9,
+        10,
+        11
+      ],
+      "description": "Fruehling nach der Schonzeit und Herbst sind die besten Fangzeiten"
+    },
+    "closedSeason": {
+      "period": "01.02. - 31.03.",
+      "note": "Variiert nach Bundesland in Oesterreich"
+    },
+    "difficulty": 3,
+    "catchAndRelease": false,
+    "minSize": "50 cm",
+    "category": "raubfisch",
+    "edibility": {
+      "rating": 4,
+      "taste": "medium",
+      "texture": "fest",
+      "preparation": [
+        "Braten",
+        "Grillen",
+        "Raeuchern",
+        "Backen"
+      ],
+      "notes": "Sehr graetenarmes, festes Fleisch. Y-Graeten entfernen."
+    },
+    "habitatDetail": {
+      "depthRange": "0-10m",
+      "region": "Mitteleuropa",
+      "structure": [
+        "Krautfelder",
+        "Schilfguertel",
+        "Totholz",
+        "Seegras"
+      ]
+    }
+  },
+  {
+    "id": "zander",
+    "name": "Zander",
+    "nicknames": [
+      "Schill",
+      "Fogasch",
+      "Hechtbarsch",
+      "Glasauge",
+      "Sander",
+      "Pikeperch",
+      "Zant",
+      "Fogosch"
+    ],
+    "scientificName": "Sander lucioperca",
+    "image": "images/fish/zander.svg",
+    "imageCredit": "Quelle: Wikimedia Commons, CC BY-SA 3.0",
+    "family": "Percidae (Barsche)",
+    "description": "Der Zander ist ein daemmerungs- und nachtaktiver Raubfisch mit hervorragendem Sehvermoegen bei schlechten Lichtverhaeltnissen. Er bevorzugt truebe Gewaesser mit hartem Grund und gilt als einer der beliebtesten Speisefische.",
+    "size": {
+      "avgCm": 50,
+      "maxCm": 100,
+      "avgKg": 2.5,
+      "maxKg": 15
+    },
+    "habitat": "Groessere Fluesse und Seen mit trueberem Wasser und sandigem bis kiesigem Grund. Meidet stark verkrautete Bereiche und bevorzugt tiefe Rinnen und Kanten.",
+    "waterTypes": [
+      "fluss",
+      "see"
+    ],
+    "techniques": [
+      "Spinnfischen",
+      "Vertikalangeln",
+      "Ansitzangeln mit Koederfisch",
+      "Dropshot"
+    ],
+    "baits": [
+      "Gummifisch",
+      "Koederfisch",
+      "Twister",
+      "Wobbler",
+      "Dropshot-Koeder"
+    ],
+    "tips": [
+      "Die besten Fangzeiten sind die Daemmerungsphasen - Zander jagen bei wenig Licht am aktivsten.",
+      "Gummifische in natuerlichen Farben (Barschdekor, Weissfisch) am Jigkopf langsam ueber den Grund fuehren.",
+      "Hartbodenstellen wie Steinpackungen, Buhnenkoepfe und Hafeneinfahrten sind typische Zander-Hotspots.",
+      "Bei Hochwasser und truebem Wasser steigen die Fangchancen deutlich an.",
+      "Feines Fluorocarbon-Vorfach verwenden - Zander sind vorsichtige Beisser und scheuen dicke Schnuere."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 5,
+        "max": 25,
+        "ideal": 16
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 25
+      },
+      "cloudCover": {
+        "min": 50,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        5,
+        6,
+        9,
+        10,
+        11
+      ],
+      "description": "Spaetfruehling und Herbst, auch im Sommer in der Daemmerung"
+    },
+    "closedSeason": {
+      "period": "01.03. - 31.05.",
+      "note": "Variiert stark nach Bundesland und Gewaesser in Oesterreich"
+    },
+    "difficulty": 4,
+    "catchAndRelease": false,
+    "minSize": "45 cm",
+    "category": "raubfisch",
+    "edibility": {
+      "rating": 5,
+      "taste": "mild",
+      "texture": "zart",
+      "preparation": [
+        "Braten",
+        "Daempfen",
+        "Backen",
+        "Grillen"
+      ],
+      "notes": "Einer der besten Speisefische - graetenarmes, zartes weisses Fleisch."
+    },
+    "habitatDetail": {
+      "depthRange": "2-20m",
+      "region": "Mitteleuropa",
+      "structure": [
+        "Kiesgrund",
+        "Sandgrund",
+        "Tiefe Rinnen",
+        "Steilkanten"
+      ]
+    }
+  },
+  {
+    "id": "flussbarsch",
+    "name": "Flussbarsch",
+    "nicknames": [
+      "Barsch",
+      "Egli",
+      "Kretzer",
+      "Perch",
+      "Bersching",
+      "Krautbarsch",
+      "Flussperch"
+    ],
+    "scientificName": "Perca fluviatilis",
+    "image": "images/fish/flussbarsch.svg",
+    "imageCredit": "Quelle: Wikimedia Commons, CC BY-SA 3.0",
+    "family": "Percidae (Barsche)",
+    "description": "Der Flussbarsch ist ein weit verbreiteter und anpassungsfaehiger Raubfisch mit markanten dunklen Querstreifen und leuchtend roten Bauch- und Afterflossen. Er lebt gesellig in Schwaermen und ist ein dankbarer Fang fuer Einsteiger.",
+    "size": {
+      "avgCm": 20,
+      "maxCm": 50,
+      "avgKg": 0.3,
+      "maxKg": 3
+    },
+    "habitat": "Kommt in nahezu allen Gewaessertypen vor. Bevorzugt Bereiche mit Strukturen wie Stege, Bootsliegplaetze, Totholz und Schilfkanten.",
+    "waterTypes": [
+      "fluss",
+      "see",
+      "bach",
+      "teich"
+    ],
+    "techniques": [
+      "Spinnfischen",
+      "Dropshot",
+      "Posenangeln",
+      "Ansitzangeln"
+    ],
+    "baits": [
+      "Kleine Gummifische",
+      "Spinner",
+      "Wurm",
+      "Made",
+      "Dropshot-Koeder",
+      "kleine Wobbler"
+    ],
+    "tips": [
+      "Barsche jagen in Schwaermen - wo einer beisst, sind oft weitere in der Naehe.",
+      "Kleine Spinner (Gr. 1-3) in Silber oder Kupfer sind oft die faengigsten Koeder.",
+      "Im Sommer fruehmorgens flache Ufer befischen, wo Barschschwaerme Brutfische jagen.",
+      "Dropshot-Montage an Stegen, Spundwaenden und anderen vertikalen Strukturen einsetzen.",
+      "Bei Wind ans windexponierte Ufer gehen - dort sammeln sich Kleinfische und damit auch die Barsche."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 4,
+        "max": 28,
+        "ideal": 18
+      },
+      "pressure": {
+        "trend": "egal"
+      },
+      "wind": {
+        "max": 35
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "description": "Mai bis Oktober, besonders gut im Fruehsommer und Herbst"
+    },
+    "closedSeason": null,
+    "difficulty": 1,
+    "catchAndRelease": false,
+    "minSize": "kein",
+    "category": "raubfisch",
+    "edibility": {
+      "rating": 4,
+      "taste": "mild",
+      "texture": "fest",
+      "preparation": [
+        "Braten",
+        "Frittieren",
+        "Im Ganzen backen"
+      ],
+      "notes": "Identisch mit Barsch - sehr schmackhaft."
+    },
+    "habitatDetail": {
+      "depthRange": "0-20m",
+      "region": "Gesamteuropa",
+      "structure": [
+        "Krautfelder",
+        "Totholz",
+        "Steilkanten",
+        "Buhnen"
+      ]
+    }
+  },
+  {
+    "id": "wels",
+    "name": "Wels",
+    "nicknames": [
+      "Waller",
+      "Schaidfisch",
+      "Catfish",
+      "Flusswels",
+      "Europaeischer Wels"
+    ],
+    "scientificName": "Silurus glanis",
+    "image": "images/fish/wels.svg",
+    "imageCredit": "Quelle: Wikimedia Commons, CC BY-SA 3.0",
+    "family": "Siluridae (Welse)",
+    "description": "Der Wels ist der groesste europaeische Suesswasserfisch und kann ueber 2 Meter lang werden. Er ist nachtaktiv, besitzt sechs Barteln als Tastorgane und hat ein extrem gutes Gehoer. Kapitale Welse sind der Traum vieler Angler.",
+    "size": {
+      "avgCm": 100,
+      "maxCm": 270,
+      "avgKg": 15,
+      "maxKg": 120
+    },
+    "habitat": "Tiefe Bereiche grosser Fluesse und Seen mit weichem Grund. Liebt tiefe Loecher, unterspuelte Ufer, versunkene Baeume und Brueckenpfeiler als Tageseinstand.",
+    "waterTypes": [
+      "fluss",
+      "see"
+    ],
+    "techniques": [
+      "Ansitzangeln",
+      "Klopfen",
+      "Vertikalangeln",
+      "Spinnfischen mit grossen Koedern",
+      "Bojenangeln"
+    ],
+    "baits": [
+      "Tauwurmbundel",
+      "Koederfisch",
+      "Calamari",
+      "Fischfetzen",
+      "grosse Gummifische",
+      "Pellets"
+    ],
+    "tips": [
+      "Die beste Welszeit ist von Juni bis September in warmen Sommernachten - Welse werden bei Wassertemperaturen ueber 18 Grad richtig aktiv.",
+      "Vor einem Gewitter beissen Welse oft besonders gut - der fallende Luftdruck aktiviert sie.",
+      "Beim Klopfen mit dem Wallerholz den Koeder in Grundnaehe anbieten und durch die Schallwellen den Wels anlocken.",
+      "Robustes Geraet verwenden: Ruten ab 200g Wurfgewicht, geflochtene Schnur ab 0,40mm.",
+      "Hotspots sind tiefe Gumpen, Einmuendungen von Nebenfluessen und Bereiche unter Wehren."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 15,
+        "max": 30,
+        "ideal": 22
+      },
+      "pressure": {
+        "trend": "fallend"
+      },
+      "wind": {
+        "max": 20
+      },
+      "cloudCover": {
+        "min": 60,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Hochsommer, besonders warme Naechte von Juni bis September"
+    },
+    "closedSeason": {
+      "period": "01.05. - 15.06.",
+      "note": "Variiert nach Bundesland in Oesterreich"
+    },
+    "difficulty": 4,
+    "catchAndRelease": true,
+    "minSize": "70 cm",
+    "category": "raubfisch",
+    "edibility": {
+      "rating": 4,
+      "taste": "mild",
+      "texture": "fest",
+      "preparation": [
+        "Grillen",
+        "Braten",
+        "Raeuchern",
+        "Im Ganzen backen"
+      ],
+      "notes": "Graetenfrei, sehr festes Fleisch. Grosse Exemplare ideal zum Raeuchern."
+    },
+    "habitatDetail": {
+      "depthRange": "3-30m",
+      "region": "Mitteleuropa",
+      "structure": [
+        "Tiefe Rinnen",
+        "Totholz",
+        "Unterspuelungen",
+        "Buhnen"
+      ]
+    }
+  },
+  {
+    "id": "rapfen",
+    "name": "Rapfen",
+    "nicknames": [
+      "Schied",
+      "Asp",
+      "Raubdoebel",
+      "Aspius"
+    ],
+    "scientificName": "Leuciscus aspius",
+    "image": "images/fish/rapfen.svg",
+    "imageCredit": "Quelle: Wikimedia Commons, CC BY-SA 3.0",
+    "family": "Leuciscidae (Weissfische)",
+    "description": "Der Rapfen ist der einzige raeuberisch lebende Weissfisch in unseren Gewaessern. Er jagt oberflaechennah Kleinfische und verraet sich oft durch spektakulaere Raubzuege an der Wasseroberflaeche. Ein sportlich interessanter und kampfstarker Fisch.",
+    "size": {
+      "avgCm": 50,
+      "maxCm": 80,
+      "avgKg": 2,
+      "maxKg": 8
+    },
+    "habitat": "Groessere Fluesse und Stroeme mit Stroemung. Jagt haeufig an der Oberflaeche in schnell fliessenden Bereichen, Buhnenfeldern und unterhalb von Wehren.",
+    "waterTypes": [
+      "fluss"
+    ],
+    "techniques": [
+      "Spinnfischen",
+      "Fliegenfischen",
+      "Oberflaechen-Angeln"
+    ],
+    "baits": [
+      "Kleine Blinker",
+      "Oberflaechen-Wobbler",
+      "Spinner",
+      "Streamer",
+      "Cicaden"
+    ],
+    "tips": [
+      "Auf raubende Rapfen an der Oberflaeche achten - dort gezielt hinwerfen und schnell einholen.",
+      "Silberne, schlanke Koeder wie Blinker oder Cicaden imitieren die bevorzugte Beute (Lauben) am besten.",
+      "Buhnenfelder und Stroemungskanten im Sommer sind Toplocation fuer Rapfen.",
+      "Schnelle Koederfuehrung ist entscheidend - Rapfen jagen schnelle Beutefische.",
+      "Frueher Morgen und spaeter Abend an warmen Sommertagen bringen die besten Bisse."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 12,
+        "max": 28,
+        "ideal": 20
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 25
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 80
+      }
+    },
+    "season": {
+      "bestMonths": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Sommer bis Fruehherbst, besonders in warmen Perioden"
+    },
+    "closedSeason": null,
+    "difficulty": 3,
+    "catchAndRelease": false,
+    "minSize": "40 cm",
+    "category": "raubfisch",
+    "edibility": {
+      "rating": 3,
+      "taste": "medium",
+      "texture": "fest",
+      "preparation": [
+        "Braten",
+        "Raeuchern"
+      ],
+      "notes": "Viele Graeten, mittlere Qualitaet. Grosse Exemplare zum Raeuchern."
+    },
+    "habitatDetail": {
+      "depthRange": "0.5-8m",
+      "region": "Mitteleuropa",
+      "structure": [
+        "Stroemungskanten",
+        "Freiwasser",
+        "Buhnen"
+      ]
+    }
+  },
+  {
+    "id": "aalrutte",
+    "name": "Aalrutte",
+    "nicknames": [
+      "Quappe",
+      "Rutte",
+      "Truesche",
+      "Burbot",
+      "Ruppe",
+      "Aalquappe"
+    ],
+    "scientificName": "Lota lota",
+    "image": "images/fish/aalrutte.svg",
+    "imageCredit": "Quelle: Wikimedia Commons, CC BY-SA 3.0",
+    "family": "Lotidae (Quappen)",
+    "description": "Die Aalrutte ist der einzige Suesswasservertreter der Dorschartigen und ein typischer Winterfisch. Sie ist nachtaktiv und bevorzugt kaltes, sauerstoffreiches Wasser. Ihr Laichgeschaeft findet mitten im Winter statt.",
+    "size": {
+      "avgCm": 35,
+      "maxCm": 80,
+      "avgKg": 0.5,
+      "maxKg": 5
+    },
+    "habitat": "Kalte, sauerstoffreiche Fluesse und tiefe Seen. Bevorzugt steinigen Grund und versteckt sich tagsueber unter Steinen und in Hoehlen.",
+    "waterTypes": [
+      "fluss",
+      "see",
+      "bach"
+    ],
+    "techniques": [
+      "Grundangeln",
+      "Ansitzangeln",
+      "Nachtangeln"
+    ],
+    "baits": [
+      "Tauwurm",
+      "Fischfetzen",
+      "Koederfisch",
+      "Leber"
+    ],
+    "tips": [
+      "Die Aalrutte ist ein reiner Winterfisch - die beste Fangzeit ist von November bis Februar bei Wassertemperaturen unter 6 Grad.",
+      "Ausschliesslich nachts angeln, am besten in kalten, klaren Winternaechten.",
+      "Koeder direkt auf dem Grund anbieten, Aalrutten suchen ihre Nahrung tastend am Boden.",
+      "Steinige Uferabschnitte und Flussmuendungen in Seen sind bevorzugte Standplaetze."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 0,
+        "max": 10,
+        "ideal": 3
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 20
+      },
+      "cloudCover": {
+        "min": 50,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        11,
+        12,
+        1,
+        2
+      ],
+      "description": "Wintermonate, besonders bei Kaelte und Schnee aktiv"
+    },
+    "closedSeason": {
+      "period": "01.01. - 28.02.",
+      "note": "Laichschonzeit im Winter, variiert nach Bundesland"
+    },
+    "difficulty": 3,
+    "catchAndRelease": false,
+    "minSize": "30 cm",
+    "category": "raubfisch",
+    "edibility": {
+      "rating": 4,
+      "taste": "mild",
+      "texture": "fest",
+      "preparation": [
+        "Braten",
+        "Frittieren",
+        "Backen"
+      ],
+      "notes": "Leber gilt als Delikatesse. Festes, weisses Fleisch."
+    },
+    "habitatDetail": {
+      "depthRange": "2-40m",
+      "region": "Gesamteuropa",
+      "structure": [
+        "Kiesgrund",
+        "Felsgrund",
+        "Tiefe Rinnen"
+      ]
+    }
+  },
+  {
+    "id": "aal",
+    "name": "Aal",
+    "nicknames": [
+      "Europaeischer Aal",
+      "Flussaal",
+      "European Eel",
+      "Schlange",
+      "Glasaal",
+      "Gelbaal",
+      "Blankaal"
+    ],
+    "scientificName": "Anguilla anguilla",
+    "image": "images/fish/aal.svg",
+    "imageCredit": "Quelle: Wikimedia Commons, CC BY-SA 3.0",
+    "family": "Anguillidae (Aale)",
+    "description": "Der Europaeische Aal ist ein faszinierender Wanderfisch mit schlangenartigem Koerper. Er wandert zum Laichen in die Sargassosee und zurueck. Der Bestand ist stark gefaehrdet, weshalb schonender Umgang wichtig ist.",
+    "size": {
+      "avgCm": 50,
+      "maxCm": 130,
+      "avgKg": 0.5,
+      "maxKg": 6
+    },
+    "habitat": "Kommt in fast allen Gewaessertypen vor. Bevorzugt schlammigen Grund und versteckt sich tagsueber in Hoehlen, unter Steinen und im Schlamm.",
+    "waterTypes": [
+      "fluss",
+      "see",
+      "bach",
+      "teich"
+    ],
+    "techniques": [
+      "Grundangeln",
+      "Nachtangeln",
+      "Posenangeln"
+    ],
+    "baits": [
+      "Tauwurm",
+      "Koederfisch",
+      "Fischfetzen",
+      "Leber",
+      "Made"
+    ],
+    "tips": [
+      "Aale beissen fast ausschliesslich nachts - warme, schwuele Sommernaechte sind ideal.",
+      "Bei Gewitter und fallendem Luftdruck steigen die Fangchancen enorm.",
+      "Tauwurmbuendel auf Grund in der Naehe von Uferstrukturen anbieten.",
+      "Wegen der starken Gefaehrdung des Bestandes moeglichst Catch & Release praktizieren.",
+      "Ein Aalglockensignal an der Rutenspitze hilft, die zaghaften Bisse in der Nacht zu erkennen."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 12,
+        "max": 28,
+        "ideal": 20
+      },
+      "pressure": {
+        "trend": "fallend"
+      },
+      "wind": {
+        "max": 20
+      },
+      "cloudCover": {
+        "min": 70,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Mai bis September, besonders warme Sommernaechte"
+    },
+    "closedSeason": null,
+    "difficulty": 2,
+    "catchAndRelease": true,
+    "minSize": "45 cm",
+    "category": "raubfisch",
+    "edibility": {
+      "rating": 4,
+      "taste": "kraeftig",
+      "texture": "fett",
+      "preparation": [
+        "Raeuchern",
+        "Grillen",
+        "Braten"
+      ],
+      "notes": "Geraeuchert eine Delikatesse. Fett und kraeftig. Bestand gefaehrdet."
+    },
+    "habitatDetail": {
+      "depthRange": "0-10m",
+      "region": "Gesamteuropa",
+      "structure": [
+        "Schlammgrund",
+        "Totholz",
+        "Unterspuelungen",
+        "Schilfguertel"
+      ]
+    }
+  },
+  {
+    "id": "kaulbarsch",
+    "name": "Kaulbarsch",
+    "nicknames": [
+      "Pfaffenlaus",
+      "Rotzbarsch",
+      "Stuure",
+      "Ruffe",
+      "Snotolf"
+    ],
+    "scientificName": "Gymnocephalus cernua",
+    "image": "images/fish/kaulbarsch.svg",
+    "imageCredit": "Quelle: Wikimedia Commons, CC BY-SA 3.0",
+    "family": "Percidae (Barsche)",
+    "description": "Der Kaulbarsch ist ein kleiner, stacheliger Grundfisch mit grossem Kopf und auffaelligen Stacheln in der Rueckenflosse. Er lebt gesellig in Schwaermen am Gewaessergrund und ist besonders in Seen und langsam fliessenden Fluessen verbreitet.",
+    "size": {
+      "avgCm": 12,
+      "maxCm": 25,
+      "avgKg": 0.05,
+      "maxKg": 0.3
+    },
+    "habitat": "Grundnahe Bereiche in Seen und langsam fliessenden Fluessen mit sandigem bis schlammigem Grund. Meidet starke Stroemung.",
+    "waterTypes": [
+      "fluss",
+      "see"
+    ],
+    "techniques": [
+      "Grundangeln",
+      "Posenangeln",
+      "Feederangeln"
+    ],
+    "baits": [
+      "Wurm",
+      "Made",
+      "Mistwurm"
+    ],
+    "tips": [
+      "Kaulbarsche sind gute Koederfische fuer Zander und Hecht.",
+      "Kleine Haken (Gr. 10-14) mit Mistwurm direkt am Grund anbieten.",
+      "In Schwaermen unterwegs - bei Fang sofort wieder an derselben Stelle angeln.",
+      "Dienen als Indikator fuer gute Gewaesserqualitaet."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 2,
+        "max": 22,
+        "ideal": 14
+      },
+      "pressure": {
+        "trend": "egal"
+      },
+      "wind": {
+        "max": 30
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        3,
+        4,
+        5,
+        9,
+        10,
+        11
+      ],
+      "description": "Fruehling und Herbst, ganzjaehrig moeglich"
+    },
+    "closedSeason": null,
+    "difficulty": 1,
+    "catchAndRelease": false,
+    "minSize": "kein",
+    "category": "raubfisch",
+    "edibility": {
+      "rating": 2,
+      "taste": "mild",
+      "texture": "mager",
+      "preparation": [
+        "Braten",
+        "Frittieren"
+      ],
+      "notes": "Sehr klein, viele Graeten. Selten verwendet."
+    },
+    "habitatDetail": {
+      "depthRange": "0.5-6m",
+      "region": "Gesamteuropa",
+      "structure": [
+        "Sandgrund",
+        "Schlammgrund"
+      ]
+    }
+  },
+  {
+    "id": "bachforelle",
+    "name": "Bachforelle",
+    "nicknames": [
+      "Fario",
+      "Brown Trout",
+      "Steinforelle",
+      "Bergforelle",
+      "Flussforelle"
+    ],
+    "scientificName": "Salmo trutta fario",
+    "image": "images/fish/bachforelle.svg",
+    "imageCredit": "Quelle: Wikimedia Commons, CC BY-SA 3.0",
+    "family": "Salmonidae (Lachsfische)",
+    "description": "Die Bachforelle ist der Leitfisch klarer, kuehler Baeche und Fluesse im Alpenraum. Mit ihren charakteristischen roten und schwarzen Tupfen ist sie ein wunderschoener Fisch. Als standorttreuer Einzelgaenger besetzt sie feste Reviere.",
+    "size": {
+      "avgCm": 25,
+      "maxCm": 60,
+      "avgKg": 0.3,
+      "maxKg": 5
+    },
+    "habitat": "Klare, sauerstoffreiche und kuehle Baeche und Fluesse der Forellenregion mit kiesigem Grund, Unterspuelungen und Totholz als Einstand.",
+    "waterTypes": [
+      "bach",
+      "fluss"
+    ],
+    "techniques": [
+      "Fliegenfischen",
+      "Spinnfischen",
+      "Naturkoederangeln"
+    ],
+    "baits": [
+      "Trockenfliege",
+      "Nymphe",
+      "Spinner",
+      "Wurm",
+      "kleine Wobbler"
+    ],
+    "tips": [
+      "Bachforellen stehen bevorzugt an Stroemungskanten, hinter Steinen und unter ueberhaengendem Gebuesch.",
+      "Im Sommer fruehmorgens oder am spaeten Abend fischen - bei Hitze ziehen sich Forellen in kuehle Gumpen zurueck.",
+      "Beim Fliegenfischen auf das aktuelle Insektenaufkommen achten und die Fliege entsprechend waehlen.",
+      "Vorsichtiges Anpirschen ist entscheidend - Bachforellen sind extrem scheu und fluechten bei Erschuetterungen.",
+      "Stromaufwaerts fischen, damit die Forelle den Angler nicht sieht."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 2,
+        "max": 20,
+        "ideal": 12
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 20
+      },
+      "cloudCover": {
+        "min": 30,
+        "max": 90
+      }
+    },
+    "season": {
+      "bestMonths": [
+        4,
+        5,
+        6,
+        9
+      ],
+      "description": "Fruehling bis Fruehsommer und Herbst, meidet die heisse Sommerperiode"
+    },
+    "closedSeason": {
+      "period": "01.10. - 15.03.",
+      "note": "Herbstlaicher, Schonzeit variiert je nach Bundesland"
+    },
+    "difficulty": 3,
+    "catchAndRelease": false,
+    "minSize": "25 cm",
+    "category": "salmonide",
+    "edibility": {
+      "rating": 5,
+      "taste": "kraeftig",
+      "texture": "fest",
+      "preparation": [
+        "Braten",
+        "Grillen",
+        "Raeuchern",
+        "Blau kochen"
+      ],
+      "notes": "Intensiverer Geschmack als Regenbogenforelle. Frisch gefangen eine Delikatesse."
+    },
+    "habitatDetail": {
+      "depthRange": "0-5m",
+      "region": "Gesamteuropa",
+      "structure": [
+        "Kiesgrund",
+        "Totholz",
+        "Stroemungskanten",
+        "Unterspuelungen"
+      ]
+    }
+  },
+  {
+    "id": "regenbogenforelle",
+    "name": "Regenbogenforelle",
+    "nicknames": [
+      "Rainbow Trout",
+      "Regenbogner",
+      "Lachsforelle",
+      "Steelhead",
+      "ReFo"
+    ],
+    "scientificName": "Oncorhynchus mykiss",
+    "image": "images/fish/regenbogenforelle.svg",
+    "imageCredit": "Quelle: Wikimedia Commons, CC BY-SA 3.0",
+    "family": "Salmonidae (Lachsfische)",
+    "description": "Die Regenbogenforelle stammt urspruenglich aus Nordamerika und wurde in Europa als Besatzfisch eingefuehrt. Sie ist an ihrem rosa Seitenband und den schwarzen Punkten auf Koerper und Flossen erkennbar. Kampfstark und akrobatisch am Haken.",
+    "size": {
+      "avgCm": 30,
+      "maxCm": 70,
+      "avgKg": 0.5,
+      "maxKg": 8
+    },
+    "habitat": "Kuehle Baeche, Fluesse und Seen. Wird haeufig in Teichanlagen und als Besatzfisch in Angelgewaessern eingesetzt. Weniger anspruchsvoll an die Wasserqualitaet als die Bachforelle.",
+    "waterTypes": [
+      "bach",
+      "fluss",
+      "see",
+      "teich"
+    ],
+    "techniques": [
+      "Fliegenfischen",
+      "Spinnfischen",
+      "Sbirolinoangeln",
+      "Posenangeln"
+    ],
+    "baits": [
+      "Trockenfliege",
+      "Nymphe",
+      "Spinner",
+      "Bienenmade",
+      "Forellenteig",
+      "Wurm"
+    ],
+    "tips": [
+      "Regenbogenforellen sind weniger scheu als Bachforellen und nehmen den Koeder oft aggressiver.",
+      "Am Forellensee sind Sbirolino-Montagen mit Bienenmade oder Forellenteig sehr fangig.",
+      "Im Fluss auf Stroemungsrinnen und tiefere Gumpen konzentrieren.",
+      "Bei Eintrueubung des Wassers nach Regen steigen die Chancen deutlich.",
+      "Forellenwobbler in Forellendekor (Glitter, auffaellige Farben) funktionieren bei Besatzfischen gut."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 3,
+        "max": 22,
+        "ideal": 14
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 25
+      },
+      "cloudCover": {
+        "min": 20,
+        "max": 90
+      }
+    },
+    "season": {
+      "bestMonths": [
+        3,
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "description": "Fruehling und Herbst, ganzjaehrig an Forellenseen"
+    },
+    "closedSeason": {
+      "period": "15.12. - 15.03.",
+      "note": "Variiert je nach Gewaesser, an manchen Teichanlagen ganzjaehrig befischbar"
+    },
+    "difficulty": 2,
+    "catchAndRelease": false,
+    "minSize": "25 cm",
+    "category": "salmonide",
+    "edibility": {
+      "rating": 5,
+      "taste": "mild",
+      "texture": "zart",
+      "preparation": [
+        "Braten",
+        "Grillen",
+        "Raeuchern",
+        "Blau kochen"
+      ],
+      "notes": "Milder als Bachforelle, sehr beliebt."
+    },
+    "habitatDetail": {
+      "depthRange": "0-10m",
+      "region": "Gesamteuropa",
+      "structure": [
+        "Kiesgrund",
+        "Stroemungskanten",
+        "Totholz"
+      ]
+    }
+  },
+  {
+    "id": "seeforelle",
+    "name": "Seeforelle",
+    "nicknames": [
+      "Lake Trout",
+      "Silberforelle",
+      "Grundforelle",
+      "SeFo",
+      "Lacustris"
+    ],
+    "scientificName": "Salmo trutta lacustris",
+    "image": "images/fish/seeforelle.svg",
+    "imageCredit": "Quelle: Wikimedia Commons, CC BY-SA 3.0",
+    "family": "Salmonidae (Lachsfische)",
+    "description": "Die Seeforelle ist die Grossform der Bachforelle und lebt in tiefen, klaren Alpenseen. Sie kann ueber 100 cm lang werden und ist ein begehrter Zielfisch beim Schleppfischen. Ihr silbriger Koerper mit schwarzen Punkten ist an das Leben im freien Wasser angepasst.",
+    "size": {
+      "avgCm": 50,
+      "maxCm": 110,
+      "avgKg": 2.5,
+      "maxKg": 15
+    },
+    "habitat": "Tiefe, klare Alpenseen und Voralpenseen. Haelt sich je nach Jahreszeit in unterschiedlichen Tiefen auf. Im Herbst steigt sie zum Laichen in Zufluesse auf.",
+    "waterTypes": [
+      "see"
+    ],
+    "techniques": [
+      "Schleppfischen",
+      "Spinnfischen",
+      "Fliegenfischen"
+    ],
+    "baits": [
+      "Schlepploeffel",
+      "Wobbler",
+      "Koederfisch",
+      "grosse Streamer"
+    ],
+    "tips": [
+      "Im Fruehjahr in flacheren Uferbereichen schleppfischen, da die Seeforellen der Nahrung ins warme Wasser folgen.",
+      "Im Sommer muessen die Koeder in 15-30 Meter Tiefe angeboten werden, wo die Temperatur passt.",
+      "Frueher Morgen und spaeter Abend sind die produktivsten Zeiten.",
+      "Echolot nutzen, um Sprungschicht und Fischschwaerme zu lokalisieren.",
+      "Silberne, schlanke Blinker und Schlepploeffel imitieren die bevorzugte Beute (Renken, Elritzen) am besten."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 2,
+        "max": 18,
+        "ideal": 10
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 20
+      },
+      "cloudCover": {
+        "min": 20,
+        "max": 80
+      }
+    },
+    "season": {
+      "bestMonths": [
+        3,
+        4,
+        5,
+        10,
+        11
+      ],
+      "description": "Fruehling und Spaetherbst, wenn die Fische in Ufernaehe kommen"
+    },
+    "closedSeason": {
+      "period": "01.10. - 28.02.",
+      "note": "Herbstlaicher, Schonzeit variiert je nach See und Bundesland"
+    },
+    "difficulty": 5,
+    "catchAndRelease": true,
+    "minSize": "50 cm",
+    "category": "salmonide",
+    "edibility": {
+      "rating": 5,
+      "taste": "kraeftig",
+      "texture": "fest",
+      "preparation": [
+        "Braten",
+        "Grillen",
+        "Raeuchern",
+        "Marinieren"
+      ],
+      "notes": "Lachsrotes Fleisch mit ausgezeichnetem Geschmack."
+    },
+    "habitatDetail": {
+      "depthRange": "5-50m",
+      "region": "Mitteleuropa",
+      "structure": [
+        "Freiwasser",
+        "Tiefe Rinnen",
+        "Kiesgrund"
+      ]
+    }
+  },
+  {
+    "id": "bachsaibling",
+    "name": "Bachsaibling",
+    "nicknames": [
+      "Brook Trout",
+      "Brookie",
+      "Saibling",
+      "Bachsalbling"
+    ],
+    "scientificName": "Salvelinus fontinalis",
+    "image": "images/fish/bachsaibling.svg",
+    "imageCredit": "Quelle: Wikimedia Commons, CC BY-SA 3.0",
+    "family": "Salmonidae (Lachsfische)",
+    "description": "Der Bachsaibling stammt aus Nordamerika und wurde in europaeischen Berggewaessern eingebuergert. Er hat eine auffaellig marmorierte Rueckenseite und leuchtend orange-rote Bauchflossen mit weissem Vorderrand. Er gilt als weniger scheuer Fisch.",
+    "size": {
+      "avgCm": 22,
+      "maxCm": 45,
+      "avgKg": 0.2,
+      "maxKg": 2
+    },
+    "habitat": "Kalte, sauerstoffreiche Bergbaeche und Hochgebirgsseen. Vertraegt tiefere Temperaturen als die Bachforelle und kommt oft in Gewaessern oberhalb der Baumgrenze vor.",
+    "waterTypes": [
+      "bach",
+      "see"
+    ],
+    "techniques": [
+      "Fliegenfischen",
+      "Spinnfischen",
+      "Naturkoederangeln"
+    ],
+    "baits": [
+      "Trockenfliege",
+      "Nymphe",
+      "kleine Spinner",
+      "Wurm"
+    ],
+    "tips": [
+      "Bachsaiblinge sind oft weniger scheu als Bachforellen und nehmen den Koeder bereitwilliger.",
+      "In Hochgebirgsseen an windstillen Abenden mit der Trockenfliege fischen - spektakulaere Anstiege.",
+      "Auch kleine Gewaesser und Rinnsale koennen Bachsaiblinge beherbergen.",
+      "Bei bedecktem Himmel und leichtem Regen sind Bachsaiblinge besonders aktiv."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 0,
+        "max": 18,
+        "ideal": 10
+      },
+      "pressure": {
+        "trend": "fallend"
+      },
+      "wind": {
+        "max": 20
+      },
+      "cloudCover": {
+        "min": 40,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Spaetfruehling bis Fruehherbst, abhaengig von der Hoehenlage"
+    },
+    "closedSeason": {
+      "period": "01.10. - 28.02.",
+      "note": "Herbstlaicher, Schonzeit variiert nach Bundesland"
+    },
+    "difficulty": 2,
+    "catchAndRelease": false,
+    "minSize": "20 cm",
+    "category": "salmonide",
+    "edibility": {
+      "rating": 5,
+      "taste": "mild",
+      "texture": "zart",
+      "preparation": [
+        "Braten",
+        "Grillen",
+        "Raeuchern",
+        "Daempfen"
+      ],
+      "notes": "Identisch mit Saibling - delikates Aroma."
+    },
+    "habitatDetail": {
+      "depthRange": "0-15m",
+      "region": "Gesamteuropa",
+      "structure": [
+        "Kiesgrund",
+        "Felsgrund",
+        "Totholz"
+      ]
+    }
+  },
+  {
+    "id": "seesaibling",
+    "name": "Seesaibling",
+    "nicknames": [
+      "Arctic Char",
+      "Roetel",
+      "Schwarzreuter",
+      "Alpensaibling",
+      "Rotforelle"
+    ],
+    "scientificName": "Salvelinus alpinus",
+    "image": "images/fish/seesaibling.svg",
+    "imageCredit": "Quelle: Wikimedia Commons, CC BY-SA 3.0",
+    "family": "Salmonidae (Lachsfische)",
+    "description": "Der Seesaibling ist ein arktisch-alpiner Kaltwasserfisch, der in tiefen Alpenseen lebt. Er ist der am hoechsten vorkommende Fisch in den Alpen. Zur Laichzeit faerben sich die Maennchen leuchtend orange-rot an der Bauchseite.",
+    "size": {
+      "avgCm": 30,
+      "maxCm": 75,
+      "avgKg": 0.4,
+      "maxKg": 8
+    },
+    "habitat": "Tiefe, kalte Alpenseen mit guter Wasserqualitaet. Haelt sich meist in grossen Tiefen auf und kommt nur zum Laichen in flachere Bereiche.",
+    "waterTypes": [
+      "see"
+    ],
+    "techniques": [
+      "Schleppfischen",
+      "Tiefschleppfischen",
+      "Fliegenfischen"
+    ],
+    "baits": [
+      "Kleine Schlepploeffel",
+      "Wobbler",
+      "Streamer",
+      "Hegene mit Nymphen"
+    ],
+    "tips": [
+      "Im Sommer in Tiefen von 20-50 Meter schleppfischen, da Seesaiblinge kaltes Wasser benoetigen.",
+      "Hegenen mit kleinen Nymphen und Maden sind eine traditionelle und faengige Methode.",
+      "Im Fruehjahr, wenn das Wasser noch kalt ist, auch in flacheren Bereichen zu fangen.",
+      "Kleine, silbrige Koeder waehlen, die das natuerliche Nahrungsspektrum (Zooplankton, Kleinkrebse) imitieren."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 2,
+        "max": 15,
+        "ideal": 8
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 15
+      },
+      "cloudCover": {
+        "min": 20,
+        "max": 80
+      }
+    },
+    "season": {
+      "bestMonths": [
+        3,
+        4,
+        5,
+        10,
+        11
+      ],
+      "description": "Fruehling und Spaetherbst, wenn das Wasser kalt ist"
+    },
+    "closedSeason": {
+      "period": "01.10. - 28.02.",
+      "note": "Herbstlaicher, Schonzeit je nach See unterschiedlich"
+    },
+    "difficulty": 4,
+    "catchAndRelease": true,
+    "minSize": "26 cm",
+    "category": "salmonide",
+    "edibility": {
+      "rating": 5,
+      "taste": "mild",
+      "texture": "zart",
+      "preparation": [
+        "Braten",
+        "Grillen",
+        "Raeuchern",
+        "Daempfen"
+      ],
+      "notes": "Tiefseevariante des Saiblings. Ausgezeichnet."
+    },
+    "habitatDetail": {
+      "depthRange": "10-60m",
+      "region": "Mitteleuropa",
+      "structure": [
+        "Felsgrund",
+        "Kiesgrund",
+        "Tiefe Rinnen"
+      ]
+    }
+  },
+  {
+    "id": "aesche",
+    "name": "Aesche",
+    "nicknames": [
+      "Grayling",
+      "Springer",
+      "Thymianfisch",
+      "Asch",
+      "Mailforelle"
+    ],
+    "scientificName": "Thymallus thymallus",
+    "image": "images/fish/aesche.svg",
+    "imageCredit": "Quelle: Wikimedia Commons, CC BY-SA 3.0",
+    "family": "Salmonidae (Lachsfische)",
+    "description": "Die Aesche ist ein wunderschoener Salmonidenvertreter mit ihrer markanten, faecherfoermigen Rueckenflosse. Sie riecht frisch gefangen nach Thymian, was ihr den wissenschaftlichen Namen Thymallus gab. Ein anspruchsvoller und eleganter Fisch.",
+    "size": {
+      "avgCm": 30,
+      "maxCm": 55,
+      "avgKg": 0.4,
+      "maxKg": 2.5
+    },
+    "habitat": "Klare, kuehle Fluesse der Aeschenregion mit maessiger Stroemung und kiesigem Grund. Steht gerne in ruhigeren Bereichen hinter Stroemungshindernissen.",
+    "waterTypes": [
+      "fluss",
+      "bach"
+    ],
+    "techniques": [
+      "Fliegenfischen",
+      "Nymphenfischen",
+      "Naturkoederangeln"
+    ],
+    "baits": [
+      "Trockenfliege",
+      "Nymphe",
+      "Made",
+      "kleine Wurm"
+    ],
+    "tips": [
+      "Aeschen nehmen Trockenfliegen oft sehr sanft - auf zarte Anstiege achten und nicht zu frueh anschlagen.",
+      "Im Winter sind Nymphen am Grund die beste Methode, da Aeschen dann tief stehen.",
+      "Aeschen stehen oft in Gruppen - nach dem Fang eines Fisches die gleiche Stelle weiter befischen.",
+      "Czech Nymphing und Euro Nymphing sind hocheffektive Techniken fuer Aeschen.",
+      "Duenne Vorfaecher (0,10-0,14mm) sind bei scheuen Aeschen in klarem Wasser entscheidend."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 0,
+        "max": 20,
+        "ideal": 12
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 15
+      },
+      "cloudCover": {
+        "min": 20,
+        "max": 80
+      }
+    },
+    "season": {
+      "bestMonths": [
+        5,
+        6,
+        9,
+        10,
+        11
+      ],
+      "description": "Fruehsommer und Herbst, auch im Winter moeglich"
+    },
+    "closedSeason": {
+      "period": "01.02. - 30.04.",
+      "note": "Fruehjahrslaicher, Schonzeit variiert nach Bundesland"
+    },
+    "difficulty": 4,
+    "catchAndRelease": true,
+    "minSize": "30 cm",
+    "category": "salmonide",
+    "edibility": {
+      "rating": 4,
+      "taste": "mild",
+      "texture": "zart",
+      "preparation": [
+        "Braten",
+        "Raeuchern",
+        "Blau kochen"
+      ],
+      "notes": "Zart mit Thymian-Duft wenn frisch. Schnell verarbeiten."
+    },
+    "habitatDetail": {
+      "depthRange": "0.5-5m",
+      "region": "Mitteleuropa",
+      "structure": [
+        "Kiesgrund",
+        "Stroemungskanten"
+      ]
+    }
+  },
+  {
+    "id": "huchen",
+    "name": "Huchen",
+    "nicknames": [
+      "Donaulachs",
+      "Danube Salmon",
+      "Rotfisch",
+      "Hucho",
+      "Koenigsfisch"
+    ],
+    "scientificName": "Hucho hucho",
+    "image": "images/fish/huchen.svg",
+    "imageCredit": "Quelle: Wikimedia Commons, CC BY-SA 3.0",
+    "family": "Salmonidae (Lachsfische)",
+    "description": "Der Huchen, auch Donaulachs genannt, ist der groesste heimische Salmonide und ein seltener Bewohner der Alpen- und Voralpenfluesse. Er ist streng geschuetzt und gilt als Koenigsfisch. Das Fangen eines Huchens ist das Highlight eines Anglerlebens.",
+    "size": {
+      "avgCm": 70,
+      "maxCm": 140,
+      "avgKg": 5,
+      "maxKg": 30
+    },
+    "habitat": "Grosse, schnell fliessende Voralpenfluesse mit klarem, sauerstoffreichem Wasser, tiefen Gumpen und kiesigem Grund. Benoetigt weitlaeufige, unverbaute Flussabschnitte.",
+    "waterTypes": [
+      "fluss"
+    ],
+    "techniques": [
+      "Spinnfischen",
+      "Fliegenfischen mit grossen Streamern"
+    ],
+    "baits": [
+      "Grosse Wobbler",
+      "Grosse Spinner",
+      "Musky-Baits",
+      "Grosse Streamer",
+      "Koederfisch"
+    ],
+    "tips": [
+      "Der Huchen ist extrem selten und streng geschuetzt - vor dem Angeln unbedingt die lokale Schonzeit und Regelung pruefen.",
+      "Die beste Fangzeit ist im Winter bei kaltem, klarem Wasser - Huchen sind Winterfischer.",
+      "Grosse Koeder verwenden (15-30 cm), Huchen sind auf grosse Beutefische spezialisiert.",
+      "Tiefe Gumpen und Kolke in der Naehe von Einmuendungen systematisch und langsam befischen.",
+      "Geduld ist der Schluessel - ein Huchen pro Saison ist bereits ein grosser Erfolg."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 1,
+        "max": 12,
+        "ideal": 5
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 15
+      },
+      "cloudCover": {
+        "min": 30,
+        "max": 80
+      }
+    },
+    "season": {
+      "bestMonths": [
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "description": "Wintermonate, Oktober bis Maerz"
+    },
+    "closedSeason": {
+      "period": "15.02. - 30.09.",
+      "note": "Lange Schonzeit, in vielen Gewaessern ganzjaehrig geschuetzt"
+    },
+    "difficulty": 5,
+    "catchAndRelease": true,
+    "minSize": "70 cm",
+    "category": "salmonide",
+    "edibility": {
+      "rating": 1,
+      "taste": "kraeftig",
+      "texture": "fest",
+      "preparation": [],
+      "notes": "Streng geschuetzt - keine Entnahme erlaubt!"
+    },
+    "habitatDetail": {
+      "depthRange": "1-10m",
+      "region": "Mitteleuropa",
+      "structure": [
+        "Stroemungskanten",
+        "Kiesgrund",
+        "Tiefe Rinnen",
+        "Totholz"
+      ]
+    }
+  },
+  {
+    "id": "renke",
+    "name": "Renke",
+    "nicknames": [
+      "Felchen",
+      "Maraene",
+      "Whitefish",
+      "Coregone",
+      "Lavaret",
+      "Gangfisch",
+      "Blaufelchen"
+    ],
+    "scientificName": "Coregonus lavaretus",
+    "image": "images/fish/renke.svg",
+    "imageCredit": "Quelle: Wikimedia Commons, CC BY-SA 3.0",
+    "family": "Salmonidae (Lachsfische)",
+    "description": "Die Renke, auch Felchen oder Maraene genannt, ist ein schlanker Schwarmfisch der tiefen Alpenseen. Sie ernaehrt sich hauptsaechlich von Zooplankton und kleinen Insekten. Als Speisefisch ist sie sehr geschaetzt und wird traditionell mit der Hegene gefangen.",
+    "size": {
+      "avgCm": 30,
+      "maxCm": 60,
+      "avgKg": 0.4,
+      "maxKg": 3
+    },
+    "habitat": "Grosse, tiefe Alpenseen und Voralpenseen mit klarem, sauerstoffreichem Wasser. Lebt im Freiwasser (pelagisch) in wechselnden Tiefen.",
+    "waterTypes": [
+      "see"
+    ],
+    "techniques": [
+      "Hegene-Fischen",
+      "Schleppfischen",
+      "Zupfen"
+    ],
+    "baits": [
+      "Hegene mit Nymphen",
+      "Kleine Blinker",
+      "Maden",
+      "Renkenfedern"
+    ],
+    "tips": [
+      "Die klassische Methode ist das Hegene-Fischen vom Boot - mit 3-5 Nymphen an der Hegene in verschiedenen Tiefen anbieten.",
+      "Mit dem Echolot die Renkenschwaerme lokalisieren und die Tiefe genau anpassen.",
+      "Feinstes Geraet verwenden: Renkenrute mit weicher Spitze und Vorfaecher von 0,08-0,12mm.",
+      "Im Fruehling und Herbst stehen Renken oft flacher, im Sommer in 20-40 Meter Tiefe."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 2,
+        "max": 18,
+        "ideal": 10
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 15
+      },
+      "cloudCover": {
+        "min": 30,
+        "max": 80
+      }
+    },
+    "season": {
+      "bestMonths": [
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "description": "Fruehling und Herbst, wenn Renken flacher stehen"
+    },
+    "closedSeason": {
+      "period": "15.10. - 31.12.",
+      "note": "Herbstlaicher, Schonzeit variiert je nach See"
+    },
+    "difficulty": 3,
+    "catchAndRelease": false,
+    "minSize": "25 cm",
+    "category": "salmonide",
+    "edibility": {
+      "rating": 5,
+      "taste": "mild",
+      "texture": "zart",
+      "preparation": [
+        "Braten",
+        "Raeuchern",
+        "Blau kochen",
+        "Grillen"
+      ],
+      "notes": "Delikater Speisefisch. Frisch oder geraeuchert hervorragend."
+    },
+    "habitatDetail": {
+      "depthRange": "5-50m",
+      "region": "Mitteleuropa",
+      "structure": [
+        "Freiwasser",
+        "Tiefe Rinnen"
+      ]
+    }
+  },
+  {
+    "id": "karpfen",
+    "name": "Karpfen",
+    "nicknames": [
+      "Carp",
+      "Spiegelkarpfen",
+      "Schuppenkarpfen",
+      "Wildkarpfen",
+      "Carpe",
+      "Lederkarpfen"
+    ],
+    "scientificName": "Cyprinus carpio",
+    "image": "images/fish/karpfen.svg",
+    "imageCredit": "Quelle: Wikimedia Commons, CC BY-SA 3.0",
+    "family": "Cyprinidae (Karpfenfische)",
+    "description": "Der Karpfen ist einer der beliebtesten Angelfische Europas. Der kluge und vorsichtige Friedfisch wird oft ueber 10 kg schwer und liefert am Haken einen ausdauernden Drill. Karpfenangeln ist eine eigene Disziplin mit grosser Fangemeinde.",
+    "size": {
+      "avgCm": 50,
+      "maxCm": 110,
+      "avgKg": 5,
+      "maxKg": 35
+    },
+    "habitat": "Stehende und langsam fliessende Gewaesser mit schlammigem Grund, Seerosen, Schilfguerteln und warmen Flachwasserbereichen.",
+    "waterTypes": [
+      "see",
+      "teich",
+      "fluss"
+    ],
+    "techniques": [
+      "Grundangeln",
+      "Boilieangeln",
+      "Method Feeder",
+      "Posenangeln",
+      "Stalking"
+    ],
+    "baits": [
+      "Boilies",
+      "Mais",
+      "Tigernuesse",
+      "Wurm",
+      "Pellets",
+      "Pop-Ups",
+      "Kartoffel"
+    ],
+    "tips": [
+      "Anfuettern ist der Schluessel zum Karpfenerfolg - regelmaessig an der gleichen Stelle fuettern baut Vertrauen auf.",
+      "Warme Suedwinde und leicht fallender Luftdruck bringen die Karpfen oft in Fresslaune.",
+      "Im Fruehling flache, sonnenbeschienene Buchten aufsuchen - dort waermt sich das Wasser zuerst auf.",
+      "Hair-Rig Montage mit Boilies auf selbsthaak-Prinzip ist die Standardmethode beim modernen Karpfenangeln.",
+      "Auf springende Karpfen und Blasen am Boden achten - sie verraten die Position der Fische."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 10,
+        "max": 28,
+        "ideal": 20
+      },
+      "pressure": {
+        "trend": "fallend"
+      },
+      "wind": {
+        "max": 30
+      },
+      "cloudCover": {
+        "min": 30,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Mai bis September, Hochsaison im Sommer"
+    },
+    "closedSeason": {
+      "period": "15.03. - 31.05.",
+      "note": "Variiert stark nach Bundesland und Gewaesser"
+    },
+    "difficulty": 3,
+    "catchAndRelease": true,
+    "minSize": "35 cm",
+    "category": "friedfisch",
+    "edibility": {
+      "rating": 4,
+      "taste": "medium",
+      "texture": "fest",
+      "preparation": [
+        "Backen",
+        "Braten",
+        "Blau kochen",
+        "Grillen"
+      ],
+      "notes": "Klassischer Weihnachtsfisch. Aus sauberem Wasser schmackhafter."
+    },
+    "habitatDetail": {
+      "depthRange": "0.5-8m",
+      "region": "Gesamteuropa",
+      "structure": [
+        "Krautfelder",
+        "Schlammgrund",
+        "Schilfguertel"
+      ]
+    }
+  },
+  {
+    "id": "schleie",
+    "name": "Schleie",
+    "nicknames": [
+      "Tench",
+      "Tinca",
+      "Schlei",
+      "Doktorfisch",
+      "Gruentling"
+    ],
+    "scientificName": "Tinca tinca",
+    "image": "images/fish/schleie.svg",
+    "imageCredit": "Quelle: Wikimedia Commons, CC BY-SA 3.0",
+    "family": "Cyprinidae (Karpfenfische)",
+    "description": "Die Schleie ist ein scheuer Friedfisch mit olivgruener Faerbung und kleinen, tief eingebetteten Schuppen. Ihre dicke Schleimschicht schuetzt sie vor Parasiten. Sie lebt bevorzugt in verkrauteten, stehenden Gewaessern und ist ein vorsichtiger Beisser.",
+    "size": {
+      "avgCm": 30,
+      "maxCm": 65,
+      "avgKg": 1,
+      "maxKg": 6
+    },
+    "habitat": "Flache, verkrautete Seen, Teiche und Altarme mit schlammigem Grund und dichter Vegetation. Liebt warmes, pflanzenreiches Wasser.",
+    "waterTypes": [
+      "see",
+      "teich"
+    ],
+    "techniques": [
+      "Posenangeln",
+      "Grundangeln",
+      "Method Feeder"
+    ],
+    "baits": [
+      "Wurm",
+      "Made",
+      "Mais",
+      "Teig",
+      "Mini-Boilies"
+    ],
+    "tips": [
+      "Schleien beissen am besten in den fruehen Morgenstunden - idealerweise bei Sonnenaufgang am Wasser sein.",
+      "Feines Anfuettern mit Paniermehl-Mais-Mischung lockt Schleien an, ohne sie zu verscheuchen.",
+      "Blasen und truebe Stellen im Wasser zeigen gruendelnde Schleien an.",
+      "Sehr feines Geraet und empfindliche Posen verwenden - Schleien beissen extrem vorsichtig.",
+      "Luecken in Seerosenfeldern und Schilfkanten sind die besten Angelplaetze."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 12,
+        "max": 28,
+        "ideal": 20
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 15
+      },
+      "cloudCover": {
+        "min": 30,
+        "max": 90
+      }
+    },
+    "season": {
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "description": "Spaetfruehling bis Spaetsommer"
+    },
+    "closedSeason": {
+      "period": "01.05. - 15.06.",
+      "note": "Variiert nach Bundesland"
+    },
+    "difficulty": 3,
+    "catchAndRelease": false,
+    "minSize": "25 cm",
+    "category": "friedfisch",
+    "edibility": {
+      "rating": 3,
+      "taste": "medium",
+      "texture": "fest",
+      "preparation": [
+        "Braten",
+        "Backen",
+        "Blau kochen"
+      ],
+      "notes": "Kann schlammig schmecken. Einige Tage in sauberem Wasser haeltern verbessert Geschmack."
+    },
+    "habitatDetail": {
+      "depthRange": "0.5-5m",
+      "region": "Gesamteuropa",
+      "structure": [
+        "Krautfelder",
+        "Schilfguertel",
+        "Schlammgrund"
+      ]
+    }
+  },
+  {
+    "id": "barbe",
+    "name": "Barbe",
+    "nicknames": [
+      "Barbel",
+      "Barbo",
+      "Flussbarbel",
+      "Barben"
+    ],
+    "scientificName": "Barbus barbus",
+    "image": "images/fish/barbe.svg",
+    "imageCredit": "Quelle: Wikimedia Commons, CC BY-SA 3.0",
+    "family": "Cyprinidae (Karpfenfische)",
+    "description": "Die Barbe ist ein kraeftiger, stromlinienfoermiger Grundfisch mit vier auffaelligen Barteln. Sie lebt in der Barbenregion groesserer Fluesse und ist fuer ihre enorme Kampfkraft am Haken bekannt. Ein unterschaetzter Sportfisch.",
+    "size": {
+      "avgCm": 40,
+      "maxCm": 80,
+      "avgKg": 2,
+      "maxKg": 8
+    },
+    "habitat": "Mittelgrosse bis grosse Fluesse der Barbenregion mit kiesigem bis sandigem Grund und maessiger bis starker Stroemung.",
+    "waterTypes": [
+      "fluss"
+    ],
+    "techniques": [
+      "Grundangeln",
+      "Feederangeln",
+      "Posenangeln"
+    ],
+    "baits": [
+      "Kaese",
+      "Maden",
+      "Wurm",
+      "Mais",
+      "Hanf",
+      "Frolic"
+    ],
+    "tips": [
+      "Barben stehen gerne hinter Hindernissen in der Stroemung - Buhnenkoepfe und Steinpackungen absuchen.",
+      "Anfuettern mit Hanf und Maden bringt die Barben zum Fressen und haelt sie am Platz.",
+      "Kaesewerfel am Haar sind ein traditioneller und faengiger Barbenkoeder.",
+      "Robustes Geraet verwenden - eine kampfstarke Barbe in der Stroemung ist nicht zu unterschaetzen.",
+      "Im Sommer in den Abendstunden und bei Daemmerung angeln, wenn die Barben aktiv werden."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 10,
+        "max": 26,
+        "ideal": 18
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 25
+      },
+      "cloudCover": {
+        "min": 20,
+        "max": 80
+      }
+    },
+    "season": {
+      "bestMonths": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Sommer bis Fruehherbst"
+    },
+    "closedSeason": {
+      "period": "01.05. - 15.06.",
+      "note": "Variiert nach Bundesland"
+    },
+    "difficulty": 3,
+    "catchAndRelease": false,
+    "minSize": "35 cm",
+    "category": "friedfisch",
+    "edibility": {
+      "rating": 4,
+      "taste": "medium",
+      "texture": "fest",
+      "preparation": [
+        "Braten",
+        "Grillen",
+        "Raeuchern"
+      ],
+      "notes": "Festes Fleisch, graetreich. Rogen giftig - entfernen!"
+    },
+    "habitatDetail": {
+      "depthRange": "0.5-5m",
+      "region": "Mitteleuropa",
+      "structure": [
+        "Kiesgrund",
+        "Stroemungskanten",
+        "Buhnen"
+      ]
+    }
+  },
+  {
+    "id": "nase",
+    "name": "Nase",
+    "nicknames": [
+      "Naesling",
+      "Naase",
+      "Schwarzbauch",
+      "Nasus"
+    ],
+    "scientificName": "Chondrostoma nasus",
+    "image": "images/fish/nase.svg",
+    "imageCredit": "Quelle: Wikimedia Commons, CC BY-SA 3.0",
+    "family": "Cyprinidae (Karpfenfische)",
+    "description": "Die Nase ist ein geselliger Schwarmfisch mit charakteristisch unterstaendigem Maul und horniger Unterlippe, mit der sie Algen von Steinen abweidet. Sie unternimmt im Fruehjahr oft spektakulaere Laichwanderungen flussaufwaerts.",
+    "size": {
+      "avgCm": 30,
+      "maxCm": 50,
+      "avgKg": 0.5,
+      "maxKg": 2.5
+    },
+    "habitat": "Sauerstoffreiche Fluesse der Barben- und Aeschenregion mit kiesigem Grund und maessiger Stroemung.",
+    "waterTypes": [
+      "fluss"
+    ],
+    "techniques": [
+      "Posenangeln",
+      "Grundangeln",
+      "Fliegenfischen"
+    ],
+    "baits": [
+      "Algenkoeder",
+      "Made",
+      "Mistwurm",
+      "Teig",
+      "kleine Nymphen"
+    ],
+    "tips": [
+      "Im Fruehling waehrend der Laichwanderung an flachen Kiesstellen fischen - dort sammeln sich grosse Schwaerme.",
+      "Nasen grasen Algen ab - gruenlicher Teig oder Made direkt ueber dem Grund anbieten.",
+      "Sehr feine Posen verwenden, da Nasen oft vorsichtig beissen.",
+      "Stroemungskanten und flache Rieselstrecken mit Kiesgrund sind bevorzugte Standplaetze."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 8,
+        "max": 22,
+        "ideal": 15
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 20
+      },
+      "cloudCover": {
+        "min": 20,
+        "max": 80
+      }
+    },
+    "season": {
+      "bestMonths": [
+        4,
+        5,
+        6,
+        9
+      ],
+      "description": "Fruehling zur Laichzeit und Sommer"
+    },
+    "closedSeason": {
+      "period": "15.03. - 15.05.",
+      "note": "Fruehjahrslaicher, Schonzeit variiert nach Bundesland"
+    },
+    "difficulty": 2,
+    "catchAndRelease": false,
+    "minSize": "25 cm",
+    "category": "friedfisch",
+    "edibility": {
+      "rating": 3,
+      "taste": "mild",
+      "texture": "mager",
+      "preparation": [
+        "Raeuchern",
+        "Braten"
+      ],
+      "notes": "Mager und graetreich. Geraeuchert am besten."
+    },
+    "habitatDetail": {
+      "depthRange": "0.5-4m",
+      "region": "Mitteleuropa",
+      "structure": [
+        "Kiesgrund",
+        "Stroemungskanten"
+      ]
+    }
+  },
+  {
+    "id": "brachse",
+    "name": "Brachse",
+    "nicknames": [
+      "Brassen",
+      "Blei",
+      "Bream",
+      "Brasse",
+      "Brachsen",
+      "Pliete"
+    ],
+    "scientificName": "Abramis brama",
+    "image": "images/fish/brachse.svg",
+    "imageCredit": "Quelle: Wikimedia Commons, CC BY-SA 3.0",
+    "family": "Cyprinidae (Karpfenfische)",
+    "description": "Die Brachse, auch Brassen oder Blei genannt, ist ein hochrueckiger Friedfisch mit stark seitlich abgeflachtem Koerper. Sie lebt in grossen Schwaermen am Grund und ist besonders beim Feederangeln ein haeufiger Fang.",
+    "size": {
+      "avgCm": 35,
+      "maxCm": 75,
+      "avgKg": 1.5,
+      "maxKg": 7
+    },
+    "habitat": "Stehende und langsam fliessende Gewaesser mit schlammigem Grund. Bevorzugt tiefe Bereiche in Seen und Fluessen und sucht dort gruendelnd nach Nahrung.",
+    "waterTypes": [
+      "fluss",
+      "see",
+      "teich"
+    ],
+    "techniques": [
+      "Feederangeln",
+      "Grundangeln",
+      "Posenangeln",
+      "Method Feeder"
+    ],
+    "baits": [
+      "Made",
+      "Wurm",
+      "Mais",
+      "Caster",
+      "Mini-Boilies",
+      "Brotflocke"
+    ],
+    "tips": [
+      "Grossflaechig anfuettern mit Grundfutter und Maden - Brachsen sind Schwarmfische und fressen viel.",
+      "Feederangeln mit Method Feeder und Madenbett ist die effektivste Methode fuer Brachsen.",
+      "Auf Blasenketten am Wasser achten - sie zeigen gruendelnde Brachsenschwaerme an.",
+      "Im Sommer nachts angeln, wenn grosse Brachsen in flachere Bereiche ziehen."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 8,
+        "max": 25,
+        "ideal": 17
+      },
+      "pressure": {
+        "trend": "fallend"
+      },
+      "wind": {
+        "max": 25
+      },
+      "cloudCover": {
+        "min": 30,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Mai bis September, bester Fang im Sommer"
+    },
+    "closedSeason": null,
+    "difficulty": 2,
+    "catchAndRelease": false,
+    "minSize": "kein",
+    "category": "friedfisch",
+    "edibility": {
+      "rating": 3,
+      "taste": "mild",
+      "texture": "mager",
+      "preparation": [
+        "Raeuchern",
+        "Braten",
+        "Einlegen"
+      ],
+      "notes": "Sehr graetreich. Geraeuchert oder eingelegt am besten."
+    },
+    "habitatDetail": {
+      "depthRange": "1-10m",
+      "region": "Gesamteuropa",
+      "structure": [
+        "Schlammgrund",
+        "Sandgrund",
+        "Tiefe Rinnen"
+      ]
+    }
+  },
+  {
+    "id": "rotauge",
+    "name": "Rotauge",
+    "nicknames": [
+      "Ploetze",
+      "Roach",
+      "Schwal",
+      "Ploetz",
+      "Rotflosser"
+    ],
+    "scientificName": "Rutilus rutilus",
+    "image": "images/fish/rotauge.svg",
+    "imageCredit": "Quelle: Wikimedia Commons, CC BY-SA 3.0",
+    "family": "Cyprinidae (Karpfenfische)",
+    "description": "Das Rotauge, auch Ploetze genannt, ist einer der haeufigsten Fische in mitteleuropaeischen Gewaessern. Es lebt gesellig in grossen Schwaermen und ist an seinen roten Augen und roetlichen Flossen erkennbar. Idealer Einsteigerfisch.",
+    "size": {
+      "avgCm": 18,
+      "maxCm": 40,
+      "avgKg": 0.15,
+      "maxKg": 1.5
+    },
+    "habitat": "Kommt in fast allen Gewaessertypen vor. Bevorzugt stehende bis langsam fliessende Bereiche mit Vegetation.",
+    "waterTypes": [
+      "fluss",
+      "see",
+      "teich",
+      "bach"
+    ],
+    "techniques": [
+      "Posenangeln",
+      "Feederangeln",
+      "Stippen"
+    ],
+    "baits": [
+      "Made",
+      "Wurm",
+      "Mais",
+      "Brot",
+      "Caster",
+      "Hanf"
+    ],
+    "tips": [
+      "Rotaugen sind ideale Fische fuer Angelanfaenger - sie beissen fast immer und ueberall.",
+      "Feine Stippausruestung mit leichter Pose und Haken Gr. 14-18 ist die beste Wahl.",
+      "Im Winter ist Rotaugeln oft die einzige Moeglichkeit, einen Fisch zu fangen.",
+      "Anfuettern mit Paniermehl und wenigen Maden haelt den Schwarm am Platz."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 2,
+        "max": 25,
+        "ideal": 15
+      },
+      "pressure": {
+        "trend": "egal"
+      },
+      "wind": {
+        "max": 30
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        3,
+        4,
+        5,
+        6,
+        9,
+        10,
+        11
+      ],
+      "description": "Ganzjaehrig, besonders im Fruehling und Herbst"
+    },
+    "closedSeason": null,
+    "difficulty": 1,
+    "catchAndRelease": false,
+    "minSize": "kein",
+    "category": "friedfisch",
+    "edibility": {
+      "rating": 3,
+      "taste": "mild",
+      "texture": "mager",
+      "preparation": [
+        "Raeuchern",
+        "Braten",
+        "Einlegen"
+      ],
+      "notes": "Viele Graeten. Geraeuchert oder sauer eingelegt verwendbar."
+    },
+    "habitatDetail": {
+      "depthRange": "0.5-8m",
+      "region": "Gesamteuropa",
+      "structure": [
+        "Krautfelder",
+        "Schilfguertel",
+        "Buhnen"
+      ]
+    }
+  },
+  {
+    "id": "rotfeder",
+    "name": "Rotfeder",
+    "nicknames": [
+      "Rudd",
+      "Unechtes Rotauge",
+      "Roeteli",
+      "Rotblei"
+    ],
+    "scientificName": "Scardinius erythrophthalmus",
+    "image": "images/fish/rotfeder.svg",
+    "imageCredit": "Quelle: Wikimedia Commons, CC BY-SA 3.0",
+    "family": "Cyprinidae (Karpfenfische)",
+    "description": "Die Rotfeder aehnelt dem Rotauge, hat aber leuchtend rote Flossen und ein oberstaendiges Maul. Sie lebt bevorzugt in verkrauteten, stehenden Gewaessern und nimmt Nahrung auch an der Oberflaeche auf. Ein huebscher und dankbarer Fang.",
+    "size": {
+      "avgCm": 18,
+      "maxCm": 40,
+      "avgKg": 0.15,
+      "maxKg": 1.5
+    },
+    "habitat": "Stehende und langsam fliessende Gewaesser mit dichter Unterwasservegetation, Seerosen und Schilfguerteln.",
+    "waterTypes": [
+      "see",
+      "teich",
+      "fluss"
+    ],
+    "techniques": [
+      "Posenangeln",
+      "Oberflaechen-Angeln",
+      "Stippen"
+    ],
+    "baits": [
+      "Brot",
+      "Made",
+      "Mais",
+      "kleine Fliegen",
+      "Teig"
+    ],
+    "tips": [
+      "Rotfedern nehmen Nahrung gerne an der Oberflaeche auf - Brotkruste schwimmend anbieten ist sehr fangig.",
+      "An Seerosen-Kanten und in Luecken im Kraut angeln.",
+      "Im Sommer in den warmen Nachmittagsstunden an der Oberflaeche aktiv.",
+      "Vom Rotauge durch das nach oben gerichtete Maul und die intensiv roten Flossen zu unterscheiden."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 10,
+        "max": 28,
+        "ideal": 20
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 20
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 80
+      }
+    },
+    "season": {
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "description": "Spaetfruehling bis Spaetsommer"
+    },
+    "closedSeason": null,
+    "difficulty": 1,
+    "catchAndRelease": false,
+    "minSize": "kein",
+    "category": "friedfisch",
+    "edibility": {
+      "rating": 3,
+      "taste": "mild",
+      "texture": "mager",
+      "preparation": [
+        "Raeuchern",
+        "Einlegen"
+      ],
+      "notes": "Aehnlich Rotauge - viele Graeten, am besten geraeuchert."
+    },
+    "habitatDetail": {
+      "depthRange": "0.5-5m",
+      "region": "Gesamteuropa",
+      "structure": [
+        "Krautfelder",
+        "Schilfguertel",
+        "Seegras"
+      ]
+    }
+  },
+  {
+    "id": "doebel",
+    "name": "Doebel",
+    "nicknames": [
+      "Aitel",
+      "Chub",
+      "Dickkopf",
+      "Alet",
+      "Eitel",
+      "Schuppar"
+    ],
+    "scientificName": "Squalius cephalus",
+    "image": "images/fish/doebel.svg",
+    "imageCredit": "Quelle: Wikimedia Commons, CC BY-SA 3.0",
+    "family": "Leuciscidae (Weissfische)",
+    "description": "Der Doebel, auch Aitel genannt, ist ein anpassungsfaehiger Allesfresser mit grossem Maul und kraetigem Koerper. Er ist extrem scheu und schwer zu ueberlisten. Im Sommer nimmt er auch Insekten von der Oberflaeche und im Winter Koederfische.",
+    "size": {
+      "avgCm": 30,
+      "maxCm": 60,
+      "avgKg": 0.8,
+      "maxKg": 4
+    },
+    "habitat": "Fluesse und Baeche verschiedener Groesse, von der Forellen- bis zur Barbenregion. Steht gerne an ueberhaengendem Gebuesch und unter Bruecken.",
+    "waterTypes": [
+      "fluss",
+      "bach"
+    ],
+    "techniques": [
+      "Fliegenfischen",
+      "Spinnfischen",
+      "Posenangeln",
+      "Oberflaechenangeln"
+    ],
+    "baits": [
+      "Brotkruste",
+      "Kirsche",
+      "Kaefer",
+      "Spinner",
+      "Made",
+      "Wobbler",
+      "Trockenfliege"
+    ],
+    "tips": [
+      "Doebel sind extrem scheu - vorsichtiges Anpirschen und Deckung nutzen ist entscheidend.",
+      "Schwimmende Brotkruste unter ueberhaengendem Gebuesch treiben lassen - ein Klassiker fuer Doebel.",
+      "Im Sommer auf herabfallende Kirschen und Kaefer achten - dort warten oft Doebel auf Nahrung.",
+      "Doebel sind Allesfresser - vom Wurm ueber Obst bis zum kleinen Spinner wird alles genommen.",
+      "Bei Hochwasser und truebem Wasser werden Doebel weniger vorsichtig und beissen besser."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 5,
+        "max": 28,
+        "ideal": 18
+      },
+      "pressure": {
+        "trend": "egal"
+      },
+      "wind": {
+        "max": 25
+      },
+      "cloudCover": {
+        "min": 20,
+        "max": 90
+      }
+    },
+    "season": {
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Fruehling bis Herbst, ganzjaehrig moeglich"
+    },
+    "closedSeason": null,
+    "difficulty": 3,
+    "catchAndRelease": false,
+    "minSize": "kein",
+    "category": "friedfisch",
+    "edibility": {
+      "rating": 3,
+      "taste": "medium",
+      "texture": "fest",
+      "preparation": [
+        "Braten",
+        "Raeuchern",
+        "Backen"
+      ],
+      "notes": "Mittleres Fleisch, viele Graeten. Grosse Exemplare zum Raeuchern geeignet."
+    },
+    "habitatDetail": {
+      "depthRange": "0.5-6m",
+      "region": "Mitteleuropa",
+      "structure": [
+        "Stroemungskanten",
+        "Totholz",
+        "Buhnen",
+        "Unterspuelungen"
+      ]
+    }
+  },
+  {
+    "id": "karausche",
+    "name": "Karausche",
+    "nicknames": [
+      "Crucian Carp",
+      "Karass",
+      "Bauernkarpfen",
+      "Steinkarpfen"
+    ],
+    "scientificName": "Carassius carassius",
+    "image": "images/fish/karausche.svg",
+    "imageCredit": "Quelle: Wikimedia Commons, CC BY-SA 3.0",
+    "family": "Cyprinidae (Karpfenfische)",
+    "description": "Die Karausche ist ein kleiner, hochrueckiger Karpfenverwandter, der extrem anspruchslose Gewaesser besiedeln kann. Sie ueberlebt sogar in sauerstoffarmen Tuempeln und unter Eis. Leider wird die echte Karausche durch den Giebel zunehmend verdraengt.",
+    "size": {
+      "avgCm": 18,
+      "maxCm": 40,
+      "avgKg": 0.2,
+      "maxKg": 2
+    },
+    "habitat": "Kleine, oft verkrautete und sauerstoffarme Stehgewaesser, Teiche, Tuempel und Altarme. Ueberlebt auch unter extremen Bedingungen.",
+    "waterTypes": [
+      "teich",
+      "see"
+    ],
+    "techniques": [
+      "Posenangeln",
+      "Grundangeln"
+    ],
+    "baits": [
+      "Wurm",
+      "Made",
+      "Teig",
+      "Mais",
+      "Brot"
+    ],
+    "tips": [
+      "Karauschen sind in kleinen Teichen und Tuempeln zu Hause, wo andere Fische nicht ueberleben.",
+      "Sehr feines Geraet verwenden - leichte Pose, kleiner Haken (Gr. 14-18) und duennes Vorfach.",
+      "Im Sommer in den Morgen- und Abendstunden am besten, bei warmem Wetter oft auch tagsueber aktiv.",
+      "Die echte Karausche hat keinen Bartfaden - Verwechslung mit Giebel und kleinen Karpfen vermeiden."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 10,
+        "max": 28,
+        "ideal": 20
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 15
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 80
+      }
+    },
+    "season": {
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "description": "Spaetfruehling bis Sommer"
+    },
+    "closedSeason": null,
+    "difficulty": 2,
+    "catchAndRelease": false,
+    "minSize": "kein",
+    "category": "friedfisch",
+    "edibility": {
+      "rating": 3,
+      "taste": "medium",
+      "texture": "fest",
+      "preparation": [
+        "Braten",
+        "Backen",
+        "Raeuchern"
+      ],
+      "notes": "Kann schlammig schmecken, aehnlich Schleie behandeln."
+    },
+    "habitatDetail": {
+      "depthRange": "0.5-5m",
+      "region": "Gesamteuropa",
+      "structure": [
+        "Krautfelder",
+        "Schlammgrund",
+        "Schilfguertel"
+      ]
+    }
+  },
+  {
+    "id": "gruendling",
+    "name": "Gruendling",
+    "nicknames": [
+      "Gudgeon",
+      "Gresskopf",
+      "Gruendel",
+      "Grundel"
+    ],
+    "scientificName": "Gobio gobio",
+    "image": "images/fish/gruendling.svg",
+    "imageCredit": "Quelle: Wikimedia Commons, CC BY-SA 3.0",
+    "family": "Cyprinidae (Karpfenfische)",
+    "description": "Der Gruendling ist ein kleiner, langgestreckter Grundfisch mit zwei kurzen Barteln. Er lebt gesellig in Schwaermen ueber kiesigem und sandigem Grund und ist ein typischer Bewohner sauberer Fliessgewaesser.",
+    "size": {
+      "avgCm": 10,
+      "maxCm": 18,
+      "avgKg": 0.03,
+      "maxKg": 0.1
+    },
+    "habitat": "Klare Baeche und Fluesse mit sandigem bis kiesigem Grund und maessiger Stroemung. Auch in flachen Uferbereichen von Seen.",
+    "waterTypes": [
+      "bach",
+      "fluss"
+    ],
+    "techniques": [
+      "Stippen",
+      "Posenangeln"
+    ],
+    "baits": [
+      "Mistwurm",
+      "Made",
+      "Ameiseneier"
+    ],
+    "tips": [
+      "Gruendlinge sind ideale Koederfische fuer Forellen und Barsche.",
+      "Leichteste Stippausruestung mit Haken Gr. 16-20 verwenden.",
+      "Im Schwarm unterwegs - wenn einer beisst, kommen weitere Bisse schnell.",
+      "Den Grund aufwirbeln lockt Gruendlinge an - sie suchen in der Truebe nach Nahrung."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 5,
+        "max": 24,
+        "ideal": 16
+      },
+      "pressure": {
+        "trend": "egal"
+      },
+      "wind": {
+        "max": 25
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Fruehling bis Herbst"
+    },
+    "closedSeason": null,
+    "difficulty": 1,
+    "catchAndRelease": false,
+    "minSize": "kein",
+    "category": "friedfisch",
+    "edibility": {
+      "rating": 2,
+      "taste": "mild",
+      "texture": "mager",
+      "preparation": [
+        "Frittieren"
+      ],
+      "notes": "Sehr klein, traditionell frittiert gegessen."
+    },
+    "habitatDetail": {
+      "depthRange": "0.2-2m",
+      "region": "Gesamteuropa",
+      "structure": [
+        "Kiesgrund",
+        "Sandgrund"
+      ]
+    }
+  },
+  {
+    "id": "hasel",
+    "name": "Hasel",
+    "nicknames": [
+      "Dace",
+      "Haesling",
+      "Haesel"
+    ],
+    "scientificName": "Leuciscus leuciscus",
+    "image": "images/fish/hasel.svg",
+    "imageCredit": "Quelle: Wikimedia Commons, CC BY-SA 3.0",
+    "family": "Leuciscidae (Weissfische)",
+    "description": "Der Hasel ist ein schlanker, silbriger Schwarmfisch, der in klaren Fluessen und Baechen lebt. Er aehnelt dem Doebel, bleibt aber deutlich kleiner. Er nimmt Nahrung sowohl am Grund als auch an der Oberflaeche auf.",
+    "size": {
+      "avgCm": 15,
+      "maxCm": 30,
+      "avgKg": 0.08,
+      "maxKg": 0.5
+    },
+    "habitat": "Klare, maessig stroemende Fluesse und groessere Baeche mit kiesigem Grund. Lebt im Mittelwasser und an der Oberflaeche.",
+    "waterTypes": [
+      "fluss",
+      "bach"
+    ],
+    "techniques": [
+      "Posenangeln",
+      "Stippen",
+      "Fliegenfischen"
+    ],
+    "baits": [
+      "Made",
+      "kleine Fliegen",
+      "Wurm",
+      "Brot"
+    ],
+    "tips": [
+      "Hasel lassen sich gut mit der leichten Fliegenrute und kleinen Trockenfliegen fangen.",
+      "In Schwaermen unterwegs, oft zusammen mit Doebeln und Nasen.",
+      "Im Fruehling an flachen Kiesstellen zur Laichzeit gut zu fangen.",
+      "Feinste Montagen verwenden - der Hasel ist ein vorsichtiger Beisser."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 4,
+        "max": 22,
+        "ideal": 14
+      },
+      "pressure": {
+        "trend": "egal"
+      },
+      "wind": {
+        "max": 20
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 80
+      }
+    },
+    "season": {
+      "bestMonths": [
+        3,
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "description": "Fruehling und Herbst, ganzjaehrig moeglich"
+    },
+    "closedSeason": null,
+    "difficulty": 1,
+    "catchAndRelease": false,
+    "minSize": "kein",
+    "category": "friedfisch",
+    "edibility": {
+      "rating": 2,
+      "taste": "mild",
+      "texture": "mager",
+      "preparation": [
+        "Raeuchern"
+      ],
+      "notes": "Klein und graetreich. Selten verwendet."
+    },
+    "habitatDetail": {
+      "depthRange": "0.5-4m",
+      "region": "Mitteleuropa",
+      "structure": [
+        "Kiesgrund",
+        "Stroemungskanten"
+      ]
+    }
+  },
+  {
+    "id": "elritze",
+    "name": "Elritze",
+    "nicknames": [
+      "Pfrille",
+      "Minnow",
+      "Pfelle",
+      "Ellerling",
+      "Erlitze"
+    ],
+    "scientificName": "Phoxinus phoxinus",
+    "image": "images/fish/elritze.svg",
+    "imageCredit": "Quelle: Wikimedia Commons, CC BY-SA 3.0",
+    "family": "Cyprinidae (Karpfenfische)",
+    "description": "Die Elritze ist ein winziger, bunter Schwarmfisch der klaren Baeche und Fluesse. Maennchen werden zur Laichzeit praechtig bunt mit rotem Bauch und dunklem Ruecken. Sie dient als wichtiger Indikator fuer gute Wasserqualitaet.",
+    "size": {
+      "avgCm": 7,
+      "maxCm": 12,
+      "avgKg": 0.01,
+      "maxKg": 0.03
+    },
+    "habitat": "Klare, sauerstoffreiche Baeche und Fluesse mit kiesigem Grund. Lebt in grossen Schwaermen in flachen, sonnigen Bereichen.",
+    "waterTypes": [
+      "bach",
+      "fluss"
+    ],
+    "techniques": [
+      "Stippen",
+      "Mini-Posenangeln"
+    ],
+    "baits": [
+      "Kleine Made",
+      "Mistwurmstueck",
+      "Brot"
+    ],
+    "tips": [
+      "Elritzen sind die kleinsten Angel-Zielfische und ideal fuer Kinder zum Einstieg ins Angeln.",
+      "Winzige Haken (Gr. 18-22) und feinste Posen sind notwendig.",
+      "Dienen als hervorragende Koederfische fuer Bachforellen.",
+      "Im Schwarm unterwegs in flachen, sonnigen Bachbereichen."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 5,
+        "max": 22,
+        "ideal": 15
+      },
+      "pressure": {
+        "trend": "egal"
+      },
+      "wind": {
+        "max": 20
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 80
+      }
+    },
+    "season": {
+      "bestMonths": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Fruehling bis Herbst"
+    },
+    "closedSeason": null,
+    "difficulty": 1,
+    "catchAndRelease": false,
+    "minSize": "kein",
+    "category": "friedfisch",
+    "edibility": {
+      "rating": 1,
+      "taste": "mild",
+      "texture": "mager",
+      "preparation": [],
+      "notes": "Zu klein fuer Verzehr. Geschuetzt in vielen Gewaessern."
+    },
+    "habitatDetail": {
+      "depthRange": "0.2-1.5m",
+      "region": "Gesamteuropa",
+      "structure": [
+        "Kiesgrund",
+        "Stroemungskanten"
+      ]
+    }
+  },
+  {
+    "id": "giebel",
+    "name": "Giebel",
+    "nicknames": [
+      "Silberkarausche",
+      "Prussian Carp",
+      "Goldfisch"
+    ],
+    "scientificName": "Carassius gibelio",
+    "image": "images/fish/giebel.svg",
+    "imageCredit": "Quelle: Wikimedia Commons, CC BY-SA 3.0",
+    "family": "Cyprinidae (Karpfenfische)",
+    "description": "Der Giebel ist ein anspruchsloser Karpfenverwandter aus Ostasien, der sich in Mitteleuropa stark ausgebreitet hat. Er verdraengt zunehmend die einheimische Karausche. Giebel koennen sich durch Gynogenese auch ohne Maennchen fortpflanzen.",
+    "size": {
+      "avgCm": 20,
+      "maxCm": 40,
+      "avgKg": 0.3,
+      "maxKg": 2
+    },
+    "habitat": "Stehende und langsam fliessende Gewaesser aller Art. Besonders in Teichen, Altarmen und Baggerseen haeufig. Sehr anpassungsfaehig und robust.",
+    "waterTypes": [
+      "teich",
+      "see",
+      "fluss"
+    ],
+    "techniques": [
+      "Posenangeln",
+      "Grundangeln",
+      "Stippen"
+    ],
+    "baits": [
+      "Wurm",
+      "Made",
+      "Mais",
+      "Teig",
+      "Brot"
+    ],
+    "tips": [
+      "Giebel beissen aehnlich wie Karpfen, aber sind weniger scheu und einfacher zu fangen.",
+      "Oft der haeufigste Fisch in kleinen Stehgewaessern und Altarmen.",
+      "Schwer von der echten Karausche zu unterscheiden - Giebel haben eine leicht graue Faerbung am Bauchfell.",
+      "Im Sommer in flachen, warmen Bereichen am aktivsten."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 8,
+        "max": 28,
+        "ideal": 20
+      },
+      "pressure": {
+        "trend": "egal"
+      },
+      "wind": {
+        "max": 25
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Spaetfruehling bis Herbst"
+    },
+    "closedSeason": null,
+    "difficulty": 1,
+    "catchAndRelease": false,
+    "minSize": "kein",
+    "category": "friedfisch",
+    "edibility": {
+      "rating": 3,
+      "taste": "mild",
+      "texture": "fest",
+      "preparation": [
+        "Braten",
+        "Backen",
+        "Raeuchern"
+      ],
+      "notes": "Aehnlich Karpfen aber graetreicher."
+    },
+    "habitatDetail": {
+      "depthRange": "0.5-6m",
+      "region": "Mitteleuropa",
+      "structure": [
+        "Krautfelder",
+        "Schlammgrund",
+        "Schilfguertel"
+      ]
+    }
+  },
+  {
+    "id": "sterlet",
+    "name": "Sterlet",
+    "nicknames": [
+      "Sterlet-Stoer",
+      "Kleiner Stoer",
+      "Sterlet Sturgeon"
+    ],
+    "scientificName": "Acipenser ruthenus",
+    "image": "images/fish/sterlet.svg",
+    "imageCredit": "Quelle: Wikimedia Commons, CC BY-SA 3.0",
+    "family": "Acipenseridae (Stoere)",
+    "description": "Der Sterlet ist der kleinste europaeische Stoer und ein Relikt aus der Urzeit. Mit seinen fuenf Reihen Knochenplatten und der langen Schnauze ist er unverwechselbar. Er ist in Oesterreich stark gefaehrdet und in vielen Gewaessern streng geschuetzt.",
+    "size": {
+      "avgCm": 40,
+      "maxCm": 100,
+      "avgKg": 1,
+      "maxKg": 7
+    },
+    "habitat": "Tiefe, stroemende Bereiche grosser Fluesse wie der Donau mit kiesigem bis sandigem Grund. Benoetigt sauberes, sauerstoffreiches Wasser.",
+    "waterTypes": [
+      "fluss"
+    ],
+    "techniques": [
+      "Grundangeln"
+    ],
+    "baits": [
+      "Wurm",
+      "Fischfetzen",
+      "Made"
+    ],
+    "tips": [
+      "Der Sterlet ist in den meisten Gewaessern streng geschuetzt - vor dem Angeln unbedingt die lokale Gesetzgebung pruefen.",
+      "Kommt fast nur noch in der Donau und einigen Zufluessen vor.",
+      "Grundangeln mit Wurm in tiefen, stroemenden Bereichen ist die einzige realistische Methode.",
+      "Bei Beifang sofort vorsichtig zuruecksetzen - der Bestand ist stark gefaehrdet."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 8,
+        "max": 22,
+        "ideal": 15
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 20
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Sommer, wenn das Wasser warm genug ist"
+    },
+    "closedSeason": {
+      "period": "01.01. - 31.12.",
+      "note": "In den meisten Gewaessern ganzjaehrig geschuetzt"
+    },
+    "difficulty": 5,
+    "catchAndRelease": true,
+    "minSize": "40 cm",
+    "category": "friedfisch",
+    "edibility": {
+      "rating": 1,
+      "taste": "fest",
+      "texture": "fest",
+      "preparation": [],
+      "notes": "Geschuetzt. Historisch fuer Kaviar und Fleisch geschaetzt."
+    },
+    "habitatDetail": {
+      "depthRange": "2-20m",
+      "region": "Mitteleuropa",
+      "structure": [
+        "Sandgrund",
+        "Kiesgrund",
+        "Tiefe Rinnen"
+      ]
+    }
+  },
+  {
+    "id": "zingel",
+    "name": "Zingel",
+    "nicknames": [
+      "Donau-Zingel",
+      "Zingelfisch"
+    ],
+    "scientificName": "Zingel zingel",
+    "image": "images/fish/zingel.svg",
+    "imageCredit": "Quelle: Wikimedia Commons, CC BY-SA 3.0",
+    "family": "Percidae (Barsche)",
+    "description": "Der Zingel ist ein seltener, nachtaktiver Grundfisch der Donau und ihrer Nebenfluesse. Er hat einen langgestreckten, spindelfoermigen Koerper mit dunklen Querbaendern. Als Donau-Endemit ist er in Oesterreich streng geschuetzt.",
+    "size": {
+      "avgCm": 25,
+      "maxCm": 45,
+      "avgKg": 0.2,
+      "maxKg": 0.8
+    },
+    "habitat": "Tiefe, stark stroemende Abschnitte der Donau und groesserer Zufluesse mit kiesigem bis steinigem Grund.",
+    "waterTypes": [
+      "fluss"
+    ],
+    "techniques": [
+      "Grundangeln"
+    ],
+    "baits": [
+      "Wurm",
+      "Koecherfliegenlarve",
+      "kleine Koederfische"
+    ],
+    "tips": [
+      "Der Zingel ist in Oesterreich streng geschuetzt und darf in den meisten Gewaessern nicht entnommen werden.",
+      "Kommt fast ausschliesslich in der Donau und groesseren Donauzufluessen vor.",
+      "Nachtaktiver Grundfisch - Beifaenge beim Nachtangeln auf Barbe oder Aalrutte moeglich.",
+      "Bei versehentlichem Fang sofort schonend zuruecksetzen."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 5,
+        "max": 20,
+        "ideal": 13
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 20
+      },
+      "cloudCover": {
+        "min": 50,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Sommer, ueberwiegend nachtaktiv"
+    },
+    "closedSeason": {
+      "period": "01.01. - 31.12.",
+      "note": "Streng geschuetzt, ganzjaehrige Schonzeit in den meisten Bundeslaendern"
+    },
+    "difficulty": 5,
+    "catchAndRelease": true,
+    "minSize": "kein",
+    "category": "raubfisch",
+    "edibility": {
+      "rating": 1,
+      "taste": "mild",
+      "texture": "fest",
+      "preparation": [],
+      "notes": "Streng geschuetzt - keine Entnahme!"
+    },
+    "habitatDetail": {
+      "depthRange": "1-10m",
+      "region": "Mitteleuropa",
+      "structure": [
+        "Kiesgrund",
+        "Felsgrund",
+        "Stroemungskanten"
+      ]
+    }
+  },
+  {
+    "id": "streber",
+    "name": "Streber",
+    "nicknames": [
+      "Kleiner Zingel",
+      "Streberfisch"
+    ],
+    "scientificName": "Zingel streber",
+    "image": "images/fish/streber.svg",
+    "imageCredit": "Quelle: Wikimedia Commons, CC BY-SA 3.0",
+    "family": "Percidae (Barsche)",
+    "description": "Der Streber ist der kleinere Verwandte des Zingels und ebenfalls ein Donau-Endemit. Er lebt am Grund stroemender Flussabschnitte und ist nachtaktiv. Wie der Zingel ist er in Oesterreich streng geschuetzt und sehr selten.",
+    "size": {
+      "avgCm": 15,
+      "maxCm": 22,
+      "avgKg": 0.05,
+      "maxKg": 0.15
+    },
+    "habitat": "Stark stroemende Abschnitte der Donau und groesserer Zufluesse mit kiesigem bis steinigem Grund. Lebt versteckt zwischen Steinen am Gewaesserboden.",
+    "waterTypes": [
+      "fluss"
+    ],
+    "techniques": [
+      "Grundangeln"
+    ],
+    "baits": [
+      "Koecherfliegenlarve",
+      "Wurm",
+      "Insektenlarven"
+    ],
+    "tips": [
+      "Der Streber ist streng geschuetzt und darf nicht gezielt befischt werden.",
+      "Noch seltener als der Zingel und auf wenige Donauabschnitte beschraenkt.",
+      "Beifaenge sind extrem selten - sofort zuruecksetzen.",
+      "Ein Fund sollte den lokalen Fischereibehoerden gemeldet werden, da er fuer das Monitoring wichtig ist."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 5,
+        "max": 18,
+        "ideal": 12
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 20
+      },
+      "cloudCover": {
+        "min": 50,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "description": "Sommer, nachtaktiv und sehr schwer zu fangen"
+    },
+    "closedSeason": {
+      "period": "01.01. - 31.12.",
+      "note": "Streng geschuetzt, ganzjaehrige Schonzeit"
+    },
+    "difficulty": 5,
+    "catchAndRelease": true,
+    "minSize": "kein",
+    "category": "raubfisch",
+    "edibility": {
+      "rating": 1,
+      "taste": "mild",
+      "texture": "fest",
+      "preparation": [],
+      "notes": "Streng geschuetzt - keine Entnahme!"
+    },
+    "habitatDetail": {
+      "depthRange": "1-8m",
+      "region": "Mitteleuropa",
+      "structure": [
+        "Kiesgrund",
+        "Stroemungskanten"
+      ]
+    }
+  },
+  {
+    "id": "ukelei",
+    "name": "Ukelei",
+    "nicknames": [
+      "Laube",
+      "Ablette",
+      "Schneider",
+      "Albe",
+      "Blecke",
+      "Zwiebelfisch"
+    ],
+    "scientificName": "Alburnus alburnus",
+    "image": "images/fish/ukelei.svg",
+    "imageCredit": "Quelle: Wikimedia Commons, CC BY-SA 3.0",
+    "family": "Cyprinidae (Karpfenfische)",
+    "description": "Der Ukelei ist ein kleiner, silbrig glaenzender Schwarmfisch, der sich bevorzugt an der Wasseroberflaeche aufhaelt. Er ist in fast allen europaeischen Gewaessern verbreitet und nimmt Insekten von der Oberflaeche auf.",
+    "size": {
+      "avgCm": 12,
+      "maxCm": 25,
+      "avgKg": 0.03,
+      "maxKg": 0.15
+    },
+    "habitat": "Stehende und langsam fliessende Gewaesser aller Art. Bevorzugt offene Wasserbereiche und haelt sich oft in Schwarmenn an der Oberflaeche auf.",
+    "waterTypes": [
+      "fluss",
+      "see",
+      "bach",
+      "teich"
+    ],
+    "techniques": [
+      "Stippen",
+      "Posenangeln",
+      "Fliegenfischen"
+    ],
+    "baits": [
+      "Made",
+      "Brot",
+      "kleine Fliegen",
+      "Mistwurm"
+    ],
+    "tips": [
+      "Ukelei sind ideale Anfaengerfische - sie beissen schnell und haeufig.",
+      "Leichteste Stippausruestung mit Minipose und Haken Gr. 16-20 verwenden.",
+      "Anfuettern mit wenig Paniermehl an der Oberflaeche lockt grosse Schwaerme an.",
+      "Hervorragender Koederfisch fuer Raubfische wie Zander und Hecht."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 5,
+        "max": 28,
+        "ideal": 18
+      },
+      "pressure": {
+        "trend": "egal"
+      },
+      "wind": {
+        "max": 25
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Fruehling bis Herbst, ganzjaehrig moeglich"
+    },
+    "closedSeason": null,
+    "difficulty": 1,
+    "catchAndRelease": false,
+    "minSize": "kein",
+    "category": "friedfisch",
+    "edibility": {
+      "rating": 2,
+      "taste": "mild",
+      "texture": "mager",
+      "preparation": [
+        "Raeuchern",
+        "Frittieren"
+      ],
+      "notes": "Klein und graetreich. Frueher fuer Perlmutt-Gewinnung gefangen."
+    },
+    "habitatDetail": {
+      "depthRange": "0.5-3m",
+      "region": "Gesamteuropa",
+      "structure": [
+        "Freiwasser",
+        "Krautfelder"
+      ]
+    }
+  },
+  {
+    "id": "aland",
+    "name": "Aland",
+    "nicknames": [
+      "Nerfling",
+      "Orfe",
+      "Ide",
+      "Goldorfe",
+      "Aland"
+    ],
+    "scientificName": "Leuciscus idus",
+    "image": "images/fish/aland.svg",
+    "imageCredit": "Quelle: Wikimedia Commons, CC BY-SA 3.0",
+    "family": "Leuciscidae (Weissfische)",
+    "description": "Der Aland ist ein kraeftiger, goldschimmernder Schwarmfisch groesserer Fluesse. Er nimmt im Sommer gerne Insekten an der Oberflaeche und wird oft mit Doebeln verwechselt. Die Zuchtform ist als Goldorfe bekannt.",
+    "size": {
+      "avgCm": 35,
+      "maxCm": 60,
+      "avgKg": 0.8,
+      "maxKg": 4
+    },
+    "habitat": "Groessere Fluesse und Stroeme mit maessiger Stroemung, auch in groesseren Seen. Bevorzugt Bereiche mit Vegetation und Stroemungskanten.",
+    "waterTypes": [
+      "fluss",
+      "see"
+    ],
+    "techniques": [
+      "Posenangeln",
+      "Spinnfischen",
+      "Fliegenfischen",
+      "Grundangeln"
+    ],
+    "baits": [
+      "Wurm",
+      "Made",
+      "Mais",
+      "Spinner",
+      "Trockenfliege",
+      "Brot"
+    ],
+    "tips": [
+      "Alande stehen im Sommer oft an der Oberflaeche und nehmen Insekten - mit Trockenfliege oder Brotkruste ansprechen.",
+      "Aehnliche Standplaetze wie Doebel - unter ueberhaengendem Gebuesch und an Stroemungskanten.",
+      "Im Fruehjahr waehrend der Laichzeit an flachen Kiesstellen gut zu fangen.",
+      "Groessere Exemplare koennen auch rauberisch auf kleine Spinner und Wobbler beissen."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 5,
+        "max": 25,
+        "ideal": 17
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 25
+      },
+      "cloudCover": {
+        "min": 10,
+        "max": 90
+      }
+    },
+    "season": {
+      "bestMonths": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Fruehling bis Herbst"
+    },
+    "closedSeason": null,
+    "difficulty": 2,
+    "catchAndRelease": false,
+    "minSize": "25 cm",
+    "category": "friedfisch",
+    "edibility": {
+      "rating": 3,
+      "taste": "medium",
+      "texture": "fest",
+      "preparation": [
+        "Braten",
+        "Raeuchern"
+      ],
+      "notes": "Groesserer Weissfisch, viele Graeten. Geraeuchert besser."
+    },
+    "habitatDetail": {
+      "depthRange": "1-8m",
+      "region": "Mitteleuropa",
+      "structure": [
+        "Stroemungskanten",
+        "Kiesgrund",
+        "Buhnen"
+      ]
+    }
+  },
+  {
+    "id": "stint",
+    "name": "Stint",
+    "nicknames": [
+      "Spiering",
+      "Smelt",
+      "Sparling",
+      "Stintfisch",
+      "Gurkenfisch"
+    ],
+    "scientificName": "Osmerus eperlanus",
+    "image": "images/fish/stint.svg",
+    "imageCredit": "Quelle: Wikimedia Commons, CC BY-SA 3.0",
+    "family": "Osmeridae (Stinte)",
+    "description": "Der Stint ist ein kleiner Wanderfisch, der frisch gefangen nach Gurken riecht. Er lebt in Kuestengewaessern und steigt zum Laichen in Fluesse auf. In manchen Regionen wird er traditionell als Delikatesse geschaetzt.",
+    "size": {
+      "avgCm": 15,
+      "maxCm": 30,
+      "avgKg": 0.03,
+      "maxKg": 0.15
+    },
+    "habitat": "Kuestennahe Gewaesser, Brackwasserzonen und grosse Seen. Steigt zum Laichen in Flussmuendungen und Fluesse auf.",
+    "waterTypes": [
+      "fluss",
+      "see",
+      "kueste",
+      "brackwasser"
+    ],
+    "techniques": [
+      "Stippen",
+      "Posenangeln",
+      "Senknetz"
+    ],
+    "baits": [
+      "Made",
+      "Mistwurm",
+      "Fischfetzen",
+      "kleine Garnele"
+    ],
+    "tips": [
+      "Zur Laichzeit im Fruehjahr in grossen Schwaermen an Flussmuendungen zu fangen.",
+      "Winzige Haken und feinste Montagen verwenden - der Stint hat ein zartes Maul.",
+      "Der typische Gurkengeruch ist ein unverwechselbares Erkennungsmerkmal.",
+      "An manchen Standorten traditionell mit dem Senknetz gefangen."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 2,
+        "max": 18,
+        "ideal": 8
+      },
+      "pressure": {
+        "trend": "egal"
+      },
+      "wind": {
+        "max": 25
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "description": "Fruehjahr zur Laichzeit"
+    },
+    "closedSeason": null,
+    "difficulty": 1,
+    "catchAndRelease": false,
+    "minSize": "kein",
+    "category": "friedfisch",
+    "edibility": {
+      "rating": 4,
+      "taste": "mild",
+      "texture": "zart",
+      "preparation": [
+        "Braten",
+        "Frittieren"
+      ],
+      "notes": "Im Ganzen mit Innereien frittiert. Gurkenduft charakteristisch."
+    },
+    "habitatDetail": {
+      "depthRange": "0-20m",
+      "region": "Nordeuropa",
+      "structure": [
+        "Freiwasser",
+        "Muendungsbereiche"
+      ]
+    }
+  },
+  {
+    "id": "koppe",
+    "name": "Koppe",
+    "nicknames": [
+      "Groppe",
+      "Muehlkoppe",
+      "Kaulkopf",
+      "Bullhead",
+      "Westgroppe",
+      "Dickkopf"
+    ],
+    "scientificName": "Cottus gobio",
+    "image": "images/fish/koppe.svg",
+    "imageCredit": "Quelle: Wikimedia Commons, CC BY-SA 3.0",
+    "family": "Cottidae (Groppen)",
+    "description": "Die Koppe ist ein kleiner, bodenlebender Fisch mit grossem, abgeflachtem Kopf. Sie lebt versteckt unter Steinen in klaren, kalten Baechen und gilt als Indikator fuer sehr gute Wasserqualitaet. In vielen Gebieten ist sie geschuetzt.",
+    "size": {
+      "avgCm": 10,
+      "maxCm": 18,
+      "avgKg": 0.02,
+      "maxKg": 0.08
+    },
+    "habitat": "Klare, kalte Baeche und Fluesse mit steinigem Grund. Lebt versteckt unter Steinen und ist nachtaktiv.",
+    "waterTypes": [
+      "bach",
+      "fluss"
+    ],
+    "techniques": [
+      "Grundangeln"
+    ],
+    "baits": [
+      "Mistwurm",
+      "Koecherfliegenlarve",
+      "kleine Made"
+    ],
+    "tips": [
+      "Die Koppe ist in vielen Bundeslaendern streng geschuetzt - vor dem Angeln Regelung pruefen!",
+      "Beifaenge beim Forellenfischen moeglich - sofort schonend zuruecksetzen.",
+      "Dient als Indikator fuer hervorragende Wasserqualitaet in Baechen.",
+      "Nachtaktiver Bodenfisch - tagsueber unter Steinen versteckt."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 2,
+        "max": 16,
+        "ideal": 10
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 15
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Spaetfruehling bis Herbst"
+    },
+    "closedSeason": {
+      "period": "01.01. - 31.12.",
+      "note": "In vielen Bundeslaendern ganzjaehrig geschuetzt"
+    },
+    "difficulty": 2,
+    "catchAndRelease": true,
+    "minSize": "kein",
+    "category": "friedfisch",
+    "edibility": {
+      "rating": 2,
+      "taste": "mild",
+      "texture": "fest",
+      "preparation": [
+        "Frittieren"
+      ],
+      "notes": "Sehr klein, selten gegessen."
+    },
+    "habitatDetail": {
+      "depthRange": "0.2-3m",
+      "region": "Gesamteuropa",
+      "structure": [
+        "Kiesgrund",
+        "Felsgrund",
+        "Totholz"
+      ]
+    }
+  },
+  {
+    "id": "meerforelle",
+    "name": "Meerforelle",
+    "nicknames": [
+      "Silberlachs",
+      "Sea Trout",
+      "Trota di Mare",
+      "Kuesten-Silber",
+      "Trump",
+      "Gruenlaender"
+    ],
+    "scientificName": "Salmo trutta trutta",
+    "image": "images/fish/meerforelle.svg",
+    "imageCredit": "Quelle: Wikimedia Commons, CC BY-SA 3.0",
+    "family": "Salmonidae (Lachsfische)",
+    "description": "Die Meerforelle ist die Wanderform der Bachforelle. Sie lebt im Meer und steigt zum Laichen in Fluesse auf. Ihr silbriger Koerper und die enorme Kampfkraft machen sie zu einem der begehrtesten Sportfische Europas.",
+    "size": {
+      "avgCm": 55,
+      "maxCm": 100,
+      "avgKg": 2.5,
+      "maxKg": 15
+    },
+    "habitat": "Kuestengewaesser, Flussmuendungen und Fluesse. Lebt im Meer und steigt zum Laichen in saubere Kiesbaeche auf.",
+    "waterTypes": [
+      "meer",
+      "kueste",
+      "fluss"
+    ],
+    "techniques": [
+      "Spinnfischen",
+      "Fliegenfischen",
+      "Schleppfischen",
+      "Kuesten-Spinnfischen"
+    ],
+    "baits": [
+      "Kuesten-Wobbler",
+      "Blinker",
+      "Streamer",
+      "Seeringelwurm",
+      "Garnele",
+      "Fliege"
+    ],
+    "tips": [
+      "An der Kueste fruehmorgens und bei auflaufendem Wasser fischen - Meerforellen ziehen dann kuestennah.",
+      "Silberne, schlanke Blinker und Wobbler (18-30g) sind Standardkoeder beim Kuestenangeln.",
+      "Im Fluss beim Aufstieg an Wehren und tiefen Gumpen gezielt befischen.",
+      "Windstille Tage sind oft schwierig - leichter Wellengang verbessert die Chancen deutlich.",
+      "Die Fische sind extrem kampfstark - mit wilden Fluchtlaeufen und Sprüngen rechnen."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 3,
+        "max": 18,
+        "ideal": 10
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 30
+      },
+      "cloudCover": {
+        "min": 30,
+        "max": 90
+      }
+    },
+    "season": {
+      "bestMonths": [
+        3,
+        4,
+        5,
+        9,
+        10,
+        11
+      ],
+      "description": "Fruehling und Herbst an der Kueste, Herbst/Winter im Fluss"
+    },
+    "closedSeason": {
+      "period": "01.10. - 28.02.",
+      "note": "Herbstlaicher, Schonzeit variiert je nach Gewaesser und Region"
+    },
+    "difficulty": 4,
+    "catchAndRelease": true,
+    "minSize": "40 cm",
+    "category": "salmonide",
+    "edibility": {
+      "rating": 5,
+      "taste": "kraeftig",
+      "texture": "fest",
+      "preparation": [
+        "Braten",
+        "Grillen",
+        "Raeuchern"
+      ],
+      "notes": "Lachsrotes Fleisch wie Seeforelle. Ausgezeichneter Geschmack."
+    },
+    "habitatDetail": {
+      "depthRange": "0-15m",
+      "region": "Nordeuropa",
+      "structure": [
+        "Muendungsbereiche",
+        "Kiesgrund",
+        "Freiwasser"
+      ]
+    }
+  },
+  {
+    "id": "lachs",
+    "name": "Atlantischer Lachs",
+    "nicknames": [
+      "Salmon",
+      "Salm",
+      "Lax",
+      "Salmone",
+      "Rheinlachs",
+      "Donaulachs",
+      "Koenigslachs"
+    ],
+    "scientificName": "Salmo salar",
+    "image": "images/fish/lachs.svg",
+    "imageCredit": "Quelle: Wikimedia Commons, CC BY-SA 3.0",
+    "family": "Salmonidae (Lachsfische)",
+    "description": "Der Atlantische Lachs ist der Koenig der Wanderfische. Er lebt im Meer und steigt zum Laichen in seine Geburtsfluesse auf. In vielen europaeischen Fluessen ist er ausgestorben, Wiederansiedlungsprojekte laufen.",
+    "size": {
+      "avgCm": 70,
+      "maxCm": 120,
+      "avgKg": 4,
+      "maxKg": 20
+    },
+    "habitat": "Offenes Meer und grosse Fluesse. Steigt zum Laichen in saubere, kiesreiche Flussabschnitte auf. Benoetigt freie Wanderwege ohne Hindernisse.",
+    "waterTypes": [
+      "meer",
+      "fluss"
+    ],
+    "techniques": [
+      "Fliegenfischen",
+      "Spinnfischen"
+    ],
+    "baits": [
+      "Lachsfliege",
+      "Grosse Streamer",
+      "Blinker",
+      "Wobbler"
+    ],
+    "tips": [
+      "In den meisten europaeischen Fluessen ist der Lachs streng geschuetzt - vor dem Angeln unbedingt pruefen.",
+      "Fliegenfischen mit klassischen Lachsfliegen ist die traditionelle und sportlichste Methode.",
+      "Aufsteigende Lachse rasten in tiefen Gumpen und hinter Hindernissen in der Stroemung.",
+      "Geduld ist entscheidend - Lachse nehmen oft erst nach vielen Wuerfen die Fliege."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 4,
+        "max": 18,
+        "ideal": 12
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 25
+      },
+      "cloudCover": {
+        "min": 20,
+        "max": 80
+      }
+    },
+    "season": {
+      "bestMonths": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "description": "Sommer bis Herbst waehrend der Laichwanderung"
+    },
+    "closedSeason": {
+      "period": "01.10. - 31.03.",
+      "note": "In vielen Gewaessern ganzjaehrig geschuetzt, Wiederansiedlungsprogramme"
+    },
+    "difficulty": 5,
+    "catchAndRelease": true,
+    "minSize": "60 cm",
+    "category": "salmonide",
+    "edibility": {
+      "rating": 5,
+      "taste": "kraeftig",
+      "texture": "fett",
+      "preparation": [
+        "Braten",
+        "Grillen",
+        "Raeuchern",
+        "Roh (Sashimi)"
+      ],
+      "notes": "Premium-Speisefisch. Vielseitig verwendbar."
+    },
+    "habitatDetail": {
+      "depthRange": "0-50m",
+      "region": "Nordeuropa",
+      "structure": [
+        "Muendungsbereiche",
+        "Freiwasser",
+        "Tiefe Rinnen"
+      ]
+    }
+  },
+  {
+    "id": "wolfsbarsch",
+    "name": "Wolfsbarsch",
+    "nicknames": [
+      "Branzino",
+      "Spigola",
+      "Loup de Mer",
+      "Meerbarsch",
+      "Sea Bass",
+      "Branzin",
+      "Lubin",
+      "Lavrac"
+    ],
+    "scientificName": "Dicentrarchus labrax",
+    "image": "images/fish/wolfsbarsch.svg",
+    "imageCredit": "Quelle: Wikimedia Commons, CC BY-SA 3.0",
+    "family": "Moronidae (Wolfsbarsche)",
+    "description": "Der Wolfsbarsch ist einer der begehrtesten Raubfische des Mittelmeers und der Adria. Er ist ein kraftvoller Kaempfer, exzellenter Speisefisch und jagt sowohl an der Kueste als auch in Brackwasserzonen.",
+    "size": {
+      "avgCm": 45,
+      "maxCm": 100,
+      "avgKg": 1.5,
+      "maxKg": 12
+    },
+    "habitat": "Felsige Kuesten, Hafenmolen, Flussmuendungen und Brackwasserlagunen. Jagt gerne in der Brandung und an Strukturen wie Felsen und Molen.",
+    "waterTypes": [
+      "meer",
+      "kueste",
+      "brackwasser"
+    ],
+    "techniques": [
+      "Spinnfischen",
+      "Popper/Stickbait",
+      "Naturkoederangeln",
+      "Brandungsangeln",
+      "Fliegenfischen"
+    ],
+    "baits": [
+      "Wobbler",
+      "Popper",
+      "Gummifisch",
+      "Garnele",
+      "Seeringelwurm",
+      "Sardine",
+      "Tintenfisch"
+    ],
+    "tips": [
+      "Fruehmorgens und bei Daemmerung an Felsenkuesten und Molen sind die besten Zeiten fuer Wolfsbarsch.",
+      "Oberflaechen-Koeder wie Popper und Stickbaits loesen spektakulaere Attacken in flachem Wasser aus.",
+      "Nach Stueremen an der Kueste fischen - aufgewuehltes Wasser bringt Beute in Ufernaehe.",
+      "In der Adria besonders an Hafeneinfahrten, Molen und Flussmundungen erfolgreich.",
+      "Lebende Garnelen an der Pose sind der klassische Naturkoeder am Mittelmeer."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 8,
+        "max": 28,
+        "ideal": 18
+      },
+      "pressure": {
+        "trend": "fallend"
+      },
+      "wind": {
+        "max": 35
+      },
+      "cloudCover": {
+        "min": 20,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        3,
+        4,
+        5,
+        6,
+        9,
+        10,
+        11
+      ],
+      "description": "Fruehling und Herbst, in der Adria auch im Winter"
+    },
+    "closedSeason": null,
+    "difficulty": 4,
+    "catchAndRelease": false,
+    "minSize": "25 cm",
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 5,
+      "taste": "mild",
+      "texture": "fest",
+      "preparation": [
+        "Grillen",
+        "Braten",
+        "Im Ganzen backen",
+        "Daempfen"
+      ],
+      "notes": "Einer der besten Mittelmeerfische. Zartes, weisses Fleisch."
+    },
+    "habitatDetail": {
+      "depthRange": "0-30m",
+      "region": "Adria",
+      "structure": [
+        "Felsgrund",
+        "Muendungsbereiche",
+        "Buhnen",
+        "Seegras"
+      ]
+    }
+  },
+  {
+    "id": "goldbrasse",
+    "name": "Goldbrasse",
+    "nicknames": [
+      "Dorade",
+      "Orata",
+      "Orade",
+      "Gilt-head Bream",
+      "Dorade Royal",
+      "Goldkopfbrasse"
+    ],
+    "scientificName": "Sparus aurata",
+    "image": "images/fish/goldbrasse.svg",
+    "imageCredit": "Quelle: Wikimedia Commons, CC BY-SA 3.0",
+    "family": "Sparidae (Meerbrassen)",
+    "description": "Die Goldbrasse ist eine der beliebtesten Speisefische des Mittelmeers. Sie hat kraeftige Mahlzaehne zum Knacken von Muscheln und Krebsen und ist an ihrem goldenen Stirnfleck erkennbar. In der Adria ein haeufiger und begehrter Fang.",
+    "size": {
+      "avgCm": 35,
+      "maxCm": 70,
+      "avgKg": 0.8,
+      "maxKg": 8
+    },
+    "habitat": "Flache Sandboeden, Seegraswiesen und felsige Kuesten bis 30 Meter Tiefe. Zieht im Sommer in flaches Wasser und Lagunen.",
+    "waterTypes": [
+      "meer",
+      "kueste"
+    ],
+    "techniques": [
+      "Grundangeln",
+      "Posenangeln",
+      "Brandungsangeln",
+      "Bojenangeln"
+    ],
+    "baits": [
+      "Garnele",
+      "Krabbe",
+      "Muschelfleisch",
+      "Seeringelwurm",
+      "Tintenfisch",
+      "Seeigel"
+    ],
+    "tips": [
+      "Goldbrassen lieben Muscheln und Krebse - Muschelfleisch am Grund ist ein Top-Koeder.",
+      "In der Adria an Sandstraenden und in Haefen mit leichtem Grundblei und Garnele angeln.",
+      "Die Bisse sind oft sehr zaghaft - empfindliche Rutenspitze und lockere Schnur sind wichtig.",
+      "Im Sommer in flaches, warmes Wasser und Lagunen ziehend - dort gezielt befischen.",
+      "Abends und nachts steigen die Fangchancen deutlich an."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 10,
+        "max": 28,
+        "ideal": 20
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 25
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 90
+      }
+    },
+    "season": {
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "description": "Spaetfruehling bis Herbst, Hochsaison im Sommer"
+    },
+    "closedSeason": null,
+    "difficulty": 3,
+    "catchAndRelease": false,
+    "minSize": "20 cm",
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 5,
+      "taste": "mild",
+      "texture": "fest",
+      "preparation": [
+        "Grillen",
+        "Im Ganzen backen",
+        "Braten",
+        "Daempfen"
+      ],
+      "notes": "Premium-Speisefisch mit delikatem Geschmack."
+    },
+    "habitatDetail": {
+      "depthRange": "1-50m",
+      "region": "Mittelmeer",
+      "structure": [
+        "Sandgrund",
+        "Felsgrund",
+        "Seegras"
+      ]
+    }
+  },
+  {
+    "id": "zahnbrasse",
+    "name": "Zahnbrasse",
+    "nicknames": [
+      "Dentex",
+      "Dentice",
+      "Dente",
+      "Common Dentex",
+      "Zahnbrachse"
+    ],
+    "scientificName": "Dentex dentex",
+    "image": "images/fish/zahnbrasse.svg",
+    "imageCredit": "Quelle: Wikimedia Commons, CC BY-SA 3.0",
+    "family": "Sparidae (Meerbrassen)",
+    "description": "Die Zahnbrasse ist der Top-Raeuber unter den Meerbrassen. Mit ihren grossen Fangzaehnen jagt sie Fische und Tintenfische. Sie kaempft extrem hart und ist einer der begehrtesten Sportfische des Mittelmeers.",
+    "size": {
+      "avgCm": 40,
+      "maxCm": 100,
+      "avgKg": 2,
+      "maxKg": 14
+    },
+    "habitat": "Felsige Kuesten und Riffe in 10-100 Meter Tiefe. Grosse Exemplare leben in tieferem Wasser ueber felsigem Grund.",
+    "waterTypes": [
+      "meer"
+    ],
+    "techniques": [
+      "Spinnfischen",
+      "Schleppfischen",
+      "Naturkoederangeln",
+      "Jigging"
+    ],
+    "baits": [
+      "Lebender Koederfisch",
+      "Wobbler",
+      "Gummifisch",
+      "Tintenfisch",
+      "Jig"
+    ],
+    "tips": [
+      "Die Zahnbrasse ist der Traumfisch vieler Mittelmeer-Angler - Kampfkraft vergleichbar mit Lachsen.",
+      "Beim Schleppfischen mit tieflaufenden Wobblern an Felskanten und Riffen suchen.",
+      "Lebende Koederfische (Makrele, Meerbrasse) an der Tiefenmontage sind sehr effektiv.",
+      "Vertical Jigging ueber felsigem Grund kann kapitale Zahnbrassen liefern.",
+      "Robustes Geraet verwenden - grosse Zahnbrassen fluechten sofort in die Felsen."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 12,
+        "max": 26,
+        "ideal": 20
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 20
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 80
+      }
+    },
+    "season": {
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "description": "Spaetfruehling bis Herbst"
+    },
+    "closedSeason": null,
+    "difficulty": 5,
+    "catchAndRelease": false,
+    "minSize": "30 cm",
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 4,
+      "taste": "mild",
+      "texture": "fest",
+      "preparation": [
+        "Grillen",
+        "Braten",
+        "Im Ganzen backen"
+      ],
+      "notes": "Aehnlich Dorade, sehr gut."
+    },
+    "habitatDetail": {
+      "depthRange": "0-50m",
+      "region": "Adria",
+      "structure": [
+        "Felsgrund",
+        "Seegras",
+        "Sandgrund"
+      ]
+    }
+  },
+  {
+    "id": "meerbrasse",
+    "name": "Meerbrasse",
+    "nicknames": [
+      "Sarg",
+      "Sarago",
+      "Saragus",
+      "Geissbrasse",
+      "Sar",
+      "Zweibindenbrasse",
+      "Sparidae"
+    ],
+    "scientificName": "Diplodus vulgaris",
+    "image": "images/fish/meerbrasse.svg",
+    "imageCredit": "Quelle: Wikimedia Commons, CC BY-SA 3.0",
+    "family": "Sparidae (Meerbrassen)",
+    "description": "Die Meerbrasse ist ein haeufiger Fisch an felsigen Kuesten und in Haefen des Mittelmeers und der Adria. Mit ihren Querbaendern ist sie leicht zu erkennen. Ein dankbarer Fang beim Kuesten- und Hafenangeln.",
+    "size": {
+      "avgCm": 22,
+      "maxCm": 40,
+      "avgKg": 0.3,
+      "maxKg": 1.5
+    },
+    "habitat": "Felsige Kuesten, Hafenmauern, Molen und Wellenbrechern. Lebt in Schwaermen in Kuesten- und Ufernaehe.",
+    "waterTypes": [
+      "meer",
+      "kueste"
+    ],
+    "techniques": [
+      "Posenangeln",
+      "Grundangeln",
+      "Bolo-Fischen"
+    ],
+    "baits": [
+      "Garnele",
+      "Seeringelwurm",
+      "Brot",
+      "Muschel",
+      "Krabbe"
+    ],
+    "tips": [
+      "Meerbrassen sind ideale Zielfische fuer Urlaubsangler an der Adria.",
+      "An Hafenmauern und Molen mit Pose und Garnele oder Wurm angeln.",
+      "Anfuettern mit Brot oder Sardinen lockt Schwaerme an und haelt sie am Platz.",
+      "Morgens und abends sind die besten Beisszeiten an der Kueste."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 10,
+        "max": 28,
+        "ideal": 20
+      },
+      "pressure": {
+        "trend": "egal"
+      },
+      "wind": {
+        "max": 25
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "description": "Fruehling bis Herbst, ganzjaehrig moeglich"
+    },
+    "closedSeason": null,
+    "difficulty": 2,
+    "catchAndRelease": false,
+    "minSize": "15 cm",
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 4,
+      "taste": "medium",
+      "texture": "fest",
+      "preparation": [
+        "Grillen",
+        "Braten",
+        "Im Ganzen backen"
+      ],
+      "notes": "Aehnlich Dorade, sehr gut."
+    },
+    "habitatDetail": {
+      "depthRange": "1-50m",
+      "region": "Adria",
+      "structure": [
+        "Felsgrund",
+        "Seegras",
+        "Sandgrund"
+      ]
+    }
+  },
+  {
+    "id": "makrele",
+    "name": "Makrele",
+    "nicknames": [
+      "Sgombro",
+      "Mackerel",
+      "Scomber",
+      "Atlantic Mackerel",
+      "Pfeifenmakrele"
+    ],
+    "scientificName": "Scomber scombrus",
+    "image": "images/fish/makrele.svg",
+    "imageCredit": "Quelle: Wikimedia Commons, CC BY-SA 3.0",
+    "family": "Scombridae (Makrelen und Thunfische)",
+    "description": "Die Makrele ist ein schneller, wunderschoen gefaerbter Schwarmfisch mit tigeraehnlichen Streifen. Sie jagt in grossen Schwaermen kleine Fische und bietet mit ultraleichtem Geraet hervorragenden Sport.",
+    "size": {
+      "avgCm": 30,
+      "maxCm": 50,
+      "avgKg": 0.3,
+      "maxKg": 1.5
+    },
+    "habitat": "Offenes Meer und Kuestengewaesser. Zieht im Sommer in Kuestennaehe und in Haefen, um Kleinfische zu jagen.",
+    "waterTypes": [
+      "meer",
+      "kueste"
+    ],
+    "techniques": [
+      "Paternoster-Angeln",
+      "Spinnfischen",
+      "Schleppfischen",
+      "Pilken"
+    ],
+    "baits": [
+      "Makrelen-Paternoster",
+      "Fischfetzen",
+      "kleine Blinker",
+      "Pilker",
+      "Federkoeder"
+    ],
+    "tips": [
+      "Makrelen kommen im Sommer in grossen Schwaermen in Kuestennaehe - Moewen zeigen die Schwaerme an.",
+      "Paternoster mit 3-5 Federkoeddern vom Boot oder der Mole ist die effektivste Methode.",
+      "Mit ultraleichtem Spinngeraet und kleinen Metallkoeddern macht Makrelenfang enormen Spass.",
+      "Frische Makrele ist eine Delikatesse - sofort auf Eis legen fuer beste Qualitaet.",
+      "Auch hervorragend als Koederfisch fuer groessere Raubfische wie Wolfsbarsch oder Thunfisch."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 10,
+        "max": 25,
+        "ideal": 17
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 25
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 80
+      }
+    },
+    "season": {
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "description": "Sommer bis Fruehherbst an der Kueste"
+    },
+    "closedSeason": null,
+    "difficulty": 1,
+    "catchAndRelease": false,
+    "minSize": "20 cm",
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 4,
+      "taste": "kraeftig",
+      "texture": "fett",
+      "preparation": [
+        "Grillen",
+        "Raeuchern",
+        "Braten",
+        "Marinieren"
+      ],
+      "notes": "Fetter, kraeftiger Fisch. Frisch hervorragend. Schnell verarbeiten."
+    },
+    "habitatDetail": {
+      "depthRange": "0-200m",
+      "region": "Nordeuropa",
+      "structure": [
+        "Freiwasser"
+      ]
+    }
+  },
+  {
+    "id": "thunfisch",
+    "name": "Thunfisch",
+    "nicknames": [
+      "Tuna",
+      "Tonno",
+      "Blauflossen-Thunfisch",
+      "Roter Thun",
+      "Bluefin Tuna",
+      "Atun",
+      "Tunfisch"
+    ],
+    "scientificName": "Thunnus thynnus",
+    "image": "images/fish/thunfisch.svg",
+    "imageCredit": "Quelle: Wikimedia Commons, CC BY-SA 3.0",
+    "family": "Scombridae (Makrelen und Thunfische)",
+    "description": "Der Blauflossen-Thunfisch ist der Koenig des Big Game Fishing im Mittelmeer. Er kann ueber 300 kg schwer werden und liefert Drills, die Stunden dauern koennen. Sein Bestand ist stark reguliert.",
+    "size": {
+      "avgCm": 150,
+      "maxCm": 350,
+      "avgKg": 60,
+      "maxKg": 700
+    },
+    "habitat": "Offenes Meer, pelagisch. Kommt im Mittelmeer und Atlantik vor. Zieht im Sommer durch die Strasse von Gibraltar ins Mittelmeer zum Laichen.",
+    "waterTypes": [
+      "meer"
+    ],
+    "techniques": [
+      "Big Game Trolling",
+      "Driftfischen",
+      "Popping",
+      "Standup-Fischen"
+    ],
+    "baits": [
+      "Lebender Koederfisch",
+      "Makrele",
+      "Tintenfisch",
+      "Popper",
+      "Stickbait"
+    ],
+    "tips": [
+      "Thunfischangeln erfordert robustes Big-Game-Geraet und ein seetuechtiges Boot.",
+      "Im Mittelmeer werden Thunfische oft beim Schleppfischen mit ganzen Makrelen oder Tintenfischen gefangen.",
+      "Die Drills koennen 30 Minuten bis mehrere Stunden dauern - koerperliche Fitness ist wichtig.",
+      "Strenge Quotenregelungen beachten - in vielen Laendern nur mit Lizenz und Catch-and-Release.",
+      "Vogelschwaerme und springende Fische zeigen Thunfischschwaerme an der Oberflaeche an."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 14,
+        "max": 28,
+        "ideal": 22
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 20
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 70
+      }
+    },
+    "season": {
+      "bestMonths": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "description": "Sommer bis Fruehherbst im Mittelmeer"
+    },
+    "closedSeason": {
+      "period": "variiert",
+      "note": "Strenge Quotenregelungen, in vielen Laendern Lizenzpflicht und Catch-and-Release"
+    },
+    "difficulty": 5,
+    "catchAndRelease": true,
+    "minSize": "115 cm",
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 5,
+      "taste": "kraeftig",
+      "texture": "fest",
+      "preparation": [
+        "Grillen",
+        "Braten",
+        "Roh (Sashimi)",
+        "Marinieren"
+      ],
+      "notes": "Premium-Qualitaet. Roh oder medium gebraten am besten."
+    },
+    "habitatDetail": {
+      "depthRange": "0-300m",
+      "region": "Mittelmeer",
+      "structure": [
+        "Freiwasser",
+        "Tiefe Rinnen"
+      ]
+    }
+  },
+  {
+    "id": "meeraesche",
+    "name": "Meeraesche",
+    "nicknames": [
+      "Cefalo",
+      "Mugil",
+      "Mullet",
+      "Dicklippige Meeraesche",
+      "Harder",
+      "Grosskoepfige Meeraesche"
+    ],
+    "scientificName": "Mugil cephalus",
+    "image": "images/fish/meeraesche.svg",
+    "imageCredit": "Quelle: Wikimedia Commons, CC BY-SA 3.0",
+    "family": "Mugilidae (Meeraesche)",
+    "description": "Die Meeraesche ist ein ueberall an Mittelmeer- und Adriakuesten vorkommender Schwarmfisch. Sie ernaehrt sich hauptsaechlich von Algen und Detritus und ist trotz ihrer Haeufigkeit erstaunlich schwer zu fangen.",
+    "size": {
+      "avgCm": 35,
+      "maxCm": 80,
+      "avgKg": 0.8,
+      "maxKg": 5
+    },
+    "habitat": "Haefen, Lagunen, Flussmuendungen und flache Kuestenbereiche. Geht auch in Brack- und Suesswasser.",
+    "waterTypes": [
+      "meer",
+      "kueste",
+      "brackwasser"
+    ],
+    "techniques": [
+      "Posenangeln",
+      "Grundangeln",
+      "Brotangeln",
+      "Sbirolino"
+    ],
+    "baits": [
+      "Brot",
+      "Teig",
+      "Made",
+      "Algen",
+      "Sardine",
+      "Kaeseteig"
+    ],
+    "tips": [
+      "Meeraesche sind in jedem Mittelmeerhafen zu finden - aber schwerer zu fangen als man denkt.",
+      "Anfuettern mit eingeweichtem Brot oder Paniermehl ist der Schluessel zum Erfolg.",
+      "Winzige Haken (Gr. 10-16) mit Brotkugel oder Teig an feiner Pose verwenden.",
+      "In Haefen an Kaimauern oft grosse Schwaerme sichtbar - Sichtangeln ist spannend.",
+      "Aeusserst vorsichtige Beisser - empfindlichste Posen und duenne Vorfaecher noetig."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 8,
+        "max": 28,
+        "ideal": 20
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 20
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 90
+      }
+    },
+    "season": {
+      "bestMonths": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "description": "Fruehling bis Herbst, ganzjaehrig in milden Regionen"
+    },
+    "closedSeason": null,
+    "difficulty": 3,
+    "catchAndRelease": false,
+    "minSize": "20 cm",
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 3,
+      "taste": "mild",
+      "texture": "mager",
+      "preparation": [
+        "Grillen",
+        "Braten",
+        "Raeuchern"
+      ],
+      "notes": "Mageres Fleisch. Rogensack (Bottarga) ist Delikatesse."
+    },
+    "habitatDetail": {
+      "depthRange": "0-10m",
+      "region": "Mittelmeer",
+      "structure": [
+        "Muendungsbereiche",
+        "Seegras",
+        "Sandgrund"
+      ]
+    }
+  },
+  {
+    "id": "hornhecht",
+    "name": "Hornhecht",
+    "nicknames": [
+      "Aguglia",
+      "Garfish",
+      "Hornfisch",
+      "Gruenknochen",
+      "Nasenhai",
+      "Needle Fish"
+    ],
+    "scientificName": "Belone belone",
+    "image": "images/fish/hornhecht.svg",
+    "imageCredit": "Quelle: Wikimedia Commons, CC BY-SA 3.0",
+    "family": "Belonidae (Hornhechte)",
+    "description": "Der Hornhecht ist ein schlanker, oberflaechen-jagender Fisch mit auffaellig gruenen Knochen. Er zieht im Fruehjahr in Kuestennaehe und ist ein akrobatischer Kaempfer, der spektakulaere Spruenge zeigt.",
+    "size": {
+      "avgCm": 50,
+      "maxCm": 90,
+      "avgKg": 0.3,
+      "maxKg": 1.2
+    },
+    "habitat": "Kuestengewaesser und offenes Meer. Jagt Kleinfische an der Oberflaeche und kommt im Fruehjahr in Kuestennaehe.",
+    "waterTypes": [
+      "meer",
+      "kueste"
+    ],
+    "techniques": [
+      "Spinnfischen",
+      "Posenangeln",
+      "Sbirolino",
+      "Fliegenfischen"
+    ],
+    "baits": [
+      "Fischfetzen",
+      "Sbirolino mit Fischstreifen",
+      "kleine Blinker",
+      "Streamer"
+    ],
+    "tips": [
+      "Hornhechte jagen an der Oberflaeche - Koeder flach fuehren oder mit Pose anbieten.",
+      "Im Fruehjahr ziehen grosse Schwaerme an die Kueste - Molen und Steinpacker sind Hotspots.",
+      "Beim Spinnfischen schnelle Fuehrung mit kleinen, schlanken Blinkern.",
+      "Die gruenen Knochen sind harmlos und kein Zeichen mangelnder Frische!",
+      "Spektakulaere Luftspruenge beim Drill - mit leichtem Geraet ein grosses Vergnuegen."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 10,
+        "max": 24,
+        "ideal": 16
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 25
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 80
+      }
+    },
+    "season": {
+      "bestMonths": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "description": "Fruehling bis Fruehsommer an der Kueste"
+    },
+    "closedSeason": null,
+    "difficulty": 2,
+    "catchAndRelease": false,
+    "minSize": "kein",
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 4,
+      "taste": "mild",
+      "texture": "fest",
+      "preparation": [
+        "Braten",
+        "Grillen",
+        "Raeuchern"
+      ],
+      "notes": "Gruene Graeten (harmlos). Schmackhaftes, festes Fleisch."
+    },
+    "habitatDetail": {
+      "depthRange": "0-10m",
+      "region": "Nordeuropa",
+      "structure": [
+        "Freiwasser",
+        "Seegras",
+        "Muendungsbereiche"
+      ]
+    }
+  },
+  {
+    "id": "dorsch",
+    "name": "Dorsch",
+    "nicknames": [
+      "Kabeljau",
+      "Cod",
+      "Merluzzo",
+      "Gadus",
+      "Pomuchel",
+      "Bacalhau",
+      "Stockfisch"
+    ],
+    "scientificName": "Gadus morhua",
+    "image": "images/fish/dorsch.svg",
+    "imageCredit": "Quelle: Wikimedia Commons, CC BY-SA 3.0",
+    "family": "Gadidae (Dorsche)",
+    "description": "Der Dorsch (jung) bzw. Kabeljau (adult) ist einer der wichtigsten Meeresfische Europas. Er lebt in kuehlen Gewaessern der Nord- und Ostsee und wurde historisch als Stockfisch konserviert. Beim Pilken vom Kutter ein beliebter Zielfisch.",
+    "size": {
+      "avgCm": 60,
+      "maxCm": 150,
+      "avgKg": 3,
+      "maxKg": 50
+    },
+    "habitat": "Kuehle Meeresgebiete der Nord- und Ostsee in 10-200 Meter Tiefe. Bevorzugt felsigen Grund, Wracks und Riffe.",
+    "waterTypes": [
+      "meer"
+    ],
+    "techniques": [
+      "Pilken",
+      "Naturkoederangeln",
+      "Schleppfischen",
+      "Grundangeln"
+    ],
+    "baits": [
+      "Pilker",
+      "Gummifisch",
+      "Wattwurm",
+      "Fischfetzen",
+      "Garnele",
+      "Twister"
+    ],
+    "tips": [
+      "Beim Kutterangeln Pilker in 50-200g mit Beifaenger kombinieren fuer mehr Bisse.",
+      "Wracks und Steinriffe sind die besten Hotspots - mit Echolot suchen.",
+      "Im Winter stehen Dorsche oft in Kuestennaehe und sind auch vom Ufer erreichbar.",
+      "Wattwurm am Buttloeffel ist die klassische Methode beim Brandungsangeln.",
+      "Bag-Limits (Tagesfangbegrenzung) in der Ostsee beachten!"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 2,
+        "max": 15,
+        "ideal": 8
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 25
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        1,
+        2,
+        3,
+        10,
+        11,
+        12
+      ],
+      "description": "Herbst bis Fruehling, Winterfisch"
+    },
+    "closedSeason": {
+      "period": "01.02. - 31.03.",
+      "note": "Schonzeit in der Ostsee, strenge Bag-Limits beachten"
+    },
+    "difficulty": 2,
+    "catchAndRelease": false,
+    "minSize": "35 cm",
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 5,
+      "taste": "mild",
+      "texture": "fest",
+      "preparation": [
+        "Braten",
+        "Daempfen",
+        "Backen",
+        "Frittieren"
+      ],
+      "notes": "Mageres, weisses Fleisch. Universeller Speisefisch."
+    },
+    "habitatDetail": {
+      "depthRange": "5-200m",
+      "region": "Nordeuropa",
+      "structure": [
+        "Felsgrund",
+        "Sandgrund",
+        "Tiefe Rinnen"
+      ]
+    }
+  },
+  {
+    "id": "scholle",
+    "name": "Scholle",
+    "nicknames": [
+      "Goldbutt",
+      "Platessa",
+      "Plaice",
+      "Plattfisch",
+      "Butt"
+    ],
+    "scientificName": "Pleuronectes platessa",
+    "image": "images/fish/scholle.svg",
+    "imageCredit": "Quelle: Wikimedia Commons, CC BY-SA 3.0",
+    "family": "Pleuronectidae (Schollen)",
+    "description": "Die Scholle ist ein beliebter Plattfisch mit auffaelligen orangen Flecken auf der Oberseite. Sie lebt gut getarnt auf sandigem und schlammigem Grund und ist ein geschaetzter Speisefisch in Nordeuropa.",
+    "size": {
+      "avgCm": 30,
+      "maxCm": 70,
+      "avgKg": 0.3,
+      "maxKg": 4
+    },
+    "habitat": "Sandige und schlammige Meeresboeden in 5-50 Meter Tiefe in Nord- und Ostsee.",
+    "waterTypes": [
+      "meer"
+    ],
+    "techniques": [
+      "Brandungsangeln",
+      "Grundangeln",
+      "Buttloeffel-Angeln"
+    ],
+    "baits": [
+      "Wattwurm",
+      "Seeringelwurm",
+      "Garnele",
+      "Muschel"
+    ],
+    "tips": [
+      "Brandungsangeln mit Wattwurm an Sandstraenden ist die klassische Methode.",
+      "Buttloeffel-Montage lockt Schollen durch optische und akustische Reize an.",
+      "Bei ablaufendem Wasser Rinnen und Prielen befischen - dort sammeln sich Plattfische.",
+      "Im Fruehjahr kommen grosse Schollen zum Fressen in flaches Kuestenwasser."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 4,
+        "max": 18,
+        "ideal": 12
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 30
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        3,
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "description": "Fruehling und Herbst, im Sommer in tieferem Wasser"
+    },
+    "closedSeason": null,
+    "difficulty": 2,
+    "catchAndRelease": false,
+    "minSize": "25 cm",
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 4,
+      "taste": "mild",
+      "texture": "zart",
+      "preparation": [
+        "Braten",
+        "Frittieren",
+        "Daempfen"
+      ],
+      "notes": "Klassischer Plattfisch. Zart und mild."
+    },
+    "habitatDetail": {
+      "depthRange": "5-50m",
+      "region": "Nordeuropa",
+      "structure": [
+        "Sandgrund",
+        "Schlammgrund"
+      ]
+    }
+  },
+  {
+    "id": "steinbutt",
+    "name": "Steinbutt",
+    "nicknames": [
+      "Rombo",
+      "Turbot",
+      "Butt",
+      "Steinplattfisch",
+      "Tarbot"
+    ],
+    "scientificName": "Scophthalmus maximus",
+    "image": "images/fish/steinbutt.svg",
+    "imageCredit": "Quelle: Wikimedia Commons, CC BY-SA 3.0",
+    "family": "Scophthalmidae (Steinbutte)",
+    "description": "Der Steinbutt ist ein diamantfoermiger, raeuberischer Plattfisch und einer der teuersten Speisefische Europas. Er jagt aktiv Kleinfische und Garnelen und kann ueber 20 kg schwer werden.",
+    "size": {
+      "avgCm": 40,
+      "maxCm": 100,
+      "avgKg": 2,
+      "maxKg": 25
+    },
+    "habitat": "Sandige und kiesige Meeresboeden in 10-80 Meter Tiefe. In Nord- und Ostsee sowie im Mittelmeer.",
+    "waterTypes": [
+      "meer"
+    ],
+    "techniques": [
+      "Grundangeln",
+      "Naturkoederangeln",
+      "Schleppfischen"
+    ],
+    "baits": [
+      "Lebender Koederfisch",
+      "Fischfetzen",
+      "Sandaal",
+      "Garnele"
+    ],
+    "tips": [
+      "Lebende oder frisch tote Kleinfische am Grund sind die beste Methode fuer Steinbutt.",
+      "An Sandbankraendern und in der Naehe von Riffen fischen - dort lauern Steinbutte auf Beute.",
+      "Der Biss ist oft sehr zaghaft - lange warten, bis der Fisch den Koeder richtig genommen hat.",
+      "Im Mittelmeer wird der Steinbutt (Rombo) traditionell beim Grundangeln vom Boot gefangen."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 6,
+        "max": 20,
+        "ideal": 14
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 20
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Spaetfruehling bis Fruehherbst"
+    },
+    "closedSeason": null,
+    "difficulty": 4,
+    "catchAndRelease": false,
+    "minSize": "30 cm",
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 5,
+      "taste": "mild",
+      "texture": "fest",
+      "preparation": [
+        "Braten",
+        "Daempfen",
+        "Grillen",
+        "Im Ganzen backen"
+      ],
+      "notes": "Premium-Plattfisch. Festes, aromatisches Fleisch."
+    },
+    "habitatDetail": {
+      "depthRange": "5-80m",
+      "region": "Nordeuropa",
+      "structure": [
+        "Sandgrund",
+        "Kiesgrund"
+      ]
+    }
+  },
+  {
+    "id": "hering",
+    "name": "Hering",
+    "nicknames": [
+      "Herring",
+      "Silberfisch",
+      "Aringa",
+      "Stroemling",
+      "Matjes",
+      "Bismarckhering",
+      "Silberling"
+    ],
+    "scientificName": "Clupea harengus",
+    "image": "images/fish/hering.svg",
+    "imageCredit": "Quelle: Wikimedia Commons, CC BY-SA 3.0",
+    "family": "Clupeidae (Heringe)",
+    "description": "Der Hering ist der wichtigste Schwarmfisch der europaeischen Meere und hat Geschichte geschrieben. Im Fruehjahr zieht er in riesigen Schwaermen zum Laichen an die Kueste und bietet dann ein unvergessliches Angelerlebnis.",
+    "size": {
+      "avgCm": 25,
+      "maxCm": 40,
+      "avgKg": 0.15,
+      "maxKg": 0.5
+    },
+    "habitat": "Nord- und Ostsee, pelagisch in grossen Schwaermen. Zieht zum Laichen in flache Kuestengewaesser.",
+    "waterTypes": [
+      "meer",
+      "kueste"
+    ],
+    "techniques": [
+      "Heringspaternoster",
+      "Posenangeln",
+      "Grundangeln"
+    ],
+    "baits": [
+      "Heringspaternoster",
+      "Fischfetzen",
+      "Garnele",
+      "Federkoeder"
+    ],
+    "tips": [
+      "Zur Heringssaison im Fruehjahr an Molen und in Haefen - dort stehen die Schwaerme dicht gedraengt.",
+      "Heringspaternoster mit 3-5 Haken und kleinen Perlen ist die Standardmethode.",
+      "Farbige Perlen und Fischhaut am Paternoster locken die Heringe optisch an.",
+      "Frisch gefangener Hering ist eine Delikatesse - Matjes, Brathering oder geraeuchtert geniessen.",
+      "Im Pulk angeln - wo einer beisst, kommen schnell mehrere Fische gleichzeitig."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 3,
+        "max": 15,
+        "ideal": 8
+      },
+      "pressure": {
+        "trend": "egal"
+      },
+      "wind": {
+        "max": 30
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        3,
+        4,
+        5,
+        10,
+        11
+      ],
+      "description": "Fruehjahr (Laichzeit) und Herbst"
+    },
+    "closedSeason": null,
+    "difficulty": 1,
+    "catchAndRelease": false,
+    "minSize": "kein",
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 4,
+      "taste": "kraeftig",
+      "texture": "fett",
+      "preparation": [
+        "Raeuchern",
+        "Braten",
+        "Einlegen",
+        "Grillen"
+      ],
+      "notes": "Fetter Fisch, reich an Omega-3. Vielfaeltig zubereitet."
+    },
+    "habitatDetail": {
+      "depthRange": "0-200m",
+      "region": "Nordeuropa",
+      "structure": [
+        "Freiwasser"
+      ]
+    }
+  },
+  {
+    "id": "sardine",
+    "name": "Sardine",
+    "nicknames": [
+      "Sardina",
+      "Pilchard",
+      "Sardella",
+      "Atlantische Sardine",
+      "Sardinha"
+    ],
+    "scientificName": "Sardina pilchardus",
+    "image": "images/fish/sardine.svg",
+    "imageCredit": "Quelle: Wikimedia Commons, CC BY-SA 3.0",
+    "family": "Clupeidae (Heringe)",
+    "description": "Die Sardine ist ein klassischer Mittelmeerfisch und Grundlage der mediterranen Kueche. Die silbrigen Schwarmfische ziehen in riesigen Schwaermen durch Kuestengewaesser und sind leicht zu fangen.",
+    "size": {
+      "avgCm": 18,
+      "maxCm": 25,
+      "avgKg": 0.05,
+      "maxKg": 0.1
+    },
+    "habitat": "Kuestennahe Gewaesser des Mittelmeers und Atlantiks in grossen Schwaermen.",
+    "waterTypes": [
+      "meer",
+      "kueste"
+    ],
+    "techniques": [
+      "Paternoster",
+      "Posenangeln",
+      "Senknetz"
+    ],
+    "baits": [
+      "Paternoster mit Federkoeder",
+      "Brot",
+      "Fischmehl-Teig"
+    ],
+    "tips": [
+      "Sardinen sind der perfekte Einstieg ins Meeresangeln - einfach zu fangen und lecker.",
+      "Vom Hafen oder der Mole mit Paternoster und kleinen Haken angeln.",
+      "Anfuettern mit Brot lockt die Schwaerme an die Angelstelle.",
+      "Frische Sardinen gegrillt (Sardine alla Griglia) sind eine Mittelmeer-Delikatesse.",
+      "Auch hervorragend als Koederfisch fuer Wolfsbarsch, Zahnbrasse und andere Raubfische."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 10,
+        "max": 26,
+        "ideal": 18
+      },
+      "pressure": {
+        "trend": "egal"
+      },
+      "wind": {
+        "max": 20
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Spaetfruehling bis Fruehherbst"
+    },
+    "closedSeason": null,
+    "difficulty": 1,
+    "catchAndRelease": false,
+    "minSize": "kein",
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 4,
+      "taste": "kraeftig",
+      "texture": "fett",
+      "preparation": [
+        "Grillen",
+        "Braten",
+        "Einlegen",
+        "Raeuchern"
+      ],
+      "notes": "Im Ganzen gegrillt eine Delikatesse. Aehnlich Hering."
+    },
+    "habitatDetail": {
+      "depthRange": "0-100m",
+      "region": "Mittelmeer",
+      "structure": [
+        "Freiwasser",
+        "Muendungsbereiche"
+      ]
+    }
+  },
+  {
+    "id": "rotbarbe",
+    "name": "Rotbarbe",
+    "nicknames": [
+      "Meerbarbe",
+      "Triglia",
+      "Red Mullet",
+      "Rouget",
+      "Streifenbarbe",
+      "Triglia di Scoglio"
+    ],
+    "scientificName": "Mullus barbatus",
+    "image": "images/fish/rotbarbe.svg",
+    "imageCredit": "Quelle: Wikimedia Commons, CC BY-SA 3.0",
+    "family": "Mullidae (Meerbarben)",
+    "description": "Die Rotbarbe ist ein geschaetzter Grundfisch des Mittelmeers mit zwei charakteristischen Barteln. Ihr zartes Fleisch gilt als Delikatesse der mediterranen Kueche. Sie wuehlt mit den Barteln im Sand nach Nahrung.",
+    "size": {
+      "avgCm": 18,
+      "maxCm": 30,
+      "avgKg": 0.1,
+      "maxKg": 0.4
+    },
+    "habitat": "Sandige und schlammige Boeden in Kuestennaehe bis 100 Meter Tiefe im Mittelmeer und der Adria.",
+    "waterTypes": [
+      "meer",
+      "kueste"
+    ],
+    "techniques": [
+      "Grundangeln",
+      "Posenangeln",
+      "Paternoster"
+    ],
+    "baits": [
+      "Seeringelwurm",
+      "Garnele",
+      "Muschelfleisch",
+      "kleine Krabbe"
+    ],
+    "tips": [
+      "Grundangeln mit Seeringelwurm auf sandigem Boden in 5-20 Meter Tiefe.",
+      "Rotbarben sind Grundfische - den Koeder immer direkt am Boden anbieten.",
+      "In der Adria eine der beliebtesten Speisefische - Triglia alla Griglia ist ein Klassiker.",
+      "Feine Montagen mit kleinen Haken (Gr. 6-10) verwenden."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 10,
+        "max": 26,
+        "ideal": 18
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 20
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 90
+      }
+    },
+    "season": {
+      "bestMonths": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "description": "Fruehling bis Herbst"
+    },
+    "closedSeason": null,
+    "difficulty": 2,
+    "catchAndRelease": false,
+    "minSize": "11 cm",
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 4,
+      "taste": "kraeftig",
+      "texture": "fest",
+      "preparation": [
+        "Grillen",
+        "Braten",
+        "Im Ganzen backen"
+      ],
+      "notes": "Identisch mit Meerbarbe. Intensiver Geschmack."
+    },
+    "habitatDetail": {
+      "depthRange": "5-90m",
+      "region": "Mittelmeer",
+      "structure": [
+        "Sandgrund",
+        "Schlammgrund",
+        "Felsgrund"
+      ]
+    }
+  },
+  {
+    "id": "seeteufel",
+    "name": "Seeteufel",
+    "nicknames": [
+      "Anglerfisch",
+      "Rana Pescatrice",
+      "Monkfish",
+      "Lotte",
+      "Baudroie",
+      "Teufelsfisch"
+    ],
+    "scientificName": "Lophius piscatorius",
+    "image": "images/fish/seeteufel.svg",
+    "imageCredit": "Quelle: Wikimedia Commons, CC BY-SA 3.0",
+    "family": "Lophiidae (Seeteufel)",
+    "description": "Der Seeteufel ist ein bizarrer Bodenbewohner mit riesigem Maul und einer Angel auf dem Kopf, mit der er Beutefische anlockt. Trotz seines Aussehens ist er einer der teuersten und geschaetztesten Speisefische.",
+    "size": {
+      "avgCm": 60,
+      "maxCm": 200,
+      "avgKg": 5,
+      "maxKg": 50
+    },
+    "habitat": "Sandige und schlammige Meeresboeden in 20-500 Meter Tiefe. Im Mittelmeer und Nordatlantik.",
+    "waterTypes": [
+      "meer"
+    ],
+    "techniques": [
+      "Grundangeln",
+      "Naturkoederangeln"
+    ],
+    "baits": [
+      "Fischfetzen",
+      "Koederfisch",
+      "Tintenfisch",
+      "Makrele"
+    ],
+    "tips": [
+      "Seeteufel werden meist als Beifang beim Grundangeln in tieferem Wasser gefangen.",
+      "Grosse Koeder auf dem Grund anbieten - der Seeteufel ist ein gieriger Jaeger.",
+      "Das Schwanzfleisch (Lotte) ist eine absolute Premium-Delikatesse.",
+      "Achtung beim Anfassen - die Zaehne sind sehr scharf, auch bei toten Fischen."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 6,
+        "max": 20,
+        "ideal": 12
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 20
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        3,
+        4,
+        5,
+        6,
+        9,
+        10,
+        11
+      ],
+      "description": "Fruehling und Herbst in der Tiefe"
+    },
+    "closedSeason": null,
+    "difficulty": 4,
+    "catchAndRelease": false,
+    "minSize": "30 cm",
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 5,
+      "taste": "mild",
+      "texture": "fest",
+      "preparation": [
+        "Braten",
+        "Grillen",
+        "Backen",
+        "Daempfen"
+      ],
+      "notes": "Hummer-aehnliche Textur. Nur Schwanz essbar. Premium-Qualitaet."
+    },
+    "habitatDetail": {
+      "depthRange": "20-500m",
+      "region": "Nordeuropa",
+      "structure": [
+        "Sandgrund",
+        "Schlammgrund",
+        "Felsgrund"
+      ]
+    }
+  },
+  {
+    "id": "meeraal",
+    "name": "Meeraal",
+    "nicknames": [
+      "Conger",
+      "Grongo",
+      "Conger Eel",
+      "Seeaal",
+      "Congre"
+    ],
+    "scientificName": "Conger conger",
+    "image": "images/fish/meeraal.svg",
+    "imageCredit": "Quelle: Wikimedia Commons, CC BY-SA 3.0",
+    "family": "Congridae (Meeraale)",
+    "description": "Der Meeraal ist ein gewaltiger, aalfoermiger Meeresfisch, der in Felsspalten und Wracks lebt. Er kann ueber 2 Meter lang werden und ist nachtaktiv. Seine enorme Kraft macht ihn zu einem ernst zu nehmenden Gegner.",
+    "size": {
+      "avgCm": 100,
+      "maxCm": 300,
+      "avgKg": 5,
+      "maxKg": 65
+    },
+    "habitat": "Felsige Kuesten, Wracks und Riffe in 5-100 Meter Tiefe. Lebt in Hoehlen und Spalten.",
+    "waterTypes": [
+      "meer",
+      "kueste"
+    ],
+    "techniques": [
+      "Grundangeln",
+      "Nachtangeln",
+      "Wrackangeln"
+    ],
+    "baits": [
+      "Makrele",
+      "Tintenfisch",
+      "Fischfetzen",
+      "Sardine"
+    ],
+    "tips": [
+      "Nachtangeln an felsigen Kuesten und Molen ist die beste Methode fuer Conger.",
+      "Robustes Geraet ist Pflicht - ein grosser Conger in Felsnaehe ist kaum zu stoppen.",
+      "Grosse Koeder (halbe Makrele, Tintenfisch) direkt am Felsgrund anbieten.",
+      "In der Adria an Steinmolen und felsigen Kuestenabschnitten erfolgreich.",
+      "Vorsicht beim Landen - Meeraale winden sich extrem und haben scharfe Zaehne."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 8,
+        "max": 24,
+        "ideal": 16
+      },
+      "pressure": {
+        "trend": "fallend"
+      },
+      "wind": {
+        "max": 20
+      },
+      "cloudCover": {
+        "min": 50,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "description": "Spaetfruehling bis Herbst, besonders in warmen Naechten"
+    },
+    "closedSeason": null,
+    "difficulty": 4,
+    "catchAndRelease": false,
+    "minSize": "58 cm",
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 3,
+      "taste": "kraeftig",
+      "texture": "fest",
+      "preparation": [
+        "Grillen",
+        "Braten",
+        "Kochen"
+      ],
+      "notes": "Festes Fleisch, aber viele Graeten. Weniger geschaetzt als Aal."
+    },
+    "habitatDetail": {
+      "depthRange": "0-100m",
+      "region": "Mittelmeer",
+      "structure": [
+        "Felsgrund",
+        "Unterspuelungen"
+      ]
+    }
+  },
+  {
+    "id": "knurrhahn",
+    "name": "Knurrhahn",
+    "nicknames": [
+      "Capone",
+      "Gurnard",
+      "Seehahn",
+      "Seekuckuck",
+      "Grondin",
+      "Gallinella"
+    ],
+    "scientificName": "Chelidonichthys lucerna",
+    "image": "images/fish/knurrhahn.svg",
+    "imageCredit": "Quelle: Wikimedia Commons, CC BY-SA 3.0",
+    "family": "Triglidae (Knurrhaehn)",
+    "description": "Der Knurrhahn ist ein bunter Grundfisch mit grossen, schmetterlingsartigen Brustflossen und der Faehigkeit, knurrende Geraeusche zu erzeugen. Er tastet mit fingerartigen Flossenfortsaetzen den Boden ab.",
+    "size": {
+      "avgCm": 30,
+      "maxCm": 60,
+      "avgKg": 0.5,
+      "maxKg": 3
+    },
+    "habitat": "Sandige und schlammige Meeresboeden in 10-100 Meter Tiefe. Im Mittelmeer und Nordostatlantik.",
+    "waterTypes": [
+      "meer"
+    ],
+    "techniques": [
+      "Grundangeln",
+      "Pilken",
+      "Naturkoederangeln"
+    ],
+    "baits": [
+      "Wattwurm",
+      "Garnele",
+      "Fischfetzen",
+      "Muschel",
+      "Pilker mit Beifaenger"
+    ],
+    "tips": [
+      "Knurrhaehn werden oft als Beifang beim Grundangeln auf Plattfisch gefangen.",
+      "Koeder auf sandigem Grund in 10-30 Meter Tiefe anbieten.",
+      "Die wunderschoenen blauen Brustflossen werden bei Gefahr aufgefaechert.",
+      "In der Mittelmeerkueche als Bouillabaisse-Zutat sehr geschaetzt."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 6,
+        "max": 22,
+        "ideal": 14
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 25
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Fruehling bis Herbst"
+    },
+    "closedSeason": null,
+    "difficulty": 2,
+    "catchAndRelease": false,
+    "minSize": "kein",
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 3,
+      "taste": "mild",
+      "texture": "fest",
+      "preparation": [
+        "Braten",
+        "Kochen",
+        "Backen"
+      ],
+      "notes": "Festes Fleisch, aber wenig Fleischanteil. Gut fuer Suppen."
+    },
+    "habitatDetail": {
+      "depthRange": "5-100m",
+      "region": "Mittelmeer",
+      "structure": [
+        "Sandgrund",
+        "Schlammgrund"
+      ]
+    }
+  },
+  {
+    "id": "bonito",
+    "name": "Bonito",
+    "nicknames": [
+      "Pelamide",
+      "Atlantic Bonito",
+      "Palamita",
+      "Thonine",
+      "Unechter Bonito"
+    ],
+    "scientificName": "Sarda sarda",
+    "image": "images/fish/bonito.svg",
+    "imageCredit": "Quelle: Wikimedia Commons, CC BY-SA 3.0",
+    "family": "Scombridae (Makrelen und Thunfische)",
+    "description": "Der Bonito ist ein schneller, kraeftiger Verwandter des Thunfischs mit markanten Schraegstreifen. Er jagt in Schwaermen an der Oberflaeche und bietet mit seinem Tempo und seiner Ausdauer hervorragenden Sport.",
+    "size": {
+      "avgCm": 45,
+      "maxCm": 80,
+      "avgKg": 1.5,
+      "maxKg": 8
+    },
+    "habitat": "Offenes Meer und Kuestengewaesser des Mittelmeers und Atlantiks. Jagt pelagisch in Schwaermen.",
+    "waterTypes": [
+      "meer"
+    ],
+    "techniques": [
+      "Schleppfischen",
+      "Spinnfischen",
+      "Popping",
+      "Jigging"
+    ],
+    "baits": [
+      "Kleine Wobbler",
+      "Blinker",
+      "Sardine",
+      "Popper",
+      "Jig"
+    ],
+    "tips": [
+      "Bonitos jagen oft an der Oberflaeche - auf springende Fische und Moewen achten.",
+      "Schnelle Koederfuehrung ist entscheidend - Bonitos sind extrem schnelle Jaeger.",
+      "Beim Schleppfischen mit kleinen, silbernen Wobblern in 3-5 Knoten Geschwindigkeit.",
+      "Hervorragender Sport auf leichtem bis mittlerem Spinngeraet.",
+      "Frischer Bonito-Sashimi oder gegrillt ist eine Delikatesse."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 14,
+        "max": 26,
+        "ideal": 20
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 20
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 70
+      }
+    },
+    "season": {
+      "bestMonths": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "description": "Sommer bis Fruehherbst"
+    },
+    "closedSeason": null,
+    "difficulty": 3,
+    "catchAndRelease": false,
+    "minSize": "25 cm",
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 4,
+      "taste": "kraeftig",
+      "texture": "fest",
+      "preparation": [
+        "Grillen",
+        "Braten",
+        "Roh (Sashimi)",
+        "Marinieren"
+      ],
+      "notes": "Thunfisch-aehnlich. Dunkles Fleisch mit kraeftigem Geschmack."
+    },
+    "habitatDetail": {
+      "depthRange": "0-100m",
+      "region": "Mittelmeer",
+      "structure": [
+        "Freiwasser"
+      ]
+    }
+  },
+  {
+    "id": "petersfisch",
+    "name": "Petersfisch",
+    "nicknames": [
+      "St. Petersfisch",
+      "John Dory",
+      "Heringskoenig",
+      "Pesce San Pietro",
+      "Zeus Faber",
+      "Sonnenfisch"
+    ],
+    "scientificName": "Zeus faber",
+    "image": "images/fish/petersfisch.svg",
+    "imageCredit": "Quelle: Wikimedia Commons, CC BY-SA 3.0",
+    "family": "Zeidae (Petersfische)",
+    "description": "Der Petersfisch hat einen hochrueckigen, seitlich extrem abgeflachten Koerper mit einem markanten schwarzen Fleck, der einer Daumenspur aehnelt. Laut Legende stammt dieser Fleck vom Griff des Apostels Petrus.",
+    "size": {
+      "avgCm": 30,
+      "maxCm": 60,
+      "avgKg": 0.5,
+      "maxKg": 5
+    },
+    "habitat": "Kuestengewaesser und offenes Meer in 10-200 Meter Tiefe. Im Mittelmeer und Ostatlantik ueber verschiedenen Bodentypen.",
+    "waterTypes": [
+      "meer"
+    ],
+    "techniques": [
+      "Grundangeln",
+      "Naturkoederangeln",
+      "Schleppfischen"
+    ],
+    "baits": [
+      "Lebender Koederfisch",
+      "Sardine",
+      "Garnele",
+      "Fischfetzen"
+    ],
+    "tips": [
+      "Petersfische sind langsame Lauerjäger - sie schleichen sich seitlich an Beutefische heran.",
+      "Meist Beifang beim Grundangeln oder Schleppfischen in Kuestennaehe.",
+      "Das Fleisch gilt als eines der besten unter allen Meeresfischen - Premium-Speisefisch.",
+      "In der Adria gelegentlich vom Boot beim Angeln auf Meerbrassen gefangen."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 8,
+        "max": 22,
+        "ideal": 15
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 20
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 90
+      }
+    },
+    "season": {
+      "bestMonths": [
+        4,
+        5,
+        6,
+        9,
+        10,
+        11
+      ],
+      "description": "Fruehling und Herbst"
+    },
+    "closedSeason": null,
+    "difficulty": 3,
+    "catchAndRelease": false,
+    "minSize": "kein",
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 5,
+      "taste": "mild",
+      "texture": "fest",
+      "preparation": [
+        "Braten",
+        "Daempfen",
+        "Grillen"
+      ],
+      "notes": "Exzellenter Speisefisch mit festem, weissem Fleisch. Teuer."
+    },
+    "habitatDetail": {
+      "depthRange": "10-200m",
+      "region": "Mittelmeer",
+      "structure": [
+        "Felsgrund",
+        "Tiefe Rinnen"
+      ]
+    }
+  },
+  {
+    "id": "flunder",
+    "name": "Flunder",
+    "nicknames": [
+      "Flounder",
+      "Sandbutt",
+      "Butt",
+      "Struffbutt",
+      "European Flounder"
+    ],
+    "scientificName": "Platichthys flesus",
+    "image": "images/fish/flunder.svg",
+    "imageCredit": "Quelle: Wikimedia Commons, CC BY-SA 3.0",
+    "family": "Pleuronectidae (Schollen)",
+    "description": "Die Flunder ist ein anpassungsfaehiger Plattfisch, der als einziger regelmaessig in Brack- und sogar Suesswasser vorkommt. Sie lebt auf sandigem und schlammigem Grund und ist ein haeufiger Fang beim Brandungsangeln.",
+    "size": {
+      "avgCm": 25,
+      "maxCm": 50,
+      "avgKg": 0.2,
+      "maxKg": 2
+    },
+    "habitat": "Sandige und schlammige Kuesten, Flussmuendungen und Brackwasserzonen. Steigt auch in Fluesse auf.",
+    "waterTypes": [
+      "meer",
+      "kueste",
+      "brackwasser"
+    ],
+    "techniques": [
+      "Brandungsangeln",
+      "Grundangeln",
+      "Buttloeffel"
+    ],
+    "baits": [
+      "Wattwurm",
+      "Seeringelwurm",
+      "Garnele",
+      "Muschel"
+    ],
+    "tips": [
+      "Flundern stehen oft in Flussmuendungen und Brackwasserzonen - leicht zugaenglich vom Ufer.",
+      "Buttloeffel-Montage mit Wattwurm langsam ueber den Grund schleifen.",
+      "Bei ablaufendem Wasser in Prielen und Rinnen besonders gute Chancen.",
+      "Einer der haeufigsten Beifaenge beim Brandungsangeln in Nord- und Ostsee."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 4,
+        "max": 20,
+        "ideal": 12
+      },
+      "pressure": {
+        "trend": "egal"
+      },
+      "wind": {
+        "max": 30
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        3,
+        4,
+        5,
+        9,
+        10,
+        11
+      ],
+      "description": "Fruehling und Herbst"
+    },
+    "closedSeason": null,
+    "difficulty": 1,
+    "catchAndRelease": false,
+    "minSize": "25 cm",
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 4,
+      "taste": "mild",
+      "texture": "zart",
+      "preparation": [
+        "Braten",
+        "Frittieren",
+        "Daempfen"
+      ],
+      "notes": "Aehnlich Scholle. Zart und mild."
+    },
+    "habitatDetail": {
+      "depthRange": "5-50m",
+      "region": "Nordeuropa",
+      "structure": [
+        "Sandgrund",
+        "Schlammgrund",
+        "Muendungsbereiche"
+      ]
+    }
+  },
+  {
+    "id": "seezunge",
+    "name": "Seezunge",
+    "nicknames": [
+      "Sogliola",
+      "Sole",
+      "Dover Sole",
+      "Zunge",
+      "Solea"
+    ],
+    "scientificName": "Solea solea",
+    "image": "images/fish/seezunge.svg",
+    "imageCredit": "Quelle: Wikimedia Commons, CC BY-SA 3.0",
+    "family": "Soleidae (Seezungen)",
+    "description": "Die Seezunge ist ein ovaler Plattfisch und einer der teuersten europaeischen Speisefische. Sie ist nachtaktiv und vergräbt sich tagsueber im Sand. Ihr zartes Fleisch ist in der Spitzengastronomie hoch geschaetzt.",
+    "size": {
+      "avgCm": 28,
+      "maxCm": 60,
+      "avgKg": 0.2,
+      "maxKg": 2.5
+    },
+    "habitat": "Sandige und schlammige Meeresboeden in 5-60 Meter Tiefe. In Nord-, Ostsee und Mittelmeer.",
+    "waterTypes": [
+      "meer"
+    ],
+    "techniques": [
+      "Grundangeln",
+      "Brandungsangeln",
+      "Nachtangeln"
+    ],
+    "baits": [
+      "Wattwurm",
+      "Seeringelwurm",
+      "Garnele"
+    ],
+    "tips": [
+      "Seezungen sind nachtaktiv - die besten Fangchancen hat man nach Einbruch der Dunkelheit.",
+      "Wattwurm auf feinem Grundblei in sandigem Gebiet - die klassische Methode.",
+      "Sehr empfindliches Geraet verwenden - Seezungen beissen aeusserst zaghaft.",
+      "Einer der hochpreisigsten Speisefische - jeder Fang ist ein kulinarisches Highlight."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 6,
+        "max": 20,
+        "ideal": 14
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 20
+      },
+      "cloudCover": {
+        "min": 50,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Spaetfruehling bis Fruehherbst"
+    },
+    "closedSeason": null,
+    "difficulty": 3,
+    "catchAndRelease": false,
+    "minSize": "24 cm",
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 5,
+      "taste": "mild",
+      "texture": "zart",
+      "preparation": [
+        "Braten",
+        "Daempfen",
+        "Grillen"
+      ],
+      "notes": "Premium-Plattfisch. Sehr zartes, delikates Fleisch."
+    },
+    "habitatDetail": {
+      "depthRange": "10-100m",
+      "region": "Nordeuropa",
+      "structure": [
+        "Sandgrund",
+        "Schlammgrund"
+      ]
+    }
+  },
+  {
+    "id": "kalmar",
+    "name": "Kalmar",
+    "nicknames": [
+      "Calamari",
+      "Tintenfisch",
+      "Squid",
+      "Totano",
+      "Calamaro",
+      "Loligo",
+      "Roehrentintenfisch"
+    ],
+    "scientificName": "Loligo vulgaris",
+    "image": "images/fish/kalmar.svg",
+    "imageCredit": "Quelle: Wikimedia Commons, CC BY-SA 3.0",
+    "family": "Loliginidae (Kalmare)",
+    "description": "Der Kalmar ist ein zehnarmiger Kopffuesser und ein beliebtes Ziel beim Eging (Tintenfischangeln) im Mittelmeer und der Adria. Er wird nachts mit speziellen leuchtenden Koeddern (Egis) gefangen und ist kulinarisch als Calamari weltberuehmt.",
+    "size": {
+      "avgCm": 25,
+      "maxCm": 60,
+      "avgKg": 0.2,
+      "maxKg": 2
+    },
+    "habitat": "Kuestengewaesser und offenes Meer ueber sandigem und felsigem Grund. Nachts in Kuestennaehe jagend.",
+    "waterTypes": [
+      "meer",
+      "kueste"
+    ],
+    "techniques": [
+      "Eging",
+      "Grundangeln",
+      "Posenangeln",
+      "Tintenfischjig"
+    ],
+    "baits": [
+      "Tintenfisch-Jig (Egi)",
+      "Garnele",
+      "Fischfetzen",
+      "leuchtende Koeder"
+    ],
+    "tips": [
+      "Eging ist die modernste und sportlichste Methode - spezielle Egi-Koeder in 2,5-3,5er Groesse verwenden.",
+      "Nachts unter Laternen und an beleuchteten Molen sind die besten Stellen - Licht zieht Kalmare an.",
+      "Den Egi-Koeder langsam absinken lassen und mit kurzen Rucken fuehren - Kalmare attackieren beim Absinken.",
+      "Vollmond-Naechte sind oft schwieriger - Neumond und bedeckter Himmel bringen mehr Bisse.",
+      "In der Adria von September bis Dezember Hauptsaison fuer Kalmare vom Ufer."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 10,
+        "max": 24,
+        "ideal": 18
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 20
+      },
+      "cloudCover": {
+        "min": 50,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "description": "Herbst und Winter, besonders von September bis Januar"
+    },
+    "closedSeason": null,
+    "difficulty": 2,
+    "catchAndRelease": false,
+    "minSize": "kein",
+    "category": "meeresfruechte",
+    "edibility": {
+      "rating": 4,
+      "taste": "mild",
+      "texture": "zart",
+      "preparation": [
+        "Frittieren",
+        "Grillen",
+        "Duensten",
+        "Roh (Sashimi)"
+      ],
+      "notes": "Zarter als Tintenfisch. Schnell braten oder frittieren."
+    },
+    "habitatDetail": {
+      "depthRange": "0-200m",
+      "region": "Mittelmeer",
+      "structure": [
+        "Freiwasser",
+        "Tiefe Rinnen"
+      ]
+    }
+  },
+  {
+    "id": "sepia",
+    "name": "Sepia",
+    "nicknames": [
+      "Tintenfisch",
+      "Cuttlefish",
+      "Seppia",
+      "Gemeiner Tintenfisch",
+      "Schulp",
+      "Sepie"
+    ],
+    "scientificName": "Sepia officinalis",
+    "image": "images/fish/sepia.svg",
+    "imageCredit": "Quelle: Wikimedia Commons, CC BY-SA 3.0",
+    "family": "Sepiidae (Sepien)",
+    "description": "Die Sepia ist ein hochintelligenter Kopffuesser mit erstaunlicher Faehigkeit zur Tarnung. Sie kann Farbe und Textur ihrer Haut in Sekundenbruchteilen aendern. Im Fruehjahr kommt sie zum Laichen in flaches Kuestenwasser.",
+    "size": {
+      "avgCm": 20,
+      "maxCm": 40,
+      "avgKg": 0.3,
+      "maxKg": 2
+    },
+    "habitat": "Sandige und schlammige Kuestenboeden bis 200 Meter Tiefe. Zum Laichen in flaches Wasser und Seegraswiesen.",
+    "waterTypes": [
+      "meer",
+      "kueste"
+    ],
+    "techniques": [
+      "Eging",
+      "Grundangeln",
+      "Tintenfischjig",
+      "Posenangeln"
+    ],
+    "baits": [
+      "Sepia-Jig",
+      "Garnele",
+      "Fischfetzen",
+      "Sardine"
+    ],
+    "tips": [
+      "Im Fruehjahr kommen Sepien zum Laichen in flaches Kuestenwasser - dann am einfachsten zu fangen.",
+      "Eging mit speziellen Sepia-Koeddern (flacher und breiter als Kalmar-Egis) ist die sportlichste Methode.",
+      "Sepien spritzen Tinte beim Fang - beim Landen vorsichtig sein und nicht gegen den Wind landen.",
+      "An der Adria traditionell auch mit Reuse und Sepia-Falle gefangen.",
+      "Das Fleisch ist fester als Kalmar und eignet sich hervorragend zum Grillen und Schmoren."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 10,
+        "max": 24,
+        "ideal": 16
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 20
+      },
+      "cloudCover": {
+        "min": 20,
+        "max": 90
+      }
+    },
+    "season": {
+      "bestMonths": [
+        3,
+        4,
+        5,
+        6,
+        10,
+        11
+      ],
+      "description": "Fruehling (Laichzeit) und Herbst"
+    },
+    "closedSeason": null,
+    "difficulty": 2,
+    "catchAndRelease": false,
+    "minSize": "kein",
+    "category": "meeresfruechte",
+    "edibility": {
+      "rating": 4,
+      "taste": "mild",
+      "texture": "fest",
+      "preparation": [
+        "Grillen",
+        "Duensten",
+        "Frittieren",
+        "Marinieren"
+      ],
+      "notes": "Aehnlich Tintenfisch. Mit Tinte kochen fuer schwarze Risotto."
+    },
+    "habitatDetail": {
+      "depthRange": "5-150m",
+      "region": "Adria",
+      "structure": [
+        "Sandgrund",
+        "Seegras",
+        "Felsgrund"
+      ]
+    }
+  },
+  {
+    "id": "oktopus",
+    "name": "Oktopus",
+    "nicknames": [
+      "Krake",
+      "Pulpo",
+      "Polpo",
+      "Octopus",
+      "Tintenfisch",
+      "Polyp",
+      "Teufelsfisch",
+      "Achtarm"
+    ],
+    "scientificName": "Octopus vulgaris",
+    "image": "images/fish/oktopus.svg",
+    "imageCredit": "Quelle: Wikimedia Commons, CC BY-SA 3.0",
+    "family": "Octopodidae (Kraken)",
+    "description": "Der Oktopus ist eines der intelligentesten wirbellosen Tiere mit acht Armen und der Faehigkeit, Werkzeuge zu benutzen. Er lebt in Felshoehlen und ist in der Mittelmeerkueche als Pulpo oder Polpo ein absoluter Klassiker.",
+    "size": {
+      "avgCm": 30,
+      "maxCm": 100,
+      "avgKg": 1,
+      "maxKg": 10
+    },
+    "habitat": "Felsige Kuesten, Korallenriffe und Steinfelder in 5-50 Meter Tiefe. Lebt in Hoehlen und unter Steinen.",
+    "waterTypes": [
+      "meer",
+      "kueste"
+    ],
+    "techniques": [
+      "Grundangeln",
+      "Octopus-Falle",
+      "Handleine",
+      "Jig-Angeln"
+    ],
+    "baits": [
+      "Krabbe",
+      "Garnele",
+      "Muschel",
+      "Fischfetzen",
+      "weisse Jig-Koeder"
+    ],
+    "tips": [
+      "Oktopusse lieben Hoehlen und Verstecke - an Steinmolen und Felsenkuesten suchen.",
+      "Weisse Koeder und Krabbe an der Grundmontage nahe an Felsen anbieten.",
+      "Die beste Zeit ist der spaete Nachmittag und die fruehe Nacht.",
+      "Oktopusse sind extrem kraftvoll - sie saugen sich mit ihren Armen an Felsen fest.",
+      "In der mediterranen Kueche als Pulpo a la Gallega oder gegrillter Polpo eine Spezialitaet."
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 12,
+        "max": 26,
+        "ideal": 20
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 20
+      },
+      "cloudCover": {
+        "min": 20,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "description": "Spaetfruehling bis Herbst"
+    },
+    "closedSeason": null,
+    "difficulty": 3,
+    "catchAndRelease": false,
+    "minSize": "kein",
+    "category": "meeresfruechte",
+    "edibility": {
+      "rating": 4,
+      "taste": "mild",
+      "texture": "fest",
+      "preparation": [
+        "Grillen",
+        "Kochen",
+        "Marinieren",
+        "Duensten"
+      ],
+      "notes": "Lange kochen oder kurz grillen. Sehr schmackhaft."
+    },
+    "habitatDetail": {
+      "depthRange": "0-100m",
+      "region": "Mittelmeer",
+      "structure": [
+        "Felsgrund",
+        "Unterspuelungen"
+      ]
+    }
+  }
+]
