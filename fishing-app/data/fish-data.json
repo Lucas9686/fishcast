@@ -10696,5 +10696,4319 @@
         "Hoehlen"
       ]
     }
+  },
+  {
+    "id": "hundshai",
+    "name": "Hundshai",
+    "nicknames": [
+      "Glatthai"
+    ],
+    "scientificName": "Galeorhinus galeus",
+    "image": "images/fish/hundshai.svg",
+    "imageCredit": "Generiert",
+    "family": "Triakidae",
+    "description": "Mittelgrosser Hai mit schlankem Koerper und langer Schnauze. Lebt bevorzugt in kuehlerem Wasser ueber sandigen Boeden. Beliebter Speisefisch in mediterranen Laendern.",
+    "size": {
+      "avgCm": 120,
+      "maxCm": 195,
+      "avgKg": 15,
+      "maxKg": 40
+    },
+    "habitat": "Offenes Meer und Kuestengewaesser ueber Sand- und Schlammboeden bis 550m Tiefe",
+    "waterTypes": [
+      "meer",
+      "kueste"
+    ],
+    "techniques": [
+      "Grundangeln",
+      "Schleppangeln"
+    ],
+    "baits": [
+      "Makrele",
+      "Sardine",
+      "Kalmar"
+    ],
+    "tips": [
+      "Vorsicht beim Landen",
+      "Starkes Geraet verwenden",
+      "Fruehe Morgenstunden bevorzugt"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 12,
+        "max": 20,
+        "ideal": 16
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 25
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "description": "Fruehjahr und Herbst in Kuestennaehe"
+    },
+    "closedSeason": "Regional geschuetzt",
+    "difficulty": 4,
+    "catchAndRelease": true,
+    "minSize": "Nicht entnehmbar",
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 3,
+      "taste": "mild",
+      "texture": "fest",
+      "preparation": [
+        "Grillen",
+        "Braten"
+      ],
+      "notes": "In vielen Regionen geschuetzt, nur catch-and-release"
+    },
+    "habitatDetail": {
+      "depthRange": "20-550m",
+      "region": "Atlantik, westliches Mittelmeer",
+      "structure": [
+        "Sandboden",
+        "Schlammgrund"
+      ]
+    }
+  },
+  {
+    "id": "katzenhai",
+    "name": "Katzenhai",
+    "nicknames": [
+      "Kleingefleckter Katzenhai"
+    ],
+    "scientificName": "Scyliorhinus canicula",
+    "image": "images/fish/katzenhai.svg",
+    "imageCredit": "Generiert",
+    "family": "Scyliorhinidae",
+    "description": "Kleiner bodenlebender Hai mit charakteristischer Fleckenmusterung. Nachtaktiv und ungefaehrlich. Haeufig als Beifang beim Grundangeln.",
+    "size": {
+      "avgCm": 50,
+      "maxCm": 100,
+      "avgKg": 1.5,
+      "maxKg": 4
+    },
+    "habitat": "Felsige Kuestengewaesser und Kontinentalschelf zwischen 10-400m Tiefe",
+    "waterTypes": [
+      "meer",
+      "kueste"
+    ],
+    "techniques": [
+      "Grundangeln"
+    ],
+    "baits": [
+      "Sardine",
+      "Makrele",
+      "Wuermer"
+    ],
+    "tips": [
+      "Nachtangeln erfolgversprechend",
+      "Felsiger Grund bevorzugt",
+      "Vorsichtig zuruecksetzen"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 10,
+        "max": 18,
+        "ideal": 14
+      },
+      "pressure": {
+        "trend": "egal"
+      },
+      "wind": {
+        "max": 20
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        1,
+        2,
+        3,
+        10,
+        11,
+        12
+      ],
+      "description": "Ganzjaehrig, besonders Winter"
+    },
+    "closedSeason": null,
+    "difficulty": 2,
+    "catchAndRelease": true,
+    "minSize": "Zuruecksetzen empfohlen",
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 2,
+      "taste": "mild",
+      "texture": "zaeh",
+      "preparation": [
+        "Suppe"
+      ],
+      "notes": "Selten verzehrt, meist zurueckgesetzt"
+    },
+    "habitatDetail": {
+      "depthRange": "10-400m",
+      "region": "Atlantik, Mittelmeer",
+      "structure": [
+        "Felsgrund",
+        "Geröll"
+      ]
+    }
+  },
+  {
+    "id": "mittelmeer-muraene",
+    "name": "Mittelmeer-Muraene",
+    "nicknames": [
+      "Muraene"
+    ],
+    "scientificName": "Muraena helena",
+    "image": "images/fish/mittelmeer-muraene.svg",
+    "imageCredit": "Generiert",
+    "family": "Muraenidae",
+    "description": "Aalaehnlicher Raubfisch mit kraeftigen Kiefern. Lebt versteckt in Felshoehlen und -spalten. Vorsicht beim Umgang - kann zubeissen.",
+    "size": {
+      "avgCm": 80,
+      "maxCm": 150,
+      "avgKg": 5,
+      "maxKg": 15
+    },
+    "habitat": "Felsige Kuestengewaesser mit vielen Verstecken, bis 50m Tiefe",
+    "waterTypes": [
+      "meer",
+      "kueste"
+    ],
+    "techniques": [
+      "Grundangeln"
+    ],
+    "baits": [
+      "Sardine",
+      "Kalmar",
+      "Oktopus"
+    ],
+    "tips": [
+      "Nachts aktiver",
+      "Felsspalten suchen",
+      "Sehr vorsichtig landen - Bissgefahr"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 15,
+        "max": 26,
+        "ideal": 20
+      },
+      "pressure": {
+        "trend": "egal"
+      },
+      "wind": {
+        "max": 15
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Warme Sommermonate"
+    },
+    "closedSeason": null,
+    "difficulty": 4,
+    "catchAndRelease": false,
+    "minSize": "40 cm",
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 4,
+      "taste": "intensiv",
+      "texture": "fest",
+      "preparation": [
+        "Grillen",
+        "Schmoren"
+      ],
+      "notes": "Delikatesse in mediterraner Kueche, festes weisses Fleisch"
+    },
+    "habitatDetail": {
+      "depthRange": "1-50m",
+      "region": "Mittelmeer, Adria",
+      "structure": [
+        "Felsgrund",
+        "Hoehlen",
+        "Spalten"
+      ]
+    }
+  },
+  {
+    "id": "weisser-thun",
+    "name": "Weisser Thun",
+    "nicknames": [
+      "Albakore",
+      "Langflossenthun"
+    ],
+    "scientificName": "Thunnus alalunga",
+    "image": "images/fish/weisser-thun.svg",
+    "imageCredit": "Generiert",
+    "family": "Scombridae",
+    "description": "Mittelgrosser Thunfisch mit charakteristisch langen Brustflossen. Schneller Schwimmer in kleinen Schwärmen. Hochgeschaetzter Speisefisch.",
+    "size": {
+      "avgCm": 80,
+      "maxCm": 140,
+      "avgKg": 20,
+      "maxKg": 60
+    },
+    "habitat": "Offenes Meer, pelagisch in Tiefen zwischen 0-600m",
+    "waterTypes": [
+      "meer"
+    ],
+    "techniques": [
+      "Schleppangeln",
+      "Spinnfischen"
+    ],
+    "baits": [
+      "Kunstkoeder",
+      "Makrele",
+      "Sardine"
+    ],
+    "tips": [
+      "Schnelle Schleppmontage",
+      "Schwarmfische suchen",
+      "Starkes Geraet notwendig"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 16,
+        "max": 24,
+        "ideal": 20
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 30
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 70
+      }
+    },
+    "season": {
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "description": "Spaetfruehjahr bis Herbst"
+    },
+    "closedSeason": null,
+    "difficulty": 5,
+    "catchAndRelease": false,
+    "minSize": "Keine Mindestgroesse",
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 5,
+      "taste": "kraeფtig",
+      "texture": "fest",
+      "preparation": [
+        "Grillen",
+        "Braten",
+        "Sushi"
+      ],
+      "notes": "Exzellentes Fleisch, hellrosa Farbe, beliebt für Sushi und Steaks"
+    },
+    "habitatDetail": {
+      "depthRange": "0-600m",
+      "region": "Atlantik, Mittelmeer",
+      "structure": [
+        "Freiwasser",
+        "Offshore"
+      ]
+    }
+  },
+  {
+    "id": "grossaugen-thunfisch",
+    "name": "Grossaugen-Thunfisch",
+    "nicknames": [
+      "Patudo"
+    ],
+    "scientificName": "Thunnus obesus",
+    "image": "images/fish/grossaugen-thunfisch.svg",
+    "imageCredit": "Generiert",
+    "family": "Scombridae",
+    "description": "Grosser Thunfisch mit auffallend grossen Augen. Bevorzugt tiefere Gewaesser als andere Thunarten. Wichtiger kommerzieller Speisefisch.",
+    "size": {
+      "avgCm": 150,
+      "maxCm": 250,
+      "avgKg": 80,
+      "maxKg": 210
+    },
+    "habitat": "Offenes Meer in tropischen und subtropischen Gewaessern, tiefere Schichten",
+    "waterTypes": [
+      "meer"
+    ],
+    "techniques": [
+      "Schleppangeln",
+      "Naturkoederangeln"
+    ],
+    "baits": [
+      "Kunstkoeder",
+      "Kalmar",
+      "Makrele"
+    ],
+    "tips": [
+      "Tiefere Koederfuehrung",
+      "Sehr starkes Geraet",
+      "Fruehe Morgen- oder spaete Abendstunden"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 18,
+        "max": 28,
+        "ideal": 23
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 25
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 80
+      }
+    },
+    "season": {
+      "bestMonths": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Sommermonate"
+    },
+    "closedSeason": null,
+    "difficulty": 5,
+    "catchAndRelease": false,
+    "minSize": "Keine Mindestgroesse",
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 5,
+      "taste": "kraeftig",
+      "texture": "fest",
+      "preparation": [
+        "Grillen",
+        "Braten",
+        "Sushi"
+      ],
+      "notes": "Erstklassiges dunkelrotes Fleisch, sehr fettreich und saftig"
+    },
+    "habitatDetail": {
+      "depthRange": "50-1000m",
+      "region": "Atlantik, Mittelmeer (selten)",
+      "structure": [
+        "Freiwasser",
+        "Tiefenwasser"
+      ]
+    }
+  },
+  {
+    "id": "bastardmakrele",
+    "name": "Bastardmakrele",
+    "nicknames": [
+      "Mittelmeer-Stöcker"
+    ],
+    "scientificName": "Trachurus mediterraneus",
+    "image": "images/fish/bastardmakrele.svg",
+    "imageCredit": "Generiert",
+    "family": "Carangidae",
+    "description": "Kleinere Verwandte der Stachelmakrele, typisch fuer das Mittelmeer. Schwarmfisch mit silbrig glaenzender Haut. Guter Koederfisch.",
+    "size": {
+      "avgCm": 25,
+      "maxCm": 40,
+      "avgKg": 0.3,
+      "maxKg": 0.8
+    },
+    "habitat": "Kuestennahe Gewaesser und offenes Meer in Schwärmen bis 200m Tiefe",
+    "waterTypes": [
+      "meer",
+      "kueste"
+    ],
+    "techniques": [
+      "Spinnfischen",
+      "Paternoster"
+    ],
+    "baits": [
+      "Kleine Kunstkoeder",
+      "Fischfetzen"
+    ],
+    "tips": [
+      "Schwärme suchen",
+      "Leichtes Geraet",
+      "Auch als Koederfisch nutzbar"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 14,
+        "max": 24,
+        "ideal": 18
+      },
+      "pressure": {
+        "trend": "egal"
+      },
+      "wind": {
+        "max": 30
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "description": "Fruehjahr bis Herbst"
+    },
+    "closedSeason": null,
+    "difficulty": 1,
+    "catchAndRelease": false,
+    "minSize": "Keine Mindestgroesse",
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 3,
+      "taste": "kraeftig",
+      "texture": "weich",
+      "preparation": [
+        "Braten",
+        "Marinieren"
+      ],
+      "notes": "Schmackhaft aber graetenreich, gut fuer Marinaden"
+    },
+    "habitatDetail": {
+      "depthRange": "10-200m",
+      "region": "Mittelmeer, Adria",
+      "structure": [
+        "Freiwasser",
+        "Kuestennah"
+      ]
+    }
+  },
+  {
+    "id": "gelbstriemen",
+    "name": "Gelbstriemen",
+    "nicknames": [
+      "Boga"
+    ],
+    "scientificName": "Boops boops",
+    "image": "images/fish/gelbstriemen.svg",
+    "imageCredit": "Generiert",
+    "family": "Sparidae",
+    "description": "Kleiner Brassenartiger mit goldenen Längsstreifen. Schwarmfisch, der haeufig in Kuestennähe vorkommt. Beliebter Ansitzfisch.",
+    "size": {
+      "avgCm": 20,
+      "maxCm": 36,
+      "avgKg": 0.2,
+      "maxKg": 0.5
+    },
+    "habitat": "Felsige und sandige Kuestengewaesser mit Seegras bis 350m Tiefe",
+    "waterTypes": [
+      "meer",
+      "kueste"
+    ],
+    "techniques": [
+      "Posenangeln",
+      "Grundangeln"
+    ],
+    "baits": [
+      "Wuermer",
+      "Brot",
+      "Garnele"
+    ],
+    "tips": [
+      "Schwärme in Kuestennähe",
+      "Leichtes Geraet",
+      "Vorfach fein waehlen"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 12,
+        "max": 24,
+        "ideal": 18
+      },
+      "pressure": {
+        "trend": "egal"
+      },
+      "wind": {
+        "max": 25
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Fruehjahr bis Herbst"
+    },
+    "closedSeason": null,
+    "difficulty": 1,
+    "catchAndRelease": false,
+    "minSize": "Keine Mindestgroesse",
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 3,
+      "taste": "mild",
+      "texture": "weich",
+      "preparation": [
+        "Braten",
+        "Grillen"
+      ],
+      "notes": "Schmackhaft aber klein, gut in der Pfanne gebraten"
+    },
+    "habitatDetail": {
+      "depthRange": "5-350m",
+      "region": "Mittelmeer, Adria, Schwarzes Meer",
+      "structure": [
+        "Felsgrund",
+        "Seegras",
+        "Sand"
+      ]
+    }
+  },
+  {
+    "id": "grosse-geissbrasse",
+    "name": "Grosse Geissbrasse",
+    "nicknames": [
+      "Gemeine Geissbrasse"
+    ],
+    "scientificName": "Diplodus vulgaris",
+    "image": "images/fish/grosse-geissbrasse.svg",
+    "imageCredit": "Generiert",
+    "family": "Sparidae",
+    "description": "Mittelgrosse Brasse mit dunklen Querbaendern. Robuster Kaempfer an der Angel. Haeufig in felsigen Kuestengewaessern.",
+    "size": {
+      "avgCm": 25,
+      "maxCm": 45,
+      "avgKg": 0.5,
+      "maxKg": 1.5
+    },
+    "habitat": "Felsige Kuestengewaesser mit Algen und Seegras bis 50m Tiefe",
+    "waterTypes": [
+      "meer",
+      "kueste"
+    ],
+    "techniques": [
+      "Grundangeln",
+      "Posenangeln"
+    ],
+    "baits": [
+      "Garnele",
+      "Wuermer",
+      "Muschel"
+    ],
+    "tips": [
+      "Felsige Bereiche suchen",
+      "Robustes Vorfach",
+      "Gezeitenwechsel nutzen"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 14,
+        "max": 24,
+        "ideal": 19
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 20
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 70
+      }
+    },
+    "season": {
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Spaetfruehjahr bis Herbst"
+    },
+    "closedSeason": null,
+    "difficulty": 2,
+    "catchAndRelease": false,
+    "minSize": "15 cm",
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 4,
+      "taste": "delikat",
+      "texture": "fest",
+      "preparation": [
+        "Grillen",
+        "Braten"
+      ],
+      "notes": "Sehr schmackhaftes festes Fleisch, Delikatesse im Mittelmeerraum"
+    },
+    "habitatDetail": {
+      "depthRange": "1-50m",
+      "region": "Mittelmeer, Adria",
+      "structure": [
+        "Felsgrund",
+        "Seegras",
+        "Algen"
+      ]
+    }
+  },
+  {
+    "id": "bandbrasse",
+    "name": "Bandbrasse",
+    "nicknames": [
+      "Zebrabrasse"
+    ],
+    "scientificName": "Diplodus cervinus",
+    "image": "images/fish/bandbrasse.svg",
+    "imageCredit": "Generiert",
+    "family": "Sparidae",
+    "description": "Groesste Art der Geissbrassen mit markanten vertikalen dunklen Baendern. Vorsichtiger Fisch, der tiefere Gewaesser bevorzugt.",
+    "size": {
+      "avgCm": 35,
+      "maxCm": 55,
+      "avgKg": 1.5,
+      "maxKg": 4
+    },
+    "habitat": "Felsige Kuestengewaesser und tiefere Zonen bis 300m",
+    "waterTypes": [
+      "meer",
+      "kueste"
+    ],
+    "techniques": [
+      "Grundangeln"
+    ],
+    "baits": [
+      "Garnele",
+      "Kalmar",
+      "Muschel"
+    ],
+    "tips": [
+      "Tiefere Bereiche anpeilen",
+      "Feines Vorfach",
+      "Geduld erforderlich"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 15,
+        "max": 23,
+        "ideal": 19
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 20
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 60
+      }
+    },
+    "season": {
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Sommermonate"
+    },
+    "closedSeason": null,
+    "difficulty": 3,
+    "catchAndRelease": false,
+    "minSize": "20 cm",
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 5,
+      "taste": "delikat",
+      "texture": "fest",
+      "preparation": [
+        "Grillen",
+        "Braten",
+        "Dampfgaren"
+      ],
+      "notes": "Exzellentes weisses Fleisch, gilt als eine der besten Brassen"
+    },
+    "habitatDetail": {
+      "depthRange": "5-300m",
+      "region": "Mittelmeer, Adria, Atlantik",
+      "structure": [
+        "Felsgrund",
+        "Tiefenwasser"
+      ]
+    }
+  },
+  {
+    "id": "brauner-lippfisch",
+    "name": "Brauner Lippfisch",
+    "nicknames": [
+      "Meerjunker braun"
+    ],
+    "scientificName": "Labrus viridis",
+    "image": "images/fish/brauner-lippfisch.svg",
+    "imageCredit": "Generiert",
+    "family": "Labridae",
+    "description": "Mittelgrosser Lippfisch mit brauner bis gruenlicher Faerbung. Lebt einzelgaengerisch zwischen Felsen. Tagaktiv.",
+    "size": {
+      "avgCm": 30,
+      "maxCm": 47,
+      "avgKg": 0.8,
+      "maxKg": 2
+    },
+    "habitat": "Felsige Kuestengewaesser mit Algen und Seegras bis 50m Tiefe",
+    "waterTypes": [
+      "meer",
+      "kueste"
+    ],
+    "techniques": [
+      "Grundangeln",
+      "Spinnfischen"
+    ],
+    "baits": [
+      "Garnele",
+      "Krabbe",
+      "Wurm"
+    ],
+    "tips": [
+      "Zwischen Felsen angeln",
+      "Tagsueber aktiv",
+      "Vorsichtige Bisse"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 14,
+        "max": 24,
+        "ideal": 19
+      },
+      "pressure": {
+        "trend": "egal"
+      },
+      "wind": {
+        "max": 20
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 80
+      }
+    },
+    "season": {
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Warme Monate"
+    },
+    "closedSeason": null,
+    "difficulty": 2,
+    "catchAndRelease": false,
+    "minSize": "Keine Mindestgroesse",
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 3,
+      "taste": "mild",
+      "texture": "fest",
+      "preparation": [
+        "Braten",
+        "Grillen"
+      ],
+      "notes": "Schmackhaft aber relativ klein, festes weisses Fleisch"
+    },
+    "habitatDetail": {
+      "depthRange": "1-50m",
+      "region": "Mittelmeer, Adria",
+      "structure": [
+        "Felsgrund",
+        "Seegras",
+        "Algen"
+      ]
+    }
+  },
+  {
+    "id": "pfauenlippfisch",
+    "name": "Pfauenlippfisch",
+    "nicknames": [
+      "Pfauenjunker"
+    ],
+    "scientificName": "Symphodus tinca",
+    "image": "images/fish/pfauenlippfisch.svg",
+    "imageCredit": "Generiert",
+    "family": "Labridae",
+    "description": "Kleiner bunter Lippfisch mit charakteristischem dunklem Fleck an der Schwanzwurzel. Haeufig in Seegraswiesen. Neugieriger Fisch.",
+    "size": {
+      "avgCm": 15,
+      "maxCm": 35,
+      "avgKg": 0.2,
+      "maxKg": 0.6
+    },
+    "habitat": "Flache Kuestengewaesser mit Seegras und Algen bis 20m Tiefe",
+    "waterTypes": [
+      "meer",
+      "kueste"
+    ],
+    "techniques": [
+      "Posenangeln",
+      "Grundangeln"
+    ],
+    "baits": [
+      "Wurm",
+      "Garnele",
+      "Brot"
+    ],
+    "tips": [
+      "Seegraswiesen suchen",
+      "Leichtes Geraet",
+      "Schnelle Bisse"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 12,
+        "max": 24,
+        "ideal": 18
+      },
+      "pressure": {
+        "trend": "egal"
+      },
+      "wind": {
+        "max": 20
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Fruehjahr bis Herbst"
+    },
+    "closedSeason": null,
+    "difficulty": 1,
+    "catchAndRelease": false,
+    "minSize": "Keine Mindestgroesse",
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 2,
+      "taste": "mild",
+      "texture": "weich",
+      "preparation": [
+        "Braten"
+      ],
+      "notes": "Zu klein fuer ernsthafte kulinarische Nutzung, meist zurueckgesetzt"
+    },
+    "habitatDetail": {
+      "depthRange": "1-20m",
+      "region": "Mittelmeer, Adria, Schwarzes Meer",
+      "structure": [
+        "Seegras",
+        "Algen",
+        "Flachwasser"
+      ]
+    }
+  },
+  {
+    "id": "meerpfau",
+    "name": "Meerpfau",
+    "nicknames": [
+      "Pfauenlippfisch bunt"
+    ],
+    "scientificName": "Thalassoma pavo",
+    "image": "images/fish/meerpfau.svg",
+    "imageCredit": "Generiert",
+    "family": "Labridae",
+    "description": "Farbenprächtiger kleiner Lippfisch mit tuerkis-gruenen und roten Streifen. Sehr aktiv und tagsueber gut sichtbar. Charakterart des Mittelmeers.",
+    "size": {
+      "avgCm": 15,
+      "maxCm": 25,
+      "avgKg": 0.1,
+      "maxKg": 0.3
+    },
+    "habitat": "Felsige Kuestengewaesser mit klarem Wasser bis 30m Tiefe",
+    "waterTypes": [
+      "meer",
+      "kueste"
+    ],
+    "techniques": [
+      "Posenangeln"
+    ],
+    "baits": [
+      "Wurm",
+      "Garnele"
+    ],
+    "tips": [
+      "Nur fuer Sportangeln",
+      "Sehr scheue Bisse",
+      "Meist zuruecksetzen"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 16,
+        "max": 26,
+        "ideal": 21
+      },
+      "pressure": {
+        "trend": "egal"
+      },
+      "wind": {
+        "max": 15
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 60
+      }
+    },
+    "season": {
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Warme Sommermonate"
+    },
+    "closedSeason": null,
+    "difficulty": 2,
+    "catchAndRelease": true,
+    "minSize": "Zuruecksetzen empfohlen",
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 1,
+      "taste": "mild",
+      "texture": "weich",
+      "preparation": [],
+      "notes": "Zu klein und zu schoen zum Verzehr, geschuetzt durch natuerliche Schoenheit"
+    },
+    "habitatDetail": {
+      "depthRange": "1-30m",
+      "region": "Mittelmeer, Adria",
+      "structure": [
+        "Felsgrund",
+        "Klarwasser"
+      ]
+    }
+  },
+  {
+    "id": "dornhai",
+    "name": "Dornhai",
+    "nicknames": [
+      "Gemeiner Dornhai"
+    ],
+    "scientificName": "Squalus acanthias",
+    "image": "images/fish/dornhai.svg",
+    "imageCredit": "Generiert",
+    "family": "Squalidae",
+    "description": "Kleiner Hai mit Dornen vor den Rueckenflossen. Schwarmbildend in kuehlen Gewaessern. Stark ueberfischt und daher geschuetzt.",
+    "size": {
+      "avgCm": 80,
+      "maxCm": 120,
+      "avgKg": 4,
+      "maxKg": 10
+    },
+    "habitat": "Kuestennahe und tiefe Gewaesser bis 900m",
+    "waterTypes": [
+      "meer",
+      "kueste"
+    ],
+    "techniques": [
+      "Grundangeln"
+    ],
+    "baits": [
+      "Makrele",
+      "Hering",
+      "Kalmar"
+    ],
+    "tips": [
+      "Vorsicht vor Rueckendornen",
+      "Nur catch-and-release",
+      "Geschuetzte Art"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 6,
+        "max": 15,
+        "ideal": 10
+      },
+      "pressure": {
+        "trend": "egal"
+      },
+      "wind": {
+        "max": 30
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "description": "Kalte Monate"
+    },
+    "closedSeason": "Ganzjaehrig geschuetzt",
+    "difficulty": 3,
+    "catchAndRelease": true,
+    "minSize": "Nicht entnehmbar",
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 3,
+      "taste": "mild",
+      "texture": "fest",
+      "preparation": [
+        "Raeuchern"
+      ],
+      "notes": "Frueher kommerziell genutzt, heute streng geschuetzt - nicht entnehmen"
+    },
+    "habitatDetail": {
+      "depthRange": "10-900m",
+      "region": "Atlantik, Nord- und Ostsee",
+      "structure": [
+        "Freiwasser",
+        "Tiefenwasser"
+      ]
+    }
+  },
+  {
+    "id": "stechrochen",
+    "name": "Gewoehnlicher Stechrochen",
+    "nicknames": [
+      "Stechrochen"
+    ],
+    "scientificName": "Dasyatis pastinaca",
+    "image": "images/fish/stechrochen.svg",
+    "imageCredit": "Generiert",
+    "family": "Dasyatidae",
+    "description": "Rautenflaechiger Rochen mit giftigem Schwanzstachel. Lebt am Grund in sandigen Gebieten. Vorsicht beim Umgang - Stich schmerzhaft.",
+    "size": {
+      "avgCm": 60,
+      "maxCm": 250,
+      "avgKg": 10,
+      "maxKg": 60
+    },
+    "habitat": "Sandige und schlammige Kuestengewaesser bis 200m Tiefe",
+    "waterTypes": [
+      "meer",
+      "kueste"
+    ],
+    "techniques": [
+      "Grundangeln"
+    ],
+    "baits": [
+      "Sardine",
+      "Makrele",
+      "Kalmar"
+    ],
+    "tips": [
+      "Vorsicht beim Landen - giftiger Stachel",
+      "Sandboeden bevorzugt",
+      "Schwere Montage"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 12,
+        "max": 26,
+        "ideal": 19
+      },
+      "pressure": {
+        "trend": "egal"
+      },
+      "wind": {
+        "max": 20
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Warme Monate"
+    },
+    "closedSeason": null,
+    "difficulty": 3,
+    "catchAndRelease": true,
+    "minSize": "Zuruecksetzen empfohlen",
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 3,
+      "taste": "mild",
+      "texture": "fest",
+      "preparation": [
+        "Braten",
+        "Grillen"
+      ],
+      "notes": "Essbar aber meist zurueckgesetzt, Fleisch aehnlich wie Hai"
+    },
+    "habitatDetail": {
+      "depthRange": "5-200m",
+      "region": "Mittelmeer, Adria, Atlantik",
+      "structure": [
+        "Sandboden",
+        "Schlammgrund"
+      ]
+    }
+  },
+  {
+    "id": "pilotfisch",
+    "name": "Pilotfisch",
+    "nicknames": [
+      "Lotsenfisch"
+    ],
+    "scientificName": "Naucrates ductor",
+    "image": "images/fish/pilotfisch.svg",
+    "imageCredit": "Generiert",
+    "family": "Carangidae",
+    "description": "Kleiner gestreifter Fisch, der oft Haie und grosse Fische begleitet. Charakteristische vertikale Streifen. Selten gefangen.",
+    "size": {
+      "avgCm": 40,
+      "maxCm": 70,
+      "avgKg": 0.5,
+      "maxKg": 2
+    },
+    "habitat": "Offenes Meer, pelagisch, oft in Begleitung grosser Fische",
+    "waterTypes": [
+      "meer"
+    ],
+    "techniques": [
+      "Schleppangeln"
+    ],
+    "baits": [
+      "Kunstkoeder",
+      "Fischfetzen"
+    ],
+    "tips": [
+      "Meist Beifang",
+      "Begleitet grosse Raubfische",
+      "Selten gezielt befischt"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 18,
+        "max": 28,
+        "ideal": 23
+      },
+      "pressure": {
+        "trend": "egal"
+      },
+      "wind": {
+        "max": 30
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Warme Sommermonate"
+    },
+    "closedSeason": null,
+    "difficulty": 3,
+    "catchAndRelease": true,
+    "minSize": "Zuruecksetzen empfohlen",
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 2,
+      "taste": "mild",
+      "texture": "weich",
+      "preparation": [
+        "Braten"
+      ],
+      "notes": "Selten verzehrt, meist als Kuriosum zurueckgesetzt"
+    },
+    "habitatDetail": {
+      "depthRange": "0-300m",
+      "region": "Mittelmeer, Atlantik",
+      "structure": [
+        "Freiwasser",
+        "Offshore"
+      ]
+    }
+  },
+  {
+    "id": "mittelmeer-marlin",
+    "name": "Mittelmeer-Marlin",
+    "nicknames": [
+      "Speerfisch"
+    ],
+    "scientificName": "Tetrapturus belone",
+    "image": "images/fish/mittelmeer-marlin.svg",
+    "imageCredit": "Generiert",
+    "family": "Istiophoridae",
+    "description": "Kleinerer Marlin mit charakteristischem Speer. Schneller und kraftvoller Kaempfer. Seltener Gast im Mittelmeer.",
+    "size": {
+      "avgCm": 180,
+      "maxCm": 240,
+      "avgKg": 40,
+      "maxKg": 70
+    },
+    "habitat": "Offenes Meer, pelagisch in warmen Gewaessern",
+    "waterTypes": [
+      "meer"
+    ],
+    "techniques": [
+      "Schleppangeln"
+    ],
+    "baits": [
+      "Kunstkoeder",
+      "Makrele",
+      "Kalmar"
+    ],
+    "tips": [
+      "Sehr starkes Geraet",
+      "Offshore-Angeln",
+      "Schnelle Schleppgeschwindigkeit"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 20,
+        "max": 28,
+        "ideal": 24
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 25
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 60
+      }
+    },
+    "season": {
+      "bestMonths": [
+        7,
+        8,
+        9
+      ],
+      "description": "Hochsommer"
+    },
+    "closedSeason": null,
+    "difficulty": 5,
+    "catchAndRelease": true,
+    "minSize": "Catch-and-release empfohlen",
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 4,
+      "taste": "kraeftig",
+      "texture": "fest",
+      "preparation": [
+        "Grillen",
+        "Braten"
+      ],
+      "notes": "Exzellentes Fleisch, aber meist zurueckgesetzt aus sportlichen Gruenden"
+    },
+    "habitatDetail": {
+      "depthRange": "0-200m",
+      "region": "Mittelmeer (selten), Atlantik",
+      "structure": [
+        "Freiwasser",
+        "Offshore"
+      ]
+    }
+  },
+  {
+    "id": "zackenbarsch-gestreift",
+    "name": "Gestreifter Zackenbarsch",
+    "nicknames": [
+      "Zackenbarsch gestreift"
+    ],
+    "scientificName": "Epinephelus costae",
+    "image": "images/fish/zackenbarsch-gestreift.svg",
+    "imageCredit": "Generiert",
+    "family": "Serranidae",
+    "description": "Mittelgrosser Zackenbarsch mit senkrechten dunklen Streifen. Einzelgaenger in Felshoehlen. Vorsichtiger Raubfisch.",
+    "size": {
+      "avgCm": 50,
+      "maxCm": 140,
+      "avgKg": 5,
+      "maxKg": 25
+    },
+    "habitat": "Felsige Kuestengewaesser mit Hoehlen bis 200m Tiefe",
+    "waterTypes": [
+      "meer",
+      "kueste"
+    ],
+    "techniques": [
+      "Grundangeln",
+      "Spinnfischen"
+    ],
+    "baits": [
+      "Sardine",
+      "Kalmar",
+      "Oktopus"
+    ],
+    "tips": [
+      "Hoehlen und Spalten anpeilen",
+      "Schweres Geraet",
+      "Schnell vom Grund wegfuehren"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 16,
+        "max": 25,
+        "ideal": 20
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 20
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 70
+      }
+    },
+    "season": {
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Warme Monate"
+    },
+    "closedSeason": null,
+    "difficulty": 4,
+    "catchAndRelease": false,
+    "minSize": "45 cm",
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 5,
+      "taste": "delikat",
+      "texture": "fest",
+      "preparation": [
+        "Grillen",
+        "Braten",
+        "Dampfgaren"
+      ],
+      "notes": "Erstklassiges weisses Fleisch, hochgeschaetzte Delikatesse"
+    },
+    "habitatDetail": {
+      "depthRange": "10-200m",
+      "region": "Mittelmeer, Adria",
+      "structure": [
+        "Felsgrund",
+        "Hoehlen",
+        "Spalten"
+      ]
+    }
+  },
+  {
+    "id": "adlerrochen",
+    "name": "Adlerrochen",
+    "nicknames": [
+      "Gemeiner Adlerrochen"
+    ],
+    "scientificName": "Myliobatis aquila",
+    "image": "images/fish/adlerrochen.svg",
+    "imageCredit": "Generiert",
+    "family": "Myliobatidae",
+    "description": "Grosser Rochen mit spitzem Kopf und langen flugelartigen Brustflossen. Elegant schwimmend im Freiwasser. Beeindruckender Fang.",
+    "size": {
+      "avgCm": 150,
+      "maxCm": 240,
+      "avgKg": 15,
+      "maxKg": 35
+    },
+    "habitat": "Kuestengewaesser und offenes Meer bis 200m Tiefe",
+    "waterTypes": [
+      "meer",
+      "kueste"
+    ],
+    "techniques": [
+      "Grundangeln",
+      "Schleppangeln"
+    ],
+    "baits": [
+      "Kalmar",
+      "Sardine",
+      "Makrele"
+    ],
+    "tips": [
+      "Sehr starkes Geraet",
+      "Kraftvoller Kaempfer",
+      "Geduld erforderlich"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 15,
+        "max": 26,
+        "ideal": 20
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 25
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 80
+      }
+    },
+    "season": {
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Spaetfruehjahr bis Herbst"
+    },
+    "closedSeason": null,
+    "difficulty": 4,
+    "catchAndRelease": true,
+    "minSize": "Zuruecksetzen empfohlen",
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 3,
+      "taste": "mild",
+      "texture": "fest",
+      "preparation": [
+        "Braten",
+        "Grillen"
+      ],
+      "notes": "Essbar aber meist zurueckgesetzt, schoene und eindrucksvolle Spezies"
+    },
+    "habitatDetail": {
+      "depthRange": "5-200m",
+      "region": "Mittelmeer, Adria, Atlantik",
+      "structure": [
+        "Freiwasser",
+        "Sandboden"
+      ]
+    }
+  },
+  {
+    "id": "torpedorochen",
+    "name": "Torpedorochen",
+    "nicknames": [
+      "Zitterrochen"
+    ],
+    "scientificName": "Torpedo marmorata",
+    "image": "images/fish/torpedorochen.svg",
+    "imageCredit": "Generiert",
+    "family": "Torpedinidae",
+    "description": "Rundlicher Rochen mit elektrischen Organen - kann Stromschlaege abgeben. Vorsicht beim Umgang! Lebt am Grund.",
+    "size": {
+      "avgCm": 40,
+      "maxCm": 100,
+      "avgKg": 5,
+      "maxKg": 20
+    },
+    "habitat": "Sandige und schlammige Boeden in Kuestennaehe bis 200m Tiefe",
+    "waterTypes": [
+      "meer",
+      "kueste"
+    ],
+    "techniques": [
+      "Grundangeln"
+    ],
+    "baits": [
+      "Sardine",
+      "Kalmar",
+      "Wurm"
+    ],
+    "tips": [
+      "Vorsicht - gibt Stromschlaege ab!",
+      "Sandboden bevorzugt",
+      "Vorsichtig landen"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 14,
+        "max": 24,
+        "ideal": 19
+      },
+      "pressure": {
+        "trend": "egal"
+      },
+      "wind": {
+        "max": 20
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Warme Monate"
+    },
+    "closedSeason": null,
+    "difficulty": 2,
+    "catchAndRelease": true,
+    "minSize": "Zuruecksetzen empfohlen",
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 2,
+      "taste": "mild",
+      "texture": "weich",
+      "preparation": [
+        "Braten"
+      ],
+      "notes": "Selten verzehrt, meist wegen Kuriosität zurueckgesetzt"
+    },
+    "habitatDetail": {
+      "depthRange": "5-200m",
+      "region": "Mittelmeer, Adria, Atlantik",
+      "structure": [
+        "Sandboden",
+        "Schlammgrund"
+      ]
+    }
+  },
+  {
+    "id": "goldmeeraesche",
+    "name": "Goldmeeraesche",
+    "nicknames": [
+      "Goldkopf-Meeraesche"
+    ],
+    "scientificName": "Liza aurata",
+    "image": "images/fish/goldmeeraesche.svg",
+    "imageCredit": "Generiert",
+    "family": "Mugilidae",
+    "description": "Meeraesche mit goldenen Flecken an den Kiemendeckeln. Schwarmfisch in Kuestengewaessern. Vorsichtiger Fresser.",
+    "size": {
+      "avgCm": 30,
+      "maxCm": 59,
+      "avgKg": 0.8,
+      "maxKg": 3
+    },
+    "habitat": "Kuestengewaesser, Flusmuendungen und Lagunen bis 30m Tiefe",
+    "waterTypes": [
+      "meer",
+      "kueste",
+      "brackwasser"
+    ],
+    "techniques": [
+      "Posenangeln",
+      "Grundangeln"
+    ],
+    "baits": [
+      "Brot",
+      "Teig",
+      "Wuermer"
+    ],
+    "tips": [
+      "Sehr scheue Bisse",
+      "Feines Vorfach",
+      "Ruhig anfuettern"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 12,
+        "max": 26,
+        "ideal": 19
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 20
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 70
+      }
+    },
+    "season": {
+      "bestMonths": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "description": "Fruehjahr bis Herbst"
+    },
+    "closedSeason": null,
+    "difficulty": 3,
+    "catchAndRelease": false,
+    "minSize": "20 cm",
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 4,
+      "taste": "delikat",
+      "texture": "fest",
+      "preparation": [
+        "Grillen",
+        "Braten",
+        "Backen"
+      ],
+      "notes": "Sehr schmackhaft, festes weisses Fleisch, beliebt in Mittelmeer-Kueche"
+    },
+    "habitatDetail": {
+      "depthRange": "0-30m",
+      "region": "Mittelmeer, Adria, Atlantik",
+      "structure": [
+        "Kuestennah",
+        "Brackwasser",
+        "Flussmündung"
+      ]
+    }
+  },
+  {
+    "id": "wittling",
+    "name": "Wittling",
+    "nicknames": [
+      "Merlan"
+    ],
+    "scientificName": "Merlangius merlangus",
+    "image": "images/fish/wittling.svg",
+    "imageCredit": "Generiert",
+    "family": "Gadidae",
+    "description": "Kleiner Dorschartiger mit langgestrecktem Koerper. Schwarmfisch in kuehlen europaeischen Gewaessern. Haeufiger Fang in Nord- und Ostsee.",
+    "size": {
+      "avgCm": 30,
+      "maxCm": 70,
+      "avgKg": 0.5,
+      "maxKg": 3
+    },
+    "habitat": "Kuestennahe Gewaesser ueber sandigen Boeden bis 200m Tiefe",
+    "waterTypes": [
+      "meer",
+      "kueste"
+    ],
+    "techniques": [
+      "Grundangeln",
+      "Pilken"
+    ],
+    "baits": [
+      "Wattwurm",
+      "Seeringelwurm",
+      "Fischfetzen"
+    ],
+    "tips": [
+      "Schwärme suchen",
+      "Leichtes bis mittleres Geraet",
+      "Daemmerung produktiv"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 6,
+        "max": 16,
+        "ideal": 11
+      },
+      "pressure": {
+        "trend": "egal"
+      },
+      "wind": {
+        "max": 30
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "description": "Herbst bis Fruehjahr"
+    },
+    "closedSeason": null,
+    "difficulty": 2,
+    "catchAndRelease": false,
+    "minSize": "27 cm",
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 4,
+      "taste": "mild",
+      "texture": "zart",
+      "preparation": [
+        "Braten",
+        "Backen",
+        "Duensten"
+      ],
+      "notes": "Sehr zartes weisses Fleisch, beliebt aber etwas graetenreich"
+    },
+    "habitatDetail": {
+      "depthRange": "10-200m",
+      "region": "Nordsee, Ostsee, Atlantik",
+      "structure": [
+        "Sandboden",
+        "Kuestennah"
+      ]
+    }
+  },
+  {
+    "id": "leng",
+    "name": "Leng",
+    "nicknames": [
+      "Lengfisch"
+    ],
+    "scientificName": "Molva molva",
+    "image": "images/fish/leng.svg",
+    "imageCredit": "Generiert",
+    "family": "Lotidae",
+    "description": "Grosser langgestreckter Grundfisch aus der Dorschfamilie. Lebt in tieferen Gewaessern. Kraftvoller Kaempfer an der Angel.",
+    "size": {
+      "avgCm": 100,
+      "maxCm": 200,
+      "avgKg": 15,
+      "maxKg": 45
+    },
+    "habitat": "Tiefe Gewaesser ueber felsigem Grund zwischen 100-1000m",
+    "waterTypes": [
+      "meer"
+    ],
+    "techniques": [
+      "Pilken",
+      "Naturkoederangeln"
+    ],
+    "baits": [
+      "Makrele",
+      "Hering",
+      "Kalmar"
+    ],
+    "tips": [
+      "Tiefseemontage",
+      "Sehr starkes Geraet",
+      "Langsame Koederfuehrung"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 4,
+        "max": 12,
+        "ideal": 8
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 25
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        1,
+        2,
+        3,
+        4,
+        10,
+        11,
+        12
+      ],
+      "description": "Kalte Monate"
+    },
+    "closedSeason": null,
+    "difficulty": 4,
+    "catchAndRelease": false,
+    "minSize": "63 cm",
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 5,
+      "taste": "mild",
+      "texture": "fest",
+      "preparation": [
+        "Braten",
+        "Grillen",
+        "Raeuchern"
+      ],
+      "notes": "Exzellentes festes weisses Fleisch, hochgeschaetzt in nordischer Kueche"
+    },
+    "habitatDetail": {
+      "depthRange": "100-1000m",
+      "region": "Atlantik, Nordsee",
+      "structure": [
+        "Felsgrund",
+        "Tiefenwasser"
+      ]
+    }
+  },
+  {
+    "id": "sardelle",
+    "name": "Sardelle",
+    "nicknames": [
+      "Anchovis",
+      "Anschovis"
+    ],
+    "scientificName": "Engraulis encrasicolus",
+    "image": "images/fish/sardelle.svg",
+    "imageCredit": "Generiert",
+    "family": "Engraulidae",
+    "description": "Kleiner Schwarmfisch mit silbriger Faerbung. Wichtiger kommerzieller Fisch. Haeufig in grossen Schwaermen in Kuestennaehe.",
+    "size": {
+      "avgCm": 12,
+      "maxCm": 20,
+      "avgKg": 0.02,
+      "maxKg": 0.05
+    },
+    "habitat": "Kuestennahe Gewaesser in grossen Schwärmen bis 400m Tiefe",
+    "waterTypes": [
+      "meer",
+      "kueste"
+    ],
+    "techniques": [
+      "Paternoster",
+      "Wurfnetz"
+    ],
+    "baits": [
+      "Kleine Kunstkoeder",
+      "Fischfetzen"
+    ],
+    "tips": [
+      "Schwärme finden",
+      "Leichtestes Geraet",
+      "Frueher Morgen ideal"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 12,
+        "max": 24,
+        "ideal": 18
+      },
+      "pressure": {
+        "trend": "egal"
+      },
+      "wind": {
+        "max": 20
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Fruehjahr bis Herbst"
+    },
+    "closedSeason": null,
+    "difficulty": 1,
+    "catchAndRelease": false,
+    "minSize": "9 cm",
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 5,
+      "taste": "kraeftig",
+      "texture": "zart",
+      "preparation": [
+        "Marinieren",
+        "Braten",
+        "Einlegen"
+      ],
+      "notes": "Delikatesse, intensiver Geschmack, klassisch in Oel eingelegt"
+    },
+    "habitatDetail": {
+      "depthRange": "0-400m",
+      "region": "Mittelmeer, Adria, Atlantik",
+      "structure": [
+        "Freiwasser",
+        "Kuestennah"
+      ]
+    }
+  },
+  {
+    "id": "sprotte",
+    "name": "Sprotte",
+    "nicknames": [
+      "Breitling"
+    ],
+    "scientificName": "Sprattus sprattus",
+    "image": "images/fish/sprotte.svg",
+    "imageCredit": "Generiert",
+    "family": "Clupeidae",
+    "description": "Kleiner heringartiger Schwarmfisch. Wichtiger kommerzieller Fisch. Haeufig in Nord- und Ostsee.",
+    "size": {
+      "avgCm": 10,
+      "maxCm": 16,
+      "avgKg": 0.01,
+      "maxKg": 0.03
+    },
+    "habitat": "Kuestennahe und offene Gewaesser in grossen Schwärmen",
+    "waterTypes": [
+      "meer",
+      "kueste"
+    ],
+    "techniques": [
+      "Paternoster",
+      "Hegene"
+    ],
+    "baits": [
+      "Kleine Kunstkoeder"
+    ],
+    "tips": [
+      "Schwärme lokalisieren",
+      "Leichtgeraet",
+      "Mehrere gleichzeitig"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 4,
+        "max": 18,
+        "ideal": 11
+      },
+      "pressure": {
+        "trend": "egal"
+      },
+      "wind": {
+        "max": 25
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "description": "Herbst bis Fruehjahr"
+    },
+    "closedSeason": null,
+    "difficulty": 1,
+    "catchAndRelease": false,
+    "minSize": "Keine Mindestgroesse",
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 4,
+      "taste": "kraeftig",
+      "texture": "zart",
+      "preparation": [
+        "Raeuchern",
+        "Braten",
+        "Marinieren"
+      ],
+      "notes": "Klassisch geraeuchert als Kieler Sprotten, kraeფtiger Geschmack"
+    },
+    "habitatDetail": {
+      "depthRange": "0-150m",
+      "region": "Nordsee, Ostsee, Atlantik",
+      "structure": [
+        "Freiwasser",
+        "Kuestennah"
+      ]
+    }
+  },
+  {
+    "id": "atlantischer-hering",
+    "name": "Atlantischer Hering",
+    "nicknames": [
+      "Hering"
+    ],
+    "scientificName": "Clupea harengus",
+    "image": "images/fish/atlantischer-hering.svg",
+    "imageCredit": "Generiert",
+    "family": "Clupeidae",
+    "description": "Klassischer Schwarmfisch der nordeuropaeischen Gewaesser. Wichtigster kommerzieller Fisch historisch. Silbrig glaenzend.",
+    "size": {
+      "avgCm": 25,
+      "maxCm": 45,
+      "avgKg": 0.3,
+      "maxKg": 1
+    },
+    "habitat": "Offenes Meer und Kuestengewaesser in riesigen Schwärmen",
+    "waterTypes": [
+      "meer",
+      "kueste"
+    ],
+    "techniques": [
+      "Paternoster",
+      "Hegene"
+    ],
+    "baits": [
+      "Heringspaternoster",
+      "Kleine Kunstkoeder"
+    ],
+    "tips": [
+      "Schwärme auf Echolot suchen",
+      "Mehrere Haken",
+      "Schnelles Einholen"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 4,
+        "max": 18,
+        "ideal": 11
+      },
+      "pressure": {
+        "trend": "egal"
+      },
+      "wind": {
+        "max": 30
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        3,
+        4,
+        5,
+        9,
+        10,
+        11
+      ],
+      "description": "Fruehjahr und Herbst"
+    },
+    "closedSeason": null,
+    "difficulty": 1,
+    "catchAndRelease": false,
+    "minSize": "20 cm",
+    "category": "salzwasser",
+    "edibility": {
+      "rating": 5,
+      "taste": "kraeftig",
+      "texture": "zart",
+      "preparation": [
+        "Raeuchern",
+        "Braten",
+        "Marinieren",
+        "Einlegen"
+      ],
+      "notes": "Kulinarisch vielseitig, klassisch als Matjes oder geraeuchert"
+    },
+    "habitatDetail": {
+      "depthRange": "0-200m",
+      "region": "Atlantik, Nordsee, Ostsee",
+      "structure": [
+        "Freiwasser",
+        "Offshore"
+      ]
+    }
+  },
+  {
+    "id": "seeigel",
+    "name": "Seeigel",
+    "nicknames": [
+      "Essbarer Seeigel"
+    ],
+    "scientificName": "Paracentrotus lividus",
+    "image": "images/fish/seeigel.svg",
+    "imageCredit": "Generiert",
+    "family": "Parechinidae",
+    "description": "Stacheliger Meeresbewohner mit essbarem Rogen. Wichtige Delikatesse in mediterranen Laendern. Wird von Hand gesammelt.",
+    "size": {
+      "avgCm": 6,
+      "maxCm": 8,
+      "avgKg": 0.05,
+      "maxKg": 0.1
+    },
+    "habitat": "Felsige Kuestengewaesser mit Algen bis 80m Tiefe",
+    "waterTypes": [
+      "meer",
+      "kueste"
+    ],
+    "techniques": [
+      "Tauchen",
+      "Handsammeln"
+    ],
+    "baits": [],
+    "tips": [
+      "Nur in sauberen Gewaessern sammeln",
+      "Lokale Regelungen beachten",
+      "Handschuhe verwenden"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 10,
+        "max": 24,
+        "ideal": 17
+      },
+      "pressure": {
+        "trend": "egal"
+      },
+      "wind": {
+        "max": 10
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "description": "Wintermonate - Rogen am besten"
+    },
+    "closedSeason": "Regional unterschiedlich",
+    "difficulty": 2,
+    "catchAndRelease": false,
+    "minSize": "5 cm Durchmesser",
+    "category": "meeresfruechte",
+    "edibility": {
+      "rating": 5,
+      "taste": "intensiv",
+      "texture": "cremig",
+      "preparation": [
+        "Roh"
+      ],
+      "notes": "Rogen roh verzehrt, delikate Meeres-Delikatesse mit jodhaltigem Geschmack"
+    },
+    "habitatDetail": {
+      "depthRange": "0-80m",
+      "region": "Mittelmeer, Adria, Atlantik",
+      "structure": [
+        "Felsgrund",
+        "Algen"
+      ]
+    }
+  },
+  {
+    "id": "auster",
+    "name": "Auster",
+    "nicknames": [
+      "Europaeische Auster"
+    ],
+    "scientificName": "Ostrea edulis",
+    "image": "images/fish/auster.svg",
+    "imageCredit": "Generiert",
+    "family": "Ostreidae",
+    "description": "Klassische europaeische Auster mit flacher Schale. Hochgeschaetzte Delikatesse. Wird kultiviert oder von Hand gesammelt.",
+    "size": {
+      "avgCm": 8,
+      "maxCm": 15,
+      "avgKg": 0.05,
+      "maxKg": 0.15
+    },
+    "habitat": "Felsige und sandige Kuestengewaesser bis 80m Tiefe",
+    "waterTypes": [
+      "meer",
+      "kueste"
+    ],
+    "techniques": [
+      "Tauchen",
+      "Handsammeln"
+    ],
+    "baits": [],
+    "tips": [
+      "Sauberes Wasser essentiell",
+      "Nur lebende Austern sammeln",
+      "Lokale Sammelzeiten beachten"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 8,
+        "max": 20,
+        "ideal": 14
+      },
+      "pressure": {
+        "trend": "egal"
+      },
+      "wind": {
+        "max": 15
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2,
+        3,
+        4
+      ],
+      "description": "Monate mit R - September bis April"
+    },
+    "closedSeason": "Mai bis August",
+    "difficulty": 2,
+    "catchAndRelease": false,
+    "minSize": "6 cm",
+    "category": "meeresfruechte",
+    "edibility": {
+      "rating": 5,
+      "taste": "delikat",
+      "texture": "cremig",
+      "preparation": [
+        "Roh",
+        "Grillen"
+      ],
+      "notes": "Klassische Delikatesse, roh mit Zitrone oder gratiniert"
+    },
+    "habitatDetail": {
+      "depthRange": "0-80m",
+      "region": "Atlantik, Nordsee, Mittelmeer",
+      "structure": [
+        "Felsgrund",
+        "Sandboden"
+      ]
+    }
+  },
+  {
+    "id": "sandgarnele",
+    "name": "Sandgarnele",
+    "nicknames": [
+      "Nordseegarnele",
+      "Krabbe",
+      "Granat"
+    ],
+    "scientificName": "Crangon crangon",
+    "image": "images/fish/sandgarnele.svg",
+    "imageCredit": "Generiert",
+    "family": "Crangonidae",
+    "description": "Kleine grau-braune Garnele der Nordsee. Wichtige kommerzielle Art. Charakteristischer Geschmack.",
+    "size": {
+      "avgCm": 6,
+      "maxCm": 9,
+      "avgKg": 0.005,
+      "maxKg": 0.015
+    },
+    "habitat": "Flache sandige Kuestengewaesser bis 20m Tiefe",
+    "waterTypes": [
+      "meer",
+      "kueste"
+    ],
+    "techniques": [
+      "Garnelennetz",
+      "Reuse"
+    ],
+    "baits": [],
+    "tips": [
+      "Flache Sandstraende",
+      "Gezeitenwechsel nutzen",
+      "Mit Kescher oder Netz"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 6,
+        "max": 20,
+        "ideal": 13
+      },
+      "pressure": {
+        "trend": "egal"
+      },
+      "wind": {
+        "max": 20
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Spaetfruehjahr bis Herbst"
+    },
+    "closedSeason": null,
+    "difficulty": 1,
+    "catchAndRelease": false,
+    "minSize": "5 cm",
+    "category": "meeresfruechte",
+    "edibility": {
+      "rating": 5,
+      "taste": "delikat",
+      "texture": "zart",
+      "preparation": [
+        "Kochen"
+      ],
+      "notes": "Nordsee-Delikatesse, suesslich-wuerzig, klassisch zu Schwarzbrot"
+    },
+    "habitatDetail": {
+      "depthRange": "0-20m",
+      "region": "Nordsee, Atlantik",
+      "structure": [
+        "Sandboden",
+        "Flachwasser"
+      ]
+    }
+  },
+  {
+    "id": "schwertmuschel",
+    "name": "Schwertmuschel",
+    "nicknames": [
+      "Messerscheide"
+    ],
+    "scientificName": "Ensis ensis",
+    "image": "images/fish/schwertmuschel.svg",
+    "imageCredit": "Generiert",
+    "family": "Pharidae",
+    "description": "Langgestreckte Muschel mit messerfoermiger Schale. Lebt eingegraben im Sand. Schneller Graeber.",
+    "size": {
+      "avgCm": 12,
+      "maxCm": 20,
+      "avgKg": 0.03,
+      "maxKg": 0.08
+    },
+    "habitat": "Sandige Kuestengewaesser, eingegraben bis 30cm tief",
+    "waterTypes": [
+      "meer",
+      "kueste"
+    ],
+    "techniques": [
+      "Handsammeln",
+      "Salzstreuen"
+    ],
+    "baits": [],
+    "tips": [
+      "Bei Ebbe suchen",
+      "Salzwasser auf Loecher giessen",
+      "Schnell greifen"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 8,
+        "max": 20,
+        "ideal": 14
+      },
+      "pressure": {
+        "trend": "egal"
+      },
+      "wind": {
+        "max": 15
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "description": "Warme Monate"
+    },
+    "closedSeason": null,
+    "difficulty": 2,
+    "catchAndRelease": false,
+    "minSize": "10 cm",
+    "category": "meeresfruechte",
+    "edibility": {
+      "rating": 4,
+      "taste": "delikat",
+      "texture": "zart",
+      "preparation": [
+        "Braten",
+        "Grillen",
+        "Dampfgaren"
+      ],
+      "notes": "Zartes suessliches Fleisch, beliebt in Mittelmeer-Kueche"
+    },
+    "habitatDetail": {
+      "depthRange": "0-10m",
+      "region": "Atlantik, Nordsee, Mittelmeer",
+      "structure": [
+        "Sandboden",
+        "Gezeitenzone"
+      ]
+    }
+  },
+  {
+    "id": "wellhornschnecke",
+    "name": "Wellhornschnecke",
+    "nicknames": [
+      "Kinkhorn"
+    ],
+    "scientificName": "Buccinum undatum",
+    "image": "images/fish/wellhornschnecke.svg",
+    "imageCredit": "Generiert",
+    "family": "Buccinidae",
+    "description": "Grosse Meeresschnecke mit gewelltem Gehaeuse. Aasfresser am Meeresgrund. In nordischen Laendern geschaetzt.",
+    "size": {
+      "avgCm": 8,
+      "maxCm": 15,
+      "avgKg": 0.05,
+      "maxKg": 0.15
+    },
+    "habitat": "Sandige und felsige Boeden bis 200m Tiefe",
+    "waterTypes": [
+      "meer"
+    ],
+    "techniques": [
+      "Reuse",
+      "Tauchsammeln"
+    ],
+    "baits": [],
+    "tips": [
+      "Reusen mit Fischkoeder",
+      "Tiefere Bereiche",
+      "Kalte Gewaesser"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 4,
+        "max": 16,
+        "ideal": 10
+      },
+      "pressure": {
+        "trend": "egal"
+      },
+      "wind": {
+        "max": 25
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "description": "Kalte Monate"
+    },
+    "closedSeason": null,
+    "difficulty": 2,
+    "catchAndRelease": false,
+    "minSize": "Keine Mindestgroesse",
+    "category": "meeresfruechte",
+    "edibility": {
+      "rating": 3,
+      "taste": "intensiv",
+      "texture": "fest",
+      "preparation": [
+        "Kochen"
+      ],
+      "notes": "Muss lange gekocht werden, fester gummiartiger Biss, in Skandinavien beliebt"
+    },
+    "habitatDetail": {
+      "depthRange": "5-200m",
+      "region": "Nordsee, Atlantik",
+      "structure": [
+        "Sandboden",
+        "Felsgrund"
+      ]
+    }
+  },
+  {
+    "id": "guester",
+    "name": "Guester",
+    "nicknames": [
+      "Pliete",
+      "Blicke"
+    ],
+    "scientificName": "Blicca bjoerkna",
+    "image": "images/fish/guester.svg",
+    "imageCredit": "Generiert",
+    "family": "Cyprinidae",
+    "description": "Hochrueckiger Weissfisch, aehnlich der Brasse aber hochrueckiger. Schwarmfisch in langsam fliessenden Gewaessern. Haeufiger Beifang.",
+    "size": {
+      "avgCm": 20,
+      "maxCm": 35,
+      "avgKg": 0.3,
+      "maxKg": 1
+    },
+    "habitat": "Langsam fliessende Fluesse und naehrreiche Seen mit Pflanzenbewuchs",
+    "waterTypes": [
+      "fluss",
+      "see"
+    ],
+    "techniques": [
+      "Posenangeln",
+      "Grundangeln"
+    ],
+    "baits": [
+      "Maden",
+      "Mais",
+      "Wuermer"
+    ],
+    "tips": [
+      "Anfuettern wichtig",
+      "Feines Vorfach",
+      "Schwärme suchen"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 8,
+        "max": 24,
+        "ideal": 16
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 25
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Warme Monate"
+    },
+    "closedSeason": null,
+    "difficulty": 1,
+    "catchAndRelease": false,
+    "minSize": "Keine Mindestgroesse",
+    "category": "friedfisch",
+    "edibility": {
+      "rating": 2,
+      "taste": "mild",
+      "texture": "weich",
+      "preparation": [
+        "Braten",
+        "Raeuchern"
+      ],
+      "notes": "Sehr graetenreich, Fleisch weich, meist nicht verzehrt"
+    },
+    "habitatDetail": {
+      "depthRange": "1-5m",
+      "region": "Mitteleuropa",
+      "structure": [
+        "Pflanzen",
+        "Schlamm"
+      ]
+    }
+  },
+  {
+    "id": "zope",
+    "name": "Zope",
+    "nicknames": [
+      "Blaulaube",
+      "Pleinzen"
+    ],
+    "scientificName": "Ballerus ballerus",
+    "image": "images/fish/zope.svg",
+    "imageCredit": "Generiert",
+    "family": "Cyprinidae",
+    "description": "Sehr hochrueckiger Weissfisch mit silbriger Faerbung. Schwarmfisch in grossen Fluessen. Selten geworden.",
+    "size": {
+      "avgCm": 25,
+      "maxCm": 40,
+      "avgKg": 0.3,
+      "maxKg": 0.8
+    },
+    "habitat": "Grosse Fluesse mit maessiger Stroemung und sandigen Boeden",
+    "waterTypes": [
+      "fluss"
+    ],
+    "techniques": [
+      "Posenangeln",
+      "Grundangeln"
+    ],
+    "baits": [
+      "Maden",
+      "Wuermer"
+    ],
+    "tips": [
+      "Schwärme in Flussboegen",
+      "Feines Geraet",
+      "Stroemungskanten"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 10,
+        "max": 22,
+        "ideal": 16
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 20
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Spaetfruehjahr bis Herbst"
+    },
+    "closedSeason": "Maerz bis Mai (regional)",
+    "difficulty": 2,
+    "catchAndRelease": true,
+    "minSize": "Zuruecksetzen empfohlen",
+    "category": "friedfisch",
+    "edibility": {
+      "rating": 2,
+      "taste": "mild",
+      "texture": "weich",
+      "preparation": [
+        "Raeuchern"
+      ],
+      "notes": "Selten geworden, meist zurueckgesetzt zum Bestandsschutz"
+    },
+    "habitatDetail": {
+      "depthRange": "2-8m",
+      "region": "Donau, Elbe, Oder",
+      "structure": [
+        "Sandboden",
+        "Stroemung"
+      ]
+    }
+  },
+  {
+    "id": "rapfen-alt",
+    "name": "Rapfen",
+    "nicknames": [
+      "Schied",
+      "Raubplaetze"
+    ],
+    "scientificName": "Leuciscus aspius",
+    "image": "images/fish/rapfen-alt.svg",
+    "imageCredit": "Generiert",
+    "family": "Cyprinidae",
+    "description": "Groesster einheimischer raeuberischer Karpfenfisch. Oberflächenjaeger mit kraftvollen Attacken. Beliebter Zielfisch.",
+    "size": {
+      "avgCm": 50,
+      "maxCm": 120,
+      "avgKg": 3,
+      "maxKg": 12
+    },
+    "habitat": "Grosse Fluesse und Seen mit freiem Wasser",
+    "waterTypes": [
+      "fluss",
+      "see"
+    ],
+    "techniques": [
+      "Spinnfischen",
+      "Fliegenfischen"
+    ],
+    "baits": [
+      "Kunstkoeder",
+      "Blinker",
+      "Wobbler"
+    ],
+    "tips": [
+      "Oberflaechenjagd beobachten",
+      "Schnelle Koederfuehrung",
+      "Fruehe Morgenstunden"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 12,
+        "max": 26,
+        "ideal": 19
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 20
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 70
+      }
+    },
+    "season": {
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Spaetfruehjahr bis Herbst"
+    },
+    "closedSeason": "April bis Mai",
+    "difficulty": 3,
+    "catchAndRelease": false,
+    "minSize": "50 cm",
+    "category": "raubfisch",
+    "edibility": {
+      "rating": 3,
+      "taste": "mild",
+      "texture": "fest",
+      "preparation": [
+        "Raeuchern",
+        "Braten"
+      ],
+      "notes": "Sehr graetenreich aber festes Fleisch, am besten geraeuchert"
+    },
+    "habitatDetail": {
+      "depthRange": "1-5m",
+      "region": "Mittel- und Osteuropa",
+      "structure": [
+        "Freiwasser",
+        "Oberflaeche"
+      ]
+    }
+  },
+  {
+    "id": "schraetzer",
+    "name": "Schraetzer",
+    "nicknames": [
+      "Donaukaulbarsch"
+    ],
+    "scientificName": "Gymnocephalus schraetser",
+    "image": "images/fish/schraetzer.svg",
+    "imageCredit": "Generiert",
+    "family": "Percidae",
+    "description": "Seltener barschartiger Fisch mit dunklen Querstreifen. Endemisch in der Donau. Streng geschuetzt.",
+    "size": {
+      "avgCm": 15,
+      "maxCm": 30,
+      "avgKg": 0.1,
+      "maxKg": 0.3
+    },
+    "habitat": "Grosse Fluesse mit steinigem Grund und Stroemung",
+    "waterTypes": [
+      "fluss"
+    ],
+    "techniques": [
+      "Grundangeln"
+    ],
+    "baits": [
+      "Wuermer",
+      "Maden"
+    ],
+    "tips": [
+      "Geschuetzt - zuruecksetzen",
+      "Steinige Bereiche",
+      "Selten gefangen"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 10,
+        "max": 22,
+        "ideal": 16
+      },
+      "pressure": {
+        "trend": "egal"
+      },
+      "wind": {
+        "max": 15
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Sommermonate"
+    },
+    "closedSeason": "Ganzjaehrig geschuetzt",
+    "difficulty": 3,
+    "catchAndRelease": true,
+    "minSize": "Nicht entnehmbar",
+    "category": "raubfisch",
+    "edibility": {
+      "rating": 2,
+      "taste": "mild",
+      "texture": "fest",
+      "preparation": [],
+      "notes": "Streng geschuetzt, nicht entnehmen - wichtige endemische Art"
+    },
+    "habitatDetail": {
+      "depthRange": "2-6m",
+      "region": "Donau",
+      "structure": [
+        "Steingrund",
+        "Stroemung"
+      ]
+    }
+  },
+  {
+    "id": "donau-kaulbarsch",
+    "name": "Donau-Kaulbarsch",
+    "nicknames": [
+      "Balons Kaulbarsch"
+    ],
+    "scientificName": "Gymnocephalus baloni",
+    "image": "images/fish/donau-kaulbarsch.svg",
+    "imageCredit": "Generiert",
+    "family": "Percidae",
+    "description": "Kleine barschaehnliche Art aus der Donau. Erst spaet als eigene Art erkannt. Selten und lokalisiert.",
+    "size": {
+      "avgCm": 10,
+      "maxCm": 18,
+      "avgKg": 0.05,
+      "maxKg": 0.15
+    },
+    "habitat": "Grosse Fluesse mit sandigem Grund",
+    "waterTypes": [
+      "fluss"
+    ],
+    "techniques": [
+      "Grundangeln"
+    ],
+    "baits": [
+      "Maden",
+      "Wuermer"
+    ],
+    "tips": [
+      "Meist Beifang",
+      "Vorsichtig zuruecksetzen",
+      "Sandboden bevorzugt"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 10,
+        "max": 24,
+        "ideal": 17
+      },
+      "pressure": {
+        "trend": "egal"
+      },
+      "wind": {
+        "max": 20
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Warme Monate"
+    },
+    "closedSeason": "Regional geschuetzt",
+    "difficulty": 2,
+    "catchAndRelease": true,
+    "minSize": "Zuruecksetzen empfohlen",
+    "category": "raubfisch",
+    "edibility": {
+      "rating": 1,
+      "taste": "mild",
+      "texture": "weich",
+      "preparation": [],
+      "notes": "Zu klein und selten - immer zuruecksetzen"
+    },
+    "habitatDetail": {
+      "depthRange": "2-8m",
+      "region": "Donau",
+      "structure": [
+        "Sandboden",
+        "Stroemung"
+      ]
+    }
+  },
+  {
+    "id": "graskarpfen",
+    "name": "Graskarpfen",
+    "nicknames": [
+      "Amur",
+      "Weisser Amur"
+    ],
+    "scientificName": "Ctenopharyngodon idella",
+    "image": "images/fish/graskarpfen.svg",
+    "imageCredit": "Generiert",
+    "family": "Cyprinidae",
+    "description": "Grosser Pflanzenfresser aus Ostasien. Wird zur Gewaesser-Pflege eingesetzt. Kraftvoller Kaempfer an der Angel.",
+    "size": {
+      "avgCm": 80,
+      "maxCm": 150,
+      "avgKg": 15,
+      "maxKg": 40
+    },
+    "habitat": "Stehende und langsam fliessende Gewaesser mit reichlich Pflanzenwuchs",
+    "waterTypes": [
+      "see",
+      "fluss",
+      "teich"
+    ],
+    "techniques": [
+      "Grundangeln"
+    ],
+    "baits": [
+      "Mais",
+      "Kartoffel",
+      "Teig",
+      "Gurke"
+    ],
+    "tips": [
+      "Pflanzliche Koeder",
+      "Starkes Geraet",
+      "Geduld erforderlich"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 14,
+        "max": 28,
+        "ideal": 21
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 20
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 80
+      }
+    },
+    "season": {
+      "bestMonths": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Warme Sommermonate"
+    },
+    "closedSeason": null,
+    "difficulty": 4,
+    "catchAndRelease": false,
+    "minSize": "60 cm",
+    "category": "friedfisch",
+    "edibility": {
+      "rating": 4,
+      "taste": "mild",
+      "texture": "fest",
+      "preparation": [
+        "Grillen",
+        "Braten",
+        "Raeuchern"
+      ],
+      "notes": "Festes weisses Fleisch, wenig Graeten, in Asien hochgeschaetzt"
+    },
+    "habitatDetail": {
+      "depthRange": "1-8m",
+      "region": "Eingebuergerter Neozoae - europaweit",
+      "structure": [
+        "Pflanzen",
+        "Freiwasser"
+      ]
+    }
+  },
+  {
+    "id": "silberkarpfen",
+    "name": "Silberkarpfen",
+    "nicknames": [
+      "Silberamur"
+    ],
+    "scientificName": "Hypophthalmichthys molitrix",
+    "image": "images/fish/silberkarpfen.svg",
+    "imageCredit": "Generiert",
+    "family": "Cyprinidae",
+    "description": "Grosser Planktonfresser aus Ostasien. Charakteristisch tief ansetzende Augen. Bekannt fuer Sprungverhalten.",
+    "size": {
+      "avgCm": 60,
+      "maxCm": 140,
+      "avgKg": 10,
+      "maxKg": 50
+    },
+    "habitat": "Grosse Seen und Fluesse, naehrreiche Gewaesser",
+    "waterTypes": [
+      "see",
+      "fluss"
+    ],
+    "techniques": [
+      "Grundangeln"
+    ],
+    "baits": [
+      "Teig",
+      "Brot",
+      "Futterballen"
+    ],
+    "tips": [
+      "Schwarmfisch",
+      "Feines Anfutter",
+      "Vorsichtig landen"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 12,
+        "max": 28,
+        "ideal": 20
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 20
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Warme Monate"
+    },
+    "closedSeason": null,
+    "difficulty": 3,
+    "catchAndRelease": false,
+    "minSize": "Keine Mindestgroesse",
+    "category": "friedfisch",
+    "edibility": {
+      "rating": 3,
+      "taste": "mild",
+      "texture": "fest",
+      "preparation": [
+        "Braten",
+        "Raeuchern"
+      ],
+      "notes": "Festes Fleisch aber viele Y-Graeten, in Heimat geschaetzt"
+    },
+    "habitatDetail": {
+      "depthRange": "1-10m",
+      "region": "Eingebuergerter Neozoae - Mittel-Osteuropa",
+      "structure": [
+        "Freiwasser",
+        "Planktonreich"
+      ]
+    }
+  },
+  {
+    "id": "sonnenbarsch",
+    "name": "Sonnenbarsch",
+    "nicknames": [
+      "Gemeiner Sonnenbarsch"
+    ],
+    "scientificName": "Lepomis gibbosus",
+    "image": "images/fish/sonnenbarsch.svg",
+    "imageCredit": "Generiert",
+    "family": "Centrarchidae",
+    "description": "Kleiner bunter Barsch aus Nordamerika. Farbenpraechtig mit orangem Bauch. Invasive Art in Europa.",
+    "size": {
+      "avgCm": 12,
+      "maxCm": 25,
+      "avgKg": 0.1,
+      "maxKg": 0.4
+    },
+    "habitat": "Langsam fliessende Gewaesser und Seen mit Pflanzenbewuchs",
+    "waterTypes": [
+      "see",
+      "fluss",
+      "teich"
+    ],
+    "techniques": [
+      "Posenangeln",
+      "Spinnfischen"
+    ],
+    "baits": [
+      "Wurm",
+      "Maden",
+      "Kleine Kunstkoeder"
+    ],
+    "tips": [
+      "Nicht zuruecksetzen - invasiv",
+      "Pflanzennah",
+      "Bissfreudig"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 10,
+        "max": 26,
+        "ideal": 18
+      },
+      "pressure": {
+        "trend": "egal"
+      },
+      "wind": {
+        "max": 20
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Warme Monate"
+    },
+    "closedSeason": null,
+    "difficulty": 1,
+    "catchAndRelease": false,
+    "minSize": "Nicht zuruecksetzen (invasiv)",
+    "category": "raubfisch",
+    "edibility": {
+      "rating": 2,
+      "taste": "mild",
+      "texture": "weich",
+      "preparation": [
+        "Braten"
+      ],
+      "notes": "Zu klein und graetenreich, invasive Art sollte entnommen werden"
+    },
+    "habitatDetail": {
+      "depthRange": "0.5-3m",
+      "region": "Invasiver Neozoae - Mitteleuropa",
+      "structure": [
+        "Pflanzen",
+        "Uferbereich"
+      ]
+    }
+  },
+  {
+    "id": "schwarzbarsch",
+    "name": "Schwarzbarsch",
+    "nicknames": [
+      "Forellenbarsch",
+      "Largemouth Bass"
+    ],
+    "scientificName": "Micropterus salmoides",
+    "image": "images/fish/schwarzbarsch.svg",
+    "imageCredit": "Generiert",
+    "family": "Centrarchidae",
+    "description": "Grosser Raubfisch aus Nordamerika mit breitem Maul. Aggressiver Jaeger. Beliebter Sportfisch, aber invasiv in Europa.",
+    "size": {
+      "avgCm": 35,
+      "maxCm": 75,
+      "avgKg": 2,
+      "maxKg": 10
+    },
+    "habitat": "Seen und langsam fliessende Gewaesser mit Struktur und Pflanzenbewuchs",
+    "waterTypes": [
+      "see",
+      "fluss",
+      "teich"
+    ],
+    "techniques": [
+      "Spinnfischen",
+      "Grundangeln"
+    ],
+    "baits": [
+      "Kunstkoeder",
+      "Gummikoeder",
+      "Wobbler"
+    ],
+    "tips": [
+      "Struktur suchen",
+      "Aggressive Koederfuehrung",
+      "Deckung bevorzugt"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 12,
+        "max": 28,
+        "ideal": 20
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 20
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 80
+      }
+    },
+    "season": {
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Warme Monate"
+    },
+    "closedSeason": null,
+    "difficulty": 3,
+    "catchAndRelease": false,
+    "minSize": "Keine Mindestgroesse",
+    "category": "raubfisch",
+    "edibility": {
+      "rating": 4,
+      "taste": "mild",
+      "texture": "fest",
+      "preparation": [
+        "Braten",
+        "Grillen"
+      ],
+      "notes": "Schmackhaftes festes Fleisch, in Nordamerika hochgeschaetzt"
+    },
+    "habitatDetail": {
+      "depthRange": "1-8m",
+      "region": "Invasiver Neozoae - Sued-Westeuropa",
+      "structure": [
+        "Pflanzen",
+        "Totholz",
+        "Strukturreich"
+      ]
+    }
+  },
+  {
+    "id": "forellenbarsch",
+    "name": "Forellenbarsch",
+    "nicknames": [
+      "Smallmouth Bass"
+    ],
+    "scientificName": "Micropterus dolomieu",
+    "image": "images/fish/forellenbarsch.svg",
+    "imageCredit": "Generiert",
+    "family": "Centrarchidae",
+    "description": "Kleinmaeuliger Verwandter des Schwarzbarsches. Bevorzugt kuhleres klareres Wasser. Ausgezeichneter Kaempfer.",
+    "size": {
+      "avgCm": 30,
+      "maxCm": 55,
+      "avgKg": 1.5,
+      "maxKg": 5
+    },
+    "habitat": "Klarwasser-Seen und Fluesse mit steinigem Grund",
+    "waterTypes": [
+      "see",
+      "fluss"
+    ],
+    "techniques": [
+      "Spinnfischen"
+    ],
+    "baits": [
+      "Kunstkoeder",
+      "Gummikoeder",
+      "Wobbler"
+    ],
+    "tips": [
+      "Steinige Bereiche",
+      "Klarwasser bevorzugt",
+      "Aktive Koederfuehrung"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 10,
+        "max": 24,
+        "ideal": 17
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 20
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 70
+      }
+    },
+    "season": {
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Warme Monate"
+    },
+    "closedSeason": null,
+    "difficulty": 3,
+    "catchAndRelease": false,
+    "minSize": "Keine Mindestgroesse",
+    "category": "raubfisch",
+    "edibility": {
+      "rating": 4,
+      "taste": "mild",
+      "texture": "fest",
+      "preparation": [
+        "Braten",
+        "Grillen"
+      ],
+      "notes": "Exzellentes Fleisch, aehnlich Schwarzbarsch aber festere Textur"
+    },
+    "habitatDetail": {
+      "depthRange": "1-6m",
+      "region": "Invasiver Neozoae - vereinzelt Europa",
+      "structure": [
+        "Steingrund",
+        "Klarwasser"
+      ]
+    }
+  },
+  {
+    "id": "zwergwels",
+    "name": "Zwergwels",
+    "nicknames": [
+      "Katzenwels",
+      "Amerikanischer Zwergwels"
+    ],
+    "scientificName": "Ameiurus nebulosus",
+    "image": "images/fish/zwergwels.svg",
+    "imageCredit": "Generiert",
+    "family": "Ictaluridae",
+    "description": "Kleiner Wels aus Nordamerika mit dunkler Marmorierung. Invasive Art, die heimische Fische verdraengt. Nachtaktiv.",
+    "size": {
+      "avgCm": 25,
+      "maxCm": 45,
+      "avgKg": 0.5,
+      "maxKg": 2
+    },
+    "habitat": "Stehende und langsam fliessende Gewaesser mit schlammigem Grund",
+    "waterTypes": [
+      "see",
+      "teich",
+      "fluss"
+    ],
+    "techniques": [
+      "Grundangeln"
+    ],
+    "baits": [
+      "Wurm",
+      "Fischfetzen",
+      "Tauwurm"
+    ],
+    "tips": [
+      "Nachtangeln erfolgreich",
+      "Nicht zuruecksetzen - invasiv",
+      "Schlammige Bereiche"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 8,
+        "max": 26,
+        "ideal": 17
+      },
+      "pressure": {
+        "trend": "egal"
+      },
+      "wind": {
+        "max": 25
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Warme Monate"
+    },
+    "closedSeason": null,
+    "difficulty": 2,
+    "catchAndRelease": false,
+    "minSize": "Nicht zuruecksetzen (invasiv)",
+    "category": "raubfisch",
+    "edibility": {
+      "rating": 3,
+      "taste": "mild",
+      "texture": "fest",
+      "preparation": [
+        "Braten",
+        "Raeuchern"
+      ],
+      "notes": "Schmackhaftes festes Fleisch, invasive Art sollte entnommen werden"
+    },
+    "habitatDetail": {
+      "depthRange": "0.5-5m",
+      "region": "Invasiver Neozoae - Mitteleuropa",
+      "structure": [
+        "Schlamm",
+        "Pflanzen"
+      ]
+    }
+  },
+  {
+    "id": "blaubandbärbling",
+    "name": "Blaubandbärbling",
+    "nicknames": [
+      "Pseudorasbora"
+    ],
+    "scientificName": "Pseudorasbora parva",
+    "image": "images/fish/blaubandbärbling.svg",
+    "imageCredit": "Generiert",
+    "family": "Cyprinidae",
+    "description": "Winziger invasiver Karpfenfisch aus Asien. Verdraengt heimische Kleinfischarten. Problematischer Neozoae.",
+    "size": {
+      "avgCm": 6,
+      "maxCm": 11,
+      "avgKg": 0.01,
+      "maxKg": 0.03
+    },
+    "habitat": "Stehende Gewaesser mit Pflanzenbewuchs",
+    "waterTypes": [
+      "see",
+      "teich"
+    ],
+    "techniques": [
+      "Stippen"
+    ],
+    "baits": [
+      "Maden",
+      "Brot"
+    ],
+    "tips": [
+      "Nicht zuruecksetzen - hochinvasiv",
+      "Meist Beifang",
+      "Massenhaft vorkommend"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 4,
+        "max": 28,
+        "ideal": 16
+      },
+      "pressure": {
+        "trend": "egal"
+      },
+      "wind": {
+        "max": 20
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Warme Monate"
+    },
+    "closedSeason": null,
+    "difficulty": 1,
+    "catchAndRelease": false,
+    "minSize": "Nicht zuruecksetzen (hochinvasiv)",
+    "category": "friedfisch",
+    "edibility": {
+      "rating": 1,
+      "taste": "mild",
+      "texture": "weich",
+      "preparation": [],
+      "notes": "Zu klein, aber invasiv - nicht zuruecksetzen, entsorgen"
+    },
+    "habitatDetail": {
+      "depthRange": "0.5-3m",
+      "region": "Hochinvasiver Neozoae - europaweit",
+      "structure": [
+        "Pflanzen",
+        "Uferbereich"
+      ]
+    }
+  },
+  {
+    "id": "goldfisch",
+    "name": "Goldfisch",
+    "nicknames": [
+      "Goldkarausche"
+    ],
+    "scientificName": "Carassius auratus",
+    "image": "images/fish/goldfisch.svg",
+    "imageCredit": "Generiert",
+    "family": "Cyprinidae",
+    "description": "Zuchtform der Silberkarausche aus Asien. Verwildert in vielen Gewaessern. Orange bis rotgoldene Faerbung.",
+    "size": {
+      "avgCm": 20,
+      "maxCm": 45,
+      "avgKg": 0.5,
+      "maxKg": 3
+    },
+    "habitat": "Stehende Gewaesser, oft nahrreiche Teiche und Seen",
+    "waterTypes": [
+      "see",
+      "teich"
+    ],
+    "techniques": [
+      "Posenangeln",
+      "Grundangeln"
+    ],
+    "baits": [
+      "Mais",
+      "Brot",
+      "Maden"
+    ],
+    "tips": [
+      "Verwilderte Population",
+      "Anfuettern",
+      "Ruhige Bereiche"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 4,
+        "max": 28,
+        "ideal": 18
+      },
+      "pressure": {
+        "trend": "egal"
+      },
+      "wind": {
+        "max": 20
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Warme Monate"
+    },
+    "closedSeason": null,
+    "difficulty": 2,
+    "catchAndRelease": true,
+    "minSize": "Zuruecksetzen empfohlen",
+    "category": "friedfisch",
+    "edibility": {
+      "rating": 2,
+      "taste": "mild",
+      "texture": "weich",
+      "preparation": [
+        "Braten"
+      ],
+      "notes": "Essbar aber meist als Zierfisch betrachtet, graetenreich"
+    },
+    "habitatDetail": {
+      "depthRange": "0.5-5m",
+      "region": "Verwilderter Neozoae - europaweit",
+      "structure": [
+        "Pflanzen",
+        "Schlamm"
+      ]
+    }
+  },
+  {
+    "id": "kessler-grundel",
+    "name": "Kessler-Grundel",
+    "nicknames": [
+      "Kesslers Grundel"
+    ],
+    "scientificName": "Ponticola kessleri",
+    "image": "images/fish/kessler-grundel.svg",
+    "imageCredit": "Generiert",
+    "family": "Gobiidae",
+    "description": "Invasive Grundel aus dem Schwarzmeerraum. Verdraengt heimische Bodenfische. Massenhaft in grossen Fluessen.",
+    "size": {
+      "avgCm": 10,
+      "maxCm": 18,
+      "avgKg": 0.05,
+      "maxKg": 0.15
+    },
+    "habitat": "Grosse Fluesse mit steinigem Grund und Stroemung",
+    "waterTypes": [
+      "fluss"
+    ],
+    "techniques": [
+      "Grundangeln"
+    ],
+    "baits": [
+      "Wurm",
+      "Maden"
+    ],
+    "tips": [
+      "Nicht zuruecksetzen - invasiv",
+      "Massenvorkommen",
+      "Steinige Bereiche"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 6,
+        "max": 24,
+        "ideal": 15
+      },
+      "pressure": {
+        "trend": "egal"
+      },
+      "wind": {
+        "max": 20
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "description": "Warme Monate"
+    },
+    "closedSeason": null,
+    "difficulty": 1,
+    "catchAndRelease": false,
+    "minSize": "Nicht zuruecksetzen (invasiv)",
+    "category": "raubfisch",
+    "edibility": {
+      "rating": 2,
+      "taste": "mild",
+      "texture": "weich",
+      "preparation": [
+        "Braten"
+      ],
+      "notes": "Klein aber essbar, invasive Art sollte entnommen werden"
+    },
+    "habitatDetail": {
+      "depthRange": "1-10m",
+      "region": "Invasiver Neozoae - Donau, Rhein",
+      "structure": [
+        "Steingrund",
+        "Stroemung"
+      ]
+    }
+  },
+  {
+    "id": "schwarzmund-grundel",
+    "name": "Schwarzmund-Grundel",
+    "nicknames": [
+      "Round Goby"
+    ],
+    "scientificName": "Neogobius melanostomus",
+    "image": "images/fish/schwarzmund-grundel.svg",
+    "imageCredit": "Generiert",
+    "family": "Gobiidae",
+    "description": "Aggressivste invasive Grundel mit schwarzem Fleck auf erster Rueckenflosse. Verdraengt massiv heimische Arten.",
+    "size": {
+      "avgCm": 12,
+      "maxCm": 25,
+      "avgKg": 0.08,
+      "maxKg": 0.35
+    },
+    "habitat": "Fluesse und Seen mit steinigem bis felsigem Grund",
+    "waterTypes": [
+      "fluss",
+      "see"
+    ],
+    "techniques": [
+      "Grundangeln",
+      "Dropshot"
+    ],
+    "baits": [
+      "Wurm",
+      "Maden",
+      "Gummikoeder"
+    ],
+    "tips": [
+      "Nicht zuruecksetzen - hochinvasiv",
+      "Steinige Bereiche",
+      "Sehr aggressiv"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 4,
+        "max": 26,
+        "ideal": 15
+      },
+      "pressure": {
+        "trend": "egal"
+      },
+      "wind": {
+        "max": 25
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "description": "Ganzjaehrig"
+    },
+    "closedSeason": null,
+    "difficulty": 1,
+    "catchAndRelease": false,
+    "minSize": "Nicht zuruecksetzen (hochinvasiv)",
+    "category": "raubfisch",
+    "edibility": {
+      "rating": 3,
+      "taste": "mild",
+      "texture": "fest",
+      "preparation": [
+        "Braten",
+        "Suppe"
+      ],
+      "notes": "Fest und schmackhaft, invasive Art muss entnommen werden"
+    },
+    "habitatDetail": {
+      "depthRange": "0.5-15m",
+      "region": "Hochinvasiver Neozoae - Donau, Rhein, Seen",
+      "structure": [
+        "Steingrund",
+        "Fels"
+      ]
+    }
+  },
+  {
+    "id": "marmor-grundel",
+    "name": "Marmor-Grundel",
+    "nicknames": [
+      "Tubenase"
+    ],
+    "scientificName": "Proterorhinus semilunaris",
+    "image": "images/fish/marmor-grundel.svg",
+    "imageCredit": "Generiert",
+    "family": "Gobiidae",
+    "description": "Kleinere invasive Grundel mit charakteristischen Nasenroehrchen. Aus dem Schwarzmeerraum eingewandert.",
+    "size": {
+      "avgCm": 8,
+      "maxCm": 12,
+      "avgKg": 0.02,
+      "maxKg": 0.05
+    },
+    "habitat": "Fluesse mit maessiger Stroemung und sandig-steinigem Grund",
+    "waterTypes": [
+      "fluss"
+    ],
+    "techniques": [
+      "Grundangeln"
+    ],
+    "baits": [
+      "Maden",
+      "Wurm"
+    ],
+    "tips": [
+      "Nicht zuruecksetzen - invasiv",
+      "Meist Beifang",
+      "Sandboden"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 6,
+        "max": 24,
+        "ideal": 15
+      },
+      "pressure": {
+        "trend": "egal"
+      },
+      "wind": {
+        "max": 20
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Warme Monate"
+    },
+    "closedSeason": null,
+    "difficulty": 1,
+    "catchAndRelease": false,
+    "minSize": "Nicht zuruecksetzen (invasiv)",
+    "category": "raubfisch",
+    "edibility": {
+      "rating": 1,
+      "taste": "mild",
+      "texture": "weich",
+      "preparation": [],
+      "notes": "Zu klein, invasive Art sollte entnommen werden"
+    },
+    "habitatDetail": {
+      "depthRange": "0.5-8m",
+      "region": "Invasiver Neozoae - Donau, Rhein",
+      "structure": [
+        "Sandboden",
+        "Steinchen"
+      ]
+    }
+  },
+  {
+    "id": "wildkarpfen",
+    "name": "Wildkarpfen",
+    "nicknames": [
+      "Schuppenkarpfen urspruenglich"
+    ],
+    "scientificName": "Cyprinus carpio carpio",
+    "image": "images/fish/wildkarpfen.svg",
+    "imageCredit": "Generiert",
+    "family": "Cyprinidae",
+    "description": "Urspruengliche Form des Karpfens mit vollstaendiger Beschuppung und langgestrecktem Koerper. Vorsichtiger als Zuchtformen.",
+    "size": {
+      "avgCm": 50,
+      "maxCm": 120,
+      "avgKg": 5,
+      "maxKg": 40
+    },
+    "habitat": "Fluesse und natuerliche Seen, bevorzugt strukturreiche Gewaesser",
+    "waterTypes": [
+      "fluss",
+      "see"
+    ],
+    "techniques": [
+      "Grundangeln",
+      "Posenangeln"
+    ],
+    "baits": [
+      "Boilies",
+      "Mais",
+      "Pellets",
+      "Wuermer"
+    ],
+    "tips": [
+      "Vorsichtiger als Zuchtformen",
+      "Natuerliche Koeder",
+      "Stroemungskanten"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 12,
+        "max": 28,
+        "ideal": 20
+      },
+      "pressure": {
+        "trend": "stabil"
+      },
+      "wind": {
+        "max": 25
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Warme Monate"
+    },
+    "closedSeason": "Regional unterschiedlich",
+    "difficulty": 4,
+    "catchAndRelease": false,
+    "minSize": "40 cm",
+    "category": "friedfisch",
+    "edibility": {
+      "rating": 4,
+      "taste": "mild",
+      "texture": "fest",
+      "preparation": [
+        "Grillen",
+        "Braten",
+        "Blau"
+      ],
+      "notes": "Festes Fleisch, weniger fett als Zuchtformen, hochwertig"
+    },
+    "habitatDetail": {
+      "depthRange": "1-10m",
+      "region": "Mitteleuropa, Donau-Region",
+      "structure": [
+        "Strukturreich",
+        "Stroemung"
+      ]
+    }
+  },
+  {
+    "id": "edelkrebs",
+    "name": "Edelkrebs",
+    "nicknames": [
+      "Europaeischer Flusskrebs"
+    ],
+    "scientificName": "Astacus astacus",
+    "image": "images/fish/edelkrebs.svg",
+    "imageCredit": "Generiert",
+    "family": "Astacidae",
+    "description": "Heimischer Flusskrebs mit rotbrauner Faerbung. Stark bedroht durch Krebspest und invasive Arten. Streng geschuetzt.",
+    "size": {
+      "avgCm": 12,
+      "maxCm": 20,
+      "avgKg": 0.1,
+      "maxKg": 0.35
+    },
+    "habitat": "Saubere Fluesse und Seen mit steinigem Grund und Versteckmoeglichkeiten",
+    "waterTypes": [
+      "fluss",
+      "see",
+      "bach"
+    ],
+    "techniques": [
+      "Krebsreuse"
+    ],
+    "baits": [
+      "Fischkoeder"
+    ],
+    "tips": [
+      "Streng geschuetzt",
+      "Nachtaktiv",
+      "Nur mit Genehmigung"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 4,
+        "max": 22,
+        "ideal": 13
+      },
+      "pressure": {
+        "trend": "egal"
+      },
+      "wind": {
+        "max": 20
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "description": "Spaetsommer bis Herbst"
+    },
+    "closedSeason": "Ganzjaehrig geschuetzt oder stark reguliert",
+    "difficulty": 3,
+    "catchAndRelease": true,
+    "minSize": "10 cm (wo erlaubt)",
+    "category": "friedfisch",
+    "edibility": {
+      "rating": 5,
+      "taste": "delikat",
+      "texture": "fest",
+      "preparation": [
+        "Kochen"
+      ],
+      "notes": "Delikatesse, aber meist geschuetzt - nicht entnehmen ohne Genehmigung"
+    },
+    "habitatDetail": {
+      "depthRange": "0.5-6m",
+      "region": "Mitteleuropa (stark bedroht)",
+      "structure": [
+        "Steingrund",
+        "Verstecke"
+      ]
+    }
+  },
+  {
+    "id": "signalkrebs",
+    "name": "Signalkrebs",
+    "nicknames": [
+      "Amerikanischer Signalkrebs"
+    ],
+    "scientificName": "Pacifastacus leniusculus",
+    "image": "images/fish/signalkrebs.svg",
+    "imageCredit": "Generiert",
+    "family": "Astacidae",
+    "description": "Grosser invasiver Krebs aus Nordamerika mit weissen Signalflecken an Scheren. Uebertraegt Krebspest, verdraengt Edelkrebs.",
+    "size": {
+      "avgCm": 15,
+      "maxCm": 30,
+      "avgKg": 0.15,
+      "maxKg": 0.5
+    },
+    "habitat": "Fluesse und Seen mit verschiedenen Substraten",
+    "waterTypes": [
+      "fluss",
+      "see"
+    ],
+    "techniques": [
+      "Krebsreuse"
+    ],
+    "baits": [
+      "Fischkoeder"
+    ],
+    "tips": [
+      "Nicht zuruecksetzen - invasiv",
+      "Robuster als Edelkrebs",
+      "Entnehmen erlaubt/erwuenscht"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 2,
+        "max": 26,
+        "ideal": 14
+      },
+      "pressure": {
+        "trend": "egal"
+      },
+      "wind": {
+        "max": 25
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "description": "Spaetsommer bis Herbst"
+    },
+    "closedSeason": null,
+    "difficulty": 2,
+    "catchAndRelease": false,
+    "minSize": "Keine Mindestgroesse (invasiv - entnehmen)",
+    "category": "friedfisch",
+    "edibility": {
+      "rating": 5,
+      "taste": "delikat",
+      "texture": "fest",
+      "preparation": [
+        "Kochen"
+      ],
+      "notes": "Exzellentes Fleisch, groesser als Edelkrebs, Entnahme erwuenscht"
+    },
+    "habitatDetail": {
+      "depthRange": "0.5-10m",
+      "region": "Invasiver Neozoae - Mittel-Nordeuropa",
+      "structure": [
+        "Steingrund",
+        "variabel"
+      ]
+    }
+  },
+  {
+    "id": "kamberkrebs",
+    "name": "Kamberkrebs",
+    "nicknames": [
+      "Amerikanischer Kamberkrebs"
+    ],
+    "scientificName": "Faxonius limosus",
+    "image": "images/fish/kamberkrebs.svg",
+    "imageCredit": "Generiert",
+    "family": "Cambaridae",
+    "description": "Kleinerer invasiver Krebs aus Nordamerika mit charakteristischen Dornen an Scheren. Uebertraegt Krebspest.",
+    "size": {
+      "avgCm": 8,
+      "maxCm": 12,
+      "avgKg": 0.03,
+      "maxKg": 0.08
+    },
+    "habitat": "Stehende und langsam fliessende Gewaesser, auch verschmutzte",
+    "waterTypes": [
+      "see",
+      "teich",
+      "fluss"
+    ],
+    "techniques": [
+      "Krebsreuse"
+    ],
+    "baits": [
+      "Fischkoeder"
+    ],
+    "tips": [
+      "Nicht zuruecksetzen - invasiv",
+      "Sehr anpassungsfaehig",
+      "Massenvorkommen"
+    ],
+    "weatherPrefs": {
+      "temperature": {
+        "min": 2,
+        "max": 28,
+        "ideal": 16
+      },
+      "pressure": {
+        "trend": "egal"
+      },
+      "wind": {
+        "max": 25
+      },
+      "cloudCover": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "season": {
+      "bestMonths": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "description": "Sommer bis Herbst"
+    },
+    "closedSeason": null,
+    "difficulty": 1,
+    "catchAndRelease": false,
+    "minSize": "Keine Mindestgroesse (invasiv - entnehmen)",
+    "category": "friedfisch",
+    "edibility": {
+      "rating": 3,
+      "taste": "mild",
+      "texture": "fest",
+      "preparation": [
+        "Kochen"
+      ],
+      "notes": "Essbar aber klein, invasiv - Entnahme erwuenscht"
+    },
+    "habitatDetail": {
+      "depthRange": "0.5-5m",
+      "region": "Invasiver Neozoae - Mitteleuropa",
+      "structure": [
+        "Schlamm",
+        "Pflanzen"
+      ]
+    }
   }
 ]
