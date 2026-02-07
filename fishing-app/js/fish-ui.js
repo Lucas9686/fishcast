@@ -37,7 +37,7 @@ function renderFishList(container, fishData, onSelect) {
             : fish.category;
 
         card.innerHTML =
-            '<img class="fish-card__image" src="' + _escAttr(fish.image) + '" alt="' + _escAttr(fish.name) + '" loading="lazy" onerror="this.src=_fishFallbackSvg(\'' + _escAttr(fish.name).replace(/'/g, "\\'") + '\')">' +
+            '<img class="fish-card__image lazy" data-src="' + _escAttr(fish.image) + '" src="data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'200\' height=\'120\'%3E%3Crect fill=\'%230d1b2a\' width=\'200\' height=\'120\' rx=\'4\'/%3E%3C/svg%3E" alt="' + _escAttr(fish.name) + '" loading="lazy" onerror="this.src=_fishFallbackSvg(\'' + _escAttr(fish.name).replace(/'/g, "\\'") + '\')">' +
             '<div class="fish-card__body">' +
                 '<div class="fish-card__name">' + _esc(fish.name) + '</div>' +
                 '<span class="fish-card__category fish-card__category--' + _escAttr(fish.category) + '">' + categoryLabel + '</span>' +
@@ -56,6 +56,27 @@ function renderFishList(container, fishData, onSelect) {
 
     grid.appendChild(fragment);
     container.appendChild(grid);
+
+    // IntersectionObserver for lazy loading images
+    var imageObserver = new IntersectionObserver(function(entries, observer) {
+        entries.forEach(function(entry) {
+            if (entry.isIntersecting) {
+                var img = entry.target;
+                if (img.dataset.src) {
+                    img.src = img.dataset.src;
+                    img.removeAttribute('data-src');
+                    img.classList.remove('lazy');
+                }
+                observer.unobserve(img);
+            }
+        });
+    }, {
+        rootMargin: '100px 0px'
+    });
+
+    grid.querySelectorAll('img.lazy').forEach(function(img) {
+        imageObserver.observe(img);
+    });
 }
 
 /**

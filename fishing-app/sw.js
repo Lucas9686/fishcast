@@ -7,7 +7,7 @@
  */
 
 // HINWEIS: Cache-Version auch in config.js aktualisieren (CONFIG.CACHE_NAME)
-const CACHE_VERSION = 'v3';
+const CACHE_VERSION = 'v4';
 const CACHE_NAME = 'petri-heil-' + CACHE_VERSION;
 const API_CACHE_NAME = 'petri-heil-api-' + CACHE_VERSION;
 
