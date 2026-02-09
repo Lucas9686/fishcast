@@ -3,6 +3,62 @@
  * Provides: renderFishList, renderFishDetail, renderFishSearch
  */
 
+// Filter constants
+var SALTWATER_TYPES = ['meer', 'kueste', 'brackwasser'];
+var FRESHWATER_TYPES = ['fluss', 'see', 'bach', 'teich'];
+var EDIBILITY_THRESHOLD = 3;
+
+/**
+ * Check if fish matches water type filter.
+ * @param {FishSpecies} fish - Fish to check
+ * @param {boolean} saltwater - Saltwater filter enabled
+ * @param {boolean} freshwater - Freshwater filter enabled
+ * @returns {boolean}
+ */
+function matchesWaterTypeFilter(fish, saltwater, freshwater) {
+    if (!saltwater && !freshwater) return true;
+    if (!fish.waterTypes || !Array.isArray(fish.waterTypes)) return false;
+    var matchesSalt = saltwater && fish.waterTypes.some(function(t) { return SALTWATER_TYPES.indexOf(t) !== -1; });
+    var matchesFresh = freshwater && fish.waterTypes.some(function(t) { return FRESHWATER_TYPES.indexOf(t) !== -1; });
+    return matchesSalt || matchesFresh;
+}
+
+/**
+ * Check if fish matches season filter (current month).
+ * @param {FishSpecies} fish - Fish to check
+ * @param {boolean} enabled - Season filter enabled
+ * @returns {boolean}
+ */
+function matchesSeasonFilter(fish, enabled) {
+    if (!enabled) return true;
+    if (!fish.season || !fish.season.bestMonths) return false;
+    var currentMonth = new Date().getMonth() + 1;
+    return fish.season.bestMonths.indexOf(currentMonth) !== -1;
+}
+
+/**
+ * Check if fish matches edibility filter.
+ * @param {FishSpecies} fish - Fish to check
+ * @param {boolean} enabled - Edibility filter enabled
+ * @returns {boolean}
+ */
+function matchesEdibilityFilter(fish, enabled) {
+    if (!enabled) return true;
+    if (!fish.edibility) return false;
+    return fish.edibility.rating >= EDIBILITY_THRESHOLD;
+}
+
+/**
+ * Format result count with German grammar.
+ * @param {number} count - Number of results
+ * @returns {string}
+ */
+function formatResultCount(count) {
+    if (count === 0) return 'Keine Arten gefunden';
+    if (count === 1) return '1 Art gefunden';
+    return count + ' Arten gefunden';
+}
+
 /**
  * Render a grid of fish cards into the given container.
  * @param {HTMLElement} container - Target container element
@@ -285,6 +341,16 @@ function renderFishDetail(container, fish, catchProb, isFav, onFavToggle) {
 function renderFishSearch(container, fishData, onFilter) {
     container.innerHTML = '';
 
+    // Centralized filter state
+    var filterState = {
+        searchText: '',
+        category: 'alle',
+        saltwater: false,
+        freshwater: false,
+        seasonEnabled: false,
+        edibilityEnabled: false
+    };
+
     var searchBar = document.createElement('div');
     searchBar.className = 'fish-search-bar';
 
@@ -297,9 +363,86 @@ function renderFishSearch(container, fishData, onFilter) {
     searchBar.appendChild(input);
     container.appendChild(searchBar);
 
+    // New filter row with toggle buttons
+    var filterRow = document.createElement('div');
+    filterRow.className = 'fish-filter-row';
+
+    // Store button references for clear-all
+    var filterButtons = [];
+
+    // Helper to wire filter toggle buttons
+    function wireFilterButton(btn, stateKey) {
+        filterButtons.push(btn);
+        btn.setAttribute('aria-pressed', 'false');
+        btn.addEventListener('click', function() {
+            filterState[stateKey] = !filterState[stateKey];
+            btn.classList.toggle('active');
+            btn.setAttribute('aria-pressed', String(filterState[stateKey]));
+            applyFilter();
+        });
+    }
+
+    // Freshwater button
+    var freshwaterBtn = document.createElement('button');
+    freshwaterBtn.className = 'fish-filter-btn';
+    freshwaterBtn.textContent = 'Suesswasser';
+    wireFilterButton(freshwaterBtn, 'freshwater');
+    filterRow.appendChild(freshwaterBtn);
+
+    // Saltwater button
+    var saltwaterBtn = document.createElement('button');
+    saltwaterBtn.className = 'fish-filter-btn';
+    saltwaterBtn.textContent = 'Salzwasser';
+    wireFilterButton(saltwaterBtn, 'saltwater');
+    filterRow.appendChild(saltwaterBtn);
+
+    // Season button with current month
+    var monthName = new Date().toLocaleDateString('de-DE', { month: 'long' });
+    var seasonBtn = document.createElement('button');
+    seasonBtn.className = 'fish-filter-btn';
+    seasonBtn.textContent = 'Was beisst jetzt? (' + monthName + ')';
+    wireFilterButton(seasonBtn, 'seasonEnabled');
+    filterRow.appendChild(seasonBtn);
+
+    // Edibility button
+    var edibilityBtn = document.createElement('button');
+    edibilityBtn.className = 'fish-filter-btn';
+    edibilityBtn.textContent = 'Essbar';
+    wireFilterButton(edibilityBtn, 'edibilityEnabled');
+    filterRow.appendChild(edibilityBtn);
+
+    // Reset/Clear-all button
+    var resetBtn = document.createElement('button');
+    resetBtn.className = 'fish-filter-btn fish-filter-btn--reset';
+    resetBtn.textContent = 'Zuruecksetzen';
+    resetBtn.style.display = 'none';
+    resetBtn.addEventListener('click', function() {
+        filterState.searchText = '';
+        filterState.category = 'alle';
+        filterState.saltwater = false;
+        filterState.freshwater = false;
+        filterState.seasonEnabled = false;
+        filterState.edibilityEnabled = false;
+        input.value = '';
+        activeCategory = 'alle';
+        // Remove active class and reset aria-pressed on all filter buttons
+        filterButtons.forEach(function(btn) {
+            btn.classList.remove('active');
+            btn.setAttribute('aria-pressed', 'false');
+        });
+        // Reset category buttons to 'alle' active state
+        categoryFilterBar.querySelectorAll('.fish-category-btn').forEach(function (b) {
+            b.classList.toggle('active', b.getAttribute('data-category') === 'alle');
+        });
+        applyFilter();
+    });
+    filterRow.appendChild(resetBtn);
+
+    container.appendChild(filterRow);
+
     // Category filters
-    var filterBar = document.createElement('div');
-    filterBar.className = 'fish-category-filters';
+    var categoryFilterBar = document.createElement('div');
+    categoryFilterBar.className = 'fish-category-filters';
 
     var categories = [
         { id: 'alle', label: 'Alle' },
@@ -319,28 +462,54 @@ function renderFishSearch(container, fishData, onFilter) {
         btn.setAttribute('data-category', cat.id);
         btn.addEventListener('click', function () {
             activeCategory = cat.id;
-            filterBar.querySelectorAll('.fish-category-btn').forEach(function (b) {
+            filterState.category = cat.id;
+            categoryFilterBar.querySelectorAll('.fish-category-btn').forEach(function (b) {
                 b.classList.toggle('active', b.getAttribute('data-category') === cat.id);
             });
             applyFilter();
         });
-        filterBar.appendChild(btn);
+        categoryFilterBar.appendChild(btn);
     });
 
-    container.appendChild(filterBar);
+    container.appendChild(categoryFilterBar);
 
-    // Filter logic
+    // Result counter
+    var resultCounter = document.createElement('div');
+    resultCounter.className = 'fish-result-counter';
+    resultCounter.setAttribute('aria-live', 'polite');
+    resultCounter.setAttribute('aria-atomic', 'true');
+    resultCounter.textContent = formatResultCount(fishData.length);
+    container.appendChild(resultCounter);
+
+    // Filter logic with all dimensions
     function applyFilter() {
-        var query = input.value.trim().toLowerCase();
-        var filtered = fishData.filter(function (fish) {
-            var matchesCategory = activeCategory === 'alle' || fish.category === activeCategory;
-            var matchesSearch = !query ||
-                fish.name.toLowerCase().indexOf(query) !== -1 ||
-                fish.scientificName.toLowerCase().indexOf(query) !== -1 ||
-                fish.family.toLowerCase().indexOf(query) !== -1 ||
-                (fish.nicknames && fish.nicknames.some(function(n) { return n.toLowerCase().indexOf(query) !== -1; }));
-            return matchesCategory && matchesSearch;
+        filterState.searchText = input.value.trim().toLowerCase();
+        filterState.category = activeCategory;
+
+        var filtered = fishData.filter(function(fish) {
+            var matchesCategory = filterState.category === 'alle' || fish.category === filterState.category;
+            var matchesSearch = !filterState.searchText ||
+                fish.name.toLowerCase().indexOf(filterState.searchText) !== -1 ||
+                fish.scientificName.toLowerCase().indexOf(filterState.searchText) !== -1 ||
+                fish.family.toLowerCase().indexOf(filterState.searchText) !== -1 ||
+                (fish.nicknames && fish.nicknames.some(function(n) { return n.toLowerCase().indexOf(filterState.searchText) !== -1; }));
+            var matchesWater = matchesWaterTypeFilter(fish, filterState.saltwater, filterState.freshwater);
+            var matchesSeason = matchesSeasonFilter(fish, filterState.seasonEnabled);
+            var matchesEdibility = matchesEdibilityFilter(fish, filterState.edibilityEnabled);
+
+            return matchesCategory && matchesSearch && matchesWater && matchesSeason && matchesEdibility;
         });
+
+        // Update result counter
+        resultCounter.textContent = formatResultCount(filtered.length);
+
+        // Show/hide reset button
+        var anyFilterActive = filterState.category !== 'alle' ||
+            filterState.searchText !== '' ||
+            filterState.saltwater || filterState.freshwater ||
+            filterState.seasonEnabled || filterState.edibilityEnabled;
+        resetBtn.style.display = anyFilterActive ? '' : 'none';
+
         onFilter(filtered);
     }
 
