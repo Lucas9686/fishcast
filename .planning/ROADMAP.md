@@ -115,10 +115,11 @@ Plans:
   3. User installs app as PWA on mobile device from browser
   4. User's last selected location and location history persist across sessions
   5. App monitors storage quota and prevents exceeding device limits with 200+ fish species images
-**Plans**: TBD
+**Plans**: 2 plans
 
 Plans:
-- [ ] 06-01: TBD during planning
+- [ ] 06-01-PLAN.md -- SW v6 fish image caching + offline banner + weather cache timestamp
+- [ ] 06-02-PLAN.md -- PWA manifest PNG icons + storage quota monitoring + human verification
 
 ## Progress
 
