@@ -107,7 +107,6 @@ const CONFIG = {
     SECTIONS: {
         WEATHER: 'section-weather',
         FISH: 'section-fish',
-        FORECAST: 'section-forecast',
         FAVORITES: 'section-favorites'
     },
 
@@ -115,7 +114,6 @@ const CONFIG = {
     TABS: {
         WEATHER: 'tab-weather',
         FISH: 'tab-fish',
-        FORECAST: 'tab-forecast',
         FAVORITES: 'tab-favorites'
     },
 
