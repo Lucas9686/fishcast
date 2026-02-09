@@ -320,9 +320,6 @@ function renderFishDetail(container, fish, catchProb, isFav, onFavToggle) {
     if (favBtn && onFavToggle) {
         favBtn.addEventListener('click', function () {
             onFavToggle();
-            var isNowFav = favBtn.classList.toggle('is-favorite');
-            favBtn.innerHTML = isNowFav ? '&#9829;' : '&#9825;';
-            favBtn.setAttribute('aria-pressed', isNowFav ? 'true' : 'false');
         });
     }
 

@@ -1258,23 +1258,47 @@
     }
 
     async function toggleFavorite(fishId) {
+        var idx = favoriteIds.indexOf(fishId);
+        var wasAdding = idx === -1;
+
+        // Optimistic update: modify in-memory state FIRST
+        if (wasAdding) {
+            favoriteIds.push(fishId);
+        } else {
+            favoriteIds.splice(idx, 1);
+        }
+
+        // Update UI immediately (heart button in fish detail)
+        var favBtn = document.getElementById('fish-fav-btn');
+        if (favBtn) {
+            favBtn.classList.toggle('is-favorite', wasAdding);
+            favBtn.innerHTML = wasAdding ? '&#9829;' : '&#9825;';
+            favBtn.setAttribute('aria-pressed', String(wasAdding));
+        }
+
+        // Persist to IndexedDB asynchronously
         try {
-            var idx = favoriteIds.indexOf(fishId);
-            if (idx !== -1) {
-                await removeFavorite(fishId);
-                favoriteIds.splice(idx, 1);
-            } else {
+            if (wasAdding) {
                 await addFavorite(fishId);
+            } else {
+                await removeFavorite(fishId);
+            }
+        } catch (e) {
+            // Rollback on error: revert in-memory state
+            if (wasAdding) {
+                var rollbackIdx = favoriteIds.indexOf(fishId);
+                if (rollbackIdx !== -1) favoriteIds.splice(rollbackIdx, 1);
+            } else {
                 favoriteIds.push(fishId);
             }
 
-            // Update aria-pressed on favorite button
-            var favBtn = document.getElementById('fish-fav-btn');
+            // Rollback UI
             if (favBtn) {
-                var isNowFav = favoriteIds.indexOf(fishId) !== -1;
-                favBtn.setAttribute('aria-pressed', isNowFav ? 'true' : 'false');
+                favBtn.classList.toggle('is-favorite', !wasAdding);
+                favBtn.innerHTML = !wasAdding ? '&#9829;' : '&#9825;';
+                favBtn.setAttribute('aria-pressed', String(!wasAdding));
             }
-        } catch (e) {
+
             console.error('Favorit-Aenderung fehlgeschlagen:', e);
         }
     }
