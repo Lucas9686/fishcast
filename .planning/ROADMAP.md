@@ -84,10 +84,10 @@ Plans:
   4. User types in search box and sees real-time results matching German or Latin names
   5. User combines multiple filters (water type + season + edibility) and sees correct intersecting results
   6. User sees count of results ("23 species found") as they adjust filters
-**Plans**: TBD
+**Plans**: 1 plan
 
 Plans:
-- [ ] 04-01: TBD during planning
+- [ ] 04-01-PLAN.md -- Filter logic (water type/season/edibility) + UI + CSS + human verification
 
 ### Phase 5: Navigation & Favorites
 **Goal**: Users can navigate efficiently between Weather/Fish/Favorites tabs and save favorite fish for quick access
