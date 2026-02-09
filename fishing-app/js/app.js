@@ -26,6 +26,22 @@
     const $ = (id) => document.getElementById(id);
 
     // ============================================================
+    // Hash Routing
+    // ============================================================
+    // Hash routing maps
+    var HASH_TO_TAB = {
+        '#weather': { tab: 'tab-weather', section: 'section-weather' },
+        '#fish': { tab: 'tab-fish', section: 'section-fish' },
+        '#favorites': { tab: 'tab-favorites', section: 'section-favorites' }
+    };
+    var SECTION_TO_HASH = {
+        'section-weather': '#weather',
+        'section-fish': '#fish',
+        'section-favorites': '#favorites'
+    };
+    var _suppressHashUpdate = false;
+
+    // ============================================================
     // Theme Toggle
     // ============================================================
     var THEME_MODES = ['dark', 'light', 'auto'];
@@ -189,6 +205,27 @@
         // Setup tab navigation
         setupTabs();
 
+        // Hash-based routing: restore tab from URL on load
+        var initialRoute = HASH_TO_TAB[window.location.hash];
+        if (initialRoute) {
+            switchTab(initialRoute.tab, initialRoute.section);
+        }
+
+        // Listen for browser back/forward navigation
+        window.addEventListener('hashchange', function() {
+            var route = HASH_TO_TAB[window.location.hash];
+            if (route) {
+                // Avoid pushing duplicate history entry
+                var currentSection = document.querySelector('.section.active');
+                if (currentSection && currentSection.id !== route.section) {
+                    // Temporarily disable hash push in switchTab
+                    _suppressHashUpdate = true;
+                    switchTab(route.tab, route.section);
+                    _suppressHashUpdate = false;
+                }
+            }
+        });
+
         // Setup theme toggle
         new ThemeToggle();
 
@@ -321,6 +358,14 @@
 
         // Scroll content to top smoothly
         window.scrollTo({ top: 0, behavior: 'smooth' });
+
+        // Update URL hash for bookmarkability
+        if (!_suppressHashUpdate) {
+            var newHash = SECTION_TO_HASH[sectionId];
+            if (newHash && window.location.hash !== newHash) {
+                history.pushState(null, '', newHash);
+            }
+        }
 
         // Special: refresh favorites
         if (sectionId === CONFIG.SECTIONS.FAVORITES) {
