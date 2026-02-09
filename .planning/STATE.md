@@ -5,23 +5,23 @@
 See: .planning/PROJECT.md (updated 2026-02-07)
 
 **Core value:** Angler sehen auf einen Blick, ob das Wetter heute gut zum Angeln ist und welche Fische bei den aktuellen Bedingungen beißen - alles in einer App, auch ohne Internet.
-**Current focus:** Phase 4 complete, ready for Phase 5 - Navigation & Favorites
+**Current focus:** Phase 5 complete, ready for Phase 6 - Offline Enhancement
 
 ## Current Position
 
-Phase: 5 of 6 (Navigation & Favorites)
-Plan: 1 of 2 — COMPLETE
-Status: In progress
-Last activity: 2026-02-09 — Completed 05-01-PLAN.md
+Phase: 5 of 6 (Navigation & Favorites) — COMPLETE
+Plan: 2 of 2 — COMPLETE
+Status: Phase 5 verified and complete. Ready for Phase 6.
+Last activity: 2026-02-09 — Phase 5 complete (2/2 plans, verified)
 
-Progress: [███████░░░] 72% (13 of 18 plans complete)
+Progress: [████████░░] 83% (Phase 5 of 6 complete)
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 13
-- Average duration: 11.0min
-- Total execution time: 2.45 hours
+- Total plans completed: 14
+- Average duration: 10.4min
+- Total execution time: 2.52 hours
 
 **By Phase:**
 
@@ -31,11 +31,11 @@ Progress: [███████░░░] 72% (13 of 18 plans complete)
 | 02-dark-marine-theme | 2/2 | 14min | 7.0min |
 | 03-fish-catalog-expansion | 5/5 | 98min | 19.6min |
 | 04-filter-search-system | 1/1 | 8min | 8.0min |
-| 05-navigation-favorites | 1/2 | 4min | 4.0min |
+| 05-navigation-favorites | 2/2 | 7min | 3.5min |
 
 **Recent Trend:**
-- Last 5 plans: 03-04 (69min), 03-05 (5min), 04-01 (8min), 05-01 (4min)
-- Trend: UI enhancement plans consistently fast (4-8min)
+- Last 5 plans: 03-05 (5min), 04-01 (8min), 05-01 (4min), 05-02 (3min)
+- Trend: UI enhancement plans consistently fast (3-8min)
 
 *Updated after each plan completion*
 
@@ -49,7 +49,7 @@ Recent decisions affecting current work:
 - Auf bestehender App aufbauen — Spart Entwicklungszeit, bewährte Architektur (Pending)
 - Dunkles Marine-Design — Passt zum Angel-/Meeres-Thema, angenehm bei frühem Morgen (Active)
 - Fisch-Daten fest eingebaut — Offline-Verfügbarkeit garantiert, kein Server nötig (Active)
-- Bottom Tab Bar — Standard Mobile-Navigation, schneller Wechsel zwischen Seiten (Pending)
+- Bottom Tab Bar — Standard Mobile-Navigation, schneller Wechsel zwischen Seiten (Active)
 - Open-Meteo beibehalten (vorbehaltlich Recherche) — Kostenlos, kein API-Key, gute Marine-Daten, bereits integriert (Pending)
 
 **From 03-01 (Fish Catalog UI Extension):**
@@ -66,7 +66,7 @@ Recent decisions affecting current work:
 **From 03-05 (Integration):**
 - IntersectionObserver lazy loading — data-src swap with 100px rootMargin preload (Active)
 - Dark placeholder SVG (#0d1b2a) — Prevents white flash in dark marine theme (Active)
-- Service worker cache v4 — Forces refresh for new fish data (Active)
+- Service worker cache v4 — Forces refresh for new fish data (Superseded by v5)
 
 **From 04-01 (Filter & Search System):**
 - Water type filter uses OR logic within type (freshwater OR saltwater), but AND with other filters (Active)
@@ -80,6 +80,11 @@ Recent decisions affecting current work:
 - Hash-based routing with history.pushState — Enables bookmarkable URLs and back-button navigation without page reload (Active)
 - _suppressHashUpdate flag to prevent infinite loops — Hashchange listener calls switchTab which would push history again (Active)
 
+**From 05-02 (Optimistic Favorites Toggle):**
+- Optimistic UI toggle with rollback on IndexedDB failure — Instant feedback eliminates perceptible delay (Active)
+- Single UI update point in toggleFavorite — Prevents double-toggle between app.js and fish-ui.js (Active)
+- Service worker cache v5 — Forces refresh for 3-tab layout and optimistic favorites (Active)
+
 ### Pending Todos
 
 None yet.
@@ -90,9 +95,9 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-02-09 (plan execution)
-Stopped at: Completed 05-01-PLAN.md
+Last session: 2026-02-09 (plan execution + verification)
+Stopped at: Completed 05-02-PLAN.md. Phase 5 complete (2/2 plans).
 Resume file: None
 
-**Phase 5 Status:** IN PROGRESS — 1/2 plans done, tab navigation with hash routing complete
-**Next Steps:** 05-02-PLAN.md — Favorites UI implementation
+**Phase 5 Status:** COMPLETE — 2/2 plans done, navigation + favorites verified (10/10 must-haves)
+**Next Steps:** Phase 6 (Offline Enhancement) — /gsd:discuss-phase 6
