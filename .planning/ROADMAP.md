@@ -99,10 +99,11 @@ Plans:
   3. User taps heart icon on any fish and it saves to favorites
   4. User opens Favorites tab and sees all saved fish with quick access to details
   5. Favorites persist across app sessions and work offline
-**Plans**: TBD
+**Plans**: 2 plans
 
 Plans:
-- [ ] 05-01: TBD during planning
+- [ ] 05-01-PLAN.md -- Tab consolidation (4->3 tabs) + hash-based URL routing
+- [ ] 05-02-PLAN.md -- Optimistic favorites toggle + service worker v5 + human verification
 
 ### Phase 6: Offline Enhancement
 **Goal**: App works reliably offline with optimized storage management and intelligent caching strategies
