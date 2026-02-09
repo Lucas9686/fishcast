@@ -308,6 +308,7 @@ a {
 /* Button Press Feedback */
 .btn-icon:active,
 .fish-category-btn:active,
+.fish-filter-btn:active,
 .location-bar__results li:active {
     transform: scale(0.96);
 }
@@ -1261,6 +1262,70 @@ a {
 .fish-category-btn:hover:not(.active) {
     border-color: var(--color-primary-light);
     color: var(--color-primary);
+}
+
+/* Fish Filter Row */
+.fish-filter-row {
+    display: flex;
+    gap: 6px;
+    overflow-x: auto;
+    padding: 0 0 4px;
+    scrollbar-width: none;
+}
+
+.fish-filter-row::-webkit-scrollbar {
+    display: none;
+}
+
+/* Fish Filter Toggle Buttons */
+.fish-filter-btn {
+    height: 36px;
+    padding: 0 14px;
+    border-radius: 18px;
+    border: 1.5px solid var(--color-border);
+    background: transparent;
+    color: var(--color-text-secondary);
+    font-size: 0.85rem;
+    font-family: inherit;
+    cursor: pointer;
+    white-space: nowrap;
+    flex-shrink: 0;
+    transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
+
+.fish-filter-btn.active {
+    background: var(--color-primary);
+    color: var(--color-text-inverse);
+    border-color: var(--color-primary);
+}
+
+.fish-filter-btn:hover:not(.active) {
+    border-color: var(--color-primary-light);
+    color: var(--color-primary);
+}
+
+.fish-filter-btn:active {
+    transform: scale(0.96);
+}
+
+/* Reset Button Variant */
+.fish-filter-btn--reset {
+    border-color: var(--color-accent);
+    color: var(--color-accent);
+}
+
+.fish-filter-btn--reset:hover {
+    background: var(--color-accent);
+    color: var(--color-text-inverse);
+    border-color: var(--color-accent);
+}
+
+/* Result Counter */
+.fish-result-counter {
+    font-size: 0.82rem;
+    color: var(--color-text-secondary);
+    padding: 6px 0 2px;
+    text-align: left;
 }
 
 /* Fish Grid */
