@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="theme-color" content="#0d1b2a">
+    <meta name="description" content="Petri Heil - Angel-Wetter &amp; Fangprognose App">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="color-scheme" content="light dark">
+    <title>Petri Heil - Angel-Wetter &amp; Fangprognose</title>
+
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/svg+xml" href="images/icon.svg">
+    <link rel="apple-touch-icon" href="images/icon.svg">
+
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+          integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+          crossorigin="">
+
+    <!-- Theme: anti-flicker (must run before CSS) -->
+    <script>
+      (function() {
+        var stored = localStorage.getItem('theme');
+        var theme = stored || 'auto';
+        if (theme === 'auto') {
+          var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          document.documentElement.setAttribute('data-theme', prefersDark ? 'dark' : 'light');
+        } else {
+          document.documentElement.setAttribute('data-theme', theme);
+        }
+      })();
+    </script>
+
+    <!-- App CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <a href="#section-weather" class="skip-link">Zum Inhalt springen</a>
+
+    <!-- ========== TOP BAR: Standort ========== -->
+    <header class="top-bar">
+        <div class="top-bar__inner">
+            <span class="top-bar__brand">Petri Heil</span>
+            <div class="location-bar">
+                <div class="location-bar__search">
+                    <svg class="icon icon--search" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
+                        <circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/>
+                        <line x1="16.5" y1="16.5" x2="21" y2="21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                    <input type="search" id="location-search" class="location-bar__input"
+                           placeholder="Ort suchen..." autocomplete="off" aria-label="Ort suchen">
+                    <ul id="search-results" class="location-bar__results" role="listbox" hidden></ul>
+                </div>
+                <button id="btn-gps" class="btn-icon" aria-label="Aktuellen Standort verwenden" title="GPS-Standort">
+                    <svg class="icon icon--gps" viewBox="0 0 24 24" width="22" height="22" aria-hidden="true">
+                        <circle cx="12" cy="12" r="3" fill="currentColor"/>
+                        <circle cx="12" cy="12" r="8" fill="none" stroke="currentColor" stroke-width="2"/>
+                        <line x1="12" y1="1" x2="12" y2="4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        <line x1="12" y1="20" x2="12" y2="23" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        <line x1="1" y1="12" x2="4" y2="12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        <line x1="20" y1="12" x2="23" y2="12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                </button>
+                <button id="btn-map-toggle" class="btn-icon" aria-label="Karte einblenden" title="Karte ein-/ausblenden">
+                    <svg class="icon icon--map" viewBox="0 0 24 24" width="22" height="22" aria-hidden="true">
+                        <polygon points="1,6 1,22 8,18 16,22 23,18 23,2 16,6 8,2" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                        <line x1="8" y1="2" x2="8" y2="18" stroke="currentColor" stroke-width="2"/>
+                        <line x1="16" y1="6" x2="16" y2="22" stroke="currentColor" stroke-width="2"/>
+                    </svg>
+                </button>
+                <button id="btn-theme-toggle" class="btn-icon btn-theme-toggle" aria-label="Theme wechseln" title="Theme wechseln">
+                    🔄
+                </button>
+            </div>
+            <div id="current-location" class="location-bar__current">Standort wird geladen...</div>
+        </div>
+    </header>
+
+    <div id="loading-bar" class="loading-bar" hidden>
+        <div class="loading-bar__progress"></div>
+    </div>
+
+    <div id="offline-banner" class="offline-banner" hidden>
+        <span>Du bist offline - zeige gespeicherte Daten</span>
+        <button class="offline-banner__dismiss" aria-label="Schliessen">&times;</button>
+    </div>
+
+    <!-- ========== MAP CONTAINER ========== -->
+    <div id="map-container" class="map-container" hidden>
+        <div id="map" class="map-container__map"></div>
+    </div>
+
+    <!-- ========== MAIN CONTENT ========== -->
+    <main class="main-content">
+
+        <!-- ===== WETTER SECTION ===== -->
+        <section id="section-weather" class="section active">
+            <!-- Aktuelles Wetter -->
+            <div id="current-weather" class="card card--weather" aria-live="polite">
+                <div class="card__header">
+                    <h2>Aktuelles Wetter</h2>
+                    <span id="weather-time" class="card__meta" aria-live="polite"></span>
+                </div>
+                <div class="weather-current">
+                    <div class="weather-current__main">
+                        <span id="weather-icon" class="weather-current__icon skeleton-text">--</span>
+                        <span id="weather-temp" class="weather-current__temp skeleton-text">--°C</span>
+                        <span id="weather-desc" class="weather-current__desc skeleton-text">Laden...</span>
+                    </div>
+                    <div class="weather-current__details">
+                        <div class="weather-detail">
+                            <span class="weather-detail__label">Wind</span>
+                            <span id="weather-wind" class="weather-detail__value skeleton-text">-- km/h</span>
+                        </div>
+                        <div class="weather-detail">
+                            <span class="weather-detail__label">Luftdruck</span>
+                            <span id="weather-pressure" class="weather-detail__value skeleton-text">-- hPa</span>
+                        </div>
+                        <div class="weather-detail">
+                            <span class="weather-detail__label">Trend</span>
+                            <span id="weather-pressure-trend" class="weather-detail__value skeleton-text">--</span>
+                        </div>
+                        <div class="weather-detail">
+                            <span class="weather-detail__label">Feuchtigkeit</span>
+                            <span id="weather-humidity" class="weather-detail__value skeleton-text">--%</span>
+                        </div>
+                        <div class="weather-detail">
+                            <span class="weather-detail__label">Bewoelkung</span>
+                            <span id="weather-clouds" class="weather-detail__value skeleton-text">--%</span>
+                        </div>
+                        <div class="weather-detail">
+                            <span class="weather-detail__label">Niederschlag</span>
+                            <span id="weather-precip" class="weather-detail__value skeleton-text">-- mm</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sonne & Mond -->
+            <div class="card card--astro">
+                <div class="card__header"><h2>Sonne &amp; Mond</h2></div>
+                <div class="astro-grid">
+                    <div class="astro-item">
+                        <span class="astro-item__icon">🌅</span>
+                        <span class="astro-item__label">Aufgang</span>
+                        <span id="sun-rise" class="astro-item__value skeleton-text">--:--</span>
+                    </div>
+                    <div class="astro-item">
+                        <span class="astro-item__icon">🌇</span>
+                        <span class="astro-item__label">Untergang</span>
+                        <span id="sun-set" class="astro-item__value skeleton-text">--:--</span>
+                    </div>
+                    <div class="astro-item">
+                        <span id="moon-emoji" class="astro-item__icon">🌙</span>
+                        <span class="astro-item__label">Mondphase</span>
+                        <span id="moon-phase" class="astro-item__value skeleton-text">--</span>
+                    </div>
+                    <div class="astro-item">
+                        <span class="astro-item__icon">💡</span>
+                        <span class="astro-item__label">Beleuchtung</span>
+                        <span id="moon-illumination" class="astro-item__value skeleton-text">--%</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Fangprognose Kurzuebersicht -->
+            <div class="card card--catch-summary">
+                <div class="card__header"><h2>Fangprognose</h2></div>
+                <div class="catch-summary">
+                    <div class="catch-gauge" id="catch-gauge" role="status" aria-label="Fangprognose">
+                        <svg class="catch-gauge__svg" viewBox="0 0 120 120">
+                            <circle class="catch-gauge__bg" cx="60" cy="60" r="52" />
+                            <circle class="catch-gauge__fill" id="gauge-fill" cx="60" cy="60" r="52" />
+                        </svg>
+                        <div class="catch-gauge__text">
+                            <span id="catch-percent" class="catch-gauge__percent skeleton-text" aria-live="polite">--%</span>
+                            <span id="catch-label" class="catch-gauge__label skeleton-text">Laden...</span>
+                        </div>
+                    </div>
+                    <div class="catch-summary__details">
+                        <div id="catch-tip" class="catch-tip skeleton-text" aria-live="polite">Tipp wird geladen...</div>
+                        <div id="solunar-info" class="solunar-info">
+                            <span class="solunar-info__label">Solunar-Perioden:</span>
+                            <div id="solunar-periods" class="solunar-periods skeleton-text">--</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Stundliche Vorhersage -->
+            <div class="card card--hourly">
+                <div class="card__header"><h2>Naechste 24 Stunden</h2></div>
+                <div id="hourly-forecast" class="hourly-slider">
+                    <!-- Dynamisch befuellt -->
+                    <div class="skeleton-card"></div>
+                    <div class="skeleton-card"></div>
+                    <div class="skeleton-card"></div>
+                    <div class="skeleton-card"></div>
+                    <div class="skeleton-card"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== FISCHE SECTION ===== -->
+        <section id="section-fish" class="section">
+            <div id="fish-search-container" class="fish-search-container">
+                <!-- renderFishSearch fuellt diesen Container -->
+            </div>
+            <div id="fish-list-container" class="fish-list-container">
+                <!-- renderFishList fuellt diesen Container -->
+                <div class="fish-grid">
+                    <div class="skeleton-card skeleton-card--fish"></div>
+                    <div class="skeleton-card skeleton-card--fish"></div>
+                    <div class="skeleton-card skeleton-card--fish"></div>
+                    <div class="skeleton-card skeleton-card--fish"></div>
+                </div>
+            </div>
+            <div id="fish-detail-container" class="fish-detail-container" hidden>
+                <!-- renderFishDetail fuellt diesen Container -->
+            </div>
+        </section>
+
+        <!-- ===== VORHERSAGE SECTION ===== -->
+        <section id="section-forecast" class="section">
+            <div class="card">
+                <div class="card__header"><h2>7-Tage Vorhersage</h2></div>
+                <div id="daily-forecast" class="daily-forecast">
+                    <!-- Dynamisch befuellt -->
+                    <div class="skeleton-card skeleton-card--daily"></div>
+                    <div class="skeleton-card skeleton-card--daily"></div>
+                    <div class="skeleton-card skeleton-card--daily"></div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card__header"><h2>Fangprognose Details</h2></div>
+                <div id="forecast-catch-breakdown" class="catch-breakdown">
+                    <div class="catch-factor">
+                        <span class="catch-factor__label">Mondphase</span>
+                        <div class="catch-factor__bar"><div id="factor-moon" class="catch-factor__fill" style="width:0%"></div></div>
+                        <span id="factor-moon-val" class="catch-factor__val">--%</span>
+                    </div>
+                    <div class="catch-factor">
+                        <span class="catch-factor__label">Solunar</span>
+                        <div class="catch-factor__bar"><div id="factor-solunar" class="catch-factor__fill" style="width:0%"></div></div>
+                        <span id="factor-solunar-val" class="catch-factor__val">--%</span>
+                    </div>
+                    <div class="catch-factor">
+                        <span class="catch-factor__label">Luftdruck</span>
+                        <div class="catch-factor__bar"><div id="factor-pressure" class="catch-factor__fill" style="width:0%"></div></div>
+                        <span id="factor-pressure-val" class="catch-factor__val">--%</span>
+                    </div>
+                    <div class="catch-factor">
+                        <span class="catch-factor__label">Tageszeit</span>
+                        <div class="catch-factor__bar"><div id="factor-time" class="catch-factor__fill" style="width:0%"></div></div>
+                        <span id="factor-time-val" class="catch-factor__val">--%</span>
+                    </div>
+                    <div class="catch-factor">
+                        <span class="catch-factor__label">Bewoelkung</span>
+                        <div class="catch-factor__bar"><div id="factor-clouds" class="catch-factor__fill" style="width:0%"></div></div>
+                        <span id="factor-clouds-val" class="catch-factor__val">--%</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== FAVORITEN SECTION ===== -->
+        <section id="section-favorites" class="section">
+            <div class="card">
+                <div class="card__header"><h2>Meine Lieblingsfische</h2></div>
+                <div id="favorites-list" class="fish-grid">
+                    <p class="empty-state" id="favorites-empty">
+                        Noch keine Favoriten gespeichert. Tippe auf das Herz bei einem Fisch, um ihn hier zu sehen.
+                    </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card__header"><h2>Letzte Standorte</h2></div>
+                <ul id="location-history" class="location-history">
+                    <li class="empty-state">Noch keine Standorte im Verlauf.</li>
+                </ul>
+            </div>
+        </section>
+
+    </main>
+
+    <button id="btn-back-to-top" class="btn-back-to-top" aria-label="Nach oben scrollen" hidden>
+        <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
+            <polyline points="18 15 12 9 6 15" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+    </button>
+
+    <!-- ========== BOTTOM TAB NAV ========== -->
+    <nav class="tab-bar" role="tablist" aria-label="Hauptnavigation">
+        <button id="tab-weather" class="tab-bar__tab active" role="tab" aria-selected="true" aria-controls="section-weather">
+            <svg class="tab-bar__icon" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true">
+                <circle cx="12" cy="12" r="4" fill="currentColor"/>
+                <g stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                    <line x1="12" y1="2" x2="12" y2="5"/><line x1="12" y1="19" x2="12" y2="22"/>
+                    <line x1="2" y1="12" x2="5" y2="12"/><line x1="19" y1="12" x2="22" y2="12"/>
+                    <line x1="4.93" y1="4.93" x2="6.76" y2="6.76"/><line x1="17.24" y1="17.24" x2="19.07" y2="19.07"/>
+                    <line x1="4.93" y1="19.07" x2="6.76" y2="17.24"/><line x1="17.24" y1="6.76" x2="19.07" y2="4.93"/>
+                </g>
+            </svg>
+            <span class="tab-bar__label">Wetter</span>
+        </button>
+        <button id="tab-fish" class="tab-bar__tab" role="tab" aria-selected="false" aria-controls="section-fish">
+            <svg class="tab-bar__icon" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true">
+                <path d="M12 2C6 8 2 12 2 12s4 4 10 10c6-6 10-10 10-10S18 8 12 2z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                <circle cx="8" cy="12" r="1" fill="currentColor"/>
+            </svg>
+            <span class="tab-bar__label">Fische</span>
+        </button>
+        <button id="tab-forecast" class="tab-bar__tab" role="tab" aria-selected="false" aria-controls="section-forecast">
+            <svg class="tab-bar__icon" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true">
+                <rect x="3" y="4" width="18" height="16" rx="2" fill="none" stroke="currentColor" stroke-width="2"/>
+                <line x1="3" y1="10" x2="21" y2="10" stroke="currentColor" stroke-width="2"/>
+                <line x1="9" y1="4" x2="9" y2="10" stroke="currentColor" stroke-width="2"/>
+                <line x1="15" y1="4" x2="15" y2="10" stroke="currentColor" stroke-width="2"/>
+            </svg>
+            <span class="tab-bar__label">Vorhersage</span>
+        </button>
+        <button id="tab-favorites" class="tab-bar__tab" role="tab" aria-selected="false" aria-controls="section-favorites">
+            <svg class="tab-bar__icon" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true">
+                <path d="M12 21l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.18L12 21z" fill="none" stroke="currentColor" stroke-width="2"/>
+            </svg>
+            <span class="tab-bar__label">Favoriten</span>
+        </button>
+    </nav>
+
+    <!-- ========== SCRIPTS ========== -->
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+            crossorigin=""></script>
+
+    <!-- App JS (load order matters!) -->
+    <script src="js/config.js" defer></script>
+    <script src="js/utils.js" defer></script>
+    <script src="js/api.js" defer></script>
+    <script src="js/solunar.js" defer></script>
+    <script src="js/marine.js" defer></script>
+    <script src="js/sparkline.js" defer></script>
+    <script src="js/tidal-chart.js" defer></script>
+    <script src="js/storage.js" defer></script>
+    <script src="js/map.js" defer></script>
+    <script src="js/fish-ui.js" defer></script>
+    <script src="js/app.js" defer></script>
+</body>
+</html>

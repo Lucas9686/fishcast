@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" width="400" height="250">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2a3a3a"/>
+      <stop offset="100%" stop-color="#182828"/>
+    </linearGradient>
+    <linearGradient id="bodyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8a7a50"/>
+      <stop offset="60%" stop-color="#6a5a30"/>
+      <stop offset="100%" stop-color="#c8c0a0"/>
+    </linearGradient>
+    <linearGradient id="finGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8a7a58"/>
+      <stop offset="100%" stop-color="#6a5a30"/>
+    </linearGradient>
+    <clipPath id="bodyClip">
+      <path d="M 60,115 Q 50,105 55,90 Q 70,70 120,58 Q 180,48 250,55 Q 310,65 345,90 Q 358,105 358,125 Q 358,145 345,160 Q 310,185 250,195 Q 180,202 120,192 Q 70,180 55,160 Q 50,145 60,135 Z"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect width="400" height="250" fill="url(#bg)" rx="8"/>
+
+  <!-- Water shimmer -->
+  <g opacity="0.08">
+    <path d="M 0,180 Q 50,175 100,180 Q 150,185 200,180 Q 250,175 300,180 Q 350,185 400,180" stroke="#ffffff" stroke-width="1.5" fill="none"/>
+    <path d="M 0,200 Q 50,195 100,200 Q 150,205 200,200 Q 250,195 300,200 Q 350,205 400,200" stroke="#ffffff" stroke-width="1" fill="none"/>
+    <path d="M 0,220 Q 50,215 100,220 Q 150,225 200,220 Q 250,215 300,220 Q 350,225 400,220" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+  </g>
+  <path d="M 352,100 Q 372,75 388,62 Q 382,88 378,105 L 378,145 Q 382,162 388,188 Q 372,175 352,150 Q 354,125 352,100 Z" fill="url(#finGrad)" opacity="0.85"/>
+  <path d="M 80,62 Q 85,48 100,42 Q 150,32 220,30 Q 280,35 320,48 Q 340,58 345,70 Q 310,58 250,50 Q 180,45 120,50 Q 90,56 80,62 Z" fill="url(#finGrad)" opacity="0.85"/>
+  <path d="M 60,115 Q 50,105 55,90 Q 70,70 120,58 Q 180,48 250,55 Q 310,65 345,90 Q 358,105 358,125 Q 358,145 345,160 Q 310,185 250,195 Q 180,202 120,192 Q 70,180 55,160 Q 50,145 60,135 Z" fill="url(#bodyGrad)" stroke="#6a5a30" stroke-width="1"/>
+  <g clip-path="url(#bodyClip)"><circle cx="279.0454116416868" cy="94.14304073795014" r="6.561574431173134" fill="#e06030" opacity="0.5"/><circle cx="200.21070421704704" cy="96.5203815486979" r="6.086119799679286" fill="#e06030" opacity="0.5"/><circle cx="219.46619886118725" cy="128.72234598453187" r="4.735499061653703" fill="#e06030" opacity="0.5"/><circle cx="272.324882124427" cy="79.34852091286677" r="3.501447785363691" fill="#e06030" opacity="0.5"/><circle cx="115.84421341926296" cy="88.1178494405607" r="5.942458169197909" fill="#e06030" opacity="0.5"/><circle cx="256.8676436546897" cy="90.36380061706336" r="4.191704667968416" fill="#e06030" opacity="0.5"/><circle cx="279.8675297434859" cy="76.89385293188215" r="6.301558175999788" fill="#e06030" opacity="0.5"/><circle cx="278.7789197527742" cy="158.86477538466244" r="5.365838471717325" fill="#e06030" opacity="0.5"/><circle cx="136.44657182995397" cy="105.46101109707985" r="7.232888599967711" fill="#e06030" opacity="0.5"/><circle cx="263.7265515719538" cy="107.78598467732029" r="3.2442357463984117" fill="#e06030" opacity="0.5"/></g>
+  <path d="M 60,115 Q 50,105 55,90 Q 70,70 120,58 Q 180,48 250,55 Q 310,65 345,90 Q 358,105 358,125 Q 358,145 345,160 Q 310,185 250,195 Q 180,202 120,192 Q 70,180 55,160 Q 50,145 60,135 Z" fill="none" stroke="#8a7a50" stroke-width="0.5" opacity="0.15"/>
+  <path d="M 95,140 Q 75,155 70,172 Q 85,165 100,150 Z" fill="url(#finGrad)" opacity="0.75"/>
+  <path d="M 90,190 Q 95,205 120,212 Q 180,220 250,215 Q 310,205 340,188 Q 310,195 250,200 Q 180,205 120,200 Q 95,196 90,190 Z" fill="url(#finGrad)" opacity="0.8"/>
+  <path d="M 90,125 Q 150,122 220,125 Q 290,128 340,125" stroke="#8a7a50" stroke-width="0.8" fill="none" opacity="0.3" stroke-dasharray="3,3"/>
+  <circle cx="90" cy="95" r="9" fill="#1a1a1a"/>
+  <circle cx="90" cy="95" r="6.3" fill="#2a3a2a"/>
+  <circle cx="88" cy="93" r="2.25" fill="#ffffff" opacity="0.8"/>
+  <path d="M 55,108 Q 42,112 38,120 Q 42,130 55,132" stroke="#6a5a30" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <path d="M 108,80 Q 105,100 110,120" stroke="#6a5a30" stroke-width="1.5" fill="none" opacity="0.5"/>
+  <text x="200" y="242" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#ffffff" opacity="0.5" font-weight="600">Scholle</text>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="96" fill="#1a5e2a"/>
+  <g transform="translate(256,240)">
+    <!-- Fish body -->
+    <ellipse cx="0" cy="0" rx="120" ry="60" fill="#f5c842"/>
+    <!-- Fish tail -->
+    <polygon points="100,-10 150,-50 150,50 100,10" fill="#d4910a"/>
+    <!-- Fish eye -->
+    <circle cx="-60" cy="-15" r="15" fill="white"/>
+    <circle cx="-58" cy="-15" r="8" fill="#1a1a1a"/>
+    <!-- Fish fin -->
+    <polygon points="-10,-55 20,-90 50,-55" fill="#d4910a" opacity="0.8"/>
+    <!-- Fishing hook above -->
+    <line x1="-60" y1="-200" x2="-60" y2="-80" stroke="white" stroke-width="4" stroke-linecap="round"/>
+    <path d="M-60,-80 Q-60,-60 -45,-65 Q-30,-70 -35,-85" stroke="white" stroke-width="4" fill="none" stroke-linecap="round"/>
+  </g>
+  <!-- App name -->
+  <text x="256" y="420" text-anchor="middle" fill="white" font-family="Arial,sans-serif" font-size="56" font-weight="bold">PETRI HEIL</text>
+</svg>

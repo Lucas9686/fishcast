@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" width="400" height="250">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a3a5a"/>
+      <stop offset="100%" stop-color="#0a2848"/>
+    </linearGradient>
+    <linearGradient id="bodyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8a9aaa"/>
+      <stop offset="60%" stop-color="#6a7a8a"/>
+      <stop offset="100%" stop-color="#d8e0e8"/>
+    </linearGradient>
+    <linearGradient id="finGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7a8a9a"/>
+      <stop offset="100%" stop-color="#6a7a8a"/>
+    </linearGradient>
+    <clipPath id="bodyClip">
+      <path d="M 60,125 Q 40,105 50,85 Q 65,55 120,45 Q 180,35 240,50 Q 300,65 330,100 Q 340,115 340,125 Q 340,135 330,150 Q 300,185 240,200 Q 180,215 120,205 Q 65,195 50,165 Q 40,145 60,125 Z"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect width="400" height="250" fill="url(#bg)" rx="8"/>
+
+  <!-- Water shimmer -->
+  <g opacity="0.08">
+    <path d="M 0,180 Q 50,175 100,180 Q 150,185 200,180 Q 250,175 300,180 Q 350,185 400,180" stroke="#ffffff" stroke-width="1.5" fill="none"/>
+    <path d="M 0,200 Q 50,195 100,200 Q 150,205 200,200 Q 250,195 300,200 Q 350,205 400,200" stroke="#ffffff" stroke-width="1" fill="none"/>
+    <path d="M 0,220 Q 50,215 100,220 Q 150,225 200,220 Q 250,215 300,220 Q 350,225 400,220" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+  </g>
+  <path d="M 330,100 Q 355,65 380,50 Q 370,80 365,100 Q 365,125 Q 365,150 370,170 Q 355,185 330,150 Q 335,125 330,100 Z" fill="url(#finGrad)" opacity="0.85"/>
+  <path d="M 160,50 Q 170,15 200,10 Q 230,15 250,25 Q 260,35 270,50 Q 240,45 210,42 Q 180,42 160,50 Z" fill="url(#finGrad)" opacity="0.85"/>
+  <path d="M 60,125 Q 40,105 50,85 Q 65,55 120,45 Q 180,35 240,50 Q 300,65 330,100 Q 340,115 340,125 Q 340,135 330,150 Q 300,185 240,200 Q 180,215 120,205 Q 65,195 50,165 Q 40,145 60,125 Z" fill="url(#bodyGrad)" stroke="#6a7a8a" stroke-width="1"/>
+  <g clip-path="url(#bodyClip)"><circle cx="202.04717017425995" cy="97.29237341548769" r="3.681537710195514" fill="#2a2a2a" opacity="0.6"/><circle cx="147.7769021934318" cy="143.31776115228007" r="4.26953049106343" fill="#2a2a2a" opacity="0.6"/><circle cx="162.9916037979875" cy="117.66926681642053" r="4.878265213754336" fill="#2a2a2a" opacity="0.6"/><circle cx="120.4062364096699" cy="159.95891631991154" r="4.7712272541557414" fill="#2a2a2a" opacity="0.6"/><circle cx="273.93731596237706" cy="130.8581310660929" r="4.3038003638482945" fill="#2a2a2a" opacity="0.6"/><circle cx="252.60612121654765" cy="141.20913282447327" r="4.586138675188246" fill="#2a2a2a" opacity="0.6"/><circle cx="199.04650167665562" cy="100.03638157462636" r="4.9808850593628184" fill="#2a2a2a" opacity="0.6"/><circle cx="210.16703129297304" cy="152.41631108898972" r="2.1242346914436663" fill="#2a2a2a" opacity="0.6"/><circle cx="277.1660581140898" cy="82.8155887637371" r="2.510320574455386" fill="#2a2a2a" opacity="0.6"/><circle cx="292.98445783048896" cy="119.47618137517058" r="2.271056754231638" fill="#2a2a2a" opacity="0.6"/><circle cx="233.32816994352078" cy="138.86910445644747" r="2.4077405464032604" fill="#2a2a2a" opacity="0.6"/><circle cx="119.57150769006577" cy="111.59407015421166" r="3.120610525421282" fill="#2a2a2a" opacity="0.6"/><circle cx="279.25802731924637" cy="112.65123191383705" r="3.3723062171102463" fill="#c03020" opacity="0.5"/><circle cx="202.67775331307809" cy="135.07331952645046" r="2.076399391752961" fill="#c03020" opacity="0.5"/><circle cx="150.67341899405056" cy="122.52302625834903" r="1.853832120134623" fill="#c03020" opacity="0.5"/><circle cx="220.22679984511024" cy="96.07328051473439" r="1.7785511783307417" fill="#c03020" opacity="0.5"/><circle cx="202.87497811417592" cy="141.3749663490673" r="2.584406419205675" fill="#c03020" opacity="0.5"/><circle cx="142.5547982268735" cy="135.46564081911188" r="2.35230671046457" fill="#c03020" opacity="0.5"/><circle cx="166.7969720765724" cy="126.12238286617186" r="2.361486381126825" fill="#c03020" opacity="0.5"/><circle cx="213.543081933446" cy="88.56246283805739" r="1.541244209846154" fill="#c03020" opacity="0.5"/></g>
+  <path d="M 60,125 Q 40,105 50,85 Q 65,55 120,45 Q 180,35 240,50 Q 300,65 330,100 Q 340,115 340,125 Q 340,135 330,150 Q 300,185 240,200 Q 180,215 120,205 Q 65,195 50,165 Q 40,145 60,125 Z" fill="none" stroke="#8a9aaa" stroke-width="0.5" opacity="0.15"/>
+  <path d="M 100,145 Q 80,165 75,185 Q 90,175 110,160 Z" fill="url(#finGrad)" opacity="0.75"/>
+  <path d="M 150,195 Q 155,215 170,225 Q 175,215 165,200 Z" fill="url(#finGrad)" opacity="0.75"/>
+  <path d="M 240,200 Q 250,220 270,230 Q 280,225 290,210 Q 275,205 260,200 Z" fill="url(#finGrad)" opacity="0.8"/>
+  <path d="M 90,125 Q 150,122 220,125 Q 290,128 340,125" stroke="#8a9aaa" stroke-width="0.8" fill="none" opacity="0.3" stroke-dasharray="3,3"/>
+  <circle cx="95" cy="110" r="10" fill="#1a1a1a"/>
+  <circle cx="95" cy="110" r="7" fill="#2a3a2a"/>
+  <circle cx="93" cy="108" r="2.5" fill="#ffffff" opacity="0.8"/>
+  <path d="M 55,115 Q 45,118 42,125 Q 45,132 55,135" stroke="#6a7a8a" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <path d="M 113,95 Q 110,115 115,135" stroke="#6a7a8a" stroke-width="1.5" fill="none" opacity="0.5"/>
+  <text x="200" y="242" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#ffffff" opacity="0.5" font-weight="600">Meerforelle</text>
+</svg>
