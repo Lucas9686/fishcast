@@ -5,23 +5,23 @@
 See: .planning/PROJECT.md (updated 2026-02-07)
 
 **Core value:** Angler sehen auf einen Blick, ob das Wetter heute gut zum Angeln ist und welche Fische bei den aktuellen Bedingungen beißen - alles in einer App, auch ohne Internet.
-**Current focus:** Phase 3 in progress - Fish Catalog UI extended, ready for data expansion
+**Current focus:** Phase 3 complete, ready for Phase 4 - Filter & Search System
 
 ## Current Position
 
-Phase: 3 of 6 (Fish Catalog Expansion)
-Plan: 4 of 4 (Data Batch 3) — COMPLETE
-Status: Phase complete
-Last activity: 2026-02-07 — Completed 03-04-PLAN.md
+Phase: 3 of 6 (Fish Catalog Expansion) — COMPLETE
+Plan: All 5 plans executed and verified
+Status: Phase 3 verified and complete. Ready for Phase 4.
+Last activity: 2026-02-09 — Phase 3 complete (5/5 plans, 201 species, human-verified)
 
-Progress: [█████░░░░░] 50% (3.00/6 phases complete)
+Progress: [█████░░░░░] 50% (Phase 3 of 6 complete)
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 10
-- Average duration: 12.8min
-- Total execution time: 2.13 hours
+- Total plans completed: 11
+- Average duration: 12.2min
+- Total execution time: 2.24 hours
 
 **By Phase:**
 
@@ -29,11 +29,11 @@ Progress: [█████░░░░░] 50% (3.00/6 phases complete)
 |-------|-------|-------|----------|
 | 01-weather-enhancement | 4/4 | 19min | 4.8min |
 | 02-dark-marine-theme | 2/2 | 14min | 7.0min |
-| 03-fish-catalog-expansion | 4/4 | 93min | 23.3min |
+| 03-fish-catalog-expansion | 5/5 | 98min | 19.6min |
 
 **Recent Trend:**
-- Last 5 plans: 03-01 (2min), 03-02 (15min), 03-03 (7min), 03-04 (69min)
-- Trend: Phase 3 complete - data batch 3 took longer due to duplicate resolution
+- Last 5 plans: 03-02 (15min), 03-03 (7min), 03-04 (69min), 03-05 (5min)
+- Trend: Data batch plans vary widely; integration plans fast
 
 *Updated after each plan completion*
 
@@ -46,69 +46,25 @@ Recent decisions affecting current work:
 
 - Auf bestehender App aufbauen — Spart Entwicklungszeit, bewährte Architektur (Pending)
 - Dunkles Marine-Design — Passt zum Angel-/Meeres-Thema, angenehm bei frühem Morgen (Active)
-- Fisch-Daten fest eingebaut — Offline-Verfügbarkeit garantiert, kein Server nötig (Pending)
+- Fisch-Daten fest eingebaut — Offline-Verfügbarkeit garantiert, kein Server nötig (Active)
 - Bottom Tab Bar — Standard Mobile-Navigation, schneller Wechsel zwischen Seiten (Pending)
 - Open-Meteo beibehalten (vorbehaltlich Recherche) — Kostenlos, kein API-Key, gute Marine-Daten, bereits integriert (Pending)
 
-**From 01-01 (Data Layer Enhancements):**
-- Dynamic weight system for fishing scores — 7 factors inland, 9 coastal, both sum to 100% (Active)
-- Marine API coastal detection via probe — fetchMarineData returns {isCoastal: false} gracefully for inland (Active)
-- Tide extraction via peak detection — Marine API doesn't provide direct tide predictions, use wave_height maxima/minima (Active)
-- Backward compatibility maintained — Old CATCH_WEIGHTS still works, new system detected via typeof check (Active)
-- past_days: 1 for pressure history — Single API call returns 48h pressure data for sparkline graph (Active)
-
-**From 01-03 (UI Restructure):**
-- Thematic accordion groups locked — 5 groups: Wind & Wetter, Luftdruck, Sonne & Mond, Marine, Fangprognose (Active)
-- Marine group conditional rendering — Only displayed for coastal locations, no placeholder for inland (Active)
-- Canvas charts lazy rendering — Sparkline and tidal chart drawn on first expand to optimize initial load (Active)
-- Dynamic factor bars — Generated from breakdown keys, supports 7-9 factors automatically (Active)
-- Best fishing time integration — calculateBestFishingTime replaces static recommendations (Active)
-
-**From 01-04 (Integration + Testing):**
-- Service worker cache versioning — Bump version for forced cache updates (v1 → v2 → v3) (Active)
-- Marine API offline support — Marine API responses cached via service worker for offline coastal detection (Active)
-- Data structure validation pattern — Always use pressureHistory for sparkline, tides[i].tides for tidal chart (Active)
-
-**From 02-01 (CSS Marine Retheme):**
-- Dark as default theme — Dark marine (#0d1b2a) in :root, light mode via [data-theme="light"] (Active)
-- [data-theme] over media queries — User-controlled theme via localStorage instead of OS preference (Active)
-- Inline anti-flicker script — Synchronous script before CSS prevents FOUC on theme load (Active)
-- Turquoise glow effects — Card borders use rgba(0, 188, 212, 0.15) for marine aesthetic (Active)
-- Accordion speed 0.25s — Reduced from 0.35s for snappier interaction (Active)
-- Wave animation 20s duration — Slow background drift for marine ambiance without distraction (Active)
-
-**From 02-02 (Theme Toggle JS):**
-- Three-mode theme toggle — dark/light/auto cycling instead of simple binary toggle (Active)
-- Auto mode as default — Respects user's OS preference on first visit (Active)
-- Meta theme-color updates — Native mobile browser chrome matches app theme (#0d1b2a dark, #00bcd4 light) (Active)
-- Prototype-based classes — Feature modules use prototype pattern (ThemeToggle) (Active)
-- Prefers-reduced-motion checks — All decorative animations disabled when user prefers reduced motion (Active)
-- IntersectionObserver unobserve — Cards fade in once then stop observing for performance (Active)
-- AnimationEnd cleanup pattern — Event listeners removed after firing to prevent memory leaks (Active)
-
 **From 03-01 (Fish Catalog UI Extension):**
-- Edibility rating uses 1-5 star scale — Matches existing difficulty pattern for visual consistency (Active)
-- Preparation badges turquoise themed — rgba(0, 188, 212, 0.15) differentiates from bait badges while maintaining marine aesthetic (Active)
-- Backward compatible fish data rendering — Sections only render if fish.edibility or fish.habitatDetail exist (Active)
-- Conditional rendering pattern for optional fish data — check if (fish.property) before rendering HTML block (Active)
+- Edibility rating uses 1-5 star scale — Matches existing difficulty pattern (Active)
+- Preparation badges turquoise themed — Differentiates from bait badges (Active)
+- Backward compatible fish data rendering — Sections only render if data exists (Active)
 
-**From 03-02 (Data Batch 1):**
-- Batch import approach for large JSON updates — Node.js scripts safer than manual editing, enables validation (Active)
-- Species distribution strategy — 45% salzwasser (Adriatic focus), 24% friedfisch, 12% meeresfruechte, 10% raubfisch, 9% salmonide (Active)
-- Conservation awareness in data — Protected species marked with catchAndRelease: true and closedSeason documentation (Active)
-- All 112 species have complete edibility and habitatDetail — No optional fields, full data coverage for UI rendering (Active)
+**From 03-02 through 03-04 (Data Batches):**
+- 201 total species — salzwasser 90, friedfisch 48, raubfisch 28, meeresfruechte 20, salmonide 15 (Active)
+- Batch import via Node.js scripts — Safer than manual JSON editing for large datasets (Active)
+- Conservation awareness — Protected species marked, invasive species documented (Active)
+- Duplicate prevention — Automated ID verification during batch additions (Active)
 
-**From 03-03 (Data Batch 2):**
-- 162 total species achieved — Batch 2 added 50 species (25 saltwater, 5 Meeresfruechte, 20 freshwater) (Active)
-- Conservation-aware species selection — Included protected species (hundshai, dornhai, edelkrebs) with strict catch-and-release guidelines (Active)
-- Invasive species documentation — Gobies, American bass, American crayfish marked as "not return" with removal recommendations (Active)
-- Regional authenticity focus — Adriatic/Mediterranean saltwater species chosen for local relevance (Active)
-
-**From 03-04 (Data Batch 3):**
-- 201 total species achieved — Batch 3 added 39 species to exceed 200+ requirement (Active)
-- Balanced category distribution — Final: salzwasser 90, friedfisch 48, raubfisch 28, meeresfruechte 20, salmonide 15 (Active)
-- Duplicate prevention process — ID verification catches duplicates during batch additions (Active)
-- Node.js validation scripts — Automated checking for duplicates, missing fields, category distribution (Active)
+**From 03-05 (Integration):**
+- IntersectionObserver lazy loading — data-src swap with 100px rootMargin preload (Active)
+- Dark placeholder SVG (#0d1b2a) — Prevents white flash in dark marine theme (Active)
+- Service worker cache v4 — Forces refresh for new fish data (Active)
 
 ### Pending Todos
 
@@ -120,9 +76,9 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-02-07 (plan execution)
-Stopped at: Completed 03-04-PLAN.md - Data Batch 3 (Fish Catalog Expansion)
+Last session: 2026-02-09 (phase execution + verification)
+Stopped at: Phase 3 fully complete and verified. All 5 plans executed, 201 species confirmed.
 Resume file: None
 
-**Phase 3 Status:** COMPLETE — All 4 plans finished
-**Next Steps:** Begin Phase 4 (Performance & Polish)
+**Phase 3 Status:** COMPLETE — 5/5 plans done, 201 species, human-verified
+**Next Steps:** Phase 4 (Filter & Search System) — /gsd:discuss-phase 4

@@ -14,7 +14,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 
 - [x] **Phase 1: Weather Enhancement** - Comprehensive 7-day fishing weather with accordion UI
 - [x] **Phase 2: Dark Marine Theme** - Professional dark theme with mobile-optimized UI
-- [ ] **Phase 3: Fish Catalog Expansion** - 200+ species with detailed fishing information
+- [x] **Phase 3: Fish Catalog Expansion** - 200+ species with detailed fishing information
 - [ ] **Phase 4: Filter & Search System** - Multi-dimensional fish filtering and search
 - [ ] **Phase 5: Navigation & Favorites** - Bottom tab navigation and favorites management
 - [ ] **Phase 6: Offline Enhancement** - Robust offline capability with optimized storage
@@ -69,9 +69,9 @@ Plans:
 Plans:
 - [x] 03-01-PLAN.md -- Schema extension + UI: edibility/habitat rendering in fish-ui.js, CSS styles
 - [x] 03-02-PLAN.md -- Data batch 1: retrofit edibility on 62 existing + add ~50 new species (112 total)
-- [ ] 03-03-PLAN.md -- Data batch 2: add ~50 more species (Adriatic + freshwater)
-- [ ] 03-04-PLAN.md -- Data batch 3: add ~40+ species to reach 200+ total
-- [ ] 03-05-PLAN.md -- Integration: lazy loading, service worker bump, visual verification
+- [x] 03-03-PLAN.md -- Data batch 2: add ~50 more species (162 total)
+- [x] 03-04-PLAN.md -- Data batch 3: add ~40+ species to reach 200+ total (201 total)
+- [x] 03-05-PLAN.md -- Integration: lazy loading, service worker bump, visual verification
 
 ### Phase 4: Filter & Search System
 **Goal**: Users can quickly find relevant fish species through flexible filtering and text search
@@ -128,7 +128,7 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6
 |-------|----------------|--------|-----------|
 | 1. Weather Enhancement | 4/4 | Complete | 2026-02-07 |
 | 2. Dark Marine Theme | 2/2 | Complete | 2026-02-07 |
-| 3. Fish Catalog Expansion | 0/5 | Not started | - |
+| 3. Fish Catalog Expansion | 5/5 | Complete | 2026-02-09 |
 | 4. Filter & Search System | 0/TBD | Not started | - |
 | 5. Navigation & Favorites | 0/TBD | Not started | - |
 | 6. Offline Enhancement | 0/TBD | Not started | - |
