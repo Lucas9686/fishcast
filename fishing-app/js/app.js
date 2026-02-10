@@ -238,6 +238,23 @@
         // Setup map toggle
         setupMapToggle();
 
+        // Offline/Online detection
+        window.addEventListener('online', function() {
+            var banner = $('offline-banner');
+            if (banner) banner.hidden = true;
+        });
+
+        window.addEventListener('offline', function() {
+            var banner = $('offline-banner');
+            if (banner) banner.hidden = false;
+        });
+
+        // Check initial state
+        if (!navigator.onLine) {
+            var banner = $('offline-banner');
+            if (banner) banner.hidden = false;
+        }
+
         // Render fish section
         renderFishUI();
 
@@ -620,8 +637,7 @@
                 var cached = await getCachedWeather(locationKey);
                 if (cached && cached.data) {
                     currentWeather = cached.data;
-                    var cachedTime = new Date(cached.timestamp);
-                    var timeStr = cachedTime.getHours().toString().padStart(2, '0') + ':' + cachedTime.getMinutes().toString().padStart(2, '0');
+                    var relativeStr = formatRelativeTime(cached.timestamp);
 
                     // Set marine data to inland for offline fallback
                     currentMarineData = { isCoastal: false };
@@ -641,8 +657,17 @@
 
                     document.body.classList.add('loaded');
 
-                    // Show cached data note in weather time
-                    setTextContent('weather-time', 'Daten von ' + timeStr);
+                    // Show cached data note with relative time
+                    setTextContent('weather-time', 'Letzte Aktualisierung: ' + relativeStr);
+
+                    // Add staleness indicator if data is older than 6 hours
+                    var weatherTimeEl = $('weather-time');
+                    if (weatherTimeEl) {
+                        var ageMs = Date.now() - cached.timestamp;
+                        if (ageMs > 6 * 60 * 60 * 1000) {
+                            weatherTimeEl.classList.add('weather-time--stale');
+                        }
+                    }
                 }
             } catch (cacheErr) {
                 // Could not load cache either
