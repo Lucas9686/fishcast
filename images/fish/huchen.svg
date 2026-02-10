@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" width="400" height="250">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2a3a3a"/>
+      <stop offset="100%" stop-color="#182828"/>
+    </linearGradient>
+    <linearGradient id="bodyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8a6a5a"/>
+      <stop offset="60%" stop-color="#6a4a3a"/>
+      <stop offset="100%" stop-color="#d8c0b0"/>
+    </linearGradient>
+    <linearGradient id="finGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#a07060"/>
+      <stop offset="100%" stop-color="#6a4a3a"/>
+    </linearGradient>
+    <clipPath id="bodyClip">
+      <path d="M 40,120 Q 30,108 35,95 Q 50,70 100,60 Q 160,50 230,55 Q 300,60 345,85 Q 360,100 360,125 Q 360,150 345,165 Q 300,190 230,195 Q 160,200 100,190 Q 50,180 35,155 Q 30,142 40,130 Z"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect width="400" height="250" fill="url(#bg)" rx="8"/>
+
+  <!-- Water shimmer -->
+  <g opacity="0.08">
+    <path d="M 0,180 Q 50,175 100,180 Q 150,185 200,180 Q 250,175 300,180 Q 350,185 400,180" stroke="#ffffff" stroke-width="1.5" fill="none"/>
+    <path d="M 0,200 Q 50,195 100,200 Q 150,205 200,200 Q 250,195 300,200 Q 350,205 400,200" stroke="#ffffff" stroke-width="1" fill="none"/>
+    <path d="M 0,220 Q 50,215 100,220 Q 150,225 200,220 Q 250,215 300,220 Q 350,225 400,220" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+  </g>
+  <path d="M 355,95 Q 375,60 395,45 Q 385,75 380,95 L 380,125 L 380,155 Q 385,175 395,205 Q 375,190 355,155 Q 358,125 355,95 Z" fill="url(#finGrad)" opacity="0.85"/>
+  <path d="M 260,58 Q 270,25 290,18 Q 310,22 330,35 Q 340,50 345,65 Q 320,58 295,55 Q 270,55 260,58 Z" fill="url(#finGrad)" opacity="0.85"/>
+  <path d="M 40,120 Q 30,108 35,95 Q 50,70 100,60 Q 160,50 230,55 Q 300,60 345,85 Q 360,100 360,125 Q 360,150 345,165 Q 300,190 230,195 Q 160,200 100,190 Q 50,180 35,155 Q 30,142 40,130 Z" fill="url(#bodyGrad)" stroke="#6a4a3a" stroke-width="1"/>
+  <g clip-path="url(#bodyClip)"><circle cx="265.9275934578624" cy="119.65318841841273" r="5.9209562615178335" fill="#5a3a2a" opacity="0.5"/><circle cx="156.55505776246258" cy="122.63446815544889" r="3.644145186482403" fill="#5a3a2a" opacity="0.5"/><circle cx="216.03818321786434" cy="169.40959739153402" r="3.4989768210137653" fill="#5a3a2a" opacity="0.5"/><circle cx="135.1046410158503" cy="113.38484332967383" r="3.7018567227402266" fill="#5a3a2a" opacity="0.5"/><circle cx="159.9456551466806" cy="90.23367294294088" r="2.244234309023049" fill="#5a3a2a" opacity="0.5"/><circle cx="107.69073165734578" cy="112.01171006752276" r="5.4116738148945505" fill="#5a3a2a" opacity="0.5"/><circle cx="280.4539056886374" cy="167.44508647505936" r="5.034680342407913" fill="#5a3a2a" opacity="0.5"/><circle cx="181.94151387230522" cy="148.27156156965003" r="3.3876216590972814" fill="#5a3a2a" opacity="0.5"/><circle cx="250.50848448372287" cy="94.53322664084365" r="4.041501541396355" fill="#5a3a2a" opacity="0.5"/><circle cx="298.3837839915236" cy="108.67968978786746" r="4.459895717309694" fill="#5a3a2a" opacity="0.5"/><circle cx="200.99064397521522" cy="106.70880439671782" r="3.62698970766557" fill="#5a3a2a" opacity="0.5"/><circle cx="157.83928669853987" cy="162.85025804349218" r="3.5810641257944487" fill="#5a3a2a" opacity="0.5"/><circle cx="293.4173095896924" cy="145.49279501413946" r="5.85561927780764" fill="#5a3a2a" opacity="0.5"/><circle cx="260.1252541448039" cy="167.69431053987125" r="2.991954847753866" fill="#5a3a2a" opacity="0.5"/><circle cx="185.98495279031744" cy="117.09944284727482" r="3.6649434249351867" fill="#5a3a2a" opacity="0.5"/></g>
+  <path d="M 40,120 Q 30,108 35,95 Q 50,70 100,60 Q 160,50 230,55 Q 300,60 345,85 Q 360,100 360,125 Q 360,150 345,165 Q 300,190 230,195 Q 160,200 100,190 Q 50,180 35,155 Q 30,142 40,130 Z" fill="none" stroke="#8a6a5a" stroke-width="0.5" opacity="0.15"/>
+  <path d="M 90,140 Q 70,158 65,178 Q 80,170 100,155 Z" fill="url(#finGrad)" opacity="0.75"/>
+  <path d="M 155,190 Q 158,210 170,220 Q 176,210 170,195 Z" fill="url(#finGrad)" opacity="0.75"/>
+  <path d="M 260,195 Q 268,218 285,225 Q 300,218 310,195 Q 290,192 270,192 Z" fill="url(#finGrad)" opacity="0.8"/>
+  <path d="M 90,125 Q 150,122 220,125 Q 290,128 340,125" stroke="#8a6a5a" stroke-width="0.8" fill="none" opacity="0.3" stroke-dasharray="3,3"/>
+  <circle cx="75" cy="112" r="9" fill="#1a1a1a"/>
+  <circle cx="75" cy="112" r="6.3" fill="#2a3a2a"/>
+  <circle cx="73" cy="110" r="2.25" fill="#ffffff" opacity="0.8"/>
+  <path d="M 38,108 Q 22,112 18,125 Q 22,138 38,142" stroke="#6a4a3a" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <path d="M 93,97 Q 90,117 95,137" stroke="#6a4a3a" stroke-width="1.5" fill="none" opacity="0.5"/>
+  <text x="200" y="242" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#ffffff" opacity="0.5" font-weight="600">Huchen</text>
+</svg>

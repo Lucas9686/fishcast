@@ -1,0 +1,36 @@
+{
+    "name": "Petri Heil - Angel-Wetter & Fangprognose",
+    "short_name": "Petri Heil",
+    "description": "Angel-Wetter & Fangprognose App mit Solunar-Daten, Fischarten und 7-Tage Vorhersage",
+    "start_url": "./index.html",
+    "scope": "./",
+    "display": "standalone",
+    "orientation": "portrait-primary",
+    "theme_color": "#1a5e2a",
+    "background_color": "#f0f4f0",
+    "lang": "de",
+    "categories": ["weather", "sports"],
+    "display_override": ["standalone", "minimal-ui"],
+    "icons": [
+        {
+            "src": "images/icon.svg",
+            "sizes": "any",
+            "type": "image/svg+xml",
+            "purpose": "any maskable"
+        }
+    ],
+    "shortcuts": [
+        {
+            "name": "Wetter pruefen",
+            "short_name": "Wetter",
+            "url": "./index.html#section-weather",
+            "icons": [{"src": "images/icon.svg", "sizes": "any"}]
+        },
+        {
+            "name": "Fische suchen",
+            "short_name": "Fische",
+            "url": "./index.html#section-fish",
+            "icons": [{"src": "images/icon.svg", "sizes": "any"}]
+        }
+    ]
+}

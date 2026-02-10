@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" width="400" height="250">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a1a2a"/>
+      <stop offset="100%" stop-color="#001018"/>
+    </linearGradient>
+    <linearGradient id="bodyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3a3a3a"/>
+      <stop offset="60%" stop-color="#1a1a1a"/>
+      <stop offset="100%" stop-color="#808080"/>
+    </linearGradient>
+    <linearGradient id="finGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4a4a4a"/>
+      <stop offset="100%" stop-color="#1a1a1a"/>
+    </linearGradient>
+    <clipPath id="bodyClip">
+      <path d="M 30,115 Q 25,108 30,100 Q 50,85 100,80 Q 180,75 260,78 Q 330,82 370,100 Q 385,110 385,125 Q 385,140 370,150 Q 330,168 260,172 Q 180,175 100,170 Q 50,165 30,150 Q 25,142 30,135 Z"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect width="400" height="250" fill="url(#bg)" rx="8"/>
+
+  <!-- Water shimmer -->
+  <g opacity="0.08">
+    <path d="M 0,180 Q 50,175 100,180 Q 150,185 200,180 Q 250,175 300,180 Q 350,185 400,180" stroke="#ffffff" stroke-width="1.5" fill="none"/>
+    <path d="M 0,200 Q 50,195 100,200 Q 150,205 200,200 Q 250,195 300,200 Q 350,205 400,200" stroke="#ffffff" stroke-width="1" fill="none"/>
+    <path d="M 0,220 Q 50,215 100,220 Q 150,225 200,220 Q 250,215 300,220 Q 350,225 400,220" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+  </g>
+  <path d="M 380,108 Q 395,98 400,105 Q 400,125 Q 400,145 395,152 Q 380,142 380,125 Z" fill="url(#finGrad)" opacity="0.85"/>
+  <path d="M 180,78 Q 185,65 200,60 Q 250,58 300,62 Q 340,68 365,80 Q 340,76 300,74 Q 250,72 200,73 Q 185,75 180,78 Z" fill="url(#finGrad)" opacity="0.85"/>
+  <path d="M 30,115 Q 25,108 30,100 Q 50,85 100,80 Q 180,75 260,78 Q 330,82 370,100 Q 385,110 385,125 Q 385,140 370,150 Q 330,168 260,172 Q 180,175 100,170 Q 50,165 30,150 Q 25,142 30,135 Z" fill="url(#bodyGrad)" stroke="#1a1a1a" stroke-width="1"/>
+  <path d="M 30,115 Q 25,108 30,100 Q 50,85 100,80 Q 180,75 260,78 Q 330,82 370,100 Q 385,110 385,125 Q 385,140 370,150 Q 330,168 260,172 Q 180,175 100,170 Q 50,165 30,150 Q 25,142 30,135 Z" fill="none" stroke="#3a3a3a" stroke-width="0.5" opacity="0.15"/>
+  <path d="M 70,135 Q 55,148 52,162 Q 65,155 78,142 Z" fill="url(#finGrad)" opacity="0.75"/>
+  <path d="M 200,172 Q 205,182 230,186 Q 280,188 330,182 Q 360,175 370,165 Q 340,170 300,174 Q 250,176 210,174 Z" fill="url(#finGrad)" opacity="0.8"/>
+  <path d="M 90,125 Q 150,122 220,125 Q 290,128 340,125" stroke="#3a3a3a" stroke-width="0.8" fill="none" opacity="0.3" stroke-dasharray="3,3"/>
+  <circle cx="60" cy="108" r="7" fill="#1a1a1a"/>
+  <circle cx="60" cy="108" r="4.8999999999999995" fill="#2a3a2a"/>
+  <circle cx="58" cy="106" r="1.75" fill="#ffffff" opacity="0.8"/>
+  <path d="M 28,108 Q 18,112 15,118 Q 18,128 28,132" stroke="#1a1a1a" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <path d="M 78,93 Q 75,113 80,133" stroke="#1a1a1a" stroke-width="1.5" fill="none" opacity="0.5"/>
+  <text x="200" y="242" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#ffffff" opacity="0.5" font-weight="600">Meeraal</text>
+</svg>
