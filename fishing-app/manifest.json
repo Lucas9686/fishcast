@@ -1,0 +1,66 @@
+{
+    "name": "Petri Heil - Angel-Wetter & Fangprognose",
+    "short_name": "Petri Heil",
+    "description": "Angel-Wetter & Fangprognose App mit Solunar-Daten, Fischarten und 7-Tage Vorhersage",
+    "start_url": "./index.html",
+    "scope": "./",
+    "display": "standalone",
+    "orientation": "portrait-primary",
+    "theme_color": "#0d1b2a",
+    "background_color": "#0d1b2a",
+    "lang": "de",
+    "categories": ["weather", "sports"],
+    "display_override": ["standalone", "minimal-ui"],
+    "icons": [
+        {
+            "src": "images/icon.svg",
+            "sizes": "any",
+            "type": "image/svg+xml",
+            "purpose": "any"
+        },
+        {
+            "src": "images/icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "images/icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "images/icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "images/icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ],
+    "shortcuts": [
+        {
+            "name": "Wetter pruefen",
+            "short_name": "Wetter",
+            "url": "./index.html#weather",
+            "icons": [{"src": "images/icon-192.png", "sizes": "192x192", "type": "image/png"}]
+        },
+        {
+            "name": "Fische suchen",
+            "short_name": "Fische",
+            "url": "./index.html#fish",
+            "icons": [{"src": "images/icon-192.png", "sizes": "192x192", "type": "image/png"}]
+        },
+        {
+            "name": "Favoriten",
+            "short_name": "Favoriten",
+            "url": "./index.html#favorites",
+            "icons": [{"src": "images/icon-192.png", "sizes": "192x192", "type": "image/png"}]
+        }
+    ]
+}
