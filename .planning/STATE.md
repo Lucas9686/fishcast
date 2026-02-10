@@ -5,16 +5,16 @@
 See: .planning/PROJECT.md (updated 2026-02-07)
 
 **Core value:** Angler sehen auf einen Blick, ob das Wetter heute gut zum Angeln ist und welche Fische bei den aktuellen Bedingungen beißen - alles in einer App, auch ohne Internet.
-**Current focus:** Phase 5 complete, ready for Phase 6 - Offline Enhancement
+**Current focus:** ALL PHASES COMPLETE - Milestone v1.0 done!
 
 ## Current Position
 
-Phase: 6 of 6 (Offline Enhancement) — IN PROGRESS
-Plan: 2 of 2 — AWAITING VERIFICATION CHECKPOINT
-Status: Phase 6 plan 2 tasks 1-2 complete, task 3 awaiting human verification
-Last activity: 2026-02-10 — Completed 06-02-PLAN.md tasks 1-2
+Phase: 6 of 6 (Offline Enhancement) — COMPLETE
+Plan: 2 of 2 — COMPLETE
+Status: All 6 phases complete. Milestone v1.0 finished.
+Last activity: 2026-02-10 — Phase 6 verified and complete (9/9 must-haves passed)
 
-Progress: [██████████] 100% (All automated tasks complete, awaiting human verification checkpoint)
+Progress: [██████████] 100% (All 6 phases complete)
 
 ## Performance Metrics
 
@@ -109,9 +109,9 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-02-10 (plan execution)
-Stopped at: Completed 06-02-PLAN.md tasks 1-2. Task 3 awaiting human verification checkpoint.
+Last session: 2026-02-10 (phase execution + human verification + bugfixes)
+Stopped at: All phases complete. Milestone v1.0 finished.
 Resume file: None
 
-**Phase 6 Status:** AWAITING VERIFICATION CHECKPOINT — 2/2 plans done (06-01: offline enhancement, 06-02: PWA & storage)
-**Next Steps:** Human verification of PWA installability, offline functionality, storage quota display, and location persistence
+**Phase 6 Status:** COMPLETE — 2/2 plans done, human verified (9/9 must-haves), 3 bugfixes applied (banner position, meta tag, icon paths)
+**Next Steps:** `/gsd:complete-milestone` to archive v1.0
