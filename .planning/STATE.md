@@ -10,11 +10,11 @@ See: .planning/PROJECT.md (updated 2026-02-07)
 ## Current Position
 
 Phase: 6 of 6 (Offline Enhancement) — IN PROGRESS
-Plan: 1 of 1 — COMPLETE
-Status: Phase 6 plan 1 complete. Phase 6 ready for verification.
-Last activity: 2026-02-10 — Completed 06-01-PLAN.md
+Plan: 2 of 2 — AWAITING VERIFICATION CHECKPOINT
+Status: Phase 6 plan 2 tasks 1-2 complete, task 3 awaiting human verification
+Last activity: 2026-02-10 — Completed 06-02-PLAN.md tasks 1-2
 
-Progress: [██████████] 100% (All plans complete, pending phase 6 verification)
+Progress: [██████████] 100% (All automated tasks complete, awaiting human verification checkpoint)
 
 ## Performance Metrics
 
@@ -32,11 +32,11 @@ Progress: [██████████] 100% (All plans complete, pending pha
 | 03-fish-catalog-expansion | 5/5 | 98min | 19.6min |
 | 04-filter-search-system | 1/1 | 8min | 8.0min |
 | 05-navigation-favorites | 2/2 | 7min | 3.5min |
-| 06-offline-enhancement | 1/1 | 3min | 3.0min |
+| 06-offline-enhancement | 2/2 | 6min | 3.0min |
 
 **Recent Trend:**
-- Last 5 plans: 04-01 (8min), 05-01 (4min), 05-02 (3min), 06-01 (3min)
-- Trend: UI/offline enhancement plans extremely fast (3-8min)
+- Last 5 plans: 05-01 (4min), 05-02 (3min), 06-01 (3min), 06-02 (3min)
+- Trend: UI/offline enhancement plans extremely fast (3min average)
 
 *Updated after each plan completion*
 
@@ -92,6 +92,13 @@ Recent decisions affecting current work:
 - Relative time uses German text (vor X Minuten/Stunden/Tagen) — Human-readable timestamps with 7-day limit before absolute date fallback (Active)
 - Navigator.onLine checked on init — Ensures offline banner displays correctly when app starts offline (Active)
 
+**From 06-02 (PWA Installability & Storage Management):**
+- PNG icons generated at 192x192 and 512x512 with #0d1b2a solid fill — Functional placeholders meeting PWA install criteria (Active)
+- Manifest theme colors changed to #0d1b2a — Matches dark marine theme from Phase 2 (Active)
+- Storage quota warning thresholds at 80% and 95% — Proactive user notification before browser eviction (Active)
+- Persistent storage requested silently on init — Protects user data from browser eviction pressure (Active)
+- clearApiCaches preserves user data — Only clears API/weather cache, keeps favorites/settings/history intact (Active)
+
 ### Pending Todos
 
 None yet.
@@ -103,8 +110,8 @@ None yet.
 ## Session Continuity
 
 Last session: 2026-02-10 (plan execution)
-Stopped at: Completed 06-01-PLAN.md. Phase 6 plan 1 complete (1/1).
+Stopped at: Completed 06-02-PLAN.md tasks 1-2. Task 3 awaiting human verification checkpoint.
 Resume file: None
 
-**Phase 6 Status:** READY FOR VERIFICATION — 1/1 plan done (06-01: offline enhancement)
-**Next Steps:** /gsd:verify-phase 6 to validate offline functionality
+**Phase 6 Status:** AWAITING VERIFICATION CHECKPOINT — 2/2 plans done (06-01: offline enhancement, 06-02: PWA & storage)
+**Next Steps:** Human verification of PWA installability, offline functionality, storage quota display, and location persistence
