@@ -186,6 +186,13 @@
             console.warn('IndexedDB init fehlgeschlagen:', e);
         }
 
+        // Request persistent storage (silent, no user prompt needed)
+        requestPersistentStorage().then(function(persistent) {
+            if (persistent) {
+                console.log('Persistent Storage aktiv');
+            }
+        });
+
         // Load favorites
         try {
             favoriteIds = await getFavorites();
@@ -260,6 +267,9 @@
 
         // Render favorites section
         renderFavoritesSection();
+
+        // Setup storage quota display
+        setupStorageDisplay();
 
         // Setup card fade-in animation
         setupCardFadeIn();
@@ -1325,6 +1335,81 @@
             }
 
             console.error('Favorit-Aenderung fehlgeschlagen:', e);
+        }
+    }
+
+    // ============================================================
+    // Storage Quota Display
+    // ============================================================
+    function setupStorageDisplay() {
+        // Create storage info display in favorites section
+        var favSection = $('section-favorites');
+        if (!favSection) return;
+
+        var existingStorageInfo = $('storage-info');
+        if (existingStorageInfo) return; // Already created
+
+        // Create container for storage info and cache button
+        var storageContainer = document.createElement('div');
+        storageContainer.style.cssText = 'text-align: center; padding: 1rem 0; border-top: 1px solid var(--border-color, #1a3a5c);';
+
+        // Create storage info display
+        var storageDiv = document.createElement('div');
+        storageDiv.id = 'storage-info';
+        storageDiv.className = 'storage-info';
+        storageDiv.setAttribute('aria-label', 'Speicherverbrauch');
+        storageDiv.style.cssText = 'padding: 0.75rem 1rem; font-size: 0.8rem; color: var(--text-secondary, #8899aa); text-align: center; opacity: 0.8;';
+
+        // Create clear cache button
+        var clearCacheBtn = document.createElement('button');
+        clearCacheBtn.id = 'btn-clear-cache';
+        clearCacheBtn.className = 'btn-clear-cache';
+        clearCacheBtn.textContent = 'Cache leeren';
+        clearCacheBtn.style.cssText = 'display: inline-block; margin: 0.5rem auto; padding: 0.4rem 1rem; font-size: 0.75rem; background: transparent; border: 1px solid var(--text-secondary, #8899aa); color: var(--text-secondary, #8899aa); border-radius: 0.5rem; cursor: pointer; opacity: 0.7;';
+        clearCacheBtn.addEventListener('click', async function() {
+            clearCacheBtn.textContent = 'Wird geleert...';
+            clearCacheBtn.disabled = true;
+            var success = await clearApiCaches();
+            clearCacheBtn.textContent = success ? 'Cache geleert!' : 'Fehler beim Leeren';
+            setTimeout(function() {
+                clearCacheBtn.textContent = 'Cache leeren';
+                clearCacheBtn.disabled = false;
+                updateStorageDisplay();
+            }, 2000);
+        });
+
+        storageContainer.appendChild(storageDiv);
+        storageContainer.appendChild(clearCacheBtn);
+        favSection.appendChild(storageContainer);
+
+        // Initial display update
+        updateStorageDisplay();
+    }
+
+    /**
+     * Updates storage quota display in the favorites section
+     */
+    async function updateStorageDisplay() {
+        var quotaInfo = await checkStorageQuota();
+        if (!quotaInfo) return;
+
+        var storageEl = $('storage-info');
+        if (!storageEl) return;
+
+        var usageMB = (quotaInfo.usage / (1024 * 1024)).toFixed(1);
+        var quotaMB = (quotaInfo.quota / (1024 * 1024)).toFixed(0);
+        var text = 'Speicher: ' + usageMB + ' MB / ' + quotaMB + ' MB (' + quotaInfo.percentage + '%)';
+
+        // Warning states
+        if (quotaInfo.percentage >= 95) {
+            storageEl.style.color = '#ef4444';
+            storageEl.textContent = text + ' - Speicher fast voll!';
+        } else if (quotaInfo.percentage >= 80) {
+            storageEl.style.color = '#f59e0b';
+            storageEl.textContent = text + ' - Speicher wird knapp';
+        } else {
+            storageEl.style.color = 'var(--text-secondary, #8899aa)';
+            storageEl.textContent = text;
         }
     }
 
